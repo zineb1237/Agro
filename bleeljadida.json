@@ -1,0 +1,234 @@
+{
+  "region": "El Jadida - Ouled Frej",
+  "coordonnees": {
+    "El_Jadida": {"lat": 33.25, "lon": -8.50, "altitude": 6},
+    "Ouled_Frej": {"lat": 33.02, "lon": -8.52, "altitude": 90}
+  },
+  "varietes": [
+    {
+      "nom": "Achtar",
+      "cycle": "Semi-precoce",
+      "semis": {"debut": "15-11", "fin": "30-11"},
+      "recolte": {"debut": "20-05", "fin": "30-05"},
+      "duree_jours": 190,
+      "fertilisation": {
+        "N": {"min": 100, "max": 150, "opt": 125, "unite": "kg/ha"},
+        "P": {"min": 60, "max": 80, "opt": 70, "unite": "kg/ha"},
+        "K": {"min": 40, "max": 60, "opt": 50, "unite": "kg/ha"},
+        "repartition_N": [
+          {"stade": "Demarrage", "jours": 20, "pourcent": 30},
+          {"stade": "Tallage", "jours": 35, "pourcent": 30},
+          {"stade": "Montaison", "jours": 75, "pourcent": 40}
+        ]
+      },
+      "irrigation": {
+        "besoin": {"min": 530, "max": 650, "opt": 590, "unite": "mm"},
+        "par_stade": [
+          {"stade": "Semis-Tallage", "jours": "0-35", "besoin": 90},
+          {"stade": "Tallage-Montaison", "jours": "35-75", "besoin": 135},
+          {"stade": "Montaison-Epiaison", "jours": "75-95", "besoin": 165},
+          {"stade": "Epiaison-Floraison", "jours": "95-110", "besoin": 110},
+          {"stade": "Floraison-Maturite", "jours": "110-190", "besoin": 90}
+        ]
+      },
+      "rendement": {
+        "potentiel_bour": 112,
+        "potentiel_irrigue": 118,
+        "moyenne_region": 45,
+        "unite": "qx/ha",
+        "coefficient_N": 3.2,
+        "coefficient_eau": 0.12
+      },
+      "qualite": {
+        "proteines": 13.4,
+        "coefficient_N_tardif": 0.05,
+        "unite": "%"
+      },
+      "seuils_critiques": {
+        "temperature": {
+          "germination_min": 4,
+          "germination_opt": 12,
+          "croissance_min": 5,
+          "croissance_opt": 20,
+          "floraison_opt": 18,
+          "stress_chaleur": 32,
+          "gel": -2
+        },
+        "humidite_sol": {
+          "stress_hydrique": 20,
+          "optimal_min": 25,
+          "optimal_max": 35,
+          "trop_humide": 45
+        },
+        "humidite_air": {
+          "optimal_min": 50,
+          "optimal_max": 70,
+          "risque_maladies": 80
+        },
+        "vent": {
+          "risque_verse": 40,
+          "danger": 50
+        }
+      }
+    },
+    {
+      "nom": "Amal",
+      "cycle": "Demi-precoce",
+      "semis": {"debut": "15-11", "fin": "25-11"},
+      "recolte": {"debut": "25-05", "fin": "05-06"},
+      "duree_jours": 195,
+      "fertilisation": {
+        "N": {"min": 120, "max": 140, "opt": 130, "unite": "kg/ha"},
+        "P": {"min": 60, "max": 70, "opt": 65, "unite": "kg/ha"},
+        "K": {"min": 50, "max": 60, "opt": 55, "unite": "kg/ha"}
+      },
+      "irrigation": {
+        "besoin": {"min": 400, "max": 450, "opt": 425, "unite": "mm"}
+      },
+      "rendement": {
+        "potentiel_bour": 100,
+        "potentiel_irrigue": 110,
+        "moyenne_region": 38,
+        "unite": "qx/ha",
+        "coefficient_N": 3.5,
+        "coefficient_eau": 0.11
+      },
+      "qualite": {
+        "proteines": 12.5,
+        "coefficient_N_tardif": 0.04
+      },
+      "seuils_critiques": {
+        "temperature": {
+          "germination_min": 4,
+          "germination_opt": 12,
+          "croissance_opt": 21,
+          "floraison_opt": 19,
+          "stress_chaleur": 33,
+          "gel": -2
+        },
+        "humidite_sol": {
+          "stress_hydrique": 22,
+          "optimal_min": 25,
+          "optimal_max": 35
+        }
+      }
+    },
+    {
+      "nom": "Arrih",
+      "cycle": "Tardif",
+      "semis": {"debut": "01-12", "fin": "15-12"},
+      "recolte": {"debut": "05-06", "fin": "15-06"},
+      "duree_jours": 200,
+      "fertilisation": {
+        "N": {"min": 130, "max": 150, "opt": 140, "unite": "kg/ha"},
+        "P": {"min": 70, "max": 80, "opt": 75, "unite": "kg/ha"},
+        "K": {"min": 60, "max": 70, "opt": 65, "unite": "kg/ha"}
+      },
+      "irrigation": {
+        "besoin": {"min": 450, "max": 500, "opt": 475, "unite": "mm"}
+      },
+      "rendement": {
+        "potentiel_bour": 110,
+        "potentiel_irrigue": 120,
+        "moyenne_region": 42,
+        "unite": "qx/ha",
+        "coefficient_N": 3.8,
+        "coefficient_eau": 0.10
+      },
+      "qualite": {
+        "proteines": 13.0,
+        "coefficient_N_tardif": 0.045
+      },
+      "seuils_critiques": {
+        "temperature": {
+          "germination_min": 4,
+          "germination_opt": 12,
+          "croissance_opt": 22,
+          "floraison_opt": 20,
+          "stress_chaleur": 34,
+          "gel": -1
+        },
+        "humidite_sol": {
+          "stress_hydrique": 22,
+          "optimal_min": 25,
+          "optimal_max": 35
+        }
+      }
+    }
+  ],
+  "climat_mensuel": [
+    {"mois": "Janvier", "t_max": 16.5, "t_min": 7.0, "pluie": 65, "humidite": 76, "vent": 16, "etp": 50},
+    {"mois": "Fevrier", "t_max": 17.8, "t_min": 8.0, "pluie": 55, "humidite": 73, "vent": 16, "etp": 60},
+    {"mois": "Mars", "t_max": 19.5, "t_min": 9.5, "pluie": 50, "humidite": 70, "vent": 15, "etp": 85},
+    {"mois": "Avril", "t_max": 22.3, "t_min": 12.8, "pluie": 45, "humidite": 68, "vent": 16, "etp": 110},
+    {"mois": "Mai", "t_max": 25.1, "t_min": 15.2, "pluie": 28, "humidite": 65, "vent": 14, "etp": 135},
+    {"mois": "Juin", "t_max": 28.4, "t_min": 18.5, "pluie": 12, "humidite": 62, "vent": 13, "etp": 150},
+    {"mois": "Juillet", "t_max": 30.2, "t_min": 20.1, "pluie": 5, "humidite": 60, "vent": 12, "etp": 165},
+    {"mois": "Aout", "t_max": 30.5, "t_min": 20.5, "pluie": 3, "humidite": 62, "vent": 12, "etp": 160},
+    {"mois": "Septembre", "t_max": 28.0, "t_min": 18.2, "pluie": 15, "humidite": 65, "vent": 13, "etp": 125},
+    {"mois": "Octobre", "t_max": 24.5, "t_min": 15.0, "pluie": 40, "humidite": 70, "vent": 14, "etp": 95},
+    {"mois": "Novembre", "t_max": 20.0, "t_min": 10.5, "pluie": 65, "humidite": 72, "vent": 15, "etp": 70},
+    {"mois": "Decembre", "t_max": 17.5, "t_min": 8.2, "pluie": 70, "humidite": 75, "vent": 15, "etp": 55}
+  ],
+  "seuils_alertes": {
+    "azote_sol_ppm": {
+      "carence_severe": 10,
+      "faible": 20,
+      "optimal_min": 20,
+      "optimal_max": 35,
+      "exces": 40
+    },
+    "humidite_sol_pourcent": {
+      "stress_severe": 20,
+      "faible": 25,
+      "optimal_min": 25,
+      "optimal_max": 35,
+      "trop_humide": 45
+    },
+    "temperature_air_celsius": {
+      "gel": 0,
+      "froid": 5,
+      "optimal_min": 15,
+      "optimal_max": 28,
+      "stress_chaleur": 32,
+      "danger": 35
+    },
+    "humidite_air_pourcent": {
+      "secheresse": 30,
+      "optimal_min": 40,
+      "optimal_max": 70,
+      "risque_maladies": 80
+    },
+    "vent_kmh": {
+      "modere": 20,
+      "fort": 30,
+      "tres_fort": 40,
+      "danger": 50
+    }
+  },
+  "formules_prediction": {
+    "rendement_qx_ha": "Rendement = (N_effectif × coeff_N) + (ETR × coeff_eau) - (stress_temp × 0.5)",
+    "N_effectif_kg_ha": "N_effectif = (N_apporte × 0.6) - lessivage",
+    "lessivage_kg_ha": "lessivage = N_apporte × (pluie_30j - 50) / 200",
+    "ETR_mm": "ETR = min(ETP × Kc, pluie + irrigation)",
+    "stress_temp": "stress_temp = max(0, T_max - seuil_stress) × jours_stress",
+    "proteines_pourcent": "Proteines = 10 + (N_tardif × coeff_N_tardif) - (stress_hydrique × 0.1)"
+  },
+  "engrais": [
+    {"nom": "Uree", "N": 46, "P": 0, "K": 0, "utilisation": "Fond"},
+    {"nom": "Ammonitrate", "N": 33.5, "P": 0, "K": 0, "utilisation": "Tallage/Montaison"},
+    {"nom": "Superphosphate_45", "N": 0, "P": 45, "K": 0, "utilisation": "Semis"},
+    {"nom": "Chlorure_potassium", "N": 0, "P": 0, "K": 60, "utilisation": "Semis"},
+    {"nom": "NPK_15_15_15", "N": 15, "P": 15, "K": 15, "utilisation": "Semis"}
+  ],
+  "calendrier": [
+    {"periode": "15-30 Nov", "activite": "Semis Achtar/Amal", "stade": "Semis"},
+    {"periode": "1-15 Dec", "activite": "Semis Arrih", "stade": "Semis"},
+    {"periode": "Dec", "activite": "1er apport N", "stade": "Tallage", "N_kg": 40},
+    {"periode": "Fev", "activite": "2e apport N", "stade": "Montaison", "N_kg": 50},
+    {"periode": "Mar", "activite": "3e apport N", "stade": "Epiaison", "N_kg": 30},
+    {"periode": "Avr", "activite": "Arret N", "stade": "Floraison"},
+    {"periode": "Mai", "activite": "Arret eau", "stade": "Remplissage"},
+    {"periode": "20 Mai-15 Juin", "activite": "Recolte", "stade": "Maturite"}
+  ]
+}

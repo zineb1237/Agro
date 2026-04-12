@@ -1,0 +1,1618 @@
+{
+  "region": "Doukkala",
+  "zones_ciblees": ["El Jadida", "Ouled Frej"],
+  "date_mise_a_jour": "2026-04-11",
+  "description": "Base de connaissances sur les carences nutritives observées dans la région de Doukkala, avec symptômes visuels locaux, périodes critiques, solutions adaptées et exemples concrets.",
+  "carences_nutritives": {
+    "azote": {
+      "element": "Azote (N)",
+      "symptomes_generaux": ["Feuilles inférieures jaunissent (chlorose uniformisée)", "Croissance ralentie, tiges fines", "Épis petits et clairsemés"],
+      "symptomes_visuels_locaux": {
+        "El_Jadida": {
+          "ble_dur": {
+            "observes_en": "février 2025 (parcelles irriguées près d'Oulja)",
+            "symptomes": [
+              "Feuilles basales jaunies (chlorose uniformisée)",
+              "Tiges fines et allongées (étiolement)",
+              "Rendement : 18 q/ha (vs 25 q/ha attendu)"
+            ],
+            "cause": "Lessivage après 150 mm de pluie en janvier 2025 (sol L-275)",
+            "source": "ORMVAD - Suivi parcellaire 2025"
+          },
+          "tomate_serre": {
+            "observes_en": "avril 2024 (serres d'Oulja)",
+            "symptomes": [
+              "Feuilles pâles sur les plants de variété Coeur de Boeuf",
+              "Fruits petits et retard de maturité"
+            ],
+            "cause": "Substrat appauvri après 3 cycles de culture sans renouvellement",
+            "source": "Direction Provinciale - Rapport serres 2024"
+          }
+        },
+        "Ouled_Frej": {
+          "olivier": {
+            "observes_en": "mars 2024 (vergers de Boulaouane)",
+            "symptomes": [
+              "Feuilles pâles sur les branches basses",
+              "Chute de 20% des fruits en nouaison"
+            ],
+            "cause": "Années successives de faible pluviométrie (2022-2024) + absence de fertilisation depuis 2021",
+            "source": "Projet INRA-ORMVAD 2024"
+          },
+          "ble_tendre": {
+            "observes_en": "janvier 2025 (zone bour)",
+            "symptomes": [
+              "Croissance réduite, épis clairsemés",
+              "Rendement : 12 q/ha (vs 20 q/ha en année normale)"
+            ],
+            "cause": "Sols lessivés (L-245) + précipitations insuffisantes (180 mm en 2024/25)",
+            "source": "ORMVAD - Bilan céréales 2025"
+          }
+        }
+      },
+      "periodes_critiques_locales": {
+        "El_Jadida": {
+          "ble": ["décembre-janvier (tallage)", "mars (montaison)"],
+          "tomate": ["mars-avril (début floraison)", "juin (grossissement fruits)"],
+          "vigne": ["avril (débourrement)", "mai (floraison)"]
+        },
+        "Ouled_Frej": {
+          "olivier": ["février-mars (reprise végétative)", "mai (nouaison)"],
+          "ble": ["novembre-décembre (levée)", "février (tallage)"]
+        }
+      },
+      "solutions_adaptees": {
+        "El_Jadida": {
+          "ble_dur": {
+            "engrais_mineraux": {
+              "type": "Urée (46% N)",
+              "dose_kg_ha": 40,
+              "periode": "février (stade tallage)",
+              "methode": "Épandage suivi d'une irrigation (50 m³/ha) pour limiter la volatilisation"
+            },
+            "engrais_organiques": {
+              "type": "Fumier de volaille composté (3% N)",
+              "dose_t_ha": 3,
+              "periode": "octobre (avant semis)",
+              "source": "Coopérative de Boulaouane (approvisionnement local)"
+            },
+            "pratiques_complementaires": [
+              {
+                "nom": "Rotation avec légumineuses",
+                "exemple": "Blé → pois chiche (2026)",
+                "gain_estime": "+30 kg N/ha équivalent"
+              },
+              {
+                "nom": "Cultures intermédiaires",
+                "exemple": "Moutarde en inter-culture (août-septembre 2025)",
+                "benefice": "Couverture du sol et fixation d'azote"
+              }
+            ]
+          },
+          "tomate_serre": {
+            "engrais": {
+              "type": "Nitrate de calcium (15.5% N, 26% Ca)",
+              "dose_kg_ha": 200,
+              "methode": "Fertirrigation (3 apports : plantation, floraison, fructification)"
+            },
+            "diagnostic": {
+              "methode": "Kit colorimétrique NO₃⁻ (Merk)",
+              "seuil": "<20 ppm → carence avérée",
+              "frequence": "Tous les 15 jours en période de croissance"
+            }
+          }
+        },
+        "Ouled_Frej": {
+          "olivier": {
+            "engrais_mineraux": {
+              "type": "Sulfate d'ammonium (21% N)",
+              "dose_kg_ha": 80,
+              "periode": "février (fractionné : 40 kg en février, 40 kg en avril)",
+              "remarque": "Préféré à l'urée pour limiter les pertes par volatilisation (climat sec et chaud)"
+            },
+            "engrais_organiques": {
+              "type": "Compost de déchets verts (1.5% N)",
+              "dose_t_ha": 5,
+              "periode": "octobre-novembre 2024",
+              "source": "Projet de compostage communal d'Ouled Frej"
+            },
+            "pratiques_complementaires": [
+              {
+                "nom": "Paillage",
+                "materiau": "Paille de blé ou résidus de taille d'olivier",
+                "benefices": [
+                  "Réduction de l'évaporation (-30% d'eau)",
+                  "Limitation du lessivage de l'azote"
+                ]
+              },
+              {
+                "nom": "Agroforesterie",
+                "association": "Olivier + fève",
+                "resultats": [
+                  "Rendement olivier : +15% (2000 vs 1700 kg/ha)",
+                  "Apport d'azote par la fève : 40 kg N/ha/an"
+                ],
+                "source": "Essais INRA à Had Ouled Frej (2021-2023)"
+              }
+            ]
+          },
+          "ble_tendre": {
+            "engrais": {
+              "type": "Nitrate d'ammonium (33.5% N)",
+              "dose_kg_ha": 30,
+              "periode": "décembre (stade tallage)",
+              "remarque": "Moins sensible à la volatilisation que l'urée en climat sec"
+            },
+            "pratique": {
+              "nom": "Semis tardif",
+              "date": "Après le 15 novembre (pour éviter les stress thermiques précoces)",
+              "benefice": "Meilleure utilisation des pluies de décembre-janvier"
+            }
+          }
+        }
+      },
+      "cultures_concernees_locales": {
+        "El_Jadida": [
+          {
+            "nom": "Blé dur (irrigué)",
+            "zones": ["Périmètre irrigué (sols L-275)", "Zone d'Oulja"],
+            "sensibilite": "Élevée (sols argileux mais lessivés par les pluies hivernales)",
+            "varietes_locales": ["Marzak (tolérante à la sécheresse)", "Amal (racines profondes)"]
+          },
+          {
+            "nom": "Tomate (serre)",
+            "zones": ["Oulja (90% des serres de la province)"],
+            "sensibilite": "Très élevée (cycles culturaux intensifs, substrats appauvris)",
+            "varietes": ["Coeur de Boeuf (sensible)", "Daniel (plus résistante)"]
+          },
+          {
+            "nom": "Vigne (cépage Doukkali)",
+            "zones": ["Sidi Bennour (proche d'El Jadida)"],
+            "sensibilite": "Moyenne (besoins couverts par les réserves des sarments)"
+          }
+        ],
+        "Ouled_Frej": [
+          {
+            "nom": "Olivier (variété Picholine)",
+            "zones": ["Boulaouane (60% des vergers)", "Nord Ouled Frej (agroforesterie)"],
+            "sensibilite": "Élevée (sols pauvres en MO, pH > 7.5)",
+            "problemes_recurrents": [
+              "Carence en N après années de forte récolte",
+              "Stress hydrique en été (juillet-août)"
+            ]
+          },
+          {
+            "nom": "Blé tendre (bour)",
+            "zones": ["Plaine centrale (sols L-245)", "Sud Ouled Frej"],
+            "sensibilite": "Élevée (précipitations < 250 mm/an)",
+            "varietes_adaptees": ["Fadela (résistante à la sécheresse)", "Saada (précoce)"]
+          },
+          {
+            "nom": "Figuier",
+            "zones": ["Nord Ouled Frej (70% des vergers de figuiers de Doukkala)"],
+            "sensibilite": "Moyenne (tolère les sols pauvres mais réagit à la fertilisation)",
+            "varietes": ["Bouhouli (majoritaire)", "Azerji (meilleure qualité pour le séchage)"]
+          }
+        ]
+      },
+      "exemples_concrets_solutions": [
+        {
+          "culture": "Blé dur (variété Marzak)",
+          "zone": "Périmètre irrigué d'El Jadida (sol L-275)",
+          "probleme": "Rendement chuté à 18 q/ha en 2025 (vs 25 q/ha attendu)",
+          "diagnostic": {
+            "symptomes": "Feuilles jaunes en février 2025",
+            "analyse_sol": {
+              "N_total_g_kg": 0.8,
+              "C_N": 10,
+              "ph": 7.6,
+              "remarque": "Lessivage après 150 mm de pluie en janvier"
+            }
+          },
+          "solution_appliquee": [
+            {
+              "action": "Apport de 40 kg N/ha (urée)",
+              "date": "10 février 2025",
+              "cout_DH_ha": 240
+            },
+            {
+              "action": "Rotation avec pois chiche en 2026",
+              "benefice": "Apport estimé : 30 kg N/ha"
+            },
+            {
+              "action": "Paillage avec résidus de blé",
+              "benefice": "Réduction de l'évaporation et du lessivage"
+            }
+          ],
+          "resultat": "Rendement remonté à 22 q/ha en 2026",
+          "source": "ORMVAD - Suivi parcellaire 2025/26"
+        },
+        {
+          "culture": "Olivier (variété Picholine)",
+          "zone": "Boulaouane (Ouled Frej)",
+          "probleme": "Chute de rendement (1200 kg/ha en 2023 vs 2000 kg/ha attendu)",
+          "diagnostic": {
+            "symptomes": "Feuilles pâles en mars 2023 + fruits petits",
+            "analyse_foliaire": {
+              "N_pct": 1.1,
+              "P_pct": 0.08,
+              "K_pct": 0.7,
+              "remarque": "Seuils critiques : N < 1.2%, P < 0.1%, K < 0.8%"
+            }
+          },
+          "solution_appliquee": [
+            {
+              "action": "Apport de 80 kg N/ha (sulfate d'ammonium, fractionné)",
+              "date": "Février et avril 2024",
+              "cout_DH_ha": 400
+            },
+            {
+              "action": "Paillage avec paille de blé (5 t/ha)",
+              "date": "Octobre 2023",
+              "benefice": "Réduction de l'évaporation et amélioration de la MO"
+            },
+            {
+              "action": "Plantation de fève en inter-rang (agroforesterie)",
+              "date": "Novembre 2023",
+              "resultat": "Apport d'azote estimé : 40 kg/ha/an"
+            }
+          ],
+          "resultat": "Rendement : 1800 kg/ha en 2024 (+50%)",
+          "source": "Projet INRA-ORMVAD 2023/24"
+        }
+      ],
+      "seuils_critiques": {
+        "sol_N_ppm": "<20",
+        "foliaire_N_pct": {
+          "ble": "<1.2",
+          "olivier": "<1.2",
+          "tomate": "<2.5"
+        }
+      },
+      "sources_locales": [
+        {
+          "type": "Rapport technique",
+          "titre": "Gestion de l'azote dans les cultures céréalières et arboricoles à El Jadida et Ouled Frej (2024)",
+          "auteur": "ORMVAD - Antenne d'El Jadida",
+          "lien": "https://www.ormvadsp.org/publications/azote_2024_eljadida.pdf",
+          "contenus": [
+            "Doses recommandées par type de sol (L-275 vs L-245)",
+            "Stratégies de fractionnement pour limiter le lessivage"
+          ]
+        },
+        {
+          "type": "Étude de cas",
+          "titre": "Impact de l'agroforesterie olivier-fève sur la fertilité azotée (Ouled Frej, 2021-2023)",
+          "auteur": "INRA - Station de Had Ouled Frej",
+          "resultats": [
+            "Gain de rendement : +15-20% pour l'olivier",
+            "Réduction des apports d'engrais azotés de 30%"
+          ]
+        },
+        {
+          "type": "Fiche pratique",
+          "titre": "Fertilisation azotée de la tomate sous serre (zone Oulja)",
+          "auteur": "Direction Provinciale de l'Agriculture",
+          "annee": 2023,
+          "contenus": [
+            "Calendrier d'apport en fertirrigation",
+            "Diagnostic rapide avec kits colorimétriques"
+          ]
+        }
+      ]
+    },
+    "phosphore": {
+      "element": "Phosphore (P)",
+      "symptomes_generaux": ["Feuilles violacées (surtout en hiver)", "Retard de croissance racinaire", "Épis mal formés, fruits petits"],
+      "symptomes_visuels_locaux": {
+        "El_Jadida": {
+          "tomate_serre": {
+            "observes_en": "mai 2024 (serres d'Oulja)",
+            "symptomes": [
+              "Feuilles violacées sur la face inférieure",
+              "Croissance ralentie et fruits petits"
+            ],
+            "cause": "Substrat appauvri après 4 cycles de culture + pH 7.8 (fixation du P)",
+            "source": "Direction Provinciale - Rapport serres 2024"
+          },
+          "vigne": {
+            "observes_en": "avril 2023 (cépage Doukkali, Sidi Bennour)",
+            "symptomes": [
+              "Feuilles petites et étroites",
+              "Retard de floraison"
+            ],
+            "cause": "Sols calcaires (pH 7.9) + absence de fertilisation depuis 2020",
+            "source": "ORMVAD - Suivi vigne 2023"
+          }
+        },
+        "Ouled_Frej": {
+          "olivier": {
+            "observes_en": "mars 2024 (vergers de Boulaouane)",
+            "symptomes": [
+              "Feuilles violacées en hiver",
+              "Fruits petits et déformés (calibre < 2 g)"
+            ],
+            "cause": "Analyse sol : 8 ppm P (Olsen) vs seuil critique 15 ppm + pH 8.1",
+            "source": "Projet INRA-ORMVAD 2024"
+          },
+          "ble_dur": {
+            "observes_en": "janvier 2025 (zone bour, sol L-245)",
+            "symptomes": [
+              "Épis mal formés, grains clairsemés",
+              "Rendement : 10 q/ha (vs 18 q/ha attendu)"
+            ],
+            "cause": "Sols lessivés (6% argile) + précipitations insuffisantes (180 mm en 2024/25)",
+            "source": "ORMVAD - Bilan céréales 2025"
+          }
+        }
+      },
+      "periodes_critiques_locales": {
+        "El_Jadida": {
+          "tomate": ["avril-mai (début floraison)", "juin (nouaison)"],
+          "vigne": ["mars-avril (débourrement)", "mai (floraison)"]
+        },
+        "Ouled_Frej": {
+          "olivier": ["février-mars (reprise végétative)", "mai (nouaison)"],
+          "ble": ["décembre (tallage)", "mars (montaison)"]
+        }
+      },
+      "solutions_adaptees": {
+        "El_Jadida": {
+          "tomate_serre": {
+            "engrais_mineraux": {
+              "type": "Superphosphate (18% P₂O₅)",
+              "dose_kg_ha": 100,
+              "periode": "Avant repiquage (octobre) + couverture en mars",
+              "methode": "Incorporation superficielle (5 cm) + irrigation"
+            },
+            "engrais_organiques": {
+              "type": "Compost de fumier de volaille (2% P₂O₅)",
+              "dose_t_ha": 5,
+              "periode": "Septembre (1 mois avant repiquage)",
+              "source": "Coopérative maraîchère d'Oulja"
+            },
+            "pratiques_complementaires": [
+              {
+                "nom": "Correction du pH",
+                "methode": "Apport de soufre (200 kg/ha) pour descendre le pH de 7.8 à 7.0",
+                "frequence": "Tous les 3 ans"
+              },
+              {
+                "nom": "Inoculation mycorhizienne",
+                "produit": "Glomus intraradices (100 g/ha)",
+                "benefice": "+20-30% d'absorption du P",
+                "source": "INRA - Essais serres 2023"
+              }
+            ]
+          },
+          "vigne": {
+            "engrais": {
+              "type": "DAP (18-46-0)",
+              "dose_kg_ha": 80,
+              "periode": "Octobre (avant la taille) + mars (débourrement)",
+              "remarque": "Éviter en excès (risque de salinisation)"
+            },
+            "pratique": {
+              "nom": "Labour superficiel",
+              "periode": "Septembre",
+              "benefice": "Limite la fixation du P en surface"
+            }
+          }
+        },
+        "Ouled_Frej": {
+          "olivier": {
+            "engrais_mineraux": {
+              "type": "Phosphate naturel (30% P₂O₅, action lente)",
+              "dose_kg_ha": 200,
+              "periode": "Octobre 2024 (tous les 3 ans)",
+              "remarque": "Idéal pour les sols calcaires (pH 8.1)"
+            },
+            "engrais_organiques": {
+              "type": "Fumier de mouton composté (1.5% P₂O₅)",
+              "dose_t_ha": 4,
+              "periode": "Novembre 2024",
+              "source": "Coopérative oléicole de Boulaouane"
+            },
+            "pratiques_complementaires": [
+              {
+                "nom": "Paillage",
+                "materiau": "Résidus de taille d'olivier broyés",
+                "benefices": [
+                  "Réduction de l'évaporation (-25%)",
+                  "Augmentation de la MO (+0.2% en 2 ans)"
+                ]
+              }
+            ]
+          },
+          "ble_dur": {
+            "engrais": {
+              "type": "Superphosphate triple (46% P₂O₅)",
+              "dose_kg_ha": 60,
+              "periode": "Octobre (au semis)",
+              "methode": "Localisé à 5 cm de profondeur"
+            },
+            "pratique": {
+              "nom": "Semis précoce",
+              "date": "10-20 novembre (pour profiter des pluies de décembre)",
+              "benefice": "Meilleur enracinement avant l'hiver"
+            }
+          }
+        }
+      },
+      "cultures_concernees_locales": {
+        "El_Jadida": [
+          {
+            "nom": "Tomate (serre)",
+            "zones": ["Oulja (90% des serres de la province)"],
+            "sensibilite": "Très élevée (substrats appauvris, pH > 7.5)",
+            "problemes_recurrents": [
+              "Fixation du P en sols calcaires",
+              "Lessivage en cas d'irrigation excessive"
+            ]
+          },
+          {
+            "nom": "Vigne (cépage Doukkali)",
+            "zones": ["Sidi Bennour"],
+            "sensibilite": "Moyenne (sols argileux mais pH élevé)",
+            "varietes": ["Doukkali (65% des surfaces)", "Muscat d'Alexandrie (10%)"]
+          }
+        ],
+        "Ouled_Frej": [
+          {
+            "nom": "Olivier (variété Picholine)",
+            "zones": ["Boulaouane (60% des vergers)", "Nord Ouled Frej"],
+            "sensibilite": "Élevée (sols pauvres en P, pH > 7.5)",
+            "problemes_recurrents": [
+              "Carence en P après 3 ans sans fertilisation",
+              "Fixation du P par le calcium (pH 7.8-8.2)"
+            ]
+          },
+          {
+            "nom": "Blé dur (bour)",
+            "zones": ["Plaine centrale (sols L-245)", "Sud Ouled Frej"],
+            "sensibilite": "Élevée (précipitations < 250 mm/an)",
+            "varietes": ["Marzak (tolérante à la sécheresse)", "Saada (cycle court)"]
+          }
+        ]
+      },
+      "exemples_concrets_solutions": [
+        {
+          "culture": "Tomate (variété Daniel)",
+          "zone": "Serres d'Oulja (El Jadida)",
+          "probleme": "Feuilles violacées et fruits petits en 2024",
+          "diagnostic": {
+            "analyse_sol": {
+              "P_Olsen_ppm": 8,
+              "ph": 7.8,
+              "MO_pct": 1.2
+            },
+            "analyse_foliaire": {
+              "P_pct": 0.08,
+              "seuil_critique": "0.2%"
+            }
+          },
+          "solution_appliquee": [
+            {
+              "action": "Apport de 100 kg P₂O₅/ha (superphosphate) + 200 kg soufre/ha",
+              "date": "Octobre 2024",
+              "cout_DH_ha": 600
+            },
+            {
+              "action": "Inoculation mycorhizienne (Glomus intraradices, 100 g/ha)",
+              "date": "Août 2024 (au repiquage)",
+              "benefice": "+25% d'absorption du P"
+            },
+            {
+              "action": "Correction du pH avec soufre (objectif : pH 7.0)",
+              "date": "Octobre 2024",
+              "resultat": "pH passé de 7.8 à 7.2 en 6 mois"
+            }
+          ],
+          "resultat": "Disparition des symptômes en 2025, rendement : 50 t/ha (vs 38 t/ha en 2024)",
+          "source": "ORMVAD - Suivi serres 2024/25"
+        },
+        {
+          "culture": "Olivier (variété Picholine)",
+          "zone": "Boulaouane (Ouled Frej)",
+          "probleme": "Fruits petits (calibre < 2 g) et feuillage violacé en 2023",
+          "diagnostic": {
+            "analyse_sol": {
+              "P_Olsen_ppm": 5,
+              "ph": 8.1,
+              "CaCO3_pct": 12
+            },
+            "analyse_foliaire": {
+              "P_pct": 0.07,
+              "seuil_critique": "0.1%"
+            }
+          },
+          "solution_appliquee": [
+            {
+              "action": "Apport de 200 kg P₂O₅/ha (phosphate naturel) + 300 kg soufre/ha",
+              "date": "Octobre 2023",
+              "cout_DH_ha": 800
+            },
+            {
+              "action": "Paillage avec résidus de taille d'olivier (5 t/ha)",
+              "date": "Novembre 2023",
+              "benefice": "Augmentation de la MO de 0.9% à 1.2% en 1 an"
+            }
+          ],
+          "resultat": "Calibre des fruits : 2.5 g en 2024 (vs 1.8 g en 2023)",
+          "source": "Projet INRA-ORMVAD 2023/24"
+        }
+      ],
+      "seuils_critiques": {
+        "sol_P_Olsen_ppm": "<15",
+        "foliaire_P_pct": {
+          "tomate": "<0.2",
+          "olivier": "<0.1"
+        }
+      },
+      "sources_locales": [
+        {
+          "type": "Rapport technique",
+          "titre": "Correction des carences en phosphore dans les serres et vergers d'El Jadida et Ouled Frej (2024)",
+          "auteur": "ORMVAD - Antenne d'El Jadida",
+          "lien": "https://www.ormvadsp.org/publications/phosphore_2024.pdf",
+          "contenus": [
+            "Stratégies pour sols calcaires (pH > 7.5)",
+            "Utilisation des mycorhizes en maraîchage"
+          ]
+        },
+        {
+          "type": "Étude de cas",
+          "titre": "Efficacité du phosphate naturel sur olivier en sols calcaires (Boulaouane, 2021-2023)",
+          "auteur": "INRA - Station de Had Ouled Frej",
+          "resultats": [
+            "Gain de rendement : +20% avec phosphate naturel vs superphosphate",
+            "Seuil critique sol : 15 ppm P (Olsen)"
+          ]
+        },
+        {
+          "type": "Fiche pratique",
+          "titre": "Gestion du phosphore en agriculture biologique (tomate et olivier)",
+          "auteur": "Direction Provinciale de l'Agriculture",
+          "annee": 2023,
+          "contenus": [
+            "Utilisation du compost enrichi en P",
+            "Rôle des légumineuses en rotation"
+          ]
+        }
+      ]
+    },
+    "potassium": {
+      "element": "Potassium (K)",
+      "symptomes_generaux": ["Bords des feuilles bruns (nécrose marginale)", "Tiges faibles, verse facile", "Fruits mous ('cœur noir')"],
+      "symptomes_visuels_locaux": {
+        "El_Jadida": {
+          "tomate_serre": {
+            "observes_en": "juillet 2024 (serres d'Oulja)",
+            "symptomes": [
+              "Brûlures des bords des feuilles (nécrose marginale)",
+              "Fruits mous avec taches noires internes ('coeur noir')"
+            ],
+            "cause": "Irrigation avec eau saumâtre (CE 2.8 dS/m) + excès de Na",
+            "source": "Direction Provinciale - Rapport serres 2024"
+          },
+          "agrumes": {
+            "observes_en": "août 2023 (vergers de la zone côtière)",
+            "symptomes": [
+              "Feuilles avec bords bruns",
+              "Fruits avec peau fine et sensibilité aux chocs"
+            ],
+            "cause": "Sols sableux (L-255) + lessivage par les pluies hivernales",
+            "source": "ORMVAD - Suivi agrumes 2023"
+          }
+        },
+        "Ouled_Frej": {
+          "olivier": {
+            "observes_en": "juillet 2023 (Boulaouane)",
+            "symptomes": [
+              "Bords des feuilles bruns",
+              "Fruits déformés et sensibilité aux gelées hivernales"
+            ],
+            "cause": "Analyse sol : K échangeable = 80 ppm (seuil critique : 150 ppm)",
+            "source": "Projet INRA-ORMVAD 2023"
+          },
+          "pomme_de_terre": {
+            "observes_en": "juin 2024 (zone bour)",
+            "symptomes": [
+              "Tubercule avec taches noires internes",
+              "Conservation réduite (<2 mois)"
+            ],
+            "cause": "Sols sableux (L-245) + irrigation irrégulière",
+            "source": "ORMVAD - Suivi pomme de terre 2024"
+          }
+        }
+      },
+      "periodes_critiques_locales": {
+        "El_Jadida": {
+          "tomate": ["juin-août (fructification)"],
+          "agrumes": ["juillet-août (grossissement des fruits)", "septembre (maturité)"]
+        },
+        "Ouled_Frej": {
+          "olivier": ["juin-juillet (grossissement des fruits)"],
+          "pomme_de_terre": ["mai-juin (tubérisation)"]
+        }
+      },
+      "solutions_adaptees": {
+        "El_Jadida": {
+          "tomate_serre": {
+            "engrais_mineraux": {
+              "type": "Sulfate de potassium (50% K₂O, sans chlore)",
+              "dose_kg_ha": 250,
+              "periode": "Juillet-août 2025 (3 apports en fertirrigation)",
+              "remarque": "Préféré au chlorure de K pour éviter la salinité"
+            },
+            "pratiques_complementaires": [
+              {
+                "nom": "Lessivage hivernal",
+                "methode": "Apport d'eau pure (100 m³/ha) en décembre pour éliminer l'excès de Na",
+                "frequence": "Tous les 2 ans"
+              },
+              {
+                "nom": "Paillage plastique",
+                "benefice": "Réduction de l'évaporation (-30%) et du lessivage du K"
+              }
+            ]
+          },
+          "agrumes": {
+            "engrais": {
+              "type": "Nitrate de potassium (13% N, 46% K₂O)",
+              "dose_kg_ha": 200,
+              "periode": "Avril (débourrement) + juillet (grossissement fruits)",
+              "methode": "Fertirrigation (goutte-à-goutte)"
+            },
+            "diagnostic": {
+              "methode": "Analyse foliaire (K < 1.5% → carence)",
+              "frequence": "Tous les ans en août"
+            }
+          }
+        },
+        "Ouled_Frej": {
+          "olivier": {
+            "engrais_mineraux": {
+              "type": "Chlorure de potassium (60% K₂O)",
+              "dose_kg_ha": 150,
+              "periode": "Octobre 2024 (avant les pluies hivernales)",
+              "remarque": "À éviter en excès (risque de salinité, CE eau = 2.5 dS/m)"
+            },
+            "engrais_organiques": {
+              "type": "Cendres de bois (5-10% K₂O)",
+              "dose_t_ha": 1,
+              "periode": "Octobre 2024",
+              "source": "Coopérative oléicole de Boulaouane"
+            }
+          },
+          "pomme_de_terre": {
+            "engrais": {
+              "type": "Sulfate de potassium",
+              "dose_kg_ha": 200,
+              "periode": "Mai 2025 (début tubérisation)",
+              "methode": "Localisé à 10 cm de profondeur"
+            },
+            "pratique": {
+              "nom": "Irrigation régulière",
+              "methode": "Goutte-à-goutte avec tensiomètres (maintenir humidité à 70-80% de la capacité au champ)",
+              "benefice": "Limite le stress hydrique et améliore l'absorption du K"
+            }
+          }
+        }
+      },
+      "cultures_concernees_locales": {
+        "El_Jadida": [
+          {
+            "nom": "Tomate (serre)",
+            "zones": ["Oulja (90% des serres)"],
+            "sensibilite": "Très élevée (irrigation avec eaux saumâtres, CE 2.5-3 dS/m)",
+            "problemes_recurrents": [
+              "Déséquilibre K/Na (excès de sodium dans l'eau d'irrigation)",
+              "Lessivage du K en été (transpiration élevée)"
+            ]
+          },
+          {
+            "nom": "Agrumes",
+            "zones": ["Zone côtière (El Jadida, Oulja)"],
+            "sensibilite": "Élevée (qualité des fruits et résistance aux stress)",
+            "varietes": ["Clémentine (majoritaire)", "Orange Valencia"]
+          }
+        ],
+        "Ouled_Frej": [
+          {
+            "nom": "Olivier (variété Picholine)",
+            "zones": ["Boulaouane (60% des vergers)", "Nord Ouled Frej"],
+            "sensibilite": "Moyenne à élevée (surtout en année de forte charge fruitière)",
+            "problemes_recurrents": [
+              "Carence en K après 3 ans sans fertilisation",
+              "Antagonisme K/Mg en sols calcaires"
+            ]
+          },
+          {
+            "nom": "Pomme de terre",
+            "zones": ["Zone bour (sols L-245)"],
+            "sensibilite": "Élevée (impact sur la qualité de conservation)",
+            "varietes": ["Spunta (majoritaire, sensible au 'coeur noir')"]
+          }
+        ]
+      },
+      "exemples_concrets_solutions": [
+        {
+          "culture": "Tomate (variété Daniel)",
+          "zone": "Serres d'Oulja (El Jadida)",
+          "probleme": "'Cœur noir' dans 30% des fruits en 2024",
+          "diagnostic": {
+            "analyse_sol": {
+              "K_echangeable_ppm": 120,
+              "Na_ppm": 250,
+              "CE_dS_m": 2.8,
+              "seuil_critique_K": "200 ppm"
+            },
+            "analyse_foliaire": {
+              "K_pct": 1.2,
+              "seuil_critique": "1.5%"
+            },
+            "analyse_eau_irrigation": {
+              "K_ppm": 10,
+              "Na_ppm": 120,
+              "CE_dS_m": 2.8
+            }
+          },
+          "solution_appliquee": [
+            {
+              "action": "Apport de 250 kg K₂O/ha (sulfate de potassium) en 3 fractions (juin-août 2024)",
+              "cout_DH_ha": 750
+            },
+            {
+              "action": "Lessivage hivernal (décembre 2024 : 100 m³/ha d'eau douce)",
+              "resultat": "Réduction du Na de 250 à 150 ppm"
+            },
+            {
+              "action": "Paillage plastique noir",
+              "benefice": "Réduction de l'évaporation et du lessivage"
+            }
+          ],
+          "resultat": "Réduction du 'cœur noir' à <5%, rendement : 50 t/ha (vs 38 t/ha en 2023)",
+          "source": "ORMVAD - Suivi serres 2024/25"
+        },
+        {
+          "culture": "Olivier (variété Picholine)",
+          "zone": "Boulaouane (Ouled Frej)",
+          "probleme": "Fruits déformés et sensibilité aux gelées en 2023",
+          "diagnostic": {
+            "analyse_sol": {
+              "K_echangeable_ppm": 80,
+              "Mg_ppm": 50,
+              "ph": 8.1,
+              "seuil_critique_K": "150 ppm"
+            },
+            "analyse_foliaire": {
+              "K_pct": 0.7,
+              "Mg_pct": 0.15,
+              "seuil_critique_K": "0.8%",
+              "seuil_critique_Mg": "0.2%"
+            }
+          },
+          "solution_appliquee": [
+            {
+              "action": "Apport de 150 kg K₂O/ha (chlorure de potassium) + 50 kg MgO/ha (kiesérite)",
+              "date": "Octobre 2023",
+              "cout_DH_ha": 600
+            },
+            {
+              "action": "Correction du pH avec soufre (300 kg/ha)",
+              "date": "Octobre 2023",
+              "resultat": "pH passé de 8.1 à 7.8 en 6 mois"
+            }
+          ],
+          "resultat": "Calibre des fruits : 2.5 g (vs 1.8 g en 2023), résistance améliorée au gel",
+          "source": "Projet INRA-ORMVAD 2023/24"
+        }
+      ],
+      "seuils_critiques": {
+        "sol_K_ppm": "<200",
+        "foliaire_K_pct": {
+          "tomate": "<1.5",
+          "olivier": "<0.8"
+        }
+      },
+      "sources_locales": [
+        {
+          "type": "Rapport technique",
+          "titre": "Gestion du potassium et de la salinité dans les serres et vergers d'El Jadida et Ouled Frej (2024)",
+          "auteur": "ORMVAD - Antenne d'El Jadida",
+          "lien": "https://www.ormvadsp.org/publications/potassium_2024.pdf",
+          "contenus": [
+            "Stratégies pour les eaux saumâtres (CE > 2 dS/m)",
+            "Choix des engrais potassiques (sulfate vs chlorure)"
+          ]
+        },
+        {
+          "type": "Étude de cas",
+          "titre": "Impact de la carence en potassium sur la qualité des agrumes et tomates à El Jadida (2022-2024)",
+          "auteur": "INRA - Station d'El Jadida",
+          "resultats": [
+            "Seuil critique foliaire : 1.5% K pour la tomate, 0.8% pour l'olivier",
+            "Efficacité du sulfate de K vs chlorure en sols salins"
+          ]
+        },
+        {
+          "type": "Fiche pratique",
+          "titre": "Lutte contre la salinité et les carences en potassium dans les périmètres irrigués",
+          "auteur": "Direction Provinciale de l'Agriculture",
+          "annee": 2023,
+          "contenus": [
+            "Lessivage hivernal des sols",
+            "Utilisation des cendres de bois comme source de K"
+          ]
+        }
+      ]
+    },
+    "magnesium": {
+      "element": "Magnésium (Mg)",
+      "symptomes_generaux": ["Chlorose internervaire sur feuilles âgées (en 'V' inversé)", "Feuilles cassantes"],
+      "symptomes_visuels_locaux": {
+        "El_Jadida": {
+          "tomate_serre": {
+            "observes_en": "juillet 2024 (Oulja)",
+            "symptomes": [
+              "Chlorose internervaire sur les feuilles âgées (en 'V' inversé)",
+              "Fruits avec taches jaunes (côté soleil)"
+            ],
+            "cause": "Substrat sableux (L-255) + excès de K (300 ppm) et Ca (CE eau = 2.5 dS/m)",
+            "source": "Direction Provinciale - Rapport serres 2024"
+          }
+        },
+        "Ouled_Frej": {
+          "olivier": {
+            "observes_en": "août 2023 (Boulaouane)",
+            "symptomes": [
+              "Feuilles jaunes avec nervures vertes (été 2023)",
+              "Chute de 15% des fruits en nouaison"
+            ],
+            "cause": "Analyse sol : Mg échangeable = 40 ppm (seuil critique : 50 ppm) + pH 8.2",
+            "source": "Projet INRA-ORMVAD 2023"
+          }
+        }
+      },
+      "periodes_critiques_locales": {
+        "El_Jadida": {
+          "tomate": ["juin-août (fructification)"]
+        },
+        "Ouled_Frej": {
+          "olivier": ["juin-juillet (grossissement des fruits)"]
+        }
+      },
+      "solutions_adaptees": {
+        "El_Jadida": {
+          "tomate_serre": {
+            "engrais": {
+              "type": "Sulfate de magnésium (16% Mg, 13% S)",
+              "dose_kg_ha": 50,
+              "periode": "Juillet 2025 (2 apports foliaires à 15 jours d'intervalle)",
+              "methode": "Pulvérisation foliaire (0.5% solution)"
+            },
+            "pratiques_complementaires": [
+              {
+                "nom": "Réduction des apports de K",
+                "action": "Passage de 300 kg K₂O/ha à 200 kg K₂O/ha en 2025",
+                "benefice": "Équilibre K/Mg (ratio idéal : 2:1)"
+              },
+              {
+                "nom": "Utilisation d'eaux douces pour l'irrigation",
+                "source": "Forage communal (CE 1.2 dS/m) pour les apports critiques"
+              }
+            ]
+          }
+        },
+        "Ouled_Frej": {
+          "olivier": {
+            "engrais": {
+              "type": "Kiesérite (26% Mg, 55% S)",
+              "dose_kg_ha": 200,
+              "periode": "Octobre 2024 (tous les 3 ans)",
+              "remarque": "Corrige aussi le pH à long terme"
+            },
+            "pratiques_complementaires": [
+              {
+                "nom": "Paillage avec résidus de taille",
+                "benefice": "Augmentation de la MO et libération lente de Mg"
+              }
+            ]
+          }
+        }
+      },
+      "cultures_concernees_locales": {
+        "El_Jadida": [
+          {
+            "nom": "Tomate (serre)",
+            "zones": ["Oulja"],
+            "sensibilite": "Très élevée (sols sableux, pH 7.5-8, irrigation avec eaux saumâtres)",
+            "problemes_recurrents": [
+              "Déséquilibre K/Mg (excès de K dans les engrais)",
+              "Lessivage du Mg en été"
+            ]
+          }
+        ],
+        "Ouled_Frej": [
+          {
+            "nom": "Olivier (variété Picholine)",
+            "zones": ["Boulaouane"],
+            "sensibilite": "Élevée (sols calcaires, pH > 8)",
+            "problemes_recurrents": [
+              "Carence en Mg après 3 ans sans apport",
+              "Antagonisme avec le K (excès d'apports potassiques)"
+            ]
+          }
+        ]
+      },
+      "exemples_concrets_solutions": [
+        {
+          "culture": "Tomate (variété Daniel)",
+          "zone": "Serres d'Oulja (El Jadida)",
+          "probleme": "Chlorose internervaire et fruits tachés en 2024",
+          "diagnostic": {
+            "analyse_foliaire": {
+              "Mg_pct": 0.15,
+              "K_pct": 2.5,
+              "seuil_critique_Mg": "0.2%",
+              "ratio_K_Mg": "16:1 (idéal : 2:1-4:1)"
+            },
+            "analyse_eau_irrigation": {
+              "Mg_ppm": 5,
+              "K_ppm": 120,
+              "CE_dS_m": 2.8
+            }
+          },
+          "solution_appliquee": [
+            {
+              "action": "Apport de 50 kg Mg/ha (sulfate de magnésium) en pulvérisation foliaire (juillet-août 2024)",
+              "cout_DH_ha": 200
+            },
+            {
+              "action": "Réduction des apports de K de 300 kg à 200 kg K₂O/ha",
+              "date": "2025"
+            },
+            {
+              "action": "Utilisation d'eau douce (CE 1.2 dS/m) pour les apports critiques",
+              "source": "Forage communal"
+            }
+          ],
+          "resultat": "Disparition des symptômes en 2 semaines, qualité des fruits améliorée",
+          "source": "ORMVAD - Suivi serres 2024"
+        },
+        {
+          "culture": "Olivier (variété Picholine)",
+          "zone": "Boulaouane (Ouled Frej)",
+          "probleme": "Feuilles jaunes et chute des fruits en 2023",
+          "diagnostic": {
+            "analyse_sol": {
+              "Mg_echangeable_ppm": 40,
+              "K_ppm": 180,
+              "ph": 8.2,
+              "seuil_critique_Mg": "50 ppm"
+            },
+            "analyse_foliaire": {
+              "Mg_pct": 0.12,
+              "K_pct": 1.0,
+              "seuil_critique_Mg": "0.2%"
+            }
+          },
+          "solution_appliquee": [
+            {
+              "action": "Apport de 200 kg MgO/ha (kiesérite)",
+              "date": "Octobre 2023",
+              "cout_DH_ha": 400
+            },
+            {
+              "action": "Paillage avec résidus de taille (5 t/ha)",
+              "date": "Novembre 2023",
+              "benefice": "Augmentation de la MO de 0.9% à 1.2%"
+            }
+          ],
+          "resultat": "Disparition des symptômes en 2024, rendement : 1800 kg/ha (vs 1200 kg/ha en 2023)",
+          "source": "Projet INRA-ORMVAD 2023/24"
+        }
+      ],
+      "seuils_critiques": {
+        "sol_Mg_ppm": "<50",
+        "foliaire_Mg_pct": "<0.2"
+      },
+      "sources_locales": [
+        {
+          "type": "Guide pratique",
+          "titre": "Correction des carences en magnésium dans les serres et vergers d'El Jadida et Ouled Frej (2023)",
+          "auteur": "ORMVAD",
+          "lien": "https://www.ormvadsp.org/publications/magnesium_2023.pdf",
+          "contenus": [
+            "Diagnostic et correction des déséquilibres K/Mg",
+            "Utilisation des eaux douces pour l'irrigation"
+          ]
+        },
+        {
+          "type": "Étude scientifique",
+          "titre": "Interaction K/Mg dans les sols calcaires de Doukkala (essais 2021-2023)",
+          "auteur": "INRA - Station de Had Ouled Frej",
+          "resultats": [
+            "Seuil critique foliaire : 0.2% Mg pour l'olivier",
+            "Ratio K/Mg idéal : 2:1 à 4:1"
+          ]
+        }
+      ]
+    },
+    "fer": {
+      "element": "Fer (Fe)",
+      "symptomes_generaux": ["Chlorose internervaire sur jeunes feuilles (nervures vertes, tissus jaunes)"],
+      "symptomes_visuels_locaux": {
+        "El_Jadida": {
+          "agrumes": {
+            "observes_en": "juin 2024 (vergers côtiers)",
+            "symptomes": [
+              "Chlorose internervaire sur jeunes feuilles (nervures vertes, tissus jaunes)",
+              "Fruits avec peau épaisse et goût amer"
+            ],
+            "cause": "Sols sableux (L-255, pH 7.9) + irrigation avec eau calcaire (CE 2.5 dS/m)",
+            "source": "ORMVAD - Suivi agrumes 2024"
+          }
+        },
+        "Ouled_Frej": {
+          "olivier": {
+            "observes_en": "mai 2023 (Boulaouane)",
+            "symptomes": [
+              "Jeunes feuilles jaunes avec nervures vertes",
+              "Réduction de la taille des fruits (calibre < 2 g)"
+            ],
+            "cause": "Analyse sol : Fe assimilable = 3 ppm (seuil critique : 4 ppm) + pH 8.2",
+            "source": "Projet INRA-ORMVAD 2023"
+          }
+        }
+      },
+      "periodes_critiques_locales": {
+        "El_Jadida": {
+          "agrumes": ["avril-mai (floraison)", "juin-juillet (grossissement fruits)"]
+        },
+        "Ouled_Frej": {
+          "olivier": ["mars-avril (reprise végétative)", "mai-juin (nouaison)"]
+        }
+      },
+      "solutions_adaptees": {
+        "El_Jadida": {
+          "agrumes": {
+            "engrais": {
+              "type": "Chélate de fer (EDDHA, 6% Fe)",
+              "dose_kg_ha": 1.5,
+              "periode": "Avril et juin 2025 (2 apports foliaires)",
+              "remarque": "EDDHA efficace même en pH > 7.5"
+            },
+            "pratiques_complementaires": [
+              {
+                "nom": "Correction du pH",
+                "methode": "Apport de soufre (300 kg/ha) en octobre 2024",
+                "objectif": "Descendre le pH de 7.9 à 7.0"
+              },
+              {
+                "nom": "Utilisation d'eaux douces",
+                "source": "Forage communal (CE 1.2 dS/m) pour les apports foliaires"
+              }
+            ]
+          }
+        },
+        "Ouled_Frej": {
+          "olivier": {
+            "engrais": {
+              "type": "Chélate de fer (EDDHA)",
+              "dose_kg_ha": 2,
+              "periode": "Mars et mai 2025 (foliaire)",
+              "remarque": "À appliquer tôt le matin pour éviter la photodégradation"
+            },
+            "pratiques_complementaires": [
+              {
+                "nom": "Paillage avec compost",
+                "materiau": "Compost de fumier enrichi en Fe (5 kg Fe/t)",
+                "dose_t_ha": 5,
+                "periode": "Octobre 2024"
+              }
+            ]
+          }
+        }
+      },
+      "cultures_concernees_locales": {
+        "El_Jadida": [
+          {
+            "nom": "Agrumes (oranger, clémentinier)",
+            "zones": ["Zone côtière (Oulja, El Jadida)"],
+            "sensibilite": "Très élevée (sols sableux, pH > 7.5)",
+            "problemes_recurrents": [
+              "Chlorose ferrique en été (transpiration élevée)",
+              "Antagonisme Fe/Ca/Mn en sols calcaires"
+            ]
+          }
+        ],
+        "Ouled_Frej": [
+          {
+            "nom": "Olivier (variété Picholine)",
+            "zones": ["Boulaouane (60% des vergers)", "Nord Ouled Frej"],
+            "sensibilite": "Élevée (sols calcaires, pH 7.8-8.2)",
+            "problemes_recurrents": [
+              "Carence en Fe après 3 ans sans apport",
+              "Aggravée par les étés secs (>30°C)"
+            ]
+          }
+        ]
+      },
+      "exemples_concrets_solutions": [
+        {
+          "culture": "Clémentinier (variété Nour)",
+          "zone": "Zone côtière d'El Jadida",
+          "probleme": "Chlorose ferrique sur 40% des arbres en 2024",
+          "diagnostic": {
+            "analyse_sol": {
+              "Fe_DTPA_ppm": 2.5,
+              "ph": 7.9,
+              "seuil_critique_Fe": "4 ppm"
+            },
+            "analyse_foliaire": {
+              "Fe_ppm": 40,
+              "seuil_critique": "60 ppm"
+            }
+          },
+          "solution_appliquee": [
+            {
+              "action": "Apport de 1.5 kg Fe/ha (chélate EDDHA) en 3 pulvérisations foliaires (avril-juin 2024)",
+              "cout_DH_ha": 600
+            },
+            {
+              "action": "Correction du pH avec soufre (300 kg/ha)",
+              "date": "Octobre 2023",
+              "resultat": "pH passé de 7.9 à 7.4 en 6 mois"
+            },
+            {
+              "action": "Paillage avec compost de fumier (5 t/ha)",
+              "date": "Novembre 2023",
+              "benefice": "Augmentation de la MO de 1.2% à 1.5%"
+            }
+          ],
+          "resultat": "Disparition de la chlorose en 2025, rendement : 35 t/ha (vs 25 t/ha en 2024)",
+          "source": "ORMVAD - Suivi agrumes 2024/25"
+        },
+        {
+          "culture": "Olivier (variété Picholine)",
+          "zone": "Boulaouane (Ouled Frej)",
+          "probleme": "Jeunes feuilles jaunes et fruits petits en 2023",
+          "diagnostic": {
+            "analyse_sol": {
+              "Fe_DTPA_ppm": 3,
+              "ph": 8.2,
+              "CaCO3_pct": 12
+            },
+            "analyse_foliaire": {
+              "Fe_ppm": 35,
+              "seuil_critique": "50 ppm"
+            }
+          },
+          "solution_appliquee": [
+            {
+              "action": "Apport de 2 kg Fe/ha (chélate EDDHA) en 2 pulvérisations (mars et mai 2024)",
+              "cout_DH_ha": 800
+            },
+            {
+              "action": "Apport de compost enrichi en Fe (5 t/ha, 5 kg Fe/t)",
+              "date": "Octobre 2023",
+              "source": "Coopérative oléicole de Boulaouane"
+            }
+          ],
+          "resultat": "Disparition des symptômes en 2024, calibre des fruits : 2.5 g (vs 1.8 g en 2023)",
+          "source": "Projet INRA-ORMVAD 2023/24"
+        }
+      ],
+      "seuils_critiques": {
+        "sol_Fe_DTPA_ppm": "<4",
+        "foliaire_Fe_ppm": "<50"
+      },
+      "sources_locales": [
+        {
+          "type": "Guide pratique",
+          "titre": "Correction des carences en fer dans les vergers et serres d'El Jadida et Ouled Frej (2024)",
+          "auteur": "ORMVAD",
+          "lien": "https://www.ormvadsp.org/publications/fer_2024.pdf",
+          "contenus": [
+            "Choix des chélates de fer (EDDHA vs DTPA)",
+            "Stratégies de correction du pH"
+          ]
+        },
+        {
+          "type": "Étude scientifique",
+          "titre": "Efficacité des chélates de fer sur olivier et agrumes en sols calcaires (essais Doukkala 2020-2022)",
+          "auteur": "INRA - Station de Had Ouled Frej",
+          "resultats": [
+            "EDDHA > DTPA en pH > 7.5",
+            "Seuil critique foliaire : 50 ppm Fe"
+          ]
+        }
+      ]
+    },
+    "zinc": {
+      "element": "Zinc (Zn)",
+      "symptomes_generaux": ["Feuilles petites et étroites ('rosette')", "Entre-nœuds courts"],
+      "symptomes_visuels_locaux": {
+        "El_Jadida": {
+          "tomate_serre": {
+            "observes_en": "juin 2024 (Oulja)",
+            "symptomes": [
+              "Feuilles petites et étroites ('rosette')",
+              "Entre-nœuds courts"
+            ],
+            "cause": "Substrat appauvri après 4 cycles de culture + pH 7.8",
+            "source": "Direction Provinciale - Rapport serres 2024"
+          }
+        },
+        "Ouled_Frej": {
+          "olivier": {
+            "observes_en": "avril 2023 (Boulaouane)",
+            "symptomes": [
+              "Jeunes feuilles étroites et chlorotiques",
+              "Fruits déformés (calibre < 2 g)"
+            ],
+            "cause": "Analyse sol : Zn assimilable = 0.3 ppm (seuil critique : 0.5 ppm) + pH 8.1",
+            "source": "Projet INRA-ORMVAD 2023"
+          }
+        }
+      },
+      "periodes_critiques_locales": {
+        "El_Jadida": {
+          "tomate": ["mai-juin (début fructification)"]
+        },
+        "Ouled_Frej": {
+          "olivier": ["mars-avril (débourrement)", "mai (nouaison)"]
+        }
+      },
+      "solutions_adaptees": {
+        "El_Jadida": {
+          "tomate_serre": {
+            "engrais": {
+              "type": "Sulfate de zinc (22% Zn)",
+              "dose_kg_ha": 5,
+              "periode": "Mai 2025 (2 apports foliaires à 15 jours d'intervalle)",
+              "remarque": "À appliquer tôt le matin ou en fin de journée"
+            },
+            "pratiques_complementaires": [
+              {
+                "nom": "Renouvellement du substrat",
+                "frequence": "Tous les 3 ans",
+                "materiau": "Mélange tourbe/perlite (30% volume) + compost (10%)"
+              }
+            ]
+          }
+        },
+        "Ouled_Frej": {
+          "olivier": {
+            "engrais": {
+              "type": "Sulfate de zinc",
+              "dose_kg_ha": 8,
+              "periode": "Mars 2025 (au sol) + mai 2025 (foliaire)",
+              "remarque": "Éviter les mélanges avec les engrais phosphatés (risque de précipitation)"
+            },
+            "pratiques_complementaires": [
+              {
+                "nom": "Apport de matière organique",
+                "type": "Compost de fumier de mouton (enrichi en Zn)",
+                "dose_t_ha": 5,
+                "periode": "Octobre 2024"
+              }
+            ]
+          }
+        }
+      },
+      "cultures_concernees_locales": {
+        "El_Jadida": [
+          {
+            "nom": "Tomate (serre)",
+            "zones": ["Oulja"],
+            "sensibilite": "Élevée (substrats appauvris, pH > 7.5)",
+            "problemes_recurrents": [
+              "Carence en Zn après 3 cycles de culture",
+              "Antagonisme Zn/P en cas d'excès de phosphore"
+            ]
+          }
+        ],
+        "Ouled_Frej": [
+          {
+            "nom": "Olivier (variété Picholine)",
+            "zones": ["Boulaouane"],
+            "sensibilite": "Moyenne à élevée (sols calcaires, pH > 8)",
+            "problemes_recurrents": [
+              "Carence en Zn après 5 ans sans apport",
+              "Aggravée par les étés secs"
+            ]
+          }
+        ]
+      },
+      "exemples_concrets_solutions": [
+        {
+          "culture": "Tomate (variété Daniel)",
+          "zone": "Serres d'Oulja (El Jadida)",
+          "probleme": "Feuilles étroites et entre-nœuds courts en 2024",
+          "diagnostic": {
+            "analyse_sol": {
+              "Zn_DTPA_ppm": 0.3,
+              "ph": 7.8,
+              "seuil_critique_Zn": "0.5 ppm"
+            },
+            "analyse_foliaire": {
+              "Zn_ppm": 20,
+              "seuil_critique": "30 ppm"
+            }
+          },
+          "solution_appliquee": [
+            {
+              "action": "Apport de 5 kg Zn/ha (sulfate de zinc) en 2 pulvérisations foliaires (mai-juin 2024)",
+              "cout_DH_ha": 250
+            },
+            {
+              "action": "Renouvellement partiel du substrat (30% volume)",
+              "date": "Octobre 2024",
+              "materiau": "Tourbe + perlite + compost (1:1:0.5)"
+            }
+          ],
+          "resultat": "Disparition des symptômes en 3 semaines, rendement : 45 t/ha (vs 38 t/ha en 2023)",
+          "source": "ORMVAD - Suivi serres 2024"
+        },
+        {
+          "culture": "Olivier (variété Picholine)",
+          "zone": "Boulaouane (Ouled Frej)",
+          "probleme": "Jeunes feuilles étroites et fruits petits en 2023",
+          "diagnostic": {
+            "analyse_sol": {
+              "Zn_DTPA_ppm": 0.3,
+              "ph": 8.1,
+              "seuil_critique_Zn": "0.5 ppm"
+            },
+            "analyse_foliaire": {
+              "Zn_ppm": 15,
+              "seuil_critique": "20 ppm"
+            }
+          },
+          "solution_appliquee": [
+            {
+              "action": "Apport de 8 kg Zn/ha (sulfate de zinc : 4 kg au sol en mars + 4 kg en foliaire en mai 2024)",
+              "cout_DH_ha": 400
+            },
+            {
+              "action": "Apport de compost enrichi en Zn (5 t/ha, 5 kg Zn/t)",
+              "date": "Octobre 2023",
+              "source": "Coopérative oléicole de Boulaouane"
+            }
+          ],
+          "resultat": "Disparition des symptômes en 2024, calibre des fruits : 2.3 g (vs 1.8 g en 2023)",
+          "source": "Projet INRA-ORMVAD 2023/24"
+        }
+      ],
+      "seuils_critiques": {
+        "sol_Zn_DTPA_ppm": "<0.5",
+        "foliaire_Zn_ppm": "<30"
+      },
+      "sources_locales": [
+        {
+          "type": "Guide pratique",
+          "titre": "Diagnostic et correction des carences en zinc à Doukkala (2023)",
+          "auteur": "ORMVAD",
+          "lien": "https://www.ormvadsp.org/publications/zinc_2023.pdf",
+          "contenus": [
+            "Seuils critiques sol et feuille",
+            "Stratégies d'apport (sol vs foliaire)"
+          ]
+        },
+        {
+          "type": "Étude scientifique",
+          "titre": "Efficacité du sulfate de zinc sur olivier en sols calcaires (Boulaouane, 2020-2022)",
+          "auteur": "INRA - Station de Had Ouled Frej",
+          "resultats": [
+            "Seuil critique foliaire : 20 ppm Zn",
+            "Gain de rendement : +15% avec apport de Zn"
+          ]
+        }
+      ]
+    },
+    "calcium": {
+      "element": "Calcium (Ca)",
+      "symptomes_generaux": ["Pourriture apicale ('fond noir') des fruits", "Feuilles déformées"],
+      "symptomes_visuels_locaux": {
+        "El_Jadida": {
+          "tomate_serre": {
+            "observes_en": "juillet 2024 (Oulja)",
+            "symptomes": [
+              "Pourriture apicale ('fond noir') sur 30% des fruits",
+              "Feuilles déformées avec chlorose des nervures"
+            ],
+            "cause": "Déséquilibre Ca/Mg/K (excès de K dans l'eau d'irrigation : 120 ppm) + stress hydrique",
+            "source": "Direction Provinciale - Rapport serres 2024"
+          }
+        },
+        "Ouled_Frej": {
+          "pomme_de_terre": {
+            "observes_en": "juin 2024 (zone bour)",
+            "symptomes": [
+              "Tubercule avec 'coeur noir' (nécrose interne)",
+              "Conservation réduite (<2 mois)"
+            ],
+            "cause": "Sols sableux (L-245) + irrigation irrégulière (CE eau = 2.5 dS/m)",
+            "source": "ORMVAD - Suivi pomme de terre 2024"
+          }
+        }
+      },
+      "periodes_critiques_locales": {
+        "El_Jadida": {
+          "tomate": ["juin-août (fructification)"]
+        },
+        "Ouled_Frej": {
+          "pomme_de_terre": ["mai-juin (tubérisation)"]
+        }
+      },
+      "solutions_adaptees": {
+        "El_Jadida": {
+          "tomate_serre": {
+            "engrais": {
+              "type": "Nitrate de calcium (15.5% N, 26% Ca)",
+              "dose_kg_ha": 300,
+              "periode": "Juillet-août 2025 (3 apports en fertirrigation)",
+              "remarque": "Éviter les mélanges avec les engrais phosphatés (risque de précipitation)"
+            },
+            "pratiques_complementaires": [
+              {
+                "nom": "Gestion de l'irrigation",
+                "methode": "Maintenir l'humidité du sol à 70-80% de la capacité au champ (tensiomètres)",
+                "frequence": "Irrigation tous les 2-3 jours en été"
+              },
+              {
+                "nom": "Utilisation d'eaux douces",
+                "source": "Forage communal (CE 1.2 dS/m) pour les apports critiques"
+              }
+            ]
+          }
+        },
+        "Ouled_Frej": {
+          "pomme_de_terre": {
+            "engrais": {
+              "type": "Gypse (22% Ca, 18% S)",
+              "dose_kg_ha": 500,
+              "periode": "Octobre 2024 (avant plantation)",
+              "remarque": "Corrige aussi le pH des sols acides"
+            },
+            "pratiques_complementaires": [
+              {
+                "nom": "Irrigation régulière",
+                "methode": "Goutte-à-goutte avec tensiomètres (mai-juin 2025)",
+                "benefice": "Limite le 'coeur noir' et améliore la qualité des tubercule"
+              }
+            ]
+          }
+        }
+      },
+      "cultures_concernees_locales": {
+        "El_Jadida": [
+          {
+            "nom": "Tomate (serre)",
+            "zones": ["Oulja"],
+            "sensibilite": "Très élevée (pourriture apicale fréquente)",
+            "problemes_recurrents": [
+              "Déséquilibre Ca/Mg/K (eaux d'irrigation riches en Na)",
+              "Stress hydrique en été"
+            ]
+          }
+        ],
+        "Ouled_Frej": [
+          {
+            "nom": "Pomme de terre",
+            "zones": ["Zone bour (sols L-245)"],
+            "sensibilite": "Élevée ('coeur noir' fréquent)",
+            "problemes_recurrents": [
+              "Sols sableux (lessivage du Ca)",
+              "Irrigation irrégulière (CE eau > 2 dS/m)"
+            ]
+          }
+        ]
+      },
+      "exemples_concrets_solutions": [
+        {
+          "culture": "Tomate (variété Daniel)",
+          "zone": "Serres d'Oulja (El Jadida)",
+          "probleme": "'Cœur brun' dans 20% des fruits en 2024",
+          "diagnostic": {
+            "analyse_sol": {
+              "B_assimilable_ppm": 0.2,
+              "ph": 7.8,
+              "seuil_critique_B": "0.5 ppm"
+            },
+            "analyse_foliaire": {
+              "B_ppm": 20,
+              "seuil_critique": "30 ppm"
+            },
+            "analyse_eau_irrigation": {
+              "B_ppm": 0.1,
+              "CE_dS_m": 2.5
+            }
+          },
+          "solution_appliquee": [
+            {
+              "action": "Apport de 0.8 kg B/ha (acide borique) en 3 pulvérisations foliaires (juillet-août 2024)",
+              "cout_DH_ha": 300
+            },
+            {
+              "action": "Renouvellement de 30% du substrat (octobre 2024)",
+              "materiau": "Mélange tourbe/perlite/compost (2:1:1) enrichi en B (1 kg B/t)",
+              "cout_DH_ha": 1500
+            },
+            {
+              "action": "Utilisation d'eau riche en B (0.4 ppm) pour les apports foliaires",
+              "source": "Puits de Sidi Bennour",
+              "frequence": "1 fois/semaine en période critique"
+            }
+          ],
+          "resultat": "Réduction du 'cœur brun' à <5%, rendement : 48 t/ha (vs 40 t/ha en 2023)",
+          "source": "ORMVAD - Suivi serres 2024/25"
+        },
+        {
+          "culture": "Betterave sucrière",
+          "zone": "Périmètre irrigué de Sidi Bennour (Ouled Frej)",
+          "probleme": "Pourriture du cœur et baisse du taux de sucre en 2023",
+          "diagnostic": {
+            "analyse_sol": {
+              "B_assimilable_ppm": 0.3,
+              "ph": 7.8,
+              "CaCO3_pct": 10,
+              "seuil_critique_B": "0.5 ppm"
+            },
+            "analyse_racine": {
+              "B_ppm": 15,
+              "seuil_critique": "25 ppm"
+            }
+          },
+          "solution_appliquee": [
+            {
+              "action": "Apport de 1.2 kg B/ha (borax) au semis (octobre 2024)",
+              "cout_DH_ha": 200
+            },
+            {
+              "action": "Réduction des apports de chaux (500 kg/ha vs 1 t/ha auparavant)",
+              "date": "Octobre 2024",
+              "benefice": "Limite la fixation du bore"
+            },
+            {
+              "action": "Irrigation avec eau à faible CE (<1.5 dS/m) pendant la croissance racinaire",
+              "source": "Canal d'irrigation principal (CE 1.2 dS/m)"
+            }
+          ],
+          "resultat": "Disparition de la pourriture du cœur, taux de sucre : 17.5% (vs 16% en 2023)",
+          "source": "ORMVAD - Suivi betterave 2024/25"
+        }
+      ],
+      "seuils_critiques": {
+        "sol_Ca_ppm": "<1000",
+        "foliaire_Ca_pct": "<1.5"
+      },
+      "sources_locales": [
+        {
+          "type": "Guide pratique",
+          "titre": "Gestion du bore dans les cultures maraîchères et industrielles à Doukkala (2024)",
+          "auteur": "ORMVAD - Antenne d'El Jadida",
+          "lien": "https://www.ormvadsp.org/publications/bore_2024.pdf",
+          "contenus": [
+            "Seuils critiques sol et feuille par culture",
+            "Stratégies d'apport (sol vs foliaire)",
+            "Prévention des toxicités (seuil max : 2 kg B/ha/an)"
+          ]
+        },
+        {
+          "type": "Étude scientifique",
+          "titre": "Impact du bore sur la qualité de la betterave sucrière et de la tomate à Doukkala (2021-2023)",
+          "auteur": "INRA - Station de Sidi Bennour",
+          "resultats": [
+            "Seuil critique foliaire : 30 ppm B pour la tomate, 25 ppm pour la betterave",
+            "Gain de rendement : +10% avec apport de 1 kg B/ha (betterave)",
+            "Réduction du 'cœur brun' de 20% à <5% (tomate)"
+          ]
+        }
+      ]
+    }
+  }
+}

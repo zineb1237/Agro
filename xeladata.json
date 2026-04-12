@@ -1,0 +1,306 @@
+{
+  "projet": {
+    "nom": "Chatbot agricole Doukkala",
+    "cible": ["El Jadida", "Ouled Frej"],
+    "region": "Doukkala (Maroc)",
+    "objectif": "Assistant agricole spécialisé en fertilisation, carences, qualité d'eau et irrigation",
+    "langues": ["Français", "Darija"]
+  },
+  "sols": {
+    "el_jadida": {
+      "point": "El Jadida",
+      "latitude": 33.233,
+      "longitude": -8.517,
+      "bulk_density_g_cm3": 1.61,
+      "organic_carbon_t_ha_0_30": 42.0,
+      "organic_carbon_density_hg_m3_0": 268.0,
+      "clay_pct": 35.0,
+      "sand_pct": 25.0,
+      "silt_pct": 40.0,
+      "ph": 7.2,
+      "source": "Dataset local"
+    },
+    "oulad_frej": {
+      "point": "Oulad Frej",
+      "latitude": 33.02,
+      "longitude": -8.52,
+      "bulk_density_g_cm3": 1.61,
+      "organic_carbon_t_ha_0_30": 42.0,
+      "organic_carbon_density_hg_m3_0": 268.0,
+      "clay_pct": 38.0,
+      "sand_pct": 22.0,
+      "silt_pct": 40.0,
+      "ph": 7.1,
+      "source": "Dataset local"
+    },
+    "types_doukkala": {
+      "tirs_argileux": {
+        "code": "L-275",
+        "argile_pct": 57,
+        "limon_pct": 13,
+        "sable_fin_pct": 20,
+        "sable_gros_pct": 6,
+        "calcaire_pct": 3,
+        "carbone_pct": 1.65,
+        "azote_pct": 0.78,
+        "ph": 7.6,
+        "c_n": 12,
+        "source": "INRA Doukkala 1964"
+      },
+      "tirs_sableux": {
+        "code": "L-282",
+        "argile_pct": 27,
+        "limon_pct": 5,
+        "sable_fin_pct": 50,
+        "sable_gros_pct": 17,
+        "calcaire_pct": 1,
+        "carbone_pct": 1.50,
+        "azote_pct": 0.85,
+        "ph": 7.75,
+        "c_n": 10,
+        "source": "INRA Doukkala 1964"
+      },
+      "sol_chatai n": {
+        "code": "L-255",
+        "argile_pct": 11,
+        "limon_pct": 11,
+        "sable_fin_pct": 58,
+        "sable_gros_pct": 19,
+        "calcaire_pct": 0,
+        "carbone_pct": 0.93,
+        "azote_pct": 0.63,
+        "ph": 6.9,
+        "c_n": 6,
+        "source": "INRA Doukkala 1964"
+      },
+      "sol_lessive": {
+        "code": "L-245",
+        "argile_pct": 6,
+        "limon_pct": 2,
+        "sable_fin_pct": 64,
+        "sable_gros_pct": 25,
+        "calcaire_pct": 0,
+        "carbone_pct": 0.73,
+        "azote_pct": 0.62,
+        "ph": 7.45,
+        "c_n": 8,
+        "source": "INRA Doukkala 1964"
+      },
+      "sol_ocre": {
+        "code": "L-257",
+        "argile_pct": 7,
+        "limon_pct": 1,
+        "sable_fin_pct": 63,
+        "sable_gros_pct": 27,
+        "calcaire_pct": 0,
+        "carbone_pct": 0.44,
+        "azote_pct": 0.27,
+        "ph": 7.9,
+        "c_n": 10,
+        "source": "INRA Doukkala 1964"
+      }
+    }
+  },
+  "climat": {
+    "doukkala_normal": {
+      "type": "semi-aride",
+      "precipitation_moyenne_annuelle_mm": 305,
+      "saison_pluvieuse": "octobre-mars",
+      "saison_seche": "avril-septembre",
+      "temperature_moyenne_hiver_c": "7-23",
+      "temperature_moyenne_ete_c": "15-35",
+      "source": "INRA Doukkala 1964"
+    },
+    "pluies_mensuelles_normal": {
+      "janvier": 38.3,
+      "fevrier": 38.4,
+      "mars": 37.6,
+      "avril": 27.3,
+      "mai": 14.5,
+      "juin": 3.1,
+      "juillet": 0.1,
+      "aout": 0.3,
+      "septembre": 6.1,
+      "octobre": 36.9,
+      "novembre": 52.6,
+      "decembre": 49.6,
+      "source": "INRA Doukkala 1964"
+    },
+    "temperatures_mensuelles_normal": {
+      "janvier": {"max": 23.1, "min": 7.9},
+      "fevrier": {"max": 24.5, "min": 10.4},
+      "mars": {"max": 26.3, "min": 10.5},
+      "avril": {"max": 28.7, "min": 13.7},
+      "mai": {"max": 29.3, "min": 16.8},
+      "juin": {"max": 34.1, "min": 18.0},
+      "juillet": {"max": 35.4, "min": 15.6},
+      "aout": {"max": 35.2, "min": 11.3},
+      "septembre": {"max": 25.9, "min": 9.5},
+      "octobre": {"max": 24.8, "min": null},
+      "source": "INRA Doukkala 1964"
+    }
+  },
+  "rendements": {
+    "ble_tendre": {
+      "donnees_historiques": [
+        {"periode": "2012-17", "surface_cultivee_kha": 2111.29, "production": 39835.23, "rendement_q_ha": 18.45, "precipitation_mm": 345.18},
+        {"periode": "2017/18", "surface_cultivee_kha": 1891.46, "production": 49101.13, "rendement_q_ha": 25.96, "precipitation_mm": 348.24},
+        {"periode": "2018/19", "surface_cultivee_kha": 1687.3, "production": 26816.5, "rendement_q_ha": 15.89, "precipitation_mm": 296.7},
+        {"periode": "2019/20", "surface_cultivee_kha": 1852.0, "production": 17700.0, "rendement_q_ha": 9.56, "precipitation_mm": 255.6},
+        {"periode": "2020/21", "surface_cultivee_kha": 1876.66, "production": 50607.0, "rendement_q_ha": 26.97, "precipitation_mm": 291.0},
+        {"periode": "2021/22", "surface_cultivee_kha": 1602.0, "production": 18900.0, "rendement_q_ha": 11.80, "precipitation_mm": 188.0}
+      ],
+      "rendement_moyen_q_ha": 18.5,
+      "rendement_min_q_ha": 9.6,
+      "rendement_max_q_ha": 27.0,
+      "seuil_critique_pluie_mm": 250,
+      "source": "Dataset local"
+    }
+  },
+  "ble_exigences": {
+    "INRA_2023": {
+      "temperature_germination_c": 0,
+      "temperature_optimale_croissance_c": "15-20",
+      "temperature_minimale_croissance_c": 4,
+      "type_sol": "limono-argileux, drainé, profond",
+      "ph_ideal": "6.5-7.5",
+      "salinite_toleree_ds_m": "6-8",
+      "besoins_eau_mm": "350-600",
+      "source": "INRA Maroc 2023"
+    },
+    "fertilisation_fond": {
+      "zone_semi_aride": {"peuplement_pieds_m2": 200, "rendement_escompte_q_ha": 24, "azote_N_kg_ha": 28, "phosphore_P_kg_ha": 31, "potassium_K_kg_ha": 53},
+      "zone_bour_favorable": {"peuplement_pieds_m2": 250, "rendement_escompte_q_ha": 40, "azote_N_kg_ha": 47, "phosphore_P_kg_ha": 68, "potassium_K_kg_ha": 88},
+      "zone_irrigation_appoint": {"peuplement_pieds_m2": 300, "rendement_escompte_q_ha": 60, "azote_N_kg_ha": 70, "phosphore_P_kg_ha": 102, "potassium_K_kg_ha": 132},
+      "zone_irrigue": {"peuplement_pieds_m2": 400, "rendement_escompte_q_ha": 80, "azote_N_kg_ha": 100, "phosphore_P_kg_ha": 136, "potassium_K_kg_ha": 176}
+    },
+    "fertilisation_couverture": {
+      "zone_semi_aride": {"azote_N_kg_ha": 56},
+      "zone_bour_favorable": {"azote_N_kg_ha": 94},
+      "zone_irrigation_appoint": {"azote_N_kg_ha": 140},
+      "zone_irrigue": {"azote_N_kg_ha": 170}
+    },
+    "fractionnement_azote": ["tallage", "montaison", "remplissage"],
+    "date_semis": "novembre",
+    "dose_semis_kg_ha": "90-150",
+    "profondeur_semis_cm": "2-4",
+    "espacement_lignes_cm": 20
+  },
+  "ble_dur_exigences": {
+    "temperature_optimale_croissance_c": "15-20",
+    "somme_temperatures_necessaire_c": "1800-2400",
+    "temperature_stressante_c": 30,
+    "temperature_dangereuse_c": 32,
+    "temperature_minimale_croissance_c": 4,
+    "besoins_eau_mm": "450-650",
+    "periode_critique_eau": "20 jours avant épiaison jusqu'à 30-35 jours après floraison",
+    "reduction_rendement_si_secheresse_epiaison_pct": 70,
+    "absorption_max_azote_kg_N_ha_jour": 3,
+    "pic_absorption_azote": "floraison",
+    "source": "AgriMaroc 2016"
+  },
+  "eau_irrigation": {
+    "doukkala": {
+      "dotation_2002_03_Mm3": 280,
+      "pct_besoins_couverts": 33,
+      "prix_gravitaire_2002_DH_m3": 0.26,
+      "prix_aspersion_2002_DH_m3": 0.42,
+      "cout_revient_gravitaire_DH_m3": 0.62,
+      "cout_revient_aspersion_DH_m3": 0.75,
+      "consommation_moyenne_gravitaire_m3_ha": 3803,
+      "consommation_moyenne_aspersion_m3_ha": 5250,
+      "source": "Mémoire IAV 2004"
+    },
+    "besoins_cultures": {
+      "betterave_besoin_reel_m3_ha": 6280,
+      "bersim_besoin_reel_m3_ha": 3500,
+      "luzerne_besoin_reel_m3_ha": 13440,
+      "cereales_besoin_reel_m3_ha": 2843
+    },
+    "stades_sensibles_manque_eau": ["germination", "tallage", "montaison", "epiaison-floraison"],
+    "apport_recommande_stades_critiques_mm": "60-120",
+    "arret_irrigation": "stade grain pateux",
+    "declenchement_irrigation": "epuisement sol > 70%"
+  },
+  "maladies_ble": {
+    "rouille_jaune": "Pustules jaune-orangée, alignées entre nervures",
+    "septoriose": "Taches allongées/ovales, d'abord jaunes puis brunes avec points noirs",
+    "rouille_brune": "Petites pustules brun rougeâtre, réparties sur toute la feuille",
+    "fusariose": "Infections racines, collet, épi ; plantes moins vigoureuses, épis blancs"
+  },
+  "ravageurs_ble": {
+    "cecidomyie_mouche_Hess": "Arrêt croissance tiges ; feuilles prennent teinte foncée puis jaunissent",
+    "puceron_russe": "Piqures sur feuilles ; feuilles s'enroulent ; empêche épiaison",
+    "cephe_chaumes": "Tiges cassées au ras du sol avant récolte ; galeries à l'intérieur des tiges"
+  },
+  "olivier": {
+    "agroforesterie": {
+      "densite_arbres_ha": "60-110",
+      "densite_moyenne_arbres_ha": 92,
+      "rendement_verger_pur_kg_ha": "1700-2271",
+      "rendement_avec_feve_kg_ha": 2365,
+      "rendement_avec_pois_chiche_kg_ha": 2150,
+      "impact_feve": "positif (augmente rendement)",
+      "impact_pois_chiche": "neutre ou positif",
+      "impact_cereales": "negatif (reduit rendement)",
+      "ler_avec_feve": 1.83,
+      "ler_avec_pois_chiche": 1.53,
+      "ler_avec_orge": 1.29,
+      "ler_avec_ble": 1.23,
+      "source": "EDP Sciences 2021"
+    },
+    "varietes_doukkala": ["Picholine marocaine", "Haouzia", "Menara", "Arbequina"],
+    "rendement_moyen_olivier_doukkala_kg_ha": "1500-5000"
+  },
+  "valorisation_eau": {
+    "gravitaire_DH_m3": {
+      "type1_locataires": {"betterave": 3.3, "bersim": 3.2, "luzerne": 2.3, "cereales": 7.1},
+      "type2_petits": {"betterave": 1.6, "bersim": 3.6, "luzerne": 2.2, "cereales": 6.8},
+      "type3_assez_performants": {"betterave": 2.6, "bersim": 3.0, "luzerne": 2.0, "cereales": 8.1}
+    },
+    "aspersion_DH_m3": {
+      "type1_assez_performants": {"betterave": 2.2, "bersim": 3.5, "luzerne": 1.1, "cereales": 5.2},
+      "type2_petits": {"betterave": 1.8, "bersim": 3.3, "luzerne": 0.8, "cereales": 4.0},
+      "type3_performants": {"betterave": 2.3, "bersim": 4.1, "luzerne": 1.5, "cereales": 5.3}
+    },
+    "conclusion": "Les céréales valorisent l'eau 2 à 4 fois mieux que la betterave"
+  },
+  "structures_exploitations": {
+    "aspersion_antenne_C12": {
+      "moins_2ha": {"pct_exploitations": 32, "pct_superficie": 9},
+      "2-5ha": {"pct_exploitations": 28, "pct_superficie": 29},
+      "egal_5ha": {"pct_exploitations": 40, "pct_superficie": 62}
+    },
+    "gravitaire_tertiaire_TD6": {
+      "2-3ha": {"pct_exploitations": 20, "pct_superficie": 10},
+      "3-5ha": {"pct_exploitations": 40, "pct_superficie": 34},
+      "plus_5ha": {"pct_exploitations": 40, "pct_superficie": 56}
+    }
+  },
+  "prix": {
+    "betterave_moyen_DH_T": 336,
+    "ble_DH_qx": 280,
+    "bersim_DH_botte": 20,
+    "bersim_DH_0_1ha": 400,
+    "luzerne_DH_botte": 25,
+    "luzerne_DH_0_1ha": 500,
+    "main_oeuvre_gravitaire_DH_jour": 40,
+    "main_oeuvre_aspersion_DH_jour": 35
+  },
+  "calendrier_cultural_ble": {
+    "mois": {
+      "septembre_octobre": "Préparation sol",
+      "novembre": "Semis",
+      "decembre_janvier": "Irrigation d'appoint si nécessaire",
+      "fevrier": "Désherbage",
+      "mars": "Fertilisation couverture + traitement maladies",
+      "avril": "Fertilisation couverture + irrigation",
+      "mai_juin": "Récolte"
+    }
+  },
+  "stockage_ble": {
+    "humidite_recolte_pct": "13-14",
+    "humidite_stockage_max_pct": 14,
+    "temperature_stockage_c": 18
+  }
+}

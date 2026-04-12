@@ -1,0 +1,56 @@
+[
+  {
+    "periode": "2012-17",
+    "culture": "Blé tendre",
+    "surface_cultivee_kha": 2111.2929764933333,
+    "production": 39835.227331838454,
+    "rendement": 18.44549448257435,
+    "precipitation_mm": 345.18333333333334,
+    "superficie_cultivee_totale_kha": 7546.9591855551835
+  },
+  {
+    "periode": "2017/18",
+    "culture": "Blé tendre",
+    "surface_cultivee_kha": 1891.46,
+    "production": 49101.128600000004,
+    "rendement": 25.959379844141566,
+    "precipitation_mm": 348.24,
+    "superficie_cultivee_totale_kha": 8900.426
+  },
+  {
+    "periode": "2018/19",
+    "culture": "Blé tendre",
+    "surface_cultivee_kha": 1687.3,
+    "production": 26816.5,
+    "rendement": 15.893142891009305,
+    "precipitation_mm": 296.7,
+    "superficie_cultivee_totale_kha": 6437.880282410053
+  },
+  {
+    "periode": "2019/20",
+    "culture": "Blé tendre",
+    "surface_cultivee_kha": 1852.0,
+    "production": 17700.0,
+    "rendement": 9.557235421166308,
+    "precipitation_mm": 255.6,
+    "superficie_cultivee_totale_kha": 8420.166
+  },
+  {
+    "periode": "2020/21",
+    "culture": "Blé tendre",
+    "surface_cultivee_kha": 1876.657,
+    "production": 50606.99999999996,
+    "rendement": 26.966568744315005,
+    "precipitation_mm": 291.0,
+    "superficie_cultivee_totale_kha": 7635.056592042858
+  },
+  {
+    "periode": "2021/22",
+    "culture": "Blé tendre",
+    "surface_cultivee_kha": 1602.0,
+    "production": 18900.0,
+    "rendement": 11.797752808988765,
+    "precipitation_mm": 188.0,
+    "superficie_cultivee_totale_kha": 0.0
+  }
+]

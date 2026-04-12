@@ -1,0 +1,97 @@
+"monographie_province_el_jadida_2021": {
+  "source": "Direction Régionale de Casablanca-Settat, Haut-Commissariat au Plan",
+  "annee": 2021,
+  "donnees_agricoles_campagne_2016_2017": {
+    "superficie_agricole_utile_ha": 263318,
+    "terres_irriguees_ha": 38637,
+    "pct_terres_irriguees": 15.65,
+    "cereales": {
+      "total_superficie_ha": 206944,
+      "total_production_tonnes": 497821,
+      "rendement_moyen_qx_ha": 2.41,
+      "par_culture": {
+        "ble_dur": {"superficie_ha": 27800, "production_tonnes": 90280, "rendement_qx_ha": 3.25},
+        "ble_tendre": {"superficie_ha": 79000, "production_tonnes": 229770, "rendement_qx_ha": 2.91},
+        "orge": {"superficie_ha": 56400, "production_tonnes": 131230, "rendement_qx_ha": 2.33},
+        "mais_bour": {"superficie_ha": 38978, "production_tonnes": 24223, "rendement_qx_ha": 0.62},
+        "mais_irrigue": {"superficie_ha": 4766, "production_tonnes": 22318, "rendement_qx_ha": 4.68}
+      }
+    },
+    "legumineuses": {
+      "total_superficie_ha": 2888,
+      "total_production_tonnes": 2210,
+      "rendement_moyen_qx_ha": 0.77,
+      "par_culture": {
+        "feves": {"superficie_ha": 1853, "production_tonnes": 1628, "rendement_qx_ha": 0.88},
+        "petits_pois": {"superficie_ha": 804, "production_tonnes": 448, "rendement_qx_ha": 0.56},
+        "pois_chiches": {"superficie_ha": 171, "production_tonnes": 95, "rendement_qx_ha": 0.56},
+        "lentilles": {"superficie_ha": 37, "production_tonnes": 23, "rendement_qx_ha": 0.62}
+      }
+    },
+    "maraichage": {
+      "total_superficie_ha": 9583,
+      "total_production_tonnes": 328208,
+      "rendement_moyen_qx_ha": 34.25,
+      "par_culture": {
+        "pommes_de_terre": {"superficie_ha": 3270, "production_tonnes": 122500, "rendement_qx_ha": 38.56},
+        "tomate": {"superficie_ha": 1453, "production_tonnes": 62380, "rendement_qx_ha": 40.35},
+        "oignons": {"superficie_ha": 248, "production_tonnes": 5188, "rendement_qx_ha": 20.92},
+        "carottes": {"superficie_ha": 860, "production_tonnes": 35140, "rendement_qx_ha": 40.86},
+        "choux_fleurs": {"superficie_ha": 600, "production_tonnes": 14600, "rendement_qx_ha": 24.33},
+        "courgettes": {"superficie_ha": 853, "production_tonnes": 16216, "rendement_qx_ha": 19.01},
+        "poivron": {"superficie_ha": 320, "production_tonnes": 9380, "rendement_qx_ha": 29.31},
+        "navet": {"superficie_ha": 840, "production_tonnes": 19090, "rendement_qx_ha": 22.73}
+      }
+    },
+    "fourrages": {
+      "total_superficie_ha": 22130,
+      "total_production_tonnes": 744429,
+      "rendement_moyen_qx_ha": 33.64,
+      "par_culture": {
+        "orge_fourragere": {"superficie_ha": 10326, "production_tonnes": 161380, "rendement_qx_ha": 15.63},
+        "mais_fourrager": {"superficie_ha": 4971, "production_tonnes": 311098, "rendement_qx_ha": 62.58},
+        "avoine_fourragere": {"superficie_ha": 3109, "production_tonnes": 59274, "rendement_qx_ha": 19.07},
+        "luzerne": {"superficie_ha": 2533, "production_tonnes": 153490, "rendement_qx_ha": 60.60},
+        "bersim": {"superficie_ha": 991, "production_tonnes": 53287, "rendement_qx_ha": 53.77}
+      }
+    },
+    "arbres_fruitiers": {
+      "total_superficie_ha": 5203,
+      "total_production_tonnes": 31816,
+      "rendement_moyen_qx_ha": 6.66,
+      "par_culture": {
+        "vigne_de_table": {"superficie_ha": 2204, "production_tonnes": 9066, "rendement_qx_ha": 4.11},
+        "vigne_de_cuve": {"superficie_ha": 216, "production_tonnes": 3240, "rendement_qx_ha": 15.00},
+        "olivier": {"superficie_ha": 291, "production_tonnes": 603, "rendement_qx_ha": 2.07},
+        "figuier": {"superficie_ha": 2042, "production_tonnes": 12500, "rendement_qx_ha": 7.23},
+        "grenadier": {"superficie_ha": 210, "production_tonnes": 1177, "rendement_qx_ha": 7.69},
+        "avocatier": {"superficie_ha": 150, "production_tonnes": 960, "rendement_qx_ha": 10.11},
+        "papayer": {"superficie_ha": 60, "production_tonnes": 2520, "rendement_qx_ha": 42.00}
+      }
+    }
+  },
+  "elevage_2017": {
+    "ovins": 417900,
+    "bovins": 168900,
+    "caprins": 4600,
+    "chevaux": 8520,
+    "mulets": 12680,
+    "anes": 26640,
+    "total_tetes": 591400
+  },
+  "demographie_2014": {
+    "population_totale": 786716,
+    "population_urbaine": 312275,
+    "population_rurale": 474441,
+    "taux_urbanisation_pct": 39.69,
+    "taux_accroissement_annuel_moyen_pct": 1.73,
+    "taille_moyenne_menage": 4.69,
+    "nb_menages": 167602,
+    "taux_analphabetisme_pct": 38.3,
+    "taux_pauvrete_globale_pct": 14.0
+  },
+  "projections_2030": {
+    "population_totale": 885651,
+    "taux_urbanisation_pct": 51.07
+  }
+}

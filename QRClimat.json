@@ -1,0 +1,351 @@
+{
+  "chatbot_climat_doukkala": {
+    "version": "1.0",
+    "langues": ["francais", "darija"],
+    "categories": [
+      {
+        "nom": "general",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "D'où viennent vos données météo ?",
+              "reponse": "Elles proviennent de l'API Open-Meteo. J'utilise trois sources : une 'normale' sur 30 ans (non disponible ici), des données 'historiques' de 2020 à 2025, et des données 'récentes' pour 2026 jusqu'à aujourd'hui."
+            },
+            "darija": {
+              "question": "منين جات هاد المعطيات ديال الطقس ؟",
+              "reponse": "هاد المعطيات جاية من API دyal Open-Meteo. كاين تلاتة أنواع : 'العادي' على 30 عام (ماشي موجود هنا)، 'التاريخي' من 2020 ل 2025، و 'الجديد' ديال 2026 حتال دابا."
+            }
+          },
+          {
+            "francais": {
+              "question": "Jusqu'à quelle date les données sont-elles extraites ?",
+              "reponse": "La dernière extraction des données a été faite le 10 avril 2026."
+            },
+            "darija": {
+              "question": "تال شنو تاريخ أخر تحديث للمعطيات ؟",
+              "reponse": "آخر تحديث للمعطيات كان فـ 10 أبريل 2026."
+            }
+          },
+          {
+            "francais": {
+              "question": "Qu'est-ce que le 'climat normal' ?",
+              "reponse": "C'est la moyenne sur 30 ans, mais ces données ne sont pas incluses dans ce fichier. On a uniquement les données 'historiques' (2020-2025) et 'récentes' (2026)."
+            },
+            "darija": {
+              "question": "شنو هو 'المناخ العادي' ؟",
+              "reponse": "هذا هو المعدال ديال 30 عام، ولكن هاد المعطيات ما هيش موجودة هنا. عندنا غير 'التاريخي' (2020-2025) و 'الجديد' (2026)."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "comparatif_el_jadida_ouled_frej",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quelle ville est la plus chaude en été, El Jadida ou Ouled Frej ?",
+              "reponse": "C'est Ouled Frej. En juillet et août, les températures maximales moyennes y dépassent 30°C, alors qu'à El Jadida elles restent autour de 25°C à cause de la brise marine."
+            },
+            "darija": {
+              "question": "شكون المدينة اللي سخون فالصيف، الجديدة ولا أولاد فرج ؟",
+              "reponse": "أولاد فرج هي اللي سخون. فشهر يوليوز و غشت، المعدال دالحرارة كايتعدى 30 درجة، فحال أن فالجديدة كاتبقى فحدود 25 درجة بسباب الرياح ديال البحر."
+            }
+          },
+          {
+            "francais": {
+              "question": "Pourquoi El Jadida est-elle moins chaude qu'Ouled Frej ?",
+              "reponse": "À cause de sa position sur l'océan Atlantique. La brise marine rafraîchit la côte, alors qu'Ouled Frej, à l'intérieur, subit des températures plus continentales."
+            },
+            "darija": {
+              "question": "علاش الجديدة معندهاش سخونية أولاد فرج ؟",
+              "reponse": "حيت الجديدة على المحيط الأطلسي. الرياح ديال البحر كاتبرد الساحل، أما أولاد فرج الجو فيها قاري (بلا تبريد ديال البحر)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Où est-ce qu'il pleut le plus ?",
+              "reponse": "En général, El Jadida reçoit un peu plus de pluie qu'Ouled Frej, surtout en hiver. Par exemple, la moyenne de précipitations en décembre est de 2.1 mm à El Jadida contre 1.7 mm à Ouled Frej."
+            },
+            "darija": {
+              "question": "فين كاتوقع الشتا أكثر ؟",
+              "reponse": "بشكل عام، الجديدة كاتوقع شوية شتا أكثر من أولاد فرج، خاصة فالشتي. مثال، المعدال دالشتا فشهر دجنبر هو 2.1 ميلي متر فالجديدة مقابل 1.7 ميلي متر فأولاد فرج."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la ville la plus venteuse ?",
+              "reponse": "Sans surprise, c'est El Jadida. Étant sur la côte, les vitesses du vent y sont souvent plus élevées qu'à l'intérieur des terres (Ouled Frej)."
+            },
+            "darija": {
+              "question": "فين الرياح قوية أكثر ؟",
+              "reponse": "مافيهاش مفاجأة، هي الجديدة. حيت هي على البحر، الرياح كاتكون قوية أكثر من أولاد فرج (اللي جوة البلاد)."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "moyennes_et_tendances",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quel est le mois le plus chaud à El Jadida ?",
+              "reponse": "Le mois d'août, avec une température maximale moyenne de 25.9°C (sur la période 2020-2025)."
+            },
+            "darija": {
+              "question": "شهر سخون فالجديدة ؟",
+              "reponse": "شهر غشت، مع معدال ديال 25.9 درجة (فالفترة مابين 2020 و 2025)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le mois le plus froid à Ouled Frej ?",
+              "reponse": "Le mois de janvier, avec une température minimale moyenne de 8.6°C."
+            },
+            "darija": {
+              "question": "شهر برد ف أولاد فرج ؟",
+              "reponse": "شهر يناير، مع معدال ديال 8.6 درجة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le mois le plus pluvieux dans la région ?",
+              "reponse": "C'est généralement le mois de décembre. C'est le mois où les précipitations moyennes sont les plus élevées pour les deux villes."
+            },
+            "darija": {
+              "question": "شهر فيها الشتا أكبر فهاد المنطقة ؟",
+              "reponse": "بشكل عام هو شهر دجنبر. هو الشهر اللي المعدال ديال الشتا كايكون أعلى فالجديدة و أولاد فرج."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "evenements_extremes_2020_2025",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quel a été le jour le plus chaud jamais enregistré à Ouled Frej ?",
+              "reponse": "Le 29 juin 2025, avec une température maximale de 46.0°C. La veille, il avait déjà fait 44.8°C."
+            },
+            "darija": {
+              "question": "شنو هو النهار اللي كان سخون فتاريخ أولاد فرج ؟",
+              "reponse": "نهار 29 يونيو 2025، فين وصلات الحرارة لـ 46.0 درجة. النهار اللي قبله كانت 44.8 درجة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel a été le jour le plus pluvieux à El Jadida ?",
+              "reponse": "Le 28 décembre 2025, avec 43.8 mm de pluie en une seule journée."
+            },
+            "darija": {
+              "question": "شنو هو النهار اللي كانت فيه أكبر شتا فالجديدة ؟",
+              "reponse": "نهار 28 دجنبر 2025، فين سقطات 43.8 ميلي متر فنهار واحد."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand y a-t-il eu le vent le plus fort à El Jadida ?",
+              "reponse": "Le 22 octobre 2023, avec des rafales atteignant 61.8 km/h."
+            },
+            "darija": {
+              "question": "فين كان أقوى رياح فالجديدة ؟",
+              "reponse": "نهار 22 أكتوبر 2023، فين الرياح وصلات لـ 61.8 كلم فالساعة."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "annee_2026_actuelle",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Comment a été le début d'année 2026 à El Jadida ?",
+              "reponse": "Il a été très pluvieux et venteux. Par exemple, il est tombé 19.6 mm de pluie le 3 janvier et le vent a soufflé à 46.6 km/h le 2 janvier, bien au-dessus des moyennes."
+            },
+            "darija": {
+              "question": "كيف كانت بداية عام 2026 فالجديدة ؟",
+              "reponse": "كانت فيها شتا بزاف و رياح قوية. مثال، نهار 3 يناير سقطات 19.6 ميلي متر دالشطة، و نهار 2 يناير الرياح وصلات لـ 46.6 كلم/س."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel a été le jour le plus chaud de 2026 jusqu'à présent ?",
+              "reponse": "Le 5 avril 2026 à Ouled Frej, avec une température maximale de 31.2°C."
+            },
+            "darija": {
+              "question": "شنو هو النهار اللي كان سخون فعام 2026 حتى لدابا ؟",
+              "reponse": "نهار 5 أبريل 2026 فأولاد فرج، فين الحرارة وصلات لـ 31.2 درجة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Est-ce qu'il a gelé en 2026 ?",
+              "reponse": "Pas de gel à El Jadida, mais il a fait très froid à Ouled Frej le 7 janvier 2026 avec une température minimale de seulement 4.2°C."
+            },
+            "darija": {
+              "question": "كان الجليد فعام 2026 ؟",
+              "reponse": "ماكانش الجليد فالجديدة، ولكن البرد كان شديد ف أولاد فرج نهار 7 يناير 2026، الحرارة نزلات لـ 4.2 درجات."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "vagues_de_chaleur",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Y a-t-il eu des vagues de chaleur extrême récemment ?",
+              "reponse": "Oui, fin juin 2025. Ouled Frej a dépassé les 44°C pendant trois jours consécutifs (28, 29 et 30 juin), avec un pic à 46.0°C le 29."
+            },
+            "darija": {
+              "question": "كانت موجات حر شديدة فالفترة الأخيرة ؟",
+              "reponse": "ايوا، فخر يونيو 2025. أولاد فرج تعدات 44 درجة فثلاثة أيام متابعين (28، 29 و 30 يونيو)، وأعلى حرارة كانت 46.0 درجة نهار 29 يونيو."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "previsions_et_conseils",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Peux-tu me donner la météo pour demain ?",
+              "reponse": "Désolé, je ne peux pas prévoir le futur. Je te donne uniquement des statistiques et des observations basées sur les données de 2020 à 2026. Pour une prévision, consulte Météo France ou une application météo."
+            },
+            "darija": {
+              "question": "تقدر تعطيني الطقس دغداً ؟",
+              "reponse": "المعذرة، أنا ما عنديش القدرة نعرف الغد. أنا كعطيك غير إحصائيات و معطيات سابقة من 2020 ل 2026. باش تعرف الطقس دغداً، شوف تطبيقات الطقس."
+            }
+          }
+        ]
+      },{
+  "chatbot_climat_agriculture_doukkala": {
+    "version": "1.0",
+    "source_des_donnees": "Open-Meteo API - Données historiques 2020-2025 et données récentes 2026",
+    "periodes": {
+      "historique": "2020-2025",
+      "recente": "2026",
+      "moyennes_mensuelles": "calculées sur 2020-2025"
+    },
+    "categories": [
+      {
+        "nom": "temperatures_et_gel",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quel est le mois le plus froid à Ouled Frej ? Je veux savoir quand planter mes cultures qui craignent le gel.",
+              "reponse": "D'après les données historiques (2020-2025), le mois le plus froid à Ouled Frej est JANVIER avec une température minimale moyenne de 8.6°C. Cependant, attention : le 28 janvier 2024, la température est descendue à -0.2°C ! Donc attendez fin février pour planter les cultures sensibles au gel.",
+              "source": "Moyennes mensuelles 2020-2025 : janvier (min 8.6°C) ; Extrême : 28/01/2024 (-0.2°C à Ouled Frej)"
+            },
+            "darija": {
+              "question": "شهر برد ف أولاد فرج؟ بغيت نعرف باش نزرع الزرع اللي كايموت من البرد.",
+              "reponse": "حسب المعطيات (2020-2025)، الشهر اللي كايكون فيه البرد القاسي هو يناير، حيث الحرارة الصغرى كاتكون فحدود 8.6 درجة. ولكن الحذر: نهار 28 يناير 2024، الحرارة نزلات لـ -0.2 درجة! لذلك تسنى حتى أخر فبراير باش تزرع الزرع اللي كايموت من البرد.",
+              "source": "المعدالات الشهرية 2020-2025: يناير (الصغرى 8.6°C) ; القياس: 28/01/2024 (-0.2°C ف أولاد فرج)"
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la température maximale moyenne en été à El Jadida ? Mes tomates peuvent-elles tenir ?",
+              "reponse": "En été (juillet-août), la température maximale moyenne à El Jadida est de 25.4 à 25.9°C d'après les données 2020-2025. C'est PARFAIT pour les tomates ! Elles n'aiment pas la chaleur extrême. À Ouled Frej par contre, il fait plus de 30°C, ce qui est trop chaud pour les tomates en plein champ.",
+              "source": "Moyennes mensuelles 2020-2025 : juillet (max 25.4°C), août (max 25.9°C) pour El Jadida"
+            },
+            "darija": {
+              "question": "شحال هي الحرارة الصغرى فالصيف فالجديدة؟ الطماطم ديالي تقدر تصمد؟",
+              "reponse": "فالصيف (يوليوز-غشت)، الحرارة الصغرى فالجديدة كاتكون فحدود 25.4 لـ 25.9 درجة حسب المعطيات 2020-2025. هاد الحرارة كاتناسب الطماطم بزاف! حيت الطماطم ما كاتحبش الحرارة الزايدة. أما فأولاد فرج، الحرارة كاتعدى 30 درجة، و هاد الشي كايبهدل الطماطم فالحقل المكشوف.",
+              "source": "المعدالات الشهرية 2020-2025: يوليوز (الصغرى 25.4°C), غشت (الصغرى 25.9°C) فالجديدة"
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel a été le jour le plus chaud jamais enregistré à Ouled Frej ?",
+              "reponse": "Le jour le plus chaud jamais enregistré à Ouled Frej est le 29 JUIN 2025 avec 46.0°C ! Ce jour-là, il ne faut ABSOLUMENT pas travailler aux champs entre 11h et 17h. Ce type de chaleur extrême brûle les récoltes et peut tuer les animaux.",
+              "source": "Données climat récent 2026 : 29/06/2025 (max 46.0°C à Ouled Frej)"
+            },
+            "darija": {
+              "question": "شنو هو النهار اللي كان سخون فتاريخ أولاد فرج ؟",
+              "reponse": "النهار اللي كان سخون فتاريخ أولاد فرج هو 29 يونيو 2025، فين الحرارة وصلات لـ 46.0 درجة! فهاد النهار، ممنوع تشتغل فالحقول مابين 11 و 17 ساعة. هاد النوع ديال الحرارة كايحرق الزرع و كايموت البهايم.",
+              "source": "المعطيات الجديدة 2026: 29/06/2025 (الصغرى 46.0°C ف أولاد فرج)"
+            }
+          }
+        ]
+      },
+      {
+        "nom": "pluie_et_irrigation",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quand est-ce qu'il pleut le plus dans la région Doukkala ? J'ai besoin de savoir pour planifier mon irrigation.",
+              "reponse": "D'après les moyennes 2020-2025, le mois le plus pluvieux est DÉCEMBRE avec 2.1 mm à El Jadida et 1.7 mm à Ouled Frej. Mais attention : les pluies sont très IRREGULIERES. Par exemple, le 28 décembre 2025, il est tombé 43.8 mm en UN SEUL JOUR à El Jadida ! Ne comptez pas uniquement sur la pluie, prévoyez l'irrigation.",
+              "source": "Moyennes mensuelles 2020-2025 : décembre (2.1 mm El Jadida, 1.7 mm Ouled Frej) ; Extrême : 28/12/2025 (43.8 mm à El Jadida)"
+            },
+            "darija": {
+              "question": "فين كاتوقع الشتا أكثر فدكالة؟ بغيت نعرف باش نخطط للسقي.",
+              "reponse": "حسب المعدالات 2020-2025، الشهر اللي كاتوقع فيه الشتا أكثر هو دجنبر، بمعدال 2.1 ميلي متر فالجديدة و 1.7 ميلي متر فأولاد فرج. ولكن الحذر: الشتا ما كاتش متلاومش. مثال، نهار 28 دجنبر 2025، سقطات 43.8 ميلي متر فنهار واحد فالجديدة! لا تعتمد غير على الشتا، خطط للسقي.",
+              "source": "المعدالات الشهرية 2020-2025: دجنبر (2.1 ميلي متر الجديدة، 1.7 ميلي متر أولاد فرج) ; القياس: 28/12/2025 (43.8 ميلي متر فالجديدة)"
+            }
+          },
+          {
+            "francais": {
+              "question": "Y a-t-il des années où il ne pleut presque pas en été ?",
+              "reponse": "OUI. D'après les données, les étés 2023 (juin, juillet, août) ont enregistré 0.0 mm de pluie à El Jadida. Les étés sont généralement TRES SECS. Vous devez ABSOLUMENT avoir un système d'irrigation pour les cultures d'été. Ne comptez jamais sur la pluie entre juin et septembre.",
+              "source": "Données climat historique 2020-2025 : juin-juillet-août 2023 (0.0 mm à El Jadida)"
+            },
+            "darija": {
+              "question": "كاين أعوام ما كاتوقعش فيها الشتا فالصيف؟",
+              "reponse": "ايه. حسب المعطيات، الصيف ديال عام 2023 (يونيو، يوليوز، غشت) ما سقطاتش فيها قطرة وحدة ديال الشتا (0.0 ميلي متر) فالجديدة. الصيف كايكون جاف بزاف. خاصك حتاما نظام ديال السقي للزرع ديال الصيف. ما تعتمدش على الشتا مابين يونيو و شتنبر.",
+              "source": "المعطيات التاريخية 2020-2025: يونيو-يوليوز-غشت 2023 (0.0 ميلي متر فالجديدة)"
+            }
+          }
+        ]
+      },
+      {
+        "nom": "vent_et_protection",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quand le vent est-il le plus fort à El Jadida ? Mes serres risquent-elles d'être endommagées ?",
+              "reponse": "Le vent le plus fort jamais enregistré à El Jadida était le 22 OCTOBRE 2023 avec 61.8 km/h. En général, l'automne et l'hiver sont plus venteux. Si vous avez des serres, installez des brise-vents (haies d'arbres, filets) et vérifiez leur solidité avant octobre.",
+              "source": "Données climat historique : 22/10/2023 (61.8 km/h à El Jadida)"
+            },
+            "darija": {
+              "question": "فين الرياح كاتكون قوية فالجديدة؟ الرياح تقدر تهدم السراميك ديالي؟",
+              "reponse": "أقوى رياح فالجديدة كانت نهار 22 أكتوبر 2023، وصلات لـ 61.8 كلم فالساعة. بشكل عام، الخريف و الشتاء كايكونو فيهم الرياح قوية. عندك السراميك، خاصك تحط مصدات للرياح (زيادة شجر، شباك)، وتأكد من قوة السراميك قبل أكتوبر.",
+              "source": "المعطيات التاريخية: 22/10/2023 (61.8 كلم/س فالجديدة)"
+            }
+          }
+        ]
+      },
+      {
+        "nom": "cultures_recommandees",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quelles cultures résistent bien à la chaleur de Ouled Frej en été ?",
+              "reponse": "D'après les données, Ouled Frej dépasse souvent 35°C, voire 46°C le 29 juin 2025 ! Les cultures qui résistent : le MELON, la PASTÈQUE, le MAÏS, le PIMENT, l'AUBERGINE, et les dattiers. Évitez les salades, épinards et choux-fleurs en plein été.",
+              "source": "Extrême relevé : 46.0°C le 29/06/2025 à Ouled Frej"
+            },
+            "darija": {
+              "question": "شنو الزرع اللي كايصمد للحرارة ديال أولاد فرج فالصيف ؟",
+              "reponse": "حسب المعطيات، أولاد فرض كاتعدى 35 درجة بزاف، حتى وصلات لـ 46 درجة نهار 29 يونيو 2025. الزرع اللي كايصمد هو: الدلاح، البطيخ، الذرة، الفلفل، الباذنجان، والتمر. تجنب السلاطة، السبانخ، والقرنبيط فالصيف.",
+              "source": "القياس: 46.0°C نهار 29/06/2025 فأولاد فرج"
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelles sont les meilleures cultures pour l'hiver à El Jadida ?",
+              "reponse": "Avec des minimales moyennes de 10-12°C en hiver, El Jadida est parfaite pour : les CAROTTES, les NAVETS, les OIGNONS, l'AIL, les FÈVES, les POIS CHICHES, et les choux (brocoli, chou-fleur). Ces cultures supportent bien le froid humide de la côte.",
+              "source": "Moyennes mensuelles 2020-2025 : hiver (min 10-12°C à El Jadida)"
+            },
+            "darija": {
+              "question": "شنو أحسن زرع للشتي فالجديدة ؟",
+              "reponse": "الحرارة فالشتي فالجديدة مابين 10 و 12 درجة، هاد الحرارة كاتناسب بزاف ل: الخيزو، اللفت، البصل، الثوم، الفول، الجلبانة، والكرنب (البروكلي، القرنبيط). هاد الزرع كايصمد للبرد والرطوبة ديال البحر.",
+              "source": "المعدالات الشهرية 2020-2025: الشتي (الصغرى 10-12°C فالجديدة)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
+    ]
+  }
+}

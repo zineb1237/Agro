@@ -1,0 +1,185 @@
+{
+  "region": "Doukkala",
+  "sous_regions": ["El Jadida", "Ouled Frej", "Sidi Bennour"],
+  "date_mise_a_jour": "2026-04-10",
+  "categorie": "Prix des engrais et intrants agricoles",
+  "source_principale": "Fitch Ratings via H24info et Le360 (mars 2026)",
+  "remarque_generale": "Les prix sont exprimés en Dirhams Marocains (DH). Les prix au Maroc peuvent varier selon les régions, les quantités achetées et les fournisseurs. Ces données sont des estimations basées sur les tendances du marché international et les articles de presse de mars 2026.",
+  
+  "engrais_azotes": {
+    "description": "Engrais azotés - Le Maroc dépend quasi totalement des importations pour ces intrants [citation:3]",
+    "source": "Fitch Ratings, Le360 (mars 2026)",
+    "prix": {
+      "ammoniac": {
+        "unite": "dollar/tonne",
+        "prix_FOB_Moyen_Orient_2026": 375,
+        "prix_estimé_Maroc_DH_tonne": 3375,
+        "tendance": "Hausse (était à 300 $/T)",
+        "source": "Fitch Ratings via H24info"
+      },
+      "uree": {
+        "unite": "dollar/tonne",
+        "prix_FOB_2026": 420,
+        "prix_estimé_Maroc_DH_tonne": 3780,
+        "variation_pct": "+23.5",
+        "prix_anterieur_dollar": 340,
+        "source": "Fitch Ratings via H24info"
+      },
+      "ammonitrate_33": {
+        "unite": "quintal (100 kg)",
+        "prix_actuel_DH_quintal": 450,
+        "prix_potentiel_DH_quintal": 750,
+        "hausse_potentielle_pct": 60,
+        "remarque": "Prix actuel constaté au Maroc. Une hausse potentielle à 750 DH/quintal est redoutée en cas de prolongation des tensions géopolitiques [citation:3]",
+        "source": "Rachid Benali, COMADER via Le360"
+      },
+      "sulfate_ammonium": {
+        "unite": "kg",
+        "prix_estimé_DH_kg": "4-6",
+        "remarque": "Prix estimé, à confirmer auprès des fournisseurs locaux"
+      }
+    },
+    "contexte_marocain": {
+      "dependance_importations_pct": 100,
+      "principaux_fournisseurs": "Pays du Golfe (via détroit d'Ormuz)",
+      "risque_actuel": "Tensions géopolitiques au Moyen-Orient (fermeture détroit d'Ormuz)",
+      "source": "Le360, mars 2026"
+    }
+  },
+
+  "engrais_phosphates": {
+    "description": "Engrais phosphatés - Le Maroc dispose d'un avantage comparatif grâce à ses propres réserves de phosphates [citation:2]",
+    "source": "Fitch Ratings via H24info (mars 2026)",
+    "prix": {
+      "roche_phosphatee": {
+        "unite": "dollar/tonne",
+        "prix_FOB_Maroc_2026": 150,
+        "prix_estimé_Maroc_DH_tonne": 1350,
+        "tendance": "Stable",
+        "source": "Fitch Ratings via H24info"
+      },
+      "DAP_phosphate_diammonique": {
+        "unite": "dollar/tonne",
+        "prix_2026": 650,
+        "prix_estimé_Maroc_DH_tonne": 5850,
+        "tendance": "Tension à cause de pénurie de soufre et restrictions chinoises",
+        "source": "Fitch Ratings via H24info"
+      },
+      "MAP_phosphate_monoammonique": {
+        "unite": "dollar/tonne",
+        "prix_estimé_2026": "550-600",
+        "prix_estimé_Maroc_DH_tonne": "4950-5400",
+        "remarque": "Prix estimé par analogie avec DAP"
+      },
+      "superphosphate_18": {
+        "unite": "kg",
+        "prix_estimé_DH_kg": "3-5",
+        "remarque": "Prix estimé, à confirmer auprès des fournisseurs locaux"
+      }
+    },
+    "contexte_marocain": {
+      "avantage_competitif": "Le Maroc est l'un des principaux producteurs mondiaux de phosphates",
+      "stabilite_prix": "Les prix des engrais phosphatés restent stables malgré les tensions internationales [citation:2]"
+    }
+  },
+
+  "engrais_potassiques": {
+    "description": "Engrais potassiques (potasse)",
+    "source": "Fitch Ratings via H24info (mars 2026)",
+    "prix": {
+      "potasse": {
+        "unite": "dollar/tonne",
+        "prix_FOB_Vancouver_2026": 280,
+        "prix_estimé_Maroc_DH_tonne": 2520,
+        "prix_anterieur_dollar": 260,
+        "tendance": "Légère hausse",
+        "source": "Fitch Ratings via H24info"
+      },
+      "chlorure_potassium_60": {
+        "unite": "kg",
+        "prix_estimé_DH_kg": "5-7",
+        "remarque": "Prix estimé, à confirmer"
+      },
+      "sulfate_potassium": {
+        "unite": "kg",
+        "prix_estimé_DH_kg": "7-9",
+        "remarque": "Prix estimé"
+      }
+    }
+  },
+
+  "engrais_NPK_combines": {
+    "description": "Engrais complets NPK (formules variées)",
+    "source": "6Wresearch (analyse de marché 2025)",
+    "prix_estimés_DH_kg": {
+      "NPK_14_14_14": "6-8",
+      "NPK_15_15_15": "7-9",
+      "NPK_12_24_12": "7-9",
+      "NPK_20_20_20": "8-10"
+    },
+    "remarque": "Prix estimés. Les prix réels varient selon la formule, la marque et le fournisseur [citation:1]"
+  },
+
+  "produits_phytosanitaires": {
+    "description": "Pesticides, herbicides et fongicides",
+    "remarque": "Données non disponibles dans les sources consultées",
+    "prix_estimés": {
+      "herbicides_graminees_l_ha": "150-300",
+      "fongicides_triazoles_l_ha": "200-400",
+      "insecticides_pyrethrinoides_l_ha": "100-250"
+    },
+    "source": "Estimations basées sur les marchés internationaux, à confirmer localement"
+  },
+
+  "conseils_agriculteurs": {
+    "hausse_prix_2026": {
+      "description": "Les prix des engrais azotés sont en hausse en 2026 en raison des tensions géopolitiques au Moyen-Orient [citation:2][citation:3]",
+      "impact": "Les agriculteurs doivent s'attendre à une augmentation des coûts de production, notamment pour l'ammonitrate 33",
+      "recommandations": [
+        "Acheter les engrais azotés dès que possible avant une nouvelle hausse",
+        "Optimiser les doses d'engrais (analyses de sol recommandées)",
+        "Privilégier les engrais phosphatés marocains (prix stables)",
+        "Contacter les coopératives agricoles pour des prix de groupe"
+      ]
+    },
+    "sources_approvisionnement": [
+      {
+        "nom": "ORMVAD Doukkala",
+        "service": "Information sur les prix et subventions éventuelles",
+        "adresse": "Bd Mohammed VI, El Jadida"
+      },
+      {
+        "nom": "Coopératives agricoles locales",
+        "service": "Achats groupés d'engrais à prix négociés"
+      },
+      {
+        "nom": "Chambres d'agriculture",
+        "service": "Conseils sur la fertilisation raisonnée"
+      }
+    ]
+  },
+
+  "subventions_gouvernementales": {
+    "description": "En 2023, l'État marocain avait plafonné les prix des engrais et accordé des subventions. Ces mesures pourraient être reconduites en 2026 [citation:3]",
+    "statut_2026": "À confirmer auprès des autorités",
+    "source": "Rachid Benali, COMADER via Le360"
+  },
+
+  "notes_collecte_2026": {
+    "date_mise_a_jour": "2026-04-10",
+    "donnees_manquantes": [
+      "Prix officiels des engrais auprès des fournisseurs marocains (OCP, coopératives)",
+      "Prix des engrais par région (El Jadida vs Ouled Frej vs Sidi Bennour)",
+      "Prix des semences certifiées",
+      "Prix des produits phytosanitaires détaillés par produit",
+      "Subventions gouvernementales pour la campagne 2025-2026",
+      "Prix des engrais organiques (fumier, compost)"
+    ],
+    "prochaines_sources": [
+      "Contacter l'ORMVAD Doukkala pour les prix locaux",
+      "Contacter les coopératives agricoles d'Ouled Frej",
+      "Consulter les arrêtés ministériels sur les subventions",
+      "Contacter l'OCP (Office Chérifien des Phosphates)"
+    ]
+  }
+}

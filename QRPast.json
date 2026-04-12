@@ -1,0 +1,1111 @@
+{
+  "chatbot_melon_doukkala": {
+    "version": "4.0",
+    "date_mise_a_jour": "2026-04-12",
+    "langues": ["francais", "darija"],
+    "region": "Doukkala (El Jadida - Ouled Frej)",
+    "culture": "melon",
+    "total_questions": 101,
+    "sources": [
+      "ORMVAD Doukkala",
+      "INRA Maroc",
+      "Monographie El Jadida 2021 (HCP)",
+      "Données climatiques Open-Meteo",
+      "Guide des bonnes pratiques agricoles"
+    ],
+    "categories": [
+      {
+        "nom": "general",
+        "description": "Questions générales sur le melon à Doukkala",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Le melon est-il une culture importante à Doukkala ?",
+              "reponse": "OUI, le melon est une culture estivale importante dans la région Doukkala, surtout dans les zones irriguées d'Ouled Frej et El Jadida. Il est apprécié pour sa résistance à la chaleur."
+            },
+            "darija": {
+              "question": "واش الدلاح زراعة مهمة فدكالة ؟",
+              "reponse": "ايوا، الدلاح زراعة صيفية مهمة فدكالة، خاصة فلمناطق المسقية فاولاد فرج والجديدة. معروف بمقاومتو للحرارة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la superficie du melon à Doukkala ?",
+              "reponse": "Selon les données de l'ORMVAD, la superficie du melon dans la région Doukkala est d'environ 2000 à 3000 hectares, principalement en irrigué."
+            },
+            "darija": {
+              "question": "شحال هي المساحة ديال الدلاح فدكالة ؟",
+              "reponse": "حسب معطيات المكتب الجهوي للتنمية الفلاحية، المساحة ديال الدلاح فدكالة هي تقريبا 2000 لـ 3000 هكتار، أغلبها مسقية."
+            }
+          },
+          {
+            "francais": {
+              "question": "C'est quoi un melon ?",
+              "reponse": "Le melon est un fruit d'été sucré et juteux, de la famille des cucurbitacées (comme le concombre et la pastèque)."
+            },
+            "darija": {
+              "question": "شنو هو الدلاح ؟",
+              "reponse": "الدلاح هو فاكهة صيفية حلوة وعصارة، من عائلة القرعية (بحال الخيار والبطيخ)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Le melon est-il bon pour la santé ?",
+              "reponse": "OUI, le melon est riche en vitamines A, C, potassium, et antioxydants. Il est peu calorique (environ 35 calories/100g)."
+            },
+            "darija": {
+              "question": "واش الدلاح صحي ؟",
+              "reponse": "ايوا، الدلاح غني بفيتامين A، C، بوتاسيوم، ومضادات الأكسدة. فيه سعرات حرارية قليلة (تقريبا 35 كالوري/100 غرام)."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "varietes",
+        "description": "Variétés de melon cultivées à Doukkala",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quelles sont les principales variétés de melon cultivées à Doukkala ?",
+              "reponse": "Les principales variétés sont : 'Ananas' (très sucrée), 'Charentais' (parfumée), 'Galia' (croquante), 'Cantaloup' (orange), et 'Piel de Sapo' (verte)."
+            },
+            "darija": {
+              "question": "شنو هم الأنواع الرئيسية ديال الدلاح اللي كاتزرع فدكالة ؟",
+              "reponse": "الأنواع الرئيسية هي: 'أناناس' (حلو بزاف)، 'شارانتي' (عطرية)، 'غاليا' (مقرمشة)، 'كانتالوب' (برتقالية)، و 'بييل د سابو' (خضرا)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la variété de melon la plus sucrée ?",
+              "reponse": "La variété 'Ananas' est réputée très sucrée (taux de sucre 12-14° Brix). 'Charentais' et 'Cantaloup' sont également très parfumées."
+            },
+            "darija": {
+              "question": "شنو هو نوع الدلاح اللي فيه أكبر سكر ؟",
+              "reponse": "نوع 'أناناس' معروف بيه السكر بزاف (12-14° بريكس). 'شارانتي' و 'كانتالوب' حتى هوما عطرين بزاف."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle variété de melon résiste le mieux au transport ?",
+              "reponse": "La variété 'Piel de Sapo' (peau de crapaud) a une peau très épaisse et résiste bien au transport. 'Galia' est également bonne pour l'export."
+            },
+            "darija": {
+              "question": "شنو هو نوع الدلاح اللي كايصمد للنقل أكثر ؟",
+              "reponse": "نوع 'بييل د سابو' (جلد الضفدع) عندو قشرة غليظة وكايصمد للنقل مزيان. 'غاليا' حتى هي مزيانة للتصدير."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle variété de melon est la plus précoce ?",
+              "reponse": "Les variétés précoces sont 'Charentais' (70-80 jours) et 'Galia' (75-85 jours). Elles permettent une récolte fin juin-début juillet."
+            },
+            "darija": {
+              "question": "شنو هو نوع الدلاح المبكر أكثر ؟",
+              "reponse": "الأنواع المبكرة هي 'شارانتي' (70-80 يوم) و 'غاليا' (75-85 يوم). كايخلوك تحصد فآخر يونيو-بداية يوليوز."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelles variétés de melon résistent mieux à la chaleur ?",
+              "reponse": "Les variétés 'Piel de Sapo' et 'Galia' résistent mieux aux fortes chaleurs. Évitez 'Charentais' qui est plus sensible au stress thermique."
+            },
+            "darija": {
+              "question": "شنو هم أنواع الدلاح اللي كايقاومو الحرارة أكثر ؟",
+              "reponse": "الأنواع 'بييل د سابو' و 'غاليا' كايقاومو الحرارة أكثر. تجنب 'شارانتي' اللي كاتتأثر بالحرارة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Peut-on cultiver du melon bio à Doukkala ?",
+              "reponse": "OUI, c'est possible mais difficile. Il faut des variétés résistantes, des rotations longues, du paillage, et des traitements bio (soufre, cuivre, Bacillus thuringiensis)."
+            },
+            "darija": {
+              "question": "نقدر نزرع الدلاح العضوي فدكالة ؟",
+              "reponse": "ايوا، ممكن ولكن صعيب. خاصك أنواع مقاومة، تناوب طويل، تغطية، وعلاجات عضوية (كبريت، نحاس، باكيلوس)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la différence entre melon brodé et melon lisse ?",
+              "reponse": "Le melon brodé (type 'Charentais') a une peau rugueuse avec des craquelures. Le melon lisse (type 'Piel de Sapo') a une peau lisse. Le brodé est plus parfumé, le lisse se conserve mieux."
+            },
+            "darija": {
+              "question": "شنو الفرق مابين الدلاح المخرز والدلاح الملس ؟",
+              "reponse": "الدلاح المخرز (نوع 'شارانتي') عندو قشرة خشنة مع تشققات. الدلاح الملس (نوع 'بييل د سابو') عندو قشرة ناعمة. المخرز كايكون عطر أكثر، والملس كايتحفظ مزيان."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "sol",
+        "description": "Exigences pédologiques du melon",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quel type de sol convient le mieux au melon ?",
+              "reponse": "Le melon préfère les sols légers, sablonneux à limono-sableux, bien drainés, profonds (>50 cm), riches en matière organique, avec un pH de 6 à 7.5."
+            },
+            "darija": {
+              "question": "شنو هو النوع ديال الأرض المناسب للدلاح ؟",
+              "reponse": "الدلاح كايبغي الأرض الخفيفة، الرملية للرملية-الطينية، اللي كاتصرف الماء مزيان، العميقة (>50 سم)، الغنية بالمادة العضوية، مع pH 6 لـ 7.5."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle profondeur de sol est nécessaire pour le melon ?",
+              "reponse": "Le melon a besoin d'une profondeur de sol d'au moins 50 cm pour un bon développement racinaire. Les racines peuvent descendre jusqu'à 1 mètre."
+            },
+            "darija": {
+              "question": "شحال هو العمق اللي خاصو الأرض للدلاح ؟",
+              "reponse": "الدلاح كايحتاج لعمق أرض على الأقل 50 سم باش الجذور تنمو مزيان. الجذور تقدر توصل لـ 1 متر."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le pH idéal du sol pour le melon ?",
+              "reponse": "Le pH idéal pour le melon est entre 6 et 7.5 (légèrement acide à neutre). Un pH trop bas (<5.5) bloque l'absorption du calcium (provoque la pourriture apicale)."
+            },
+            "darija": {
+              "question": "شحال هو pH الأرض المناسب للدلاح ؟",
+              "reponse": "pH المثالي للدلاح هو مابين 6 و 7.5. pH منخفض (<5.5) كايوقف إمتصاص الكالسيوم (كايسبب تعفن القمة)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Le melon tolère-t-il la salinité du sol ?",
+              "reponse": "Le melon tolère modérément la salinité (CE jusqu'à 2-2.5 dS/m). Au-delà, la croissance et la qualité des fruits diminuent."
+            },
+            "darija": {
+              "question": "واش الدلاح كايصمد للملوحة ديال الأرض ؟",
+              "reponse": "الدلاح كايصمد شوية للملوحة (CE حتى 2-2.5 dS/m). فوق هاد النسبة، النمو والجودة كاينقصو."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment préparer le sol pour le melon ?",
+              "reponse": "Préparation : labour profond (25-30 cm) en mars-avril, apport de matière organique (fumier composté 3-5 t/ha), désinfection du sol si nécessaire, puis billonnage ou paillage plastique."
+            },
+            "darija": {
+              "question": "كيفاش نحضر الأرض للدلاح ؟",
+              "reponse": "التحضير: حرث عميق (25-30 سم) فمارس-أبريل، تحط مادة عضوية (زبل مكمور 3-5 طن فالهكتار)، تعقيم الأرض إلا كان ضروري، ثم التخطيط أو التغطية بالبلاستيك."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "climat",
+        "description": "Exigences climatiques pour le melon",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quelle est la température optimale pour le melon ?",
+              "reponse": "La température optimale pour le melon est entre 20 et 30°C. La germination commence à 18-20°C. Le melon est très sensible au gel (<0°C)."
+            },
+            "darija": {
+              "question": "شنو هي الحرارة المثالية للدلاح ؟",
+              "reponse": "الحرارة المثالية للدلاح هي مابين 20 و 30 درجة. الإنبات كايبان من 18-20 درجة. الدلاح كايتأثر بزاف بالجليد (<0 درجة)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Le melon résiste-t-il à la sécheresse à Doukkala ?",
+              "reponse": "Le melon résiste modérément à la sécheresse grâce à ses racines profondes. Mais un stress hydrique pendant la floraison et la nouaison réduit le rendement et la qualité."
+            },
+            "darija": {
+              "question": "واش الدلاح كايصمد للجفاف فدكالة ؟",
+              "reponse": "الدلاح كايصمد شوية للجفاف بسباب جذوره العميقة. ولكن الإجهاد المائي فالتزهير والعقد كاينقص الإنتاج والجودة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand semer le melon à Doukkala ?",
+              "reponse": "Le melon se sème au PRINTEMPS (mars-avril) après les dernières gelées. La température du sol doit être >18°C. On peut aussi faire des semis sous serre en février."
+            },
+            "darija": {
+              "question": "فاش نزرع الدلاح فدكالة ؟",
+              "reponse": "الدلاح كاتزرع فربيع (مارس-أبريل) مورا آخر موجة برد. حرارة الأرض خاصها تكون >18 درجة. تقدر تزرع فالصوب ففبراير."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand récolter le melon ?",
+              "reponse": "Le melon se récolte de JUILLET à SEPTEMBRE selon la variété. Signes de maturité : le fruit se détache facilement, couleur typique de la variété, odeur parfumée, et craquelures à la base du pédoncule."
+            },
+            "darija": {
+              "question": "فاش نحصد الدلاح ؟",
+              "reponse": "الدلاح كايتحصد من يوليوز لـ شتنبر حسب النوع. علامات النضج: الحبة كاتنزع بسهولة، اللون ديال النوع، ريحة زايدة، وتشققات فالقاعدة ديال العود."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment le changement climatique affecte-t-il le melon à Doukkala ?",
+              "reponse": "Le changement climatique apporte des étés plus chauds (jusqu'à 46°C à Ouled Frej), des sécheresses plus fréquentes (0 mm en été 2023), et des besoins en irrigation accrus. Il faut adapter les variétés et l'irrigation."
+            },
+            "darija": {
+              "question": "كيفاش التغير المناخي كايتأثر على الدلاح فدكالة ؟",
+              "reponse": "التغير المناخي كايجيب صيف أكثر سخونة (حتال 46 درجة فأولاد فرج)، جفاف متكرر (0 مم فصيف 2023)، وحوايج أكبر للسقي. خاصك تكيف الأنواع والسقي."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "calendrier_cultural",
+        "description": "Calendrier cultural du melon",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quel est le calendrier cultural du melon à Doukkala ?",
+              "reponse": "Février : préparation sous serre. Mars : semis en pépinière. Avril : plantation en plein champ. Mai-juin : floraison et nouaison. Juin-juillet : grossissement. Juillet-septembre : récolte."
+            },
+            "darija": {
+              "question": "شنو هو التقويم الفلاحي للدلاح فدكالة ؟",
+              "reponse": "فبراير: تحضير فالصوب. مارس: زرع فالمشكل. أبريل: زرع فالحقل. ماي-يونيو: تزهير وعقد. يونيو-يوليوز: تكبير. يوليوز-شتنبر: حصاد."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la densité de plantation du melon ?",
+              "reponse": "La densité est de 8000 à 12000 plants par hectare. Écartement : 1.5-2 m entre les rangs, 0.5-0.8 m entre les plants. En culture sous serre, on peut monter à 15000 plants/ha."
+            },
+            "darija": {
+              "question": "شحال هي الكثافة ديال زرع الدلاح ؟",
+              "reponse": "الكثافة هي 8000 لـ 12000 نبتة فالهكتار. المسافة: 1.5-2 م مابين الصفوف، 0.5-0.8 م مابين النباتات. فالصوب، نقدر نوصلو لـ 15000 نبتة فالهكتار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Peut-on cultiver le melon sous serre à Doukkala ?",
+              "reponse": "OUI, la culture sous serre permet une récolte plus précoce (mai-juin), une meilleure qualité, et une protection contre les intempéries. L'investissement est élevé (200000-300000 DH/ha)."
+            },
+            "darija": {
+              "question": "نقدر نزرع الدلاح فالصوب فدكالة ؟",
+              "reponse": "ايوا، الزراعة فالصوب كاتخلي الحصاد مبكر (ماي-يونيو)، جودة أفضل، وحماية من الطقس. الاستثمار عالي (200000-300000 درهم فالهكتار)."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "irrigation",
+        "description": "Gestion de l'irrigation du melon",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quels sont les besoins en eau du melon ?",
+              "reponse": "Le melon a besoin de 400 à 600 mm d'eau (4000-6000 m³/ha) selon le stade et la variété. C'est moins que le maïs mais plus que l'olivier."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال الماء للدلاح ؟",
+              "reponse": "الدلاح كايحتاج لـ 400 لـ 600 ميلي متر ديال الماء (4000-6000 متر مكعب فالهكتار) حسب المرحلة والنوع. هاد الشي أقل من الذرة ولكن أكثر من الزيتون."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les stades critiques pour l'irrigation du melon ?",
+              "reponse": "Les stades critiques sont : la LEVÉE, la FLORAISON (apparition des fleurs femelles), la NOUAISON (formation des fruits), et le GROSSISSEMENT DES FRUITS. Un manque d'eau à la nouaison réduit le rendement de 50%."
+            },
+            "darija": {
+              "question": "شنو هم المراحل الحرجة للسقي للدلاح ؟",
+              "reponse": "المراحل الحرجة هي: الطلوع، التزهير (ظهور الزهور المؤنثة)، العقد (تكوين الحبات)، وتكبر الحبات. نقص الماء فالعقد كاينقص الإنتاج بـ 50%."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le meilleur système d'irrigation pour le melon ?",
+              "reponse": "Le GOUTTE-À-GOUTTE est le meilleur (économie d'eau 30-50%, réduction des maladies foliaires, fruits plus propres). L'aspersion est déconseillée (risque de mildiou)."
+            },
+            "darija": {
+              "question": "شنو هو أحسن نظام للسقي للدلاح ؟",
+              "reponse": "السقي بالتنقيط هو الأحسن (توفير الماء بـ 30-50%، تقليل الأمراض الوراقية، الحبات كاتبقى نضيفة). الرش ما كاتنصحش بيه (خطر المليديو)."
+            }
+          },
+          {
+            "francais": {
+              "question": "À quelle fréquence irriguer le melon ?",
+              "reponse": "Levée : tous les 2-3 jours. Croissance : tous les 5-7 jours. Floraison et nouaison : tous les 3-5 jours. Grossissement : tous les 5-7 jours. Arrêtez l'irrigation 10-15 jours avant la récolte (concentre les sucres)."
+            },
+            "darija": {
+              "question": "شحال هي المدة مابين السقيات للدلاح ؟",
+              "reponse": "الطلوع: كل 2-3 أيام. النمو: كل 5-7 أيام. التزهير والعقد: كل 3-5 أيام. التكبر: كل 5-7 أيام. وقف السقي 10-15 يوم قبل الحصاد (كايزيد السكر)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand faut-il arrêter l'irrigation du melon ?",
+              "reponse": "Arrêtez l'irrigation 10 à 15 jours avant la récolte. Cela concentre les sucres, améliore la saveur, et évite les fruits fades et aqueux."
+            },
+            "darija": {
+              "question": "فاش خاصنا نوقف السقي ديال الدلاح ؟",
+              "reponse": "وقف السقي 10 لـ 15 يوم قبل الحصاد. هاد الشي كايزيد السكر، كايزيد الطعم، و كايخلي الحبات ما تكونش مائية وبلا طعم."
+            }
+          },
+          {
+            "francais": {
+              "question": "Peut-on cultiver le melon sans irrigation à Doukkala ?",
+              "reponse": "NON, le melon a besoin d'irrigation à Doukkala. Les étés sont très secs (0 mm de pluie en juin-août). L'irrigation est OBLIGATOIRE pour un bon rendement."
+            },
+            "darija": {
+              "question": "نقدر نزرع الدلاح بلا سقي فدكالة ؟",
+              "reponse": "لا، الدلاح كايحتاج للسقي فدكالة. الصيف جاف بزاف (0 مم ديال الشتا فصيف). السقي ضروري باش تحصل على إنتاج مزيان."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la consommation d'eau du melon par jour ?",
+              "reponse": "Le melon consomme 4 à 6 mm d'eau par jour (40-60 m³/ha par jour) en pleine croissance (mai-juin). À la floraison, la consommation peut atteindre 7 mm/jour."
+            },
+            "darija": {
+              "question": "شحال هو استهلاك الماء للدلاح فاليوم ؟",
+              "reponse": "الدلاح كايستهلك 4 لـ 6 مم ديال الماء فاليوم (40-60 متر مكعب فالهكتار فاليوم) فمرحلة النمو الكبيرة (ماي-يونيو). فالتزهير، الاستهلاك يقدر يوصل لـ 7 مم/يوم."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le coefficient cultural (Kc) du melon ?",
+              "reponse": "Le coefficient cultural du melon est : initial (0.4-0.5), développement (0.7-0.8), mi-saison (0.9-1.0), fin de saison (0.7-0.8)."
+            },
+            "darija": {
+              "question": "شحال هو معامل الزرع (Kc) للدلاح ؟",
+              "reponse": "معامل الزرع للدلاح هو: الأولى (0.4-0.5)، النمو (0.7-0.8)، وسط الموسم (0.9-1.0)، آخر الموسم (0.7-0.8)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la qualité d'eau requise pour le melon ?",
+              "reponse": "Le melon tolère une salinité jusqu'à 2 dS/m (CE). Au-delà, le rendement diminue. Le pH idéal de l'eau est entre 6 et 7.5."
+            },
+            "darija": {
+              "question": "شحال هي الجودة ديال الماء اللي خاصها الدلاح ؟",
+              "reponse": "الدلاح كايصمد للملوحة حتى 2 dS/m. فوق هاد النسبة، الإنتاج كاينقص. pH المثالي للماء هو مابين 6 و 7.5."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les signes d'un manque d'eau sur melon ?",
+              "reponse": "Signes : feuilles flétries le matin, croissance ralentie, fruits petits et fades, chute des fleurs. Arrosez immédiatement."
+            },
+            "darija": {
+              "question": "شنو هي علامات نقص الماء على الدلاح ؟",
+              "reponse": "العلامات: الوراق كاتذبل فالصباح، النمو كايبطا، الحبات صغار وبلا طعم، تطيح الزهور. سقي مباشرة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les signes d'un excès d'eau sur melon ?",
+              "reponse": "Signes : feuilles jaunes, pourriture des racines, fruits aqueux et fades, développement de maladies (mildiou, fusariose). Réduisez l'irrigation."
+            },
+            "darija": {
+              "question": "شنو هي علامات الماء الزايد على الدلاح ؟",
+              "reponse": "العلامات: الوراق صفر، تعفن الجذور، الحبات مائية وبلا طعم، انتشار الأمراض (المليديو، الفيوزاريوز). نقص من السقي."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "fertilisation",
+        "description": "Fertilisation et carences du melon",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quels sont les besoins en azote du melon ?",
+              "reponse": "Le melon a besoin de 80 à 120 kg N/ha. Fractionnez en 2-3 apports : 30% au semis/plantation, 40% au stade 4-6 feuilles, 30% à la floraison."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال الآزوت للدلاح ؟",
+              "reponse": "الدلاح كايحتاج لـ 80 لـ 120 كيلو آزوت فالهكتار. فرقو على 2-3 مرات: 30% فاش كاتزرع، 40% فـ 4-6 ورقات، 30% فالتزهير."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les besoins en phosphore du melon ?",
+              "reponse": "Le melon a besoin de 60 à 100 kg P2O5/ha. Le phosphore favorise le développement racinaire et la floraison. Apport au semis ou à la plantation."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال الفوسفور للدلاح ؟",
+              "reponse": "الدلاح كايحتاج لـ 60 لـ 100 كيلو P2O5 فالهكتار. الفوسفور كايخدم الجذور والتزهير. تحطو فاش كاتزرع."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les besoins en potassium du melon ?",
+              "reponse": "Le melon a besoin de 100 à 150 kg K2O/ha. Le potassium améliore la qualité des fruits (sucre, couleur, fermeté) et la résistance aux maladies."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال البوتاسيوم للدلاح ؟",
+              "reponse": "الدلاح كايحتاج لـ 100 لـ 150 كيلو K2O فالهكتار. البوتاسيوم كايزيد الجودة (سكر، لون، قساوة) ومقاومة الأمراض."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel engrais utiliser pour le melon ?",
+              "reponse": "Engrais de fond : NPK 15-15-15 ou 10-20-20. Engrais de couverture : urée (46% N) ou nitrate de calcium (15.5% N + 19% Ca) fractionné en 2-3 apports."
+            },
+            "darija": {
+              "question": "شنو هو السماد اللي نستعملو للدلاح ؟",
+              "reponse": "السماد الأساسي: NPK 15-15-15 أو 10-20-20. السماد الإضافي: اليوريا (46% آزوت) أو نترات الكالسيوم (15.5% آزوت + 19% كلس) مقسمة على 2-3 مرات."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le rôle du calcium pour le melon ?",
+              "reponse": "Le calcium est ESSENTIEL pour le melon. Il prévient la pourriture apicale (fond noir du fruit), renforce les parois cellulaires, et améliore la conservation."
+            },
+            "darija": {
+              "question": "شنو هو دور الكالسيوم للدلاح ؟",
+              "reponse": "الكالسيوم ضروري بزاف للدلاح. كايقي من تعفن القمة (تحت الحبة كايسود)، كايقوي جدران الخلايا، و كايزيد فالحفظ."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le rôle du bore pour le melon ?",
+              "reponse": "Le bore favorise la pollinisation, la nouaison, et le développement des fruits. Une carence en bore donne des fruits déformés et creux."
+            },
+            "darija": {
+              "question": "شنو هو دور البور للدلاح ؟",
+              "reponse": "البور كايخدم التلقيح، العقد، ونمو الحبات. نقص البور كايعطي حبات متشوهة ومجوفة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Peut-on utiliser le fumier frais pour le melon ?",
+              "reponse": "NON, évitez le fumier frais. Il peut brûler les racines, introduire des maladies (fusariose) et des graines d'adventices. Utilisez du fumier COMPOSTÉ (3-5 t/ha)."
+            },
+            "darija": {
+              "question": "نقدر نستعملو الزبل الطري للدلاح ؟",
+              "reponse": "لا، تجنب الزبل الطري. كايقدر يحرق الجذور، يدخل أمراض (الفيوزاريوز) وحشائش. استعمل زبل مكمور (3-5 طن فالهكتار)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître une carence en azote sur melon ?",
+              "reponse": "Symptômes : feuilles pâles (jaunissement des vieilles feuilles), croissance réduite, fruits petits. Solution : apport d'urée (50-80 kg/ha)."
+            },
+            "darija": {
+              "question": "كيفاش نعرف نقص الآزوت فالدلاح ؟",
+              "reponse": "الأعراض: الوراق كاتصفر (الوراق القدام)، النمو كايبطا، الحبات صغار. الحل: تحط اليوريا (50-80 كيلو فالهكتار)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître une carence en potassium sur melon ?",
+              "reponse": "Symptômes : bords des feuilles bruns (nécrose marginale), fruits mous et peu sucrés. Solution : apport de chlorure ou sulfate de potassium (100-150 kg/ha)."
+            },
+            "darija": {
+              "question": "كيفاش نعرف نقص البوتاسيوم فالدلاح ؟",
+              "reponse": "الأعراض: حواف الوراق كحلة، الحبات طرية و ما فيهاش سكر. الحل: تحط كلور أو سلفات البوتاسيوم (100-150 كيلو فالهكتار)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître une carence en calcium sur melon ?",
+              "reponse": "Symptômes : pourriture apicale (fond du fruit noir et pourri), feuilles déformées. Solution : apport de nitrate de calcium (50-80 kg/ha) en foliaire ou au sol."
+            },
+            "darija": {
+              "question": "كيفاش نعرف نقص الكالسيوم فالدلاح ؟",
+              "reponse": "الأعراض: تعفن القمة (تحت الحبة كايسود ويتعفن)، الوراق كاتتشوه. الحل: تحط نترات الكالسيوم (50-80 كيلو فالهكتار) ورقيا أو فالأرض."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître une carence en magnésium sur melon ?",
+              "reponse": "Symptômes : chlorose internervaire sur feuilles âgées, nécrose marginale. Solution : apport de sulfate de magnésium (20-30 kg/ha) en foliaire."
+            },
+            "darija": {
+              "question": "كيفاش نعرف نقص المغنيزيوم فالدلاح ؟",
+              "reponse": "الأعراض: صفار بين العروق فالوراق القدام، حرق علا الحافة. الحل: تحط سلفات المغنيزيوم (20-30 كيلو فالهكتار) ورقيا."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "pollinisation",
+        "description": "Pollinisation du melon",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Le melon a-t-il besoin d'insectes pollinisateurs ?",
+              "reponse": "OUI, le melon a des fleurs mâles et femelles séparées. Les abeilles sont ESSENTIELLES pour la pollinisation. Sans pollinisation, pas de fruits."
+            },
+            "darija": {
+              "question": "واش الدلاح كايحتاج للحشرات الملقحة ؟",
+              "reponse": "ايوا، الدلاح عندو زهور ذكرية وأنثوية منفصلين. النحل ضروري بزاف للتلقيح. بلا تلقيح، ما كاينش الحبات."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment attirer les abeilles dans mon champ de melon ?",
+              "reponse": "Plantez des fleurs mellifères (phacélie, tournesol, sarrasin) autour du champ. Évitez les insecticides pendant la floraison. Installez des ruches (3-5 ruches/ha)."
+            },
+            "darija": {
+              "question": "كيفاش نجذب النحل لحقل الدلاح ديالي ؟",
+              "reponse": "ازرع زهور (فاسيليا، دوار الشمس) حوالين الحقل. تجنب المبيدات الحشرية فالتزهير. حط خلايا نحل (3-5 خلايا فالهكتار)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Que faire si je n'ai pas assez d'abeilles ?",
+              "reponse": "Vous pouvez faire la pollinisation manuelle : prélevez une fleur mâle, enlevez les pétales, et touchez le centre d'une fleur femelle. À faire tôt le matin."
+            },
+            "darija": {
+              "question": "شحال نعمل إلا ما كانش عندي نحل كافي ؟",
+              "reponse": "تقدر تعمل التلقيح باليد: خد زهرة ذكرية، نزع البتلات، ولمس مركز الزهرة الأنثوية. ديرها فالصباح بكري."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "maladies",
+        "description": "Maladies du melon",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Comment reconnaître le mildiou sur melon ?",
+              "reponse": "Symptômes : taches jaunes sur les feuilles (face supérieure), duvet grisâtre (face inférieure), pourriture des fruits. Traitement : fongicides cupriques (Bouillie bordelaise 2-3 kg/ha)."
+            },
+            "darija": {
+              "question": "كيفاش نعرف المليديو فالدلاح ؟",
+              "reponse": "الأعراض: بقع صفر على الوراق (الفوق)، رياش رمادي (التحت)، تعفن الحبات. العلاج: فونجيسيدات نحاسية (2-3 كيلو فالهكتار)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître l'oïdium sur melon ?",
+              "reponse": "Symptômes : feutrage blanc sur les feuilles (face supérieure et inférieure), comme de la farine. Traitement : soufre mouillable (2-4 kg/ha) par temps sec."
+            },
+            "darija": {
+              "question": "كيفاش نعرف البياض الدقيقي فالدلاح ؟",
+              "reponse": "الأعراض: غبار أبيض على الوراق (الفوق والتحت)، بحال الدقيق. العلاج: الكبريت (2-4 كيلو فالهكتار) فالجفاف."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître la fusariose sur melon ?",
+              "reponse": "Symptômes : flétrissement soudain des plants, jaunissement des feuilles, pourriture des racines et du collet. Pas de traitement curatif. Prévention : rotation des cultures (4-5 ans), variétés résistantes."
+            },
+            "darija": {
+              "question": "كيفاش نعرف الفيوزاريوز فالدلاح ؟",
+              "reponse": "الأعراض: ذبول مفاجئ للنباتات، صفار الوراق، تعفن الجذور والعنق. ما كاينش علاج. الوقاية: التناوب الزراعي (4-5 سنين)، أنواع مقاومة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre l'anthracnose du melon ?",
+              "reponse": "Symptômes : taches brun-noir sur les feuilles et les fruits, fruits déformés. Traitement : fongicides à base de mancozèbe (1.5-2 kg/ha) ou de chlorothalonil."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو الأنثراكنوز ديال الدلاح ؟",
+              "reponse": "الأعراض: بقع كحلة-سود على الوراق والحبات، الحبات متشوهة. العلاج: فونجيسيدات مانكوزيب (1.5-2 كيلو فالهكتار)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître le virus de la mosaïque sur melon ?",
+              "reponse": "Symptômes : taches jaunes et vertes en mosaïque sur les feuilles, feuilles déformées, fruits petits et bosselés. Transmis par les pucerons. Pas de traitement. Prévention : variétés résistantes, lutte contre les pucerons."
+            },
+            "darija": {
+              "question": "كيفاش نعرف فيروس الفسيفساء على الدلاح ؟",
+              "reponse": "الأعراض: بقع صفر وخضر على الوراق (فسيفساء)، الوراق متشوهة، الحبات صغار ومتعرجة. كاينقلو المن. ما كاينش علاج. الوقاية: أنواع مقاومة، مكافحة المن."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre le flétrissement bactérien du melon ?",
+              "reponse": "Symptômes : flétrissement soudain, exsudat blanc visqueux en coupant la tige. Pas de traitement. Prévention : rotation (4-5 ans), semences saines, élimination des plants malades."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو الذبول البكتيري ديال الدلاح ؟",
+              "reponse": "الأعراض: ذبول مفاجئ، سائل أبيض لزج فاش كاتقطع الساق. ما كاينش علاج. الوقاية: التناوب (4-5 سنين)، بذور سليمة، إزالة النباتات المريضة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître la pourriture des racines sur melon ?",
+              "reponse": "Symptômes : plantes jaunes et flétries, racines noires et molles. Traitement : fongicides à base de fosétyl-Al (2-3 L/ha en drenching). Prévention : drainage du sol, éviter l'excès d'eau."
+            },
+            "darija": {
+              "question": "كيفاش نعرف تعفن الجذور على الدلاح ؟",
+              "reponse": "الأعراض: النباتات صفر وذابلة، الجذور سود وطرية. العلاج: فونجيسيدات (2-3 ليتر فالهكتار). الوقاية: تصريف الماء فالأرض، تجنب السقي الزايد."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître l'alternariose sur melon ?",
+              "reponse": "Symptômes : taches brunes concentriques sur les feuilles et les fruits, nécrose. Traitement : fongicides à base de mancozèbe (1.5-2 kg/ha) ou de chlorothalonil."
+            },
+            "darija": {
+              "question": "كيفاش نعرف الألترناريوز على الدلاح ؟",
+              "reponse": "الأعراض: بقع كحلة دائرية على الوراق والحبات، موت الأنسجة. العلاج: فونجيسيدات مانكوزيب (1.5-2 كيلو فالهكتار)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre le sclérotinia sur melon ?",
+              "reponse": "Symptômes : pourriture blanche cotonneuse sur les tiges et les fruits. Prévention : rotation longue (5-6 ans), drainage du sol, variétés résistantes. Traitement : fongicides à base de procymidone."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو السكليروتينيا على الدلاح ؟",
+              "reponse": "الأعراض: عفن أبيض قطني على السيقان والحبات. الوقاية: التناوب الطويل (5-6 سنين)، تصريف الماء، أنواع مقاومة. العلاج: فونجيسيدات بروسيميدون."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment prévenir les maladies du melon à Doukkala ?",
+              "reponse": "Prévention : rotation des cultures (3-4 ans), semences certifiées, paillage plastique, irrigation goutte-à-goutte, variétés résistantes, et traitements préventifs (cuivre, soufre)."
+            },
+            "darija": {
+              "question": "كيفاش نقي الأمراض ديال الدلاح فدكالة ؟",
+              "reponse": "الوقاية: التناوب الزراعي (3-4 سنين)، بذور معتمدة، التغطية بالبلاستيك، السقي بالتنقيط، أنواع مقاومة، وعلاجات وقائية (نحاس، كبريت)."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "ravageurs",
+        "description": "Ravageurs du melon",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Comment reconnaître les pucerons sur melon ?",
+              "reponse": "Symptômes : colonies vertes ou noires sur la face inférieure des feuilles, feuilles enroulées, miellat. Traitement : pyréthrinoïdes (0.1-0.2 L/ha) ou savon insecticide. Auxiliaires : coccinelles, syrphes."
+            },
+            "darija": {
+              "question": "كيفاش نعرف المن على الدلاح ؟",
+              "reponse": "الأعراض: تجمعات خضر أو سود تحت الوراق، الوراق كاتلتف، عسل. العلاج: بيريترينويدات (0.1-0.2 ليتر فالهكتار) أو صابون حشري. الأعداء الطبيعية: الخنافس، السيرف."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître les thrips sur melon ?",
+              "reponse": "Symptômes : feuilles argentées ou blanchâtres, points noirs, déformation des jeunes feuilles et des fruits. Traitement : pyréthrinoïdes (0.2 L/ha) ou spinosad (bio)."
+            },
+            "darija": {
+              "question": "كيفاش نعرف التربس على الدلاح ؟",
+              "reponse": "الأعراض: الوراق كاتولي فضية، نقاط سود، تشوه الوراق الصغار والحبات. العلاج: بيريترينويدات (0.2 ليتر فالهكتار) أو سبينوساد (عضوي)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre les acariens (araignées rouges) sur melon ?",
+              "reponse": "Symptômes : feuilles jaunâtres avec de fines toiles d'araignée, décoloration. Traitement : acaricides spécifiques (abamectine, fenpyroximate) ou soufre. Auxiliaires : phytoseiulus."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو العنكبوت الأحمر على الدلاح ؟",
+              "reponse": "الأعراض: الوراق كاتصفر مع خيوط عنكبوت رقيقة، تغير اللون. العلاج: مبيدات العناكب (أبامكتين) أو كبريت. الأعداء الطبيعية: فيتوسيولوس."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment protéger le melon des oiseaux ?",
+              "reponse": "Les oiseaux (étourneaux, pigeons) attaquent les fruits mûrs. Protection : filets anti-oiseaux, épouvantails, bandes réfléchissantes, ou fusils à pétard."
+            },
+            "darija": {
+              "question": "كيفاش نحمي الدلاح من الطيور ؟",
+              "reponse": "الطيور (الزرزور، الحمام) كايهاجمو الحبات الناضجة. الحماية: شباك ضد الطيور، فزاعة، شرائط عاكسة، أو مسدس الشديد."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître la mineuse sur melon ?",
+              "reponse": "Symptômes : galeries blanches sinueuses sur les feuilles, faites par des larves de mouche. Traitement : pyréthrinoïdes ou insecticides systémiques (abamectine)."
+            },
+            "darija": {
+              "question": "كيفاش نعرف الحفارة على الدلاح ؟",
+              "reponse": "الأعراض: أنفاق بيض متعرجة على الوراق، كاتصنعها يرقات الذبابة. العلاج: بيريترينويدات أو مبيدات جهازية (أبامكتين)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre les nématodes sur melon ?",
+              "reponse": "Les nématodes attaquent les racines (kystes, galles). Prévention : rotation longue (4-5 ans), variétés résistantes, solarisation du sol (bâche plastique en été)."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو النيماتود على الدلاح ؟",
+              "reponse": "النيماتود كايهاجم الجذور. الوقاية: التناوب الطويل (4-5 سنين)، أنواع مقاومة، تعقيم الأرض بالبلاستيك فالصيف."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment protéger le melon des limaces et escargots ?",
+              "reponse": "Protection : pièges à bière, barrières de cendre ou de coquilles d'œufs, granulés anti-limaces (ferramol, bio), ou introduction de nématodes (Phasmarhabditis hermaphrodita)."
+            },
+            "darija": {
+              "question": "كيفاش نحمي الدلاح من البزاز والحلزون ؟",
+              "reponse": "الحماية: مصايد البيرة، حواجز الرماد أو قشر البيض، حبيبات ضد البزاز (عضوية)، أو إدخال النيماتود."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "auxiliaires",
+        "description": "Auxiliaires naturels",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quels sont les auxiliaires naturels du melon ?",
+              "reponse": "Les auxiliaires sont : coccinelles (contre pucerons), syrphes (contre pucerons), chrysopes, abeilles (pollinisation), et phytoseiulus (contre acariens)."
+            },
+            "darija": {
+              "question": "شنو هم الأعداء الطبيعية للدلاح ؟",
+              "reponse": "الأعداء الطبيعية هي: الخنافس (ضد المن)، السيرف (ضد المن)، الكريزوب، النحل (التلقيح)، والفيتوسيولوس (ضد العناكب)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment attirer les auxiliaires dans mon champ de melon ?",
+              "reponse": "Plantez des haies et des bandes fleuries (phacélie, souci, coriandre) autour du champ. Évitez les insecticides. Installez des nichoirs à oiseaux."
+            },
+            "darija": {
+              "question": "كيفاش نجذب الأعداء الطبيعية لحقل الدلاح ديالي ؟",
+              "reponse": "ازرع سياجات وأشرطة زهرية (فاسيليا، القطيفة، القزبر) حوالين الحقل. تجنب المبيدات الحشرية. حط بيوت للطيور."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "pratiques_culturales",
+        "description": "Pratiques culturales spécifiques",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Faut-il tailler le melon ?",
+              "reponse": "OUI, la taille est recommandée. Taillez les tiges secondaires après 2-3 feuilles, gardez 2-3 fruits par pied, et supprimez les gourmands. Cela concentre la sève dans les fruits."
+            },
+            "darija": {
+              "question": "واش خاصنا نقلم الدلاح ؟",
+              "reponse": "ايوا، التقليم كاتنصح بيه. قلم الأغصان الثانوية مورا 2-3 ورقات، خلي 2-3 حبات فالنبتة، ونزيل السرطانات. هاد الشي كايخلي العصارة تركز فالحبات."
+            }
+          },
+          {
+            "francais": {
+              "question": "Faut-il pailler le melon ?",
+              "reponse": "OUI, le paillage (plastique noir ou paille) est TRÈS recommandé. Il conserve l'humidité, réduit les adventices, protège les fruits de la terre, et augmente la température du sol."
+            },
+            "darija": {
+              "question": "واش خاصنا نغطيو الدلاح ؟",
+              "reponse": "ايوا، التغطية (بلاستيك أسود أو قش) كاتنصح بيها بزاف. كاتحفظ الرطوبة، كاتقلل الحشائش، كاتحمي الحبات من التراب، و كاتزيد حرارة الأرض."
+            }
+          },
+          {
+            "francais": {
+              "question": "Faut-il retourner les fruits du melon ?",
+              "reponse": "OUI, retournez les fruits délicatement toutes les 2-3 jours pour que le soleil éclaire toutes les faces. Cela donne une couleur uniforme et améliore la saveur."
+            },
+            "darija": {
+              "question": "واش خاصنا نقلبو الحبات ديال الدلاح ؟",
+              "reponse": "ايوا، قلب الحبات بشوية كل 2-3 أيام باش الشمس توصل لجميع الجهات. هاد الشي كايعطي لون موحد وكايزيد الطعم."
+            }
+          },
+          {
+            "francais": {
+              "question": "Faut-il palisser le melon ?",
+              "reponse": "OUI, le palissage (faire grimper les tiges sur des fils) est recommandé en culture sous serre. Cela permet une meilleure aération, un gain de place, et des fruits plus propres."
+            },
+            "darija": {
+              "question": "واش خاصنا نعريش الدلاح ؟",
+              "reponse": "ايوا، التعريش (تطلع الأغصان على الأسلاك) كاتنصح بيه فالصوب. كايخلي التهوية مزيان، توفير مكان، والحبات كاتبقى نضيفة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Faut-il éclaircir les fruits du melon ?",
+              "reponse": "OUI, gardez 2-3 fruits par pied maximum. Supprimez les fruits mal formés ou trop petits. Cela concentre la sève dans les fruits restants et améliore la taille et la qualité."
+            },
+            "darija": {
+              "question": "واش خاصنا نخفف الحبات ديال الدلاح ؟",
+              "reponse": "ايوا، خلي 2-3 حبات فالنبتة على الأكثر. نزيل الحبات المتشوهة أو الصغار. هاد الشي كايخلي العصارة تركز فالحبات الباقين وكايزيد الحجم والجودة."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "recolte_stockage",
+        "description": "Récolte, conservation et stockage",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Comment savoir si un melon est mûr ?",
+              "reponse": "Signes de maturité : le fruit se détache facilement (craquelure à la base du pédoncule), couleur typique de la variété, odeur parfumée, et la peau cède légèrement à la pression."
+            },
+            "darija": {
+              "question": "كيفاش نعرف أن الدلاح ناضج ؟",
+              "reponse": "علامات النضج: الحبة كاتنزع بسهولة (تشققات فالقاعدة ديال العود)، اللون ديال النوع، ريحة زايدة، والقشرة كاتعصر شوية."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le rendement moyen du melon à Doukkala ?",
+              "reponse": "Le rendement moyen du melon est de 20 à 40 tonnes par hectare (20000-40000 kg/ha). Avec de bonnes pratiques, on peut atteindre 50-60 tonnes/ha."
+            },
+            "darija": {
+              "question": "شحال هو الإنتاج الوسيط ديال الدلاح فدكالة ؟",
+              "reponse": "الإنتاج الوسيط هو 20 لـ 40 طن فالهكتار (20000-40000 كيلو فالهكتار). مع التقنيات الجيدة، نقدر نوصل لـ 50-60 طن فالهكتار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment conserver les melons après récolte ?",
+              "reponse": "Conservez les melons à température ambiante (15-20°C) pendant 1-2 semaines. Au réfrigérateur (4-8°C), ils se conservent 2-3 semaines mais perdent un peu de saveur. Ne les lavez pas avant stockage."
+            },
+            "darija": {
+              "question": "كيفاش نحفظ الدلاح مورا الحصاد ؟",
+              "reponse": "خزن الدلاح فدرجة حرارة الغرفة (15-20 درجة) لمدة 1-2 أسابيع. فالبراد (4-8 درجات)، كايتحفظ 2-3 أسابيع ولكن الطعم كاينقص شوية. ما تغسلش قبل التخزين."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment récolter le melon sans l'abîmer ?",
+              "reponse": "Coupez le pédoncule avec un sécateur (laissez 1-2 cm). Ne tirez pas sur le fruit. Déposez délicatement dans les cagettes. Évitez les chocs."
+            },
+            "darija": {
+              "question": "كيفاش نحصد الدلاح بلا ما نجرحو ؟",
+              "reponse": "قطع العود بالمقص (خلي 1-2 سم). ما تجبدش على الحبة. حطها بشوية فالسلال. تجنب الصدمات."
+            }
+          },
+          {
+            "francais": {
+              "question": "Combien de temps le melon se conserve-t-il après récolte ?",
+              "reponse": "À température ambiante (15-20°C) : 1-2 semaines. Au réfrigérateur (4-8°C) : 2-3 semaines. Les variétés à peau épaisse ('Piel de Sapo') se conservent plus longtemps (3-4 semaines)."
+            },
+            "darija": {
+              "question": "شحال ديال الوقت كايتحفظ فيها الدلاح مورا الحصاد ؟",
+              "reponse": "فدرجة حرارة الغرفة (15-20 درجة): 1-2 أسابيع. فالبراد (4-8 درجات): 2-3 أسابيع. الأنواع اللي فيها قشرة غليظة ('بييل د سابو') كاتحفظ أكثر (3-4 أسابيع)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment stocker le melon pour une conservation longue durée ?",
+              "reponse": "Pour une conservation longue (2-3 mois), stockez les melons dans une chambre froide à 10-12°C avec une humidité de 85-90%. Les variétés 'Piel de Sapo' et 'Galia' se conservent mieux."
+            },
+            "darija": {
+              "question": "كيفاش نحفظ الدلاح لمدة طويلة ؟",
+              "reponse": "للحفظ الطويل (2-3 شهور)، خزن الدلاح فحجرة باردة ب 10-12 درجة ورطوبة 85-90%. الأنواع 'بييل د سابو' و 'غاليا' كايتحفظو مزيان."
+            }
+          },
+          {
+            "francais": {
+              "question": "Peut-on congeler le melon ?",
+              "reponse": "OUI, on peut congeler le melon en cubes pour les smoothies et sorbets. Épluchez, coupez en cubes, congelez sur une plaque, puis mettez dans des sacs. La texture sera moins ferme après décongélation."
+            },
+            "darija": {
+              "question": "نقدر نجمّد الدلاح ؟",
+              "reponse": "ايوا، تقدر تجمد الدلاح مكعبات للسموثي والغزول. قشر، قطع مكعبات، جمد على صينية، ثم حط فالكيسان. الملمس غادي يبقى أقل قساوة مورا الذوبان."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment éviter que les melons pourrissent pendant le stockage ?",
+              "reponse": "Ne lavez pas les melons avant stockage. Éliminez les fruits abîmés. Stockez dans un endroit sec et aéré. Évitez l'empilement. Vérifiez régulièrement."
+            },
+            "darija": {
+              "question": "كيفاش نمنع تعفن الدلاح فالتخزين ؟",
+              "reponse": "ما تغسلش الدلاح قبل التخزين. نزيل الحبات المعطوبة. خزن فمكان جاف وفيه هوا. تجنب التكديس. تحقق بانتظام."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "rotation",
+        "description": "Rotation des cultures",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quelle est la meilleure rotation après le melon ?",
+              "reponse": "La meilleure rotation après le melon est : melon → céréales (blé, orge) → légumineuses (fèves, pois chiches). Ne replantez pas de cucurbitacées (melon, pastèque, concombre) avant 3-4 ans."
+            },
+            "darija": {
+              "question": "شنو هو أحسن تناوب مورا الدلاح ؟",
+              "reponse": "أحسن تناوب هو: دلاح → حبوب (قمح، شعير) → قطاني (فول، جلبانة). ما تعاودش تزرع القرعية (دلاح، بطيخ، خيار) قبل 3-4 سنين."
+            }
+          },
+          {
+            "francais": {
+              "question": "Pourquoi faut-il faire une rotation après le melon ?",
+              "reponse": "La rotation évite l'accumulation des maladies (fusariose, anthracnose), réduit les ravageurs (pucerons, acariens), et maintient la fertilité du sol (le melon épuise le potassium)."
+            },
+            "darija": {
+              "question": "علاش خاصنا نبدلو الزرع مورا الدلاح ؟",
+              "reponse": "التناوب كايمنع تراكم الأمراض (الفيوزاريوز، الأنثراكنوز)، كاينقص الآفات (المن، العناكب)، و كايحافظ على خصوبة الأرض (الدلاح كاينقص البوتاسيوم)."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "economie",
+        "description": "Aspects économiques",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quel est le prix du melon à Doukkala ?",
+              "reponse": "Le prix du melon varie entre 3 et 8 dirhams le kilogramme selon la variété, la qualité et la saison. Les melons précoces (juin) sont plus chers."
+            },
+            "darija": {
+              "question": "شحال هو ثمن الدلاح فدكالة ؟",
+              "reponse": "ثمن الدلاح كايتغير مابين 3 و 8 درهم فالكيلو حسب النوع، الجودة، و الموسم. الدلاح المبكر (يونيو) كايكون أغلى."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le coût de production du melon à Doukkala ?",
+              "reponse": "Le coût de production est d'environ 20000-30000 DH/ha (semences, engrais, irrigation, traitements, paillage, main d'œuvre). Avec un rendement de 30 t/ha à 5 DH/kg, le chiffre d'affaires est de 150000 DH/ha."
+            },
+            "darija": {
+              "question": "شحال هو تكلفة إنتاج الدلاح فدكالة ؟",
+              "reponse": "تكلفة الإنتاج فحدود 20000-30000 درهم فالهكتار (بذور، سماد، سقي، علاجات، تغطية، يد عاملة). مع إنتاج 30 طن فالهكتار ب 5 درهم فالكيلو، العائد هو 150000 درهم فالهكتار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Peut-on transformer le melon à Doukkala ?",
+              "reponse": "OUI, on peut faire du jus de melon, des confitures, des fruits confits, du melon séché, ou des smoothies. Il y a une unité de conditionnement à El Jadida."
+            },
+            "darija": {
+              "question": "نقدر نصنع منتجات من الدلاح فدكالة ؟",
+              "reponse": "ايوا، تقدر تعمل عصير د الدلاح، المربى، الفواكه المسكرة، الدلاح المجفف، أو السموثي. كاينة وحدة فالجديدة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le marché du melon à Doukkala ?",
+              "reponse": "Le melon est vendu sur les marchés locaux (El Jadida, Ouled Frej), à Casablanca, Marrakech, et exporté vers l'Europe (France, Espagne) pour les variétés 'Galia' et 'Piel de Sapo'."
+            },
+            "darija": {
+              "question": "شنو هو السوق ديال الدلاح فدكالة ؟",
+              "reponse": "الدلاح كايتباع فالسوق المحلي (الجديدة، أولاد فرج)، فالدار البيضاء، مراكش، و كايتصدر لأوروبا (فرونس، صبانيا) للأنواع 'غاليا' و 'بييل د سابو'."
+            }
+          },
+          {
+            "francais": {
+              "question": "Y a-t-il des subventions pour la culture du melon à Doukkala ?",
+              "reponse": "OUI, dans le cadre du programme Génération Green, des subventions sont disponibles pour l'irrigation goutte-à-goutte (jusqu'à 80%), les serres, et les équipements de conditionnement. Contactez l'ORMVAD."
+            },
+            "darija": {
+              "question": "واش كاين دعم للزراعة ديال الدلاح فدكالة ؟",
+              "reponse": "ايوا، فبرنامج الجيل الأخضر، كاين دعم للسقي بالتنقيط (حتال 80%)، الصوب، ومعدات التحزاب. اتصل بالمكتب الجهوي للتنمية الفلاحية."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment obtenir une subvention pour l'irrigation goutte-à-goutte ?",
+              "reponse": "Déposez un dossier à l'ORMVAD (El Jadida). Il faut être agriculteur professionnel, avoir une superficie minimale (2 ha), et présenter un projet technique."
+            },
+            "darija": {
+              "question": "كيفاش ناخذ الدعم للسقي بالتنقيط ؟",
+              "reponse": "قدم ملف فالمكتب الجهوي للتنمية الفلاحية (الجديدة). خاصك تكون فلاح مهني، عندك مساحة على الأقل 2 هكتار، وتقدم مشروع تقني."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "certification_semences",
+        "description": "Certification et semences",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Comment obtenir une certification bio pour mon melon ?",
+              "reponse": "Contactez un organisme certificateur (Ecocert, Qualisud). Il faut une conversion de 2-3 ans sans produits chimiques, des rotations adaptées, et un cahier des charges strict."
+            },
+            "darija": {
+              "question": "كيفاش ناخذ الشهادة العضوية للدلاح ديالي ؟",
+              "reponse": "اتصل بمؤسسة منح الشهادات (إيكوسيرت، كوالي سود). خاصك تحويل 2-3 سنين بلا مواد كيماوية، تناوب مناسب، ودفتر تحملات صارم."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les avantages de la certification bio pour le melon ?",
+              "reponse": "Prix de vente plus élevé (30-50% de plus), accès aux marchés bio (Europe, grandes surfaces), et image de marque positive pour les consommateurs."
+            },
+            "darija": {
+              "question": "شنو هي مزايا الشهادة العضوية للدلاح ؟",
+              "reponse": "ثمن البيع أعلى (30-50% زيادة)، دخول للأسواق العضوية (أوروبا، الأسواق الكبيرة)، وصورة إيجابية عند المستهلكين."
+            }
+          },
+          {
+            "francais": {
+              "question": "Où acheter des semences de melon certifiées à Doukkala ?",
+              "reponse": "Les semences certifiées sont disponibles chez : l'ORMVAD (El Jadida), les coopératives agricoles, et les distributeurs agréés (Clause, Gautier, HM Clause, Rijk Zwaan)."
+            },
+            "darija": {
+              "question": "فين نشتري بذور الدلاح المعتمدة فدكالة ؟",
+              "reponse": "البذور المعتمدة كاينة ف: المكتب الجهوي للتنمية الفلاحية (الجديدة)، التعاونيات الفلاحية، والموزعين المعتمدين (كلوز، غوتييه، ريك زوان)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Combien de graines de melon par hectare ?",
+              "reponse": "Il faut 8000 à 12000 graines par hectare (soit 1.5-2 kg de semences). Comptez 1-2 graines par poquet."
+            },
+            "darija": {
+              "question": "شحال ديال بذور الدلاح فالهكتار ؟",
+              "reponse": "خاصك 8000 لـ 12000 بذرة فالهكتار (يعني 1.5-2 كيلو بذور). احسب 1-2 بذور فالجورة."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "conseils_pratiques",
+        "description": "Conseils pratiques pour réussir le melon",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quel est le meilleur moment pour récolter le melon ?",
+              "reponse": "Récoltez tôt le MATIN (7h-9h) quand les fruits sont frais et le sucre est maximum. Évitez la récolte en plein soleil (chaleur dégrade la qualité) et après la pluie (fruits aqueux)."
+            },
+            "darija": {
+              "question": "شنو هو أحسن وقت لحصاد الدلاح ؟",
+              "reponse": "احصد فالصباح بكري (7h-9h) فاش الحبات تكون طريين والسكر فالقمة. تجنب الحصاد فاش الشمس قوية (الحرارة كاتخرب الجودة) ومورا الشتا (الحبات كاتكون مائية)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment augmenter la qualité des melons ?",
+              "reponse": "Conseils : 1) Réduisez l'irrigation 2 semaines avant récolte. 2) Apportez assez de potassium. 3) Retournez les fruits pour une couleur uniforme. 4) Taillez pour limiter le nombre de fruits. 5) Protégez du soleil avec des feuilles."
+            },
+            "darija": {
+              "question": "كيفاش نزيدو الجودة ديال الدلاح ؟",
+              "reponse": "نصائح: 1) نقص السقي 2 أسابيع قبل الحصاد. 2) حط بوتاسيوم كافي. 3) قلب الحبات باش اللون يكون موحد. 4) قلم باش تقلل عدد الحبات. 5) حمي الحبات من الشمس بالوراق."
+            }
+          },
+          {
+            "francais": {
+              "question": "Pourquoi mon melon est-il amer ?",
+              "reponse": "L'amertume peut être due à un stress hydrique, un excès d'azote, ou des variations de température. Arrosez régulièrement et équilibrez la fertilisation."
+            },
+            "darija": {
+              "question": "علاش الدلاح ديالي كايكون مرّ ؟",
+              "reponse": "المرارة يمكن تكون بسبب الإجهاد المائي، الآزوت الزايد، أو تغيرات الحرارة. سقي بانتظام ووازن التسميد."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment choisir un bon melon au marché ?",
+              "reponse": "Signes : le melon doit être lourd, parfumé, avec une craquelure à la base du pédoncule, et la peau cède légèrement à la pression."
+            },
+            "darija": {
+              "question": "كيفاش نختار دلاح مزيان فالسوق ؟",
+              "reponse": "العلامات: الدلاح خاصو يكون تقيل، عطر، عندو تشققات فالقاعدة ديال العود، والقشرة كاتعصر شوية."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le conseil le plus important pour réussir le melon à Doukkala ?",
+              "reponse": "Le conseil le plus important est l'IRRIGATION GOUTTE-À-GOUTTE avec paillage plastique. Cela économise l'eau (30-50%), réduit les maladies, et améliore la qualité des fruits."
+            },
+            "darija": {
+              "question": "شنو هو أحسن نصيح باش تنجح زراعة الدلاح فدكالة ؟",
+              "reponse": "أحسن نصيحة هي السقي بالتنقيط مع التغطية بالبلاستيك. هاد الشي كايوف الماء (30-50%)، كايقلل الأمراض، و كايزيد الجودة ديال الحبات."
+            }
+          },
+          {
+            "francais": {
+              "question": "Résumé en 5 points pour réussir le melon à Doukkala ?",
+              "reponse": "1) Sol léger et drainé. 2) Semis en mars-avril. 3) Irrigation goutte-à-goutte + paillage. 4) Fertilisation riche en potassium. 5) Récolte à maturité (fruit parfumé qui se détache)."
+            },
+            "darija": {
+              "question": "ملخص فـ 5 نقاط باش تنجح زراعة الدلاح فدكالة ؟",
+              "reponse": "1) أرض خفيفة وكاتصرف الماء. 2) زرع فمارس-أبريل. 3) سقي بالتنقيط + تغطية بلاستيك. 4) تسميد غني بالبوتاسيوم. 5) حصاد فالنضج (الحبة عطرة وكاتنزع بسهولة)."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
