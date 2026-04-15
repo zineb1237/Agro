@@ -1,0 +1,1012 @@
+{
+  "chatbot_figuier_doukkala": {
+    "version": "2.0",
+    "date_mise_a_jour": "2026-04-12",
+    "langues": ["francais", "darija"],
+    "region": "Doukkala (El Jadida - Ouled Frej)",
+    "culture": "figuier",
+    "total_questions": 85,
+    "sources": [
+      "ORMVAD Doukkala (2024)",
+      "INRA Maroc - Arboriculture fruitière (2020)",
+      "AgriMaroc.ma (2019)",
+      "Monographie El Jadida 2021 (HCP)"
+    ],
+    "categories": [
+      {
+        "nom": "general",
+        "description": "Questions générales sur le figuier à Doukkala",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quelle est la superficie totale du figuier dans la région Doukkala ?",
+              "reponse": "Selon les données ORMVAD 2024, la superficie totale du figuier à Doukkala est de 2235 hectares, dont 1495 ha en bour (non irrigué) et 740 ha en irrigué."
+            },
+            "darija": {
+              "question": "شحال هي المساحة ديال الكرموس فدكالة ؟",
+              "reponse": "حسب معطيات المكتب الجهوي للتنمية الفلاحية 2024، المساحة ديال الكرموس فدكالة هي 2235 هكتار، منهم 1495 هكتار بور و 740 هكتار مسقي."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la production annuelle de figues à Doukkala ?",
+              "reponse": "La production annuelle de figues à Doukkala est de 8454 tonnes, avec un rendement moyen de 3800 kg par hectare."
+            },
+            "darija": {
+              "question": "شحال هو الإنتاج السنوي ديال الكرموس فدكالة ؟",
+              "reponse": "الإنتاج السنوي ديال الكرموس فدكالة هو 8454 طن، بمردود وسيط 3800 كيلو فالهكتار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Où se trouve la principale zone de culture du figuier à Doukkala ?",
+              "reponse": "La principale zone de culture du figuier se trouve au NORD D'OULED FREJ, où les conditions pédoclimatiques sont les plus favorables."
+            },
+            "darija": {
+              "question": "فين كاينة المنطقة الرئيسية ديال زراعة الكرموس فدكالة ؟",
+              "reponse": "المنطقة الرئيسية هي شمال أولاد فرج، فين الظروف المناخية والترابية هي الأحسن."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelles sont les variétés de figuier cultivées à Doukkala ?",
+              "reponse": "Les variétés cultivées à Doukkala sont : Bouhouli (variété locale), Azerji (très productive), et Khadiri (pour figues sèches)."
+            },
+            "darija": {
+              "question": "شنو هم أنواع الكرموس اللي كاتزرع فدكالة ؟",
+              "reponse": "الأنواع اللي كاتزرع فدكالة هي: بوهلي (محلي)، أزرجي (إنتاج كبير)، وخضيري (للجاف)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le rendement moyen du figuier à Doukkala ?",
+              "reponse": "Le rendement moyen du figuier est de 3800 kg par hectare. En traditionnel, 20-40 kg/arbre. En intensif, 50-80 kg/arbre."
+            },
+            "darija": {
+              "question": "شحال هو الإنتاج الوسيط ديال الكرموس فدكالة ؟",
+              "reponse": "الإنتاج الوسيط هو 3800 كيلو فالهكتار. فالتقليدي، 20-40 كيلو فالشجرة. فالكثيف، 50-80 كيلو فالشجرة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la répartition entre figuier en monoculture et associé ?",
+              "reponse": "72% des exploitations sont en MONOCULTURE (rendement 3800 kg/ha). 28% sont en ASSOCIATION avec vigne, olivier ou grenadier."
+            },
+            "darija": {
+              "question": "شحال هو التوزيع مابين الكرموس لوحده والمشارك مع زراعات أخرى ؟",
+              "reponse": "72% ديال الضيعات كايزرعو الكرموس لوحده (مردود 3800 كيلو فالهكتار). 28% كايزرعو مشارك مع العنب، الزيتون، أو الرمان."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la différence entre la figue fraîche et la figue sèche ?",
+              "reponse": "La figue fraîche est consommée directement à la récolte (juin-juillet, septembre-octobre). La figue sèche est déshydratée (séchage sur l'arbre ou sur claies), ce qui concentre les sucres et permet une conservation de plusieurs mois."
+            },
+            "darija": {
+              "question": "شنو الفرق مابين الكرموس الطري والجاف ؟",
+              "reponse": "الكرموس الطري كايتكال مباشرة مورا الحصاد (يونيو-يوليوز، شتنبر-أكتوبر). الكرموس الجاف كايتجفف (على الشجرة أو على صواني)، هاد الشي كايخلي السكر كايزيد و كايحفظ لشهور."
+            }
+          },
+          {
+            "francais": {
+              "question": "Combien de récoltes de figues par an à Doukkala ?",
+              "reponse": "Le figuier donne DEUX récoltes par an : la première (figues d'été) en juin-juillet, la seconde (figues d'automne) en septembre-octobre. Les figues d'été sont généralement plus grosses."
+            },
+            "darija": {
+              "question": "شحال هو عدد قطافات الكرموس فالعام فدكالة ؟",
+              "reponse": "شجرة الكرموس كاتعطي جوج قطافات فالعام: الأولى (كرموس الصيف) فـ يونيو-يوليوز، الثانية (كرموس الخريف) فـ شتنبر-أكتوبر. كرموس الصيف كايكون كبار."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "sol",
+        "description": "Exigences pédologiques pour le figuier",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quel type de sol convient le mieux au figuier à Doukkala ?",
+              "reponse": "Le figuier préfère les sols légers à moyens (sableux à limono-argileux), bien drainés, avec un pH de 6 à 8. Il tolère les sols pauvres et calcaires."
+            },
+            "darija": {
+              "question": "شنو هو النوع ديال الأرض المناسب للكرموس فدكالة ؟",
+              "reponse": "الكرموس كايبغي الأرض الخفيفة للمتوسطة (رملية للطينية الرملية)، اللي كاتصرف الماء مزيان، مع pH 6 لـ 8. كايصمد للأرض الفقيرة والجيرية."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel pH du sol est idéal pour le figuier ?",
+              "reponse": "Le pH idéal pour le figuier est entre 6 et 8. Il tolère les sols calcaires mais une carence en fer peut apparaître si pH > 8."
+            },
+            "darija": {
+              "question": "شحال هو pH الأرض المناسب للكرموس ؟",
+              "reponse": "pH المثالي للكرموس هو مابين 6 و 8. كايصمد للأرض الجيرية ولكن نقص الحديد كايبان إلا كان pH > 8."
+            }
+          },
+          {
+            "francais": {
+              "question": "Le figuier tolère-t-il la salinité du sol ?",
+              "reponse": "OUI, le figuier tolère une salinité jusqu'à 8 dS/m (CE). C'est l'une des cultures les plus tolérantes au sel avec l'olivier."
+            },
+            "darija": {
+              "question": "واش الكرموس كايصمد للملوحة ديال الأرض ؟",
+              "reponse": "اه، الكرموس كايصمد للملوحة حتى 8 dS/m. هو من الزراعات اللي كاتصمد للملوحة مع الزيتون."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle profondeur de sol est nécessaire pour le figuier ?",
+              "reponse": "Le figuier a besoin d'une profondeur de sol d'au moins 60 cm pour un bon développement racinaire. Ses racines peuvent descendre jusqu'à 5-6 mètres."
+            },
+            "darija": {
+              "question": "شحال هو العمق اللي خاصو الأرض للكرموس ؟",
+              "reponse": "الكرموس كايحتاج لعمق أرض على الأقل 60 سم باش الجذور تنمو مزيان. جذوره تقدر توصل لـ 5-6 متر."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment préparer le sol avant plantation du figuier ?",
+              "reponse": "Préparation : labour profond (40-50 cm) pour casser la semelle de labour, apport de matière organique (fumier composté 3-5 t/ha), nivellement, puis creusement des trous (60x60x60 cm) 2-3 mois avant plantation."
+            },
+            "darija": {
+              "question": "كيفاش نحضر الأرض قبل زرع الكرموس ؟",
+              "reponse": "التحضير: حرث عميق (40-50 سم) باش تكسر الطبقة المتصلبة، تحط مادة عضوية (زبل مكمور 3-5 طن فالهكتار)، التسوية، ثم حفر الحفر (60x60x60 سم) 2-3 أشهر قبل الزرع."
+            }
+          },
+          {
+            "francais": {
+              "question": "Le figuier peut-il pousser sur des sols pauvres ?",
+              "reponse": "OUI, le figuier est très rustique et peut pousser sur des sols pauvres et rocailleux. C'est une des raisons de sa présence dans les zones semi-arides de Doukkala."
+            },
+            "darija": {
+              "question": "واش الكرموس كاينبت فالأرض الفقيرة ؟",
+              "reponse": "اه، الكرموس قاسي بزاف و كاينبت حتى فالأرض الفقيرة والحجرية. هاد الشي هو واحد من الأسباب اللي كاتخليه موجود فدكالة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Le figuier pousse-t-il sur des sols calcaires ?",
+              "reponse": "OUI, le figuier tolère très bien les sols calcaires (jusqu'à 30-40% de calcaire actif). C'est un avantage majeur pour Doukkala où les sols sont souvent calcaires."
+            },
+            "darija": {
+              "question": "واش الكرموس كاينبت فالأرض الجيرية ؟",
+              "reponse": "اه، الكرموس كايصمد بزاف للأرض الجيرية (حتال 30-40% جير فعال). هاد الميزة مهمة فدكالة فين الأرض غالبا جيرية."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le problème principal des sols calcaires pour le figuier ?",
+              "reponse": "Le principal problème est la chlorose ferrique (carence en fer) sur les sols très calcaires (pH > 8). Les jeunes feuilles jaunissent mais les nervures restent vertes."
+            },
+            "darija": {
+              "question": "شنو هي المشكلة الرئيسية ديال الأرض الجيرية للكرموس ؟",
+              "reponse": "المشكلة الرئيسية هي نقص الحديد (صفار) فالأرض الجيرية بزاف (pH > 8). الوراق الجداد كاتصفر ولكن العروق كاتبقى خضر."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment améliorer un sol argileux pour le figuier ?",
+              "reponse": "Apport de matière organique (fumier composté 3-5 t/ha) pour améliorer la structure, drainage pour éviter l'asphyxie racinaire, et travail du sol en buttes pour faciliter l'écoulement de l'eau."
+            },
+            "darija": {
+              "question": "كيفاش نحسن الأرض الطينية للكرموس ؟",
+              "reponse": "تحط مادة عضوية (زبل مكمور 3-5 طن فالهكتار) باش تحسن بنية الأرض، تصريف الماء باش تتفادى تعفن الجذور، والزرع على قنوات عالية باش الماء يجري مزيان."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la profondeur idéale pour planter un figuier ?",
+              "reponse": "La profondeur idéale est de 60 cm. Le trou doit faire 60x60x60 cm pour permettre un bon développement racinaire initial."
+            },
+            "darija": {
+              "question": "شحال هو العمق المثالي لزرع الكرموس ؟",
+              "reponse": "العمق المثالي هو 60 سم. الحفرة خاصها تكون 60x60x60 سم باش الجذور تنمو مزيان فوقاش كاتبدا."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "climat",
+        "description": "Exigences climatiques pour le figuier",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quelle est la température optimale pour la croissance du figuier ?",
+              "reponse": "La température optimale pour la croissance du figuier est entre 25 et 35°C. C'est une culture qui aime la chaleur."
+            },
+            "darija": {
+              "question": "شنو هي الحرارة المثالية لنمو الكرموس ؟",
+              "reponse": "الحرارة المثالية لنمو الكرموس هي مابين 25 و 35 درجة. هو زرع كايبغي الحرارة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Le figuier résiste-t-il au gel à Doukkala ?",
+              "reponse": "Les jeunes figuiers résistent jusqu'à -5°C. Les arbres adultes résistent jusqu'à -8°C. À Doukkala, le gel est rare mais possible à Ouled Frej (-0.2°C le 28/01/2024)."
+            },
+            "darija": {
+              "question": "واش الكرموس كايقاوم الجليد فدكالة ؟",
+              "reponse": "الكرموس الصغير كايقاوم حتى -5 درجات. الشجرة الكبيرة كاتقاوم حتى -8 درجات. فدكالة، الجليد نادر ولكن ممكن فأولاد فرج (-0.2 درجة نهار 28/01/2024)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les besoins en froid du figuier pour lever la dormance ?",
+              "reponse": "Le figuier a besoin de 200 à 400 heures de froid (températures entre 0 et 7°C) pour lever la dormance et assurer une bonne floraison au printemps."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال البرد للكرموس باش يخرج من السبات ؟",
+              "reponse": "الكرموس كايحتاج لـ 200 لـ 400 ساعة ديال البرد (حرارة مابين 0 و 7 درجات) باش يخرج من السبات ويكون التزهير مزيان فربيع."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est l'impact de la sécheresse sur le figuier ?",
+              "reponse": "Le figuier résiste bien à la sécheresse grâce à ses racines profondes. Mais un stress hydrique sévère pendant le développement des fruits (mai-juin) réduit la taille et la qualité des figues."
+            },
+            "darija": {
+              "question": "شحال هو تأثير الجفاف على الكرموس ؟",
+              "reponse": "الكرموس كايصمد للجفاف بسباب جذوره العميقة. ولكن الإجهاد المائي الشديد فمرحلة نمو الحبات (ماي-يونيو) كاينقص الحجم والجودة ديال الكرموس."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est l'impact du vent sur le figuier ?",
+              "reponse": "Le vent fort peut casser les branches et faire tomber les fruits. Le figuier est moins sensible que l'olivier car ses branches sont plus flexibles, mais les vents >60 km/h peuvent causer des dégâts."
+            },
+            "darija": {
+              "question": "شحال هو تأثير الرياح على الكرموس ؟",
+              "reponse": "الرياح القوية كاتقدر تكسر الأغصان وتطيح الحبات. الكرموس أقل حساسية من الزيتون حيت أغصانه كاتنثني، ولكن الرياح >60 كلم/س كاتقدر تسبب ضرر."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la meilleure région de Doukkala pour le figuier ?",
+              "reponse": "La meilleure région est le NORD D'OULED FREJ, où les conditions pédoclimatiques (sol léger, climat semi-aride, faible risque de gel) sont les plus favorables."
+            },
+            "darija": {
+              "question": "شنو هي أحسن منطقة فدكالة للكرموس ؟",
+              "reponse": "أحسن منطقة هي شمال أولاد فرج، فين الظروف (أرض خفيفة، مناخ شبه جاف، خطر قليل للجليد) هي الأحسن."
+            }
+          },
+          {
+            "francais": {
+              "question": "Le figuier résiste-t-il à la chaleur extrême (46°C comme à Ouled Frej) ?",
+              "reponse": "OUI, le figuier résiste très bien aux fortes chaleurs (jusqu'à 45-48°C). Cependant, un stress thermique sévère pendant la floraison peut réduire la nouaison. L'irrigation est essentielle pour maintenir la production."
+            },
+            "darija": {
+              "question": "واش الكرموس كايصمد للحرارة الشديدة (46 درجة بحال أولاد فرج) ؟",
+              "reponse": "اه، الكرموس كايصمد بزاف للحرارة (حتال 45-48 درجة). ولكن الإجهاد الحراري الشديد فالتزهير كاينقص العقد. السقي ضروري باش تحافظ على الإنتاج."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est l'humidité relative optimale pour le figuier ?",
+              "reponse": "L'humidité relative optimale est entre 40% et 60%. Une humidité >70% favorise le développement des maladies fongiques (pourriture des fruits, anthracnose)."
+            },
+            "darija": {
+              "question": "شنو هي الرطوبة المثالية للكرموس ؟",
+              "reponse": "الرطوبة المثالية هي مابين 40% و 60%. الرطوبة >70% كاتخدم الأمراض الفطرية (تعفن الحبات، الأنثراكنوز)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Le figuier peut-il être cultivé en altitude à Doukkala ?",
+              "reponse": "OUI, le figuier peut être cultivé jusqu'à 800-1000 m d'altitude. À Doukkala, l'altitude maximale est d'environ 200 m (Ouled Frej : 90 m), ce qui est parfaitement adapté."
+            },
+            "darija": {
+              "question": "واش الكرموس كاينبت فالعلو فدكالة ؟",
+              "reponse": "اه، الكرموس كاينبت حتى 800-1000 متر. فدكالة، أقصى علو هو 200 متر (أولاد فرج: 90 متر)، هاد الشي مناسب بزاف."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "plantation",
+        "description": "Plantation du figuier",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quand planter le figuier à Doukkala ?",
+              "reponse": "La période idéale de plantation est de NOVEMBRE à MARS (hors gel). La plantation en automne permet aux racines de se développer avant l'été."
+            },
+            "darija": {
+              "question": "فوقاش نزرع الكرموس فدكالة ؟",
+              "reponse": "أحسن وقت للزرع هو من نونبر لـ مارس (بعيد على الجليد). الزرع فالخريف كايعطي الجذور وقت باش تنمو قبل الصيف."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle densité de plantation pour le figuier ?",
+              "reponse": "Traditionnel : 100-200 arbres/ha (5x5 m ou 10x5 m). Intensif : 400-600 arbres/ha (3x3 m ou 4x2 m). La densité dépend de la variété et du système d'irrigation."
+            },
+            "darija": {
+              "question": "شحال هي الكثافة ديال زرع الكرموس ؟",
+              "reponse": "تقليدي: 100-200 شجرة فالهكتار (5x5 م). كثيف: 400-600 شجرة فالهكتار (3x3 م). الكثافة كاتعتمد على النوع ونظام السقي."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment planter un figuier ?",
+              "reponse": "Creusez un trou de 60x60x60 cm. Mélangez la terre extraite avec 10 kg de fumier composté et 200 g de superphosphate. Placez l'arbre, comblez, tassez légèrement, et arrosez abondamment (30-50 L d'eau)."
+            },
+            "darija": {
+              "question": "كيفاش نزرع شجرة الكرموس ؟",
+              "reponse": "حفر حفرة 60x60x60 سم. اخلط التراب مع 10 كيلو ديال الزبل المكمور و 200 غرام ديال السوبرفوسفات. حط الشجرة، اردم، ضغط شوية، وسقي بزاف (30-50 ليتر ماء)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la distance entre les figuiers ?",
+              "reponse": "En traditionnel : 5x5 m (100 arbres/ha) ou 10x5 m (200 arbres/ha). En intensif : 3x3 m (400 arbres/ha) ou 4x2 m (500 arbres/ha). Laissez plus d'espace pour les variétés à grand développement."
+            },
+            "darija": {
+              "question": "شحال هي المسافة مابين أشجار الكرموس ؟",
+              "reponse": "فالتقليدي: 5x5 م (100 شجرة فالهكتار). فالكثيف: 3x3 م (400 شجرة فالهكتار). خلي مسافة أكبر للأنواع اللي كاتكبر بزاف."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "irrigation",
+        "description": "Gestion de l'irrigation du figuier",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quels sont les besoins en eau du figuier ?",
+              "reponse": "Jeunes arbres : 600-800 mm (6000-8000 m³/ha). Adultes : 500-700 mm (5000-7000 m³/ha). Le figuier consomme moins d'eau que l'agrumier mais plus que l'olivier."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال الماء للكرموس ؟",
+              "reponse": "الشجر الصغار: 600-800 مم (6000-8000 متر مكعب فالهكتار). الكبار: 500-700 مم (5000-7000 متر مكعب). الكرموس كايستهلك ماء أقل من الحمضيات ولكن أكثر من الزيتون."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le meilleur système d'irrigation pour le figuier ?",
+              "reponse": "Le GOUTTE-À-GOUTTE est le meilleur système pour le figuier. Il permet une économie d'eau de 40% par rapport à l'aspersion, réduit les maladies (fruits au sec), et permet une fertilisation localisée."
+            },
+            "darija": {
+              "question": "شنو هو أحسن نظام للسقي للكرموس ؟",
+              "reponse": "السقي بالتنقيط هو الأحسن للكرموس. كايوف الماء بـ 40% مقارنة بالرش، كايقلل الأمراض (الحبات جافة)، و كايخلي السماد يوصل للجذور مباشرة."
+            }
+          },
+          {
+            "francais": {
+              "question": "À quelle fréquence irriguer le figuier ?",
+              "reponse": "Jeunes arbres : tous les 3-5 jours en été, tous les 7-10 jours au printemps et automne. Adultes : tous les 5-7 jours en été (stade grossissement), tous les 10-15 jours au printemps."
+            },
+            "darija": {
+              "question": "شحال هي المدة مابين السقيات للكرموس ؟",
+              "reponse": "الشجر الصغار: كل 3-5 أيام فالصيف، كل 7-10 أيام فربيع والخريف. الكبار: كل 5-7 أيام فالصيف (مرحلة التكبر)، كل 10-15 يوم فربيع."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les stades critiques pour l'irrigation du figuier ?",
+              "reponse": "Les stades critiques sont : DÉVELOPPEMENT DES FRUITS (mai-juin) et GROSSISSEMENT (juillet-août). Un manque d'eau à ces stades réduit la taille des figues de 30-50%."
+            },
+            "darija": {
+              "question": "شنو هم المراحل الحرجة للسقي للكرموس ؟",
+              "reponse": "المراحل الحرجة هي: نمو الحبات (ماي-يونيو) و التكبر (يوليوز-غشت). نقص الماء فهاد المراحل كاينقص حجم الكرموس بـ 30-50%."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand faut-il arrêter l'irrigation du figuier ?",
+              "reponse": "Arrêtez l'irrigation 2-3 semaines avant la récolte pour favoriser la maturation et la concentration des sucres. Pour les figues sèches, arrêtez plus tôt (1 mois avant)."
+            },
+            "darija": {
+              "question": "فوقاش خاصنا نوقف السقي ديال الكرموس ؟",
+              "reponse": "وقف السقي 2-3 أسابيع قبل الحصاد باش تزيد النضج وتركيز السكر. للكرموس الجاف، وقف بكري (شهر قبل)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle qualité d'eau faut-il pour le figuier ?",
+              "reponse": "Le figuier tolère une salinité jusqu'à 3 dS/m (CE). Au-delà, la croissance est réduite. Le pH idéal de l'eau est entre 6 et 8."
+            },
+            "darija": {
+              "question": "شحال هي الجودة ديال الماء اللي خاصها الكرموس ؟",
+              "reponse": "الكرموس كايصمد للملوحة حتى 3 dS/m. فوق هاد النسبة، النمو كاينقص. pH المثالي للماء هو مابين 6 و 8."
+            }
+          },
+          {
+            "francais": {
+              "question": "Peut-on cultiver le figuier sans irrigation à Doukkala ?",
+              "reponse": "OUI, le figuier résiste bien à la sécheresse et 1495 ha sont cultivés en bour (non irrigué). Cependant, le rendement est plus faible (20-30 kg/arbre contre 50-80 kg/arbre en irrigué)."
+            },
+            "darija": {
+              "question": "نقدر نزرع الكرموس بلا سقي فدكالة ؟",
+              "reponse": "اه، الكرموس كايصمد للجفاف و 1495 هكتار كايزرعو فالبور (بلا سقي). ولكن الإنتاج كاينقص (20-30 كيلو فالشجرة مقابل 50-80 كيلو فالمسقي)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le débit recommandé pour les goutteurs sur figuier ?",
+              "reponse": "Le débit recommandé est de 2 à 4 litres par heure par goutteur. Installez 1-2 goutteurs par arbre selon la densité et le type de sol."
+            },
+            "darija": {
+              "question": "شحال هو الجريان الموصى به للنقاطات على الكرموس ؟",
+              "reponse": "الجريان الموصى به هو 2 لـ 4 ليتر فالساعة للنقاطة الواحدة. حط 1-2 نقاطات فالشجرة حسب الكثافة ونوع التربة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment gérer l'irrigation du figuier en année sèche ?",
+              "reponse": "En année sèche, concentrez l'irrigation sur les stades critiques (développement des fruits en mai-juin, grossissement en juillet-août). Réduisez l'irrigation en automne et hiver. Un paillage (paille, plastique) aide à conserver l'humidité."
+            },
+            "darija": {
+              "question": "كيفاش نسيق الكرموس فالعام الجاف ؟",
+              "reponse": "فالعام الجاف، ركز السقي على المراحل الحرجة (نمو الحبات فماي-يونيو، التكبر فشيولية-غشت). قلل السقي فالخريف والشتي. التغطية (قش، بلاستيك) كاتساعد فالحفاظ على الرطوبة."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "fertilisation",
+        "description": "Fertilisation et carences du figuier",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quels sont les besoins en azote du figuier ?",
+              "reponse": "Le figuier a besoin de 40 à 60 kg N/ha. Apport fractionné en deux fois : 50% au début de la végétation (février), 50% au grossissement des fruits (mai)."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال الآزوت للكرموس ؟",
+              "reponse": "الكرموس كايحتاج لـ 40 لـ 60 كيلو آزوت فالهكتار. التسميد فجوج مرات: 50% فبداية النمو (فبراير)، 50% فتكبير الحبات (ماي)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les besoins en phosphore du figuier ?",
+              "reponse": "Le figuier a besoin de 80 à 100 kg P2O5/ha. Le phosphore favorise le développement racinaire et la floraison. Apport en automne ou début printemps."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال الفوسفور للكرموس ؟",
+              "reponse": "الكرموس كايحتاج لـ 80 لـ 100 كيلو P2O5 فالهكتار. الفوسفور كايخدم الجذور والتزهير. تحطو فالخريف أو بداية الربيع."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les besoins en potassium du figuier ?",
+              "reponse": "Le figuier a besoin de 100 à 150 kg K2O/ha. Le potassium améliore la qualité des fruits, la résistance à la sécheresse et au gel."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال البوتاسيوم للكرموس ؟",
+              "reponse": "الكرموس كايحتاج لـ 100 لـ 150 كيلو K2O فالهكتار. البوتاسيوم كايزيد الجودة ديال الحبات، مقاومة الجفاف والجليد."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel engrais organique utiliser pour le figuier ?",
+              "reponse": "Le fumier composté (3-5 t/ha) ou le compost vert sont excellents. À épandre tous les 2-3 ans, de préférence en automne. Le figuier répond très bien à la matière organique."
+            },
+            "darija": {
+              "question": "شنو هو السماد العضوي اللي نستعملو للكرموس ؟",
+              "reponse": "الزبل المكمور (3-5 طن فالهكتار) أو الكومپو هوما مزيانين. تحطو كل 2-3 سنين، أحسن وقت فالخريف. الكرموس كايستجاب بزاف للمادة العضوية."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand faut-il fertiliser le figuier ?",
+              "reponse": "Fertilisation de fond (P, K, matière organique) : automne (octobre-novembre). Fertilisation azotée : février (50%) et mai (50%). Fertilisation foliaire (zinc, fer) : avril-mai."
+            },
+            "darija": {
+              "question": "فوقاش خاصنا نسمد الكرموس ؟",
+              "reponse": "السماد الأساسي (فوسفور، بوتاسيوم، مادة عضوية): الخريف (أكتوبر-نونبر). السماد الآزوتي: فبراير (50%) و ماي (50%). السماد الوراقي (زنك، حديد): أبريل-ماي."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la dose de magnésium pour le figuier ?",
+              "reponse": "Le figuier a besoin de 20 à 30 kg MgO/ha en cas de carence. La carence en magnésium se manifeste par une chlorose internervaire sur les feuilles âgées."
+            },
+            "darija": {
+              "question": "شحال هي الكمية ديال المغنيزيوم للكرموس ؟",
+              "reponse": "الكرموس كايحتاج لـ 20 لـ 30 كيلو MgO فالهكتار فوقاش كاين نقص. نقص المغنيزيوم كايبان بصفار بين العروق فالوراق القدام."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est l'engrais idéal pour le figuier en début de printemps ?",
+              "reponse": "Au début du printemps (février), utilisez un engrais équilibré type NPK 10-10-10 ou un engrais organique (compost). L'azote favorise la croissance des nouvelles pousses."
+            },
+            "darija": {
+              "question": "شنو هو السماد المثالي للكرموس فبداية الربيع ؟",
+              "reponse": "فبداية الربيع (فبراير)، استعمل سماد متوازن نوع NPK 10-10-10 أو سماد عضوي (كومپو). الآزوت كايخدم النمو ديال الأغصان الجداد."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand faut-il arrêter la fertilisation azotée sur figuier ?",
+              "reponse": "Arrêtez la fertilisation azotée au début de l'été (juin). Un apport d'azote tardif favorise la croissance végétative au détriment des fruits et réduit la résistance au gel."
+            },
+            "darija": {
+              "question": "فوقاش خاصنا نوقف السماد الآزوتي على الكرموس ؟",
+              "reponse": "وقف السماد الآزوتي فبداية الصيف (يونيو). الآزوت المتأخر كايخدم النمو الوراق على حساب الحبات و كاينقص مقاومة الجليد."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment appliquer le fumier sur le figuier ?",
+              "reponse": "Épandez le fumier composté (3-5 t/ha) en automne (octobre-novembre) ou en hiver (janvier-février). Incorporez-le superficiellement (5-10 cm) sans toucher les racines."
+            },
+            "darija": {
+              "question": "كيفاش ندي الزبل على الكرموس ؟",
+              "reponse": "انثر الزبل المكمور (3-5 طن فالهكتار) فالخريف (أكتوبر-نونبر) أو الشتي (يناير-فبراير). ادفنه سطحيا (5-10 سم) بدون ما تجرح الجذور."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "carences",
+        "description": "Symptômes et solutions des carences",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Comment reconnaître une carence en azote sur le figuier ?",
+              "reponse": "Symptômes : feuilles pâles (jaunissement uniformisé), croissance réduite, fruits petits. Solution : apport d'urée ou sulfate d'ammonium (50-80 kg/ha) en février-mars."
+            },
+            "darija": {
+              "question": "كيفاش نعرف نقص الآزوت فشجرة الكرموس ؟",
+              "reponse": "الأعراض: الوراق كاتصفر، النمو كايبطا، الحبات صغار. الحل: تحط اليوريا (50-80 كيلو فالهكتار) ففبراير-مارس."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître une carence en fer sur le figuier ?",
+              "reponse": "Symptômes : chlorose internervaire sur jeunes feuilles (les feuilles jaunissent mais les nervures restent vertes). Solution : apport de chélate de fer (EDDHA) 1-2 kg/ha en foliaire. Si pH > 8, apport de soufre."
+            },
+            "darija": {
+              "question": "كيفاش نعرف نقص الحديد فشجرة الكرموس ؟",
+              "reponse": "الأعراض: الوراق الجداد كاتصفر ولكن العروق كاتبقى خضر. الحل: تحط شيلات الحديد (1-2 كيلو فالهكتار) ورقيا. إلا كان pH > 8، حط كبريت."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître une carence en zinc sur le figuier ?",
+              "reponse": "Symptômes : feuilles petites et étroites (rosette), entre-nœuds courts, chlorose internervaire. Solution : apport de sulfate de zinc (5-10 kg/ha) en foliaire ou au sol."
+            },
+            "darija": {
+              "question": "كيفاش نعرف نقص الزنك فشجرة الكرموس ؟",
+              "reponse": "الأعراض: الوراق صغار و ضيقين (وردة)، المسافات مابين العقد قصار، صفار بين العروق. الحل: تحط سلفات الزنك (5-10 كيلو فالهكتار) ورقيا أو فالأرض."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les signes d'une carence en potassium sur le figuier ?",
+              "reponse": "Symptômes : bords des feuilles bruns (nécrose marginale), fruits petits et de mauvaise qualité, branches fragiles. Solution : apport de chlorure ou sulfate de potassium (100-150 kg/ha)."
+            },
+            "darija": {
+              "question": "شنو هي علامات نقص البوتاسيوم فشجرة الكرموس ؟",
+              "reponse": "الأعراض: حواف الوراق كحلة، الحبات صغار وجودتها رديئة، الأغصان كاتكسر بسهولة. الحل: تحط كلور أو سلفات البوتاسيوم (100-150 كيلو فالهكتار)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître une carence en magnésium sur le figuier ?",
+              "reponse": "Symptômes : chlorose internervaire sur feuilles âgées (les zones entre les nervures jaunissent), nécrose marginale en cas de carence sévère. Solution : apport de sulfate de magnésium (20-30 kg/ha)."
+            },
+            "darija": {
+              "question": "كيفاش نعرف نقص المغنيزيوم فشجرة الكرموس ؟",
+              "reponse": "الأعراض: صفار بين العروق فالوراق القدام، حرق علا الحافة فوقاش كاتزيد. الحل: تحط سلفات المغنيزيوم (20-30 كيلو فالهكتار)."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "maladies",
+        "description": "Maladies du figuier",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Comment reconnaître la pourriture des fruits sur le figuier ?",
+              "reponse": "Symptômes : fruits mous avec moisissures grises (Botrytis cinerea), odeur fermentée. Traitement préventif : taille aérée, éclaircissage des fruits. Traitement curatif : fongicides cupriques (2-3 kg/ha) avant floraison et grossissement."
+            },
+            "darija": {
+              "question": "كيفاش نعرف تعفن الحبات فشجرة الكرموس ؟",
+              "reponse": "الأعراض: الحبات كاتولي طرية مع عفن رمادي، ريحة التخمر. الوقاية: التقليم المفتوح، تخفيف الحبات. العلاج: فونجيسيدات نحاسية (2-3 كيلو فالهكتار) قبل التزهير والتكبر."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître l'anthracnose sur le figuier ?",
+              "reponse": "Symptômes : taches brunes sur fruits et feuilles, fruits déformés avec lésions noires. Traitement : fongicides à base de mancozèbe ou captane (1.5-2 kg/ha) au début de la maturation."
+            },
+            "darija": {
+              "question": "كيفاش نعرف الأنثراكنوز فشجرة الكرموس ؟",
+              "reponse": "الأعراض: بقع كحلة على الحبات والوراق، الحبات متشوهة مع لطخ سود. العلاج: فونجيسيدات مانكوزيب (1.5-2 كيلو فالهكتار) فبداية النضج."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître le mildiou sur le figuier ?",
+              "reponse": "Symptômes : taches huileuses sur feuilles, fruits avec croûtes blanches. Prévention : éviter l'irrigation par aspersion, drainage du sol. Traitement : fongicides cupriques."
+            },
+            "darija": {
+              "question": "كيفاش نعرف المليديو فشجرة الكرموس ؟",
+              "reponse": "الأعراض: بقع زيتية على الوراق، الحبات مع قشور بيض. الوقاية: تجنب السقي بالرش، تصريف الماء فالأرض. العلاج: فونجيسيدات نحاسية."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre la pourriture des fruits de façon préventive ?",
+              "reponse": "Prévention : taille aérée pour réduire l'humidité, éclaircissage des fruits (enlever les fruits abîmés), ramassage et destruction des fruits tombés au sol, éviter l'irrigation par aspersion."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو تعفن الحبات بالوقاية ؟",
+              "reponse": "الوقاية: التقليم المفتوح باش تقلل الرطوبة، تخفيف الحبات (نزيل الحبات المعطوبة)، جمع وتدمير الحبات اللي طاحت فالأرض، تجنب السقي بالرش."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelles sont les principales maladies du figuier à Doukkala ?",
+              "reponse": "Les principales maladies sont : la pourriture des fruits (Botrytis cinerea), l'anthracnose (Colletotrichum spp.), et le mildiou. La pourriture des fruits est la plus fréquente en raison de l'humidité relative élevée sur la côte."
+            },
+            "darija": {
+              "question": "شنو هم الأمراض الرئيسية للكرموس فدكالة ؟",
+              "reponse": "الأمراض الرئيسية هي: تعفن الحبات، الأنثراكنوز، والمليديو. تعفن الحبات هو الأكثر انتشارا بسباب الرطوبة العالية على الساحل."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître la mosaïque du figuier ?",
+              "reponse": "Symptômes : taches jaunes et vertes sur les feuilles (mosaïque), déformation des feuilles, réduction de la croissance, fruits petits et déformés. C'est une maladie virale sans traitement curatif. Prévention : utilisation de plants sains certifiés."
+            },
+            "darija": {
+              "question": "كيفاش نعرف فسيفساء الكرموس ؟",
+              "reponse": "الأعراض: بقع صفر وخضر على الوراق (فسيفساء)، تشوه الوراق، نقص فالنمو، الحبات صغار ومتشوهة. مرض فيروسي بلا علاج. الوقاية: استعمال شتلات صحيحة ومعتمدة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre la rouille du figuier ?",
+              "reponse": "Symptômes : pustules orange-brun sur la face inférieure des feuilles. Traitement : fongicides cupriques (Bouillie bordelaise 2-3 kg/ha) ou soufre mouillable. Prévention : ramassage et destruction des feuilles tombées."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو الصدا ديال الكرموس ؟",
+              "reponse": "الأعراض: بقع برتقالية-كحلة تحت الوراق. العلاج: فونجيسيدات نحاسية (2-3 كيلو فالهكتار) أو كبريت. الوقاية: جمع وتدمير الوراق اللي طاحت."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "ravageurs",
+        "description": "Ravageurs du figuier",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Comment reconnaître la cochenille farineuse sur le figuier ?",
+              "reponse": "Symptômes : boucliers blancs cotonneux sur branches et fruits, miellat → développement de fumagine (noir sur les feuilles). Traitement : huile blanche (hiver) + pyréthrinoïdes (1-2 L/ha huile + 0.2 L/ha pyréthrinoïdes). Auxiliaires : coccinelles (Cryptolaemus montrouzieri)."
+            },
+            "darija": {
+              "question": "كيفاش نعرف البق الدقيقي فشجرة الكرموس ؟",
+              "reponse": "الأعراض: دروع بيض قطنيين على الأغصان والحبات، العسل → فطور سود على الوراق. العلاج: الزيت الأبيض (الشتي) + بيريترينويدات. الأعداء الطبيعية: الخنافس."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître le carpocapse sur le figuier ?",
+              "reponse": "Symptômes : galeries dans les fruits, chute prématurée des figues, présence de vermoulure. Traitement préventif : piégeage avec phéromones (avril-mai). Traitement curatif : insecticides (Phosmet 0.75-1 L/ha) dès l'éclosion des œufs."
+            },
+            "darija": {
+              "question": "كيفاش نعرف دودة الكرموس ؟",
+              "reponse": "الأعراض: أنفاق فالحبات، تطيح الحبات بكري، وجود الدود. الوقاية: مصايد الفيرومونات (أبريل-ماي). العلاج: مبيدات حشرية (0.75-1 ليتر فالهكتار) من فقس البيض."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre la cochenille farineuse de façon biologique ?",
+              "reponse": "Méthodes bio : huile blanche en hiver (1-2 L/ha), lâchers de coccinelles (Cryptolaemus montrouzieri) au printemps, introduction de parasitoïdes (Leptomastix dactylopii), et savon insecticide."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو البق الدقيقي بالطرق العضوية ؟",
+              "reponse": "الطرق العضوية: الزيت الأبيض فالشتي (1-2 ليتر فالهكتار)، إطلاق الخنافس (كريبتوليموس) فربيع، إدخال الطفيليات، والصابون الحشري."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre le carpocapse de façon préventive ?",
+              "reponse": "Prévention : piégeage massif avec phéromones (1 piège/arbre) en avril-mai, récolte précoce des fruits atteints, élimination des figues tombées au sol, et utilisation de filets anti-insectes."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو دودة الكرموس بالوقاية ؟",
+              "reponse": "الوقاية: مصايد الفيرومونات (1 مصيدة/شجرة) فأبريل-ماي، الحصاد المبكر للحبات المصابة، إزالة الحبات اللي طاحت فالأرض، واستعمال الشباك ضد الحشرات."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les principaux ravageurs du figuier à Doukkala ?",
+              "reponse": "Les principaux ravageurs sont : la cochenille farineuse (Planococcus citri) et le carpocapse (Cydia figulilella). La cochenille est plus fréquente en irrigué, le carpocapse en bour."
+            },
+            "darija": {
+              "question": "شنو هم الآفات الرئيسية للكرموس فدكالة ؟",
+              "reponse": "الآفات الرئيسية هي: البق الدقيقي ودودة الكرموس. البق كاين أكثر فالمسقي، الدودة كاتكثر فالبور."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître la mouche des figues ?",
+              "reponse": "Symptômes : petits trous sur les fruits, larves blanches à l'intérieur, chute prématurée des figues. Traitement : piégeage avec pièges jaunes englués, insecticides (Spinosad en bio) dès la nouaison."
+            },
+            "darija": {
+              "question": "كيفاش نعرف ذبانة الكرموس ؟",
+              "reponse": "الأعراض: ثقوب صغار فالحبات، يرقات بيض فالداخل، تطيح الحبات بكري. العلاج: مصايد صفراء لاصقة، مبيدات (سبينوساد) من العقد."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre les oiseaux sur les figues ?",
+              "reponse": "Les oiseaux (merles, étourneaux) sont très attirés par les figues mûres. Protection : filets anti-oiseaux (maille 20-25 mm), épouvantails, bandes réfléchissantes, ou fusils à pétard. La méthode la plus efficace est le filet."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو الطيور على الكرموس ؟",
+              "reponse": "الطيور (المراح، الزرزور) كاتحب بزاف الكرموس الناضج. الحماية: شباك ضد الطيور (فتحة 20-25 مم)، فزاعة، شرائط عاكسة، أو مسدس الشديد. أحسن طريقة هي الشباك."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les dégâts causés par la cochenille farineuse sur figuier ?",
+              "reponse": "La cochenille farineuse provoque : affaiblissement de l'arbre, déformation des fruits, développement de fumagine (noir sur les feuilles), et réduction de la qualité des figues. En cas d'attaque sévère, la production peut chuter de 50%."
+            },
+            "darija": {
+              "question": "شنو هو الضرر اللي كاتسببو البق الدقيقي على الكرموس ؟",
+              "reponse": "البق الدقيقي كايسبب: ضعف الشجرة، تشوه الحبات، فطور سود على الوراق، ونقص فجودة الكرموس. فوقاش كاتزيد، الإنتاج يقدر ينقص بـ 50%."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "taille",
+        "description": "Taille du figuier",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quand tailler le figuier à Doukkala ?",
+              "reponse": "La taille se fait en JANVIER-FÉVRIER (hors gel). Évitez la taille en période humide (risque de maladies). Ne taillez pas les années de gel sévère."
+            },
+            "darija": {
+              "question": "فوقاش نقلم الكرموس فدكالة ؟",
+              "reponse": "التقليم كايكون فيناير-فبراير (بعيد على الجليد). تجنب التقليم فالشتي (خطر الأمراض). ما تقلمش فالأعوام اللي فيها جليد شديد."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les objectifs de la taille du figuier ?",
+              "reponse": "Objectifs : supprimer le bois mort, aérer le centre de l'arbre (pour réduire l'humidité et les maladies), limiter la hauteur à 3-4 m pour faciliter la récolte, et équilibrer la charge fruitière."
+            },
+            "darija": {
+              "question": "شنو هي أهداف تقليم الكرموس ؟",
+              "reponse": "الأهداف: نزيل الأغصان الميتة، نوسع وسط الشجرة (باش تقلل الرطوبة والأمراض)، نحد الطول لـ 3-4 متر باش تسهل الحصاد، ونوزن الحمولة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment tailler un jeune figuier ?",
+              "reponse": "Les 3-4 premières années : sélectionnez 3-4 branches charpentières bien réparties, supprimez les branches basses et les gourmands (pousses verticales). La hauteur idéale est de 2-3 m."
+            },
+            "darija": {
+              "question": "كيفاش نقلم شجرة الكرموس الصغيرة ؟",
+              "reponse": "فالسنوات 3-4 الأولى: اختار 3-4 فروع رئيسية موزعين مزيان، نزيل الأغصان اللي تحت والسرطانات (النمو العامودي). الطول المثالي هو 2-3 متر."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment tailler un vieux figuier ?",
+              "reponse": "Pour un vieux figuier : supprimez le bois mort et les branches qui se croisent, rabattez les branches trop hautes (réduction de hauteur), aérez le centre. Ne retirez pas plus de 30% du feuillage par an."
+            },
+            "darija": {
+              "question": "كيفاش نقلم شجرة الكرموس القديمة ؟",
+              "reponse": "للشجرة القديمة: نزيل الأغصان الميتة والمتقاطعة، نقص الأغصان الطوال (تخفيف الطول)، نوسع الوسط. لا تزيل أكثر من 30% ديال الوراق فالعام."
+            }
+          },
+          {
+            "francais": {
+              "question": "Peut-on tailler le figuier en été ?",
+              "reponse": "NON, évitez la taille en été. La taille estivale expose l'arbre aux maladies (entrée de champignons par les plaies) et réduit la production. Taillez uniquement en hiver (janvier-février)."
+            },
+            "darija": {
+              "question": "نقدر نقلم الكرموس فالصيف ؟",
+              "reponse": "لا، تجنب التقليم فالصيف. التقليم الصيفي كايعرض الشجرة للأمراض (دخول الفطريات من الجروح) و كاينقص الإنتاج. قلم غير فالشتي (يناير-فبراير)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment tailler un figuier pour augmenter la production ?",
+              "reponse": "Pour augmenter la production : 1) Aérez le centre pour la lumière, 2) Supprimez les branches âgées de plus de 3 ans (le figuier produit sur le bois jeune), 3) Rabattez les branches trop longues, 4) Équilibrez la charge fruitière."
+            },
+            "darija": {
+              "question": "كيفاش نقلم الكرموس باش نزيد الإنتاج ؟",
+              "reponse": "باش تزيد الإنتاج: 1) وسع الوسط باش الضوء يوصل، 2) نزيل الأغصان اللي عمرها أكثر من 3 سنين (الكرموس كايعطي فالعود الصغير)، 3) نقص الأغصان الطوال، 4) وازن الحمولة."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "recolte",
+        "description": "Récolte et conservation des figues",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quand récolter les figues fraîches à Doukkala ?",
+              "reponse": "Les figues fraîches se récoltent en JUIN-JUILLET (première récolte) et SEPTEMBRE-OCTOBRE (deuxième récolte). La figue a deux productions par an."
+            },
+            "darija": {
+              "question": "فوقاش نحصد الكرموس الطري فدكالة ؟",
+              "reponse": "الكرموس الطري كايتحصد فـ يونيو-يوليوز (أول قطاف) و شتنبر-أكتوبر (ثاني قطاف). الكرموس كايعطي مرتين فالعام."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand récolter les figues sèches à Doukkala ?",
+              "reponse": "Les figues sèches se récoltent en AOÛT-SEPTEMBRE. On les laisse sécher sur l'arbre ou on les fait sécher sur des claies au soleil pendant 3-5 jours."
+            },
+            "darija": {
+              "question": "فوقاش نحصد الكرموس الجاف فدكالة ؟",
+              "reponse": "الكرموس الجاف كايتحصد فـ غشت-شتنبر. كايتخلى يجف على الشجرة أو كايجفف على صواني فالشمس لمدة 3-5 أيام."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment récolter les figues ?",
+              "reponse": "Récolte manuelle (cagettes) pour ne pas abîmer les fruits. Récoltez tôt le matin quand les fruits sont frais. Pour les figues sèches, récoltez quand elles tombent naturellement ou quand elles sont ridées."
+            },
+            "darija": {
+              "question": "كيفاش نحصد الكرموس ؟",
+              "reponse": "الحصاد باليد (سلال) باش ما تجرحش الحبات. احصد فالصباح بكري فوقاش الحبات تكون طريين. للكرموس الجاف، احصد فوقاش كايتيح طبيعيا أو فوقاش كايتجعد."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment savoir si une figue fraîche est prête à être récoltée ?",
+              "reponse": "Signes : la figue est ferme mais cède légèrement à la pression, la peau est colorée (jaune-vert à violet selon variété), l'œil (petit trou) s'ouvre légèrement, et une goutte de miellat peut apparaître."
+            },
+            "darija": {
+              "question": "كيفاش نعرف أن الكرموس الطري جاهز للحصاد ؟",
+              "reponse": "العلامات: الكرموس قاسح شوية ولكن كايتعصر شوية، اللون (خضر-صفر ل أرجواني حسب النوع)، العين (الثقب الصغير) كاتفتح شوية، و يمكن تبان قطرة ديا من العسل."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment conserver les figues fraîches après récolte ?",
+              "reponse": "Les figues fraîches se conservent 2-3 jours à température ambiante, 5-7 jours au réfrigérateur (4-8°C). Ne les lavez pas avant stockage (risque de pourriture). Pour une conservation plus longue (plusieurs mois), transformez-les en figues sèches."
+            },
+            "darija": {
+              "question": "كيفاش نحفظ الكرموس الطري مورا الحصاد ؟",
+              "reponse": "الكرموس الطري كايتحفظ 2-3 أيام فدرجة حرارة الغرفة، 5-7 أيام فالبراد (4-8 درجات). ما تغسلش قبل التخزين (خطر التعفن). للحفظ الطويل (شهور)، حولها للكرموس الجاف."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment faire sécher les figues naturellement ?",
+              "reponse": "Lavez les figues, disposez-les sur des claies ou des nattes en une seule couche, exposez au soleil pendant 3-5 jours, rentrez-les la nuit pour éviter l'humidité. Retournez-les quotidiennement. Le séchage est terminé quand les figues sont fermes et non collantes."
+            },
+            "darija": {
+              "question": "كيفاش نجفف الكرموس طبيعيا ؟",
+              "reponse": "غسل الكرموس، فرده على صواني أو حصير فطبقة وحدة، عريض للشمس لمدة 3-5 أيام، دخله فليل باش تتفادى الرطوبة. قلبه كل نهار. التجفيف كايكمل فوقاش الكرموس كايكون قاسح وما كايلزقش."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "multiplication",
+        "description": "Multiplication du figuier",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Comment multiplier le figuier ?",
+              "reponse": "Le figuier se multiplie facilement par BOUTURAGE. Prélevez des branches de 20-30 cm en hiver (janvier-février), plantez-les directement en terre ou en pépinière, arrosez régulièrement. Le taux de reprise est de 80-90%."
+            },
+            "darija": {
+              "question": "كيفاش نكاثر الكرموس ؟",
+              "reponse": "الكرموس كايتكاثر بسهولة بالعقل. خد أغصان طول 20-30 سم فالشتي (يناير-فبراير)، ازرعهم مباشرة فالأرض أو فالمشكل، سقي بانتظام. نسبة النجاح هي 80-90%."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand prélever les boutures de figuier ?",
+              "reponse": "La meilleure période est en JANVIER-FÉVRIER (repos végétatif). Choisissez des branches saines de l'année précédente, d'un diamètre de 1-2 cm, sans maladies."
+            },
+            "darija": {
+              "question": "فوقاش ناخد العقل ديال الكرموس ؟",
+              "reponse": "أحسن وقت هو فيناير-فبراير (السبات). اختار أغصان صحاح من العام اللي فات، بقطر 1-2 سم، بلا أمراض."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "valorisation",
+        "description": "Valorisation et économie du figuier",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Existe-t-il une coopérative de séchage des figues à Doukkala ?",
+              "reponse": "OUI, il existe une coopérative de séchage à Ouled Frej d'une capacité de 200 tonnes par an. Elle permet aux agriculteurs de valoriser leurs figues en figues sèches."
+            },
+            "darija": {
+              "question": "واش كاينة تعاونية لتجفيف الكرموس فدكالة ؟",
+              "reponse": "اه، كاينة تعاونية للتجفيف فأولاد فرج قدرت 200 طن فالعام. كاتخلي الفلاحين يحولو الكرموس الطري للجاف."
+            }
+          },
+          {
+            "francais": {
+              "question": "Existe-t-il une unité de conditionnement des figues à Doukkala ?",
+              "reponse": "OUI, il existe une unité de conditionnement à El Jadida d'une capacité de 1200 tonnes par an. Elle permet le calibrage, le nettoyage et l'emballage des figues pour la commercialisation."
+            },
+            "darija": {
+              "question": "واش كاينة وحدة لتحزاب الكرموس فدكالة ؟",
+              "reponse": "اه، كاينة وحدة فالجديدة قدرت 1200 طن فالعام. كاتخلي تصنيف وتنظيف وتغليف الكرموس للبيع."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le prix des figues fraîches à Doukkala ?",
+              "reponse": "Le prix des figues fraîches varie entre 10 et 20 dirhams le kilogramme selon la qualité et la saison. Les premières figues (juin) sont plus chères."
+            },
+            "darija": {
+              "question": "شحال هو ثمن الكرموس الطري فدكالة ؟",
+              "reponse": "ثمن الكرموس الطري كايتغير مابين 10 و 20 درهم فالكيلو حسب الجودة والموسم. الكرموس الأول (يونيو) كايكون أغلى."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le prix des figues sèches à Doukkala ?",
+              "reponse": "Le prix des figues sèches varie entre 40 et 80 dirhams le kilogramme selon la qualité. Les figues sèches de Doukkala sont réputées pour leur qualité."
+            },
+            "darija": {
+              "question": "شحال هو ثمن الكرموس الجاف فدكالة ؟",
+              "reponse": "ثمن الكرموس الجاف كايتغير مابين 40 و 80 درهم فالكيلو حسب الجودة. الكرموس الجاف ديال دكالة معروف بالجودة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le coût de production du figuier à Doukkala ?",
+              "reponse": "Le coût de production est d'environ 5000-8000 dirhams par hectare (taille, irrigation, fertilisation). Avec un rendement de 3800 kg/ha et un prix de 10-15 DH/kg, le chiffre d'affaires est de 38000-57000 DH/ha. La marge bénéficiaire peut atteindre 30000-50000 DH/ha."
+            },
+            "darija": {
+              "question": "شحال هو تكلفة إنتاج الكرموس فدكالة ؟",
+              "reponse": "تكلفة الإنتاج هي 5000-8000 درهم فالهكتار (التقليم، السقي، التسميد). مع إنتاج 3800 كيلو فالهكتار و ثمن 10-15 درهم فالكيلو، العائد هو 38000-57000 درهم فالهكتار. الربح يقدر يوصل لـ 30000-50000 درهم فالهكتار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Le figuier est-il rentable à Doukkala ?",
+              "reponse": "OUI, le figuier est très rentable à Doukkala. Faibles coûts d'entretien, résistance à la sécheresse, deux récoltes par an, et bonne valorisation (figues fraîches à 10-20 DH/kg, figues sèches à 40-80 DH/kg). La demande des agriculteurs pour les plants en 2024 a dépassé l'offre."
+            },
+            "darija": {
+              "question": "واش الكرموس مربح فدكالة ؟",
+              "reponse": "اه، الكرموس مربح بزاف فدكالة. تكاليف الصيانة قليلة، مقاومة للجفاف، جوج قطافات فالعام، و ثمن مزيان (كرموس طري 10-20 درهم/كيلو، جاف 40-80 درهم/كيلو). الطلب على الشتلات فـ 2024 كان أكبر من العرض."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "projets",
+        "description": "Projets récents pour le figuier",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Y a-t-il eu des projets récents pour le figuier à Doukkala ?",
+              "reponse": "OUI. En 2024, 6000 plants de figuier ont été distribués aux agriculteurs. La demande a dépassé l'offre, signe d'un fort intérêt pour cette culture."
+            },
+            "darija": {
+              "question": "واش كانو مشاريع حديثة للكرموس فدكالة ؟",
+              "reponse": "اه. فـ 2024، تم توزيع 6000 شتلة ديال الكرموس على الفلاحين. الطلب كان أكبر من العرض، هاد الشي كايبين أن الفلاحين مهتمين بزاف بهاد الزرع."
+            }
+          },
+          {
+            "francais": {
+              "question": "Pourquoi les agriculteurs de Doukkala s'intéressent-ils au figuier ?",
+              "reponse": "Le figuier est une culture résistante à la sécheresse (économie d'eau), à faible coût d'entretien, avec deux récoltes par an, et une bonne valorisation (figues fraîches et sèches)."
+            },
+            "darija": {
+              "question": "علاش الفلاحين فدكالة مهتمين بالكرموس ؟",
+              "reponse": "الكرموس زرع كايقاوم الجفاف (توفير الماء)، تكاليف الصيانة قليلة، كايعطي مرتين فالعام، و كايتقوم بثمن مزيان (طري وجاف)."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

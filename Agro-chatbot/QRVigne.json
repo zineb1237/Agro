@@ -1,0 +1,975 @@
+{
+  "chatbot_vigne_doukkala_complet": {
+    "version": "1.0",
+    "date_mise_a_jour": "2026-04-12",
+    "langues": ["francais", "darija"],
+    "sources": [
+      "ORMVAD Doukkala (2020-2025)",
+      "INRA Maroc - Viticulture méditerranéenne (2021)",
+      "Le Matin (2004)",
+      "MAP Express (2025)",
+      "Monographie El Jadida 2021 (HCP)"
+    ],
+    "categories": [
+      {
+        "nom": "general_vigne",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quelle est la superficie totale de la vigne à Doukkala ?",
+              "reponse": "La superficie totale de la vigne à Doukkala est de 15025 hectares, dont 12822 ha en bour (non irrigué) et 2203 ha en irrigué. C'est la première région productrice de raisin de table au Maroc."
+            },
+            "darija": {
+              "question": "شحال هي المساحة ديال العنب فدكالة ؟",
+              "reponse": "المساحة ديال العنب فدكالة هي 15025 هكتار، منهم 12822 هكتار بور و 2203 هكتار مسقي. هي أول منطقة فالمغرب فإنتاج عنب المائدة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la production annuelle de raisin à Doukkala ?",
+              "reponse": "La production annuelle de raisin à Doukkala est de 30000 tonnes, soit 27% de la production nationale de raisin de table."
+            },
+            "darija": {
+              "question": "شحال هو الإنتاج السنوي ديال العنب فدكالة ؟",
+              "reponse": "الإنتاج السنوي ديال العنب فدكالة هو 30000 طن، يعني 27% ديال الإنتاج الوطني لعنب المائدة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelles sont les principales zones de culture de la vigne à Doukkala ?",
+              "reponse": "Les principales zones de culture sont EL JADIDA et SIDI BENNOUR. Ces zones bénéficient de conditions pédoclimatiques favorables (sol profond, climat méditerranéen)."
+            },
+            "darija": {
+              "question": "شنو هم المناطق الرئيسية ديال زراعة العنب فدكالة ؟",
+              "reponse": "المناطق الرئيسية هي الجديدة و سيدي بنور. هاد المناطق فيها ظروف مزيانة (أرض عميقة، مناخ متوسطي)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le cépage local de Doukkala ?",
+              "reponse": "Le cépage local s'appelle 'DOUKKALI'. Il représente 65% de la superficie et fait partie du patrimoine génétique à préserver. Il est menacé par la dégénérescence variétale et la faible technicité des viticulteurs."
+            },
+            "darija": {
+              "question": "شنو هو النوع المحلي ديال العنب فدكالة ؟",
+              "reponse": "النوع المحلي كايتسمى 'دكالي'. كايمثل 65% ديال المساحة و هو تراث وراثي خاصنا نحافظو عليه. مهدد بالتدهور الوراثي وضعف التقنيات عند الفلاحين."
+            }
+          },
+          {
+            "francais": {
+              "question": "Existe-t-il une unité de conditionnement du raisin à Doukkala ?",
+              "reponse": "OUI, il existe une unité de conditionnement du raisin à El Jadida d'une capacité de 14000 tonnes par an. Elle permet le calibrage, le nettoyage et l'emballage pour la commercialisation."
+            },
+            "darija": {
+              "question": "واش كاينة وحدة لتحزاب العنب فدكالة ؟",
+              "reponse": "اه، كاينة وحدة فالجديدة قدرت 14000 طن فالعام. كاتخلي تصنيف وتنظيف وتغليف العنب للبيع."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le rendement moyen de la vigne à Doukkala ?",
+              "reponse": "Le rendement moyen est de 10-15 tonnes/ha en traditionnel, 20-30 tonnes/ha en intensif. La moyenne régionale est d'environ 20 tonnes/ha."
+            },
+            "darija": {
+              "question": "شحال هو الإنتاج الوسيط ديال العنب فدكالة ؟",
+              "reponse": "الإنتاج الوسيط هو 10-15 طن فالهكتار فالتقليدي، 20-30 طن فالهكتار فالكثيف. المعدال فهاد المنطقة هو 20 طن فالهكتار."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "sol_vigne",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quel type de sol convient le mieux à la vigne à Doukkala ?",
+              "reponse": "La vigne préfère les sols profonds (>60 cm), bien drainés, avec un pH de 6 à 7.5. Elle tolère jusqu'à 15% de calcaire actif. Les sols limono-argileux sont idéaux."
+            },
+            "darija": {
+              "question": "شنو هو النوع ديال الأرض المناسب للعنب فدكالة ؟",
+              "reponse": "العنب كايبغي الأرض العميقة (>60 سم)، اللي كاتصرف الماء مزيان، مع pH 6 لـ 7.5. كايصمد حتى 15% ديال الجير الفعال. الأرض الطينية الرملية هي المثالية."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel pH du sol est idéal pour la vigne ?",
+              "reponse": "Le pH idéal pour la vigne est entre 6 et 7.5. Un pH trop acide (<5.5) bloque l'absorption du phosphore et du magnésium. Un pH trop alcalin (>8) bloque le fer et le zinc."
+            },
+            "darija": {
+              "question": "شحال هو pH الأرض المناسب للعنب ؟",
+              "reponse": "pH المثالي للعنب هو مابين 6 و 7.5. pH حمضي بزاف (<5.5) كايوقف إمتصاص الفوسفور والمغنيزيوم. pH قاعدي بزاف (>8) كايوقف الحديد والزنك."
+            }
+          },
+          {
+            "francais": {
+              "question": "La vigne tolère-t-elle les sols calcaires ?",
+              "reponse": "OUI, la vigne tolère jusqu'à 15% de calcaire actif. Au-delà, des carences en fer (chlorose) peuvent apparaître. Le cépage Doukkali est bien adapté aux sols calcaires de la région."
+            },
+            "darija": {
+              "question": "واش العنب كايصمد للأرض الجيرية ؟",
+              "reponse": "اه، العنب كايصمد حتى 15% ديال الجير الفعال. فوق هاد النسبة، كايبان نقص الحديد (صفار). نوع دكالي مناسب للأرض الجيرية فهاد المنطقة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle profondeur de sol est nécessaire pour la vigne ?",
+              "reponse": "La vigne a besoin d'une profondeur de sol d'au moins 60 cm pour un bon développement racinaire. Les racines peuvent descendre jusqu'à 2-3 mètres dans les sols profonds."
+            },
+            "darija": {
+              "question": "شحال هو العمق اللي خاصو الأرض للعنب ؟",
+              "reponse": "العنب كايحتاج لعمق أرض على الأقل 60 سم باش الجذور تنمو مزيان. الجذور تقدر توصل لـ 2-3 متر فالأرض العميقة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment préparer le sol avant plantation de la vigne ?",
+              "reponse": "Préparation : labour profond (40-50 cm), sous-solage si semelle de labour, apport de matière organique (fumier composté 3-5 t/ha), nivellement, puis ouverture des fosses (40x40x40 cm) 2-3 mois avant plantation."
+            },
+            "darija": {
+              "question": "كيفاش نحضر الأرض قبل زرع العنب ؟",
+              "reponse": "التحضير: حرث عميق (40-50 سم)، تكسير الطبقة المتصلبة، تحط مادة عضوية (زبل مكمور 3-5 طن فالهكتار)، التسوية، ثم حفر الحفر (40x40x40 سم) 2-3 أشهر قبل الزرع."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "climat_vigne",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quelle est la température optimale pour la vigne ?",
+              "reponse": "La température optimale pour la vigne est entre 20 et 30°C. La floraison optimale se fait à 25°C. Au-dessus de 35°C, la croissance ralentit et la qualité des baies se dégrade."
+            },
+            "darija": {
+              "question": "شنو هي الحرارة المثالية للعنب ؟",
+              "reponse": "الحرارة المثالية للعنب هي مابين 20 و 30 درجة. التزهير المثالي كايكون فـ 25 درجة. فوق 35 درجة، النمو كايبطا وجودة الحبات كاتنقص."
+            }
+          },
+          {
+            "francais": {
+              "question": "La vigne résiste-t-elle au gel à Doukkala ?",
+              "reponse": "Les bourgeons résistent jusqu'à -2°C. Le cepage adulte résiste jusqu'à -5°C. À Doukkala, le gel est rare mais possible à Ouled Frej (-0.2°C le 28/01/2024). Protégez les jeunes vignes."
+            },
+            "darija": {
+              "question": "واش العنب كايقاوم الجليد فدكالة ؟",
+              "reponse": "البراعم كاتقاوم حتى -2 درجات. الكرمة الكبيرة كاتقاوم حتى -5 درجات. فدكالة، الجليد نادر ولكن ممكن فأولاد فرج (-0.2 درجة نهار 28/01/2024). حمي الكروم الصغار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les besoins en froid de la vigne ?",
+              "reponse": "La vigne a besoin de 300 à 500 heures de froid (températures entre 0 et 7°C) pour lever la dormance et assurer une bonne floraison au printemps. Le cépage Doukkali est bien adapté."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال البرد للعنب ؟",
+              "reponse": "العنب كايحتاج لـ 300 لـ 500 ساعة ديال البرد (حرارة مابين 0 و 7 درجات) باش يخرج من السبات ويكون التزهير مزيان فربيع. نوع دكالي مناسب."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est l'impact de la sécheresse sur la vigne ?",
+              "reponse": "La vigne résiste modérément à la sécheresse grâce à ses racines profondes. Mais un stress hydrique sévère pendant la floraison et la véraison réduit le rendement de 30-50% et la qualité des baies."
+            },
+            "darija": {
+              "question": "شحال هو تأثير الجفاف على العنب ؟",
+              "reponse": "العنب كايصمد شوية للجفاف بسباب جذوره العميقة. ولكن الإجهاد المائي الشديد فالتزهير والنضج كاينقص الإنتاج بـ 30-50% وجودة الحبات."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est l'impact du vent sur la vigne ?",
+              "reponse": "Le vent fort (>50 km/h) peut casser les sarments, arracher les feuilles et faire tomber les baies. À El Jadida, les vents ont atteint 61.8 km/h le 22/10/2023. Installez des brise-vent (haies) si nécessaire."
+            },
+            "darija": {
+              "question": "شحال هو تأثير الرياح على العنب ؟",
+              "reponse": "الرياح القوية (>50 كلم/س) كاتقدر تكسر الأغصان، تنزع الوراق وتطيح الحبات. فالجديدة، الرياح وصلات لـ 61.8 كلم/س نهار 22/10/2023. حط مصدات رياح (شجر) إلا كان ضروري."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "irrigation_vigne",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quels sont les besoins en eau de la vigne à Doukkala ?",
+              "reponse": "Jeunes vignes : 6000-8000 m³/ha (600-800 mm). Vignes adultes : 5000-7000 m³/ha (500-700 mm). La vigne consomme moins d'eau que les agrumes mais plus que l'olivier."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال الماء للعنب فدكالة ؟",
+              "reponse": "الكروم الصغار: 6000-8000 متر مكعب فالهكتار (600-800 مم). الكبار: 5000-7000 متر مكعب (500-700 مم). العنب كايستهلك ماء أقل من الحمضيات ولكن أكثر من الزيتون."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la superficie de vigne irriguée à Doukkala ?",
+              "reponse": "La superficie de vigne irriguée est de 2203 hectares, soit 14.7% de la superficie totale (15025 ha). 12822 ha sont en bour (non irrigué)."
+            },
+            "darija": {
+              "question": "شحال هي المساحة المسقية ديال العنب فدكالة ؟",
+              "reponse": "المساحة المسقية هي 2203 هكتار، يعني 14.7% ديال المساحة الكاملة (15025 هكتار). 12822 هكتار فالبور (غير مسقي)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le meilleur système d'irrigation pour la vigne ?",
+              "reponse": "Le GOUTTE-À-GOUTTE est le meilleur système pour la vigne. Il permet une économie d'eau de 30-50% par rapport à l'aspersion, réduit les maladies (mildiou, oïdium car les feuilles restent sèches), et permet une fertilisation localisée."
+            },
+            "darija": {
+              "question": "شنو هو أحسن نظام للسقي للعنب ؟",
+              "reponse": "السقي بالتنقيط هو الأحسن للعنب. كايوف الماء بـ 30-50% مقارنة بالرش، كايقلل الأمراض (المليديو، البياض الدقيقي حيت الوراق كاتبقى جافة)، و كايخلي السماد يوصل للجذور مباشرة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le débit recommandé pour les goutteurs sur vigne ?",
+              "reponse": "Le débit recommandé est de 2 à 4 litres par heure par goutteur. Installez 1-2 émetteurs par pied selon la densité (espacement 0.5-1 m entre émetteurs) et le type de sol."
+            },
+            "darija": {
+              "question": "شحال هو الجريان الموصى به للنقاطات على العنب ؟",
+              "reponse": "الجريان الموصى به هو 2 لـ 4 ليتر فالساعة للنقاطة الواحدة. حط 1-2 نقاطات فالكرمة حسب الكثافة (مسافة 0.5-1 م مابين النقاطات) ونوع التربة."
+            }
+          },
+          {
+            "francais": {
+              "question": "À quelle fréquence irriguer la vigne ?",
+              "reponse": "Stades critiques : Débourrement (mars-avril) : tous les 7-10 jours. Floraison (mai) : tous les 5-7 jours. Véraison (juillet-août) : tous les 3-5 jours. Arrosez tôt le matin pour éviter l'évaporation."
+            },
+            "darija": {
+              "question": "شحال هي المدة مابين السقيات للعنب ؟",
+              "reponse": "المراحل الحرجة: ظهور البراعم (مارس-أبريل): كل 7-10 أيام. التزهير (ماي): كل 5-7 أيام. النضج (يوليوز-غشت): كل 3-5 أيام. اسقي فالصباح بكري باش تتفادى التبخر."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les stades critiques pour l'irrigation de la vigne ?",
+              "reponse": "Les stades critiques sont : DÉBOURREMENT (mars-avril), FLORAISON (mai), et VÉRAISON (juillet-août). Un manque d'eau à la floraison provoque la coulure (chute des fleurs). Un manque d'eau à la véraison réduit la taille et la qualité des baies."
+            },
+            "darija": {
+              "question": "شنو هم المراحل الحرجة للسقي للعنب ؟",
+              "reponse": "المراحل الحرجة هي: ظهور البراعم (مارس-أبريل)، التزهير (ماي)، والنضج (يوليوز-غشت). نقص الماء فالتزهير كايطيح الزهور. نقص الماء فالنضج كاينقص الحجم والجودة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand faut-il arrêter l'irrigation de la vigne ?",
+              "reponse": "Arrêtez l'irrigation 2-3 semaines avant la récolte pour favoriser la maturation et la concentration des sucres. Pour le raisin de cuve, arrêtez plus tôt (1 mois avant) pour augmenter le taux de sucre."
+            },
+            "darija": {
+              "question": "فوقاش خاصنا نوقف السقي ديال العنب ؟",
+              "reponse": "وقف السقي 2-3 أسابيع قبل الحصاد باش تزيد النضج وتركيز السكر. لعنب المعصر، وقف بكري (شهر قبل) باش تزيد نسبة السكر."
+            }
+          },
+          {
+            "francais": {
+              "question": "Peut-on cultiver la vigne sans irrigation à Doukkala ?",
+              "reponse": "OUI, 12822 ha de vigne sont cultivés en bour (non irrigué). Cependant, le rendement est plus faible (10-15 tonnes/ha contre 20-30 tonnes/ha en irrigué) et la qualité est moins régulière d'une année à l'autre."
+            },
+            "darija": {
+              "question": "نقدر نزرع العنب بلا سقي فدكالة ؟",
+              "reponse": "اه، 12822 هكتار كايزرعو فالبور (بلا سقي). ولكن الإنتاج كاينقص (10-15 طن فالهكتار مقابل 20-30 طن فالمسقي) والجودة ما كاتش متلاومش من عام لآخر."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "fertilisation_vigne",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quels sont les besoins en azote de la vigne ?",
+              "reponse": "La vigne a besoin de 40 à 60 kg N/ha. Apport fractionné en deux fois : 50% au débourrement (mars), 50% à la floraison (mai). Un excès d'azote favorise l'oïdium et la pourriture grise."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال الآزوت للعنب ؟",
+              "reponse": "العنب كايحتاج لـ 40 لـ 60 كيلو آزوت فالهكتار. التسميد فجوج مرات: 50% عند ظهور البراعم (مارس)، 50% فالتزهير (ماي). الآزوت الزايد كايخدم البياض الدقيقي والتعفن الرمادي."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les besoins en phosphore de la vigne ?",
+              "reponse": "La vigne a besoin de 80 à 100 kg P2O5/ha. Le phosphore favorise le développement racinaire, la floraison et la maturation des baies. Apport en automne ou début printemps."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال الفوسفور للعنب ؟",
+              "reponse": "العنب كايحتاج لـ 80 لـ 100 كيلو P2O5 فالهكتار. الفوسفور كايخدم الجذور، التزهير ونضج الحبات. تحطو فالخريف أو بداية الربيع."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les besoins en potassium de la vigne ?",
+              "reponse": "La vigne a besoin de 100 à 150 kg K2O/ha. Le potassium améliore la qualité des baies (sucre, couleur), la résistance à la sécheresse et au gel. C'est l'élément le plus important pour la vigne."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال البوتاسيوم للعنب ؟",
+              "reponse": "العنب كايحتاج لـ 100 لـ 150 كيلو K2O فالهكتار. البوتاسيوم كايزيد الجودة (سكر، لون)، مقاومة الجفاف والجليد. هو العنصر الأهم للعنب."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel engrais organique utiliser pour la vigne ?",
+              "reponse": "Le compost ou le fumier composté (3-5 t/ha) sont excellents. À épandre tous les 2-3 ans, de préférence en automne. Évitez le fumier frais (risque de brûlure des racines et maladies)."
+            },
+            "darija": {
+              "question": "شنو هو السماد العضوي اللي نستعملو للعنب ؟",
+              "reponse": "الكومپو أو الزبل المكمور (3-5 طن فالهكتار) هوما مزيانين. تحطو كل 2-3 سنين، أحسن وقت فالخريف. تجنب الزبل الطري (خطر على الجذور والأمراض)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand faut-il fertiliser la vigne ?",
+              "reponse": "Fertilisation de fond (P, K, matière organique) : automne (octobre-novembre). Fertilisation azotée : mars (50%) et mai (50%). Fertilisation foliaire (magnésium, zinc, bore) : avril-mai."
+            },
+            "darija": {
+              "question": "فوقاش خاصنا نسمد العنب ؟",
+              "reponse": "السماد الأساسي (فوسفور، بوتاسيوم، مادة عضوية): الخريف (أكتوبر-نونبر). السماد الآزوتي: مارس (50%) و ماي (50%). السماد الوراقي (مغنيزيوم، زنك، بور): أبريل-ماي."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la dose de magnésium pour la vigne ?",
+              "reponse": "La vigne a besoin de 20 à 30 kg MgO/ha en cas de carence. La carence en magnésium se manifeste par une chlorose internervaire sur les feuilles âgées (en forme de 'V')."
+            },
+            "darija": {
+              "question": "شحال هي الكمية ديال المغنيزيوم للعنب ؟",
+              "reponse": "العنب كايحتاج لـ 20 لـ 30 كيلو MgO فالهكتار فوقاش كاين نقص. نقص المغنيزيوم كايبان بصفار بين العروق فالوراق القدام (على شكل 'V')."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "carences_vigne",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Comment reconnaître une carence en azote sur la vigne ?",
+              "reponse": "Symptômes : feuilles pâles (jaunissement uniformisé), croissance réduite, sarments fins, baies petites. Solution : apport d'urée ou nitrate d'ammonium (50-80 kg/ha) en mars-mai."
+            },
+            "darija": {
+              "question": "كيفاش نعرف نقص الآزوت فالعنب ؟",
+              "reponse": "الأعراض: الوراق كاتصفر، النمو كايبطا، الأغصان رقاق، الحبات صغار. الحل: تحط اليوريا (50-80 كيلو فالهكتار) فمارس-ماي."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître une carence en potassium sur la vigne ?",
+              "reponse": "Symptômes : bords des feuilles bruns (nécrose marginale), baies molles et acides, grappes lâches. Solution : apport de chlorure ou sulfate de potassium (100-150 kg/ha) en automne ou hiver."
+            },
+            "darija": {
+              "question": "كيفاش نعرف نقص البوتاسيوم فالعنب ؟",
+              "reponse": "الأعراض: حواف الوراق كحلة، الحبات طرية وحامضية، العناقيد مفرقين. الحل: تحط كلور أو سلفات البوتاسيوم (100-150 كيلو فالهكتار) فالخريف أو الشتي."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître une carence en magnésium sur la vigne ?",
+              "reponse": "Symptômes : chlorose internervaire sur feuilles âgées (en forme de 'V'), nécrose marginale en cas de carence sévère. Solution : apport de sulfate de magnésium (20-30 kg/ha) en foliaire ou au sol."
+            },
+            "darija": {
+              "question": "كيفاش نعرف نقص المغنيزيوم فالعنب ؟",
+              "reponse": "الأعراض: صفار بين العروق فالوراق القدام (على شكل 'V')، حرق علا الحافة فوقاش كاتزيد. الحل: تحط سلفات المغنيزيوم (20-30 كيلو فالهكتار) ورقيا أو فالأرض."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître une carence en fer sur la vigne ?",
+              "reponse": "Symptômes : chlorose internervaire sur jeunes feuilles (les feuilles jaunissent mais les nervures restent vertes). Solution : apport de chélate de fer (EDDHA) 1-2 kg/ha en foliaire. Si pH > 7.5, apport de soufre."
+            },
+            "darija": {
+              "question": "كيفاش نعرف نقص الحديد فالعنب ؟",
+              "reponse": "الأعراض: الوراق الجداد كاتصفر ولكن العروق كاتبقى خضر. الحل: تحط شيلات الحديد (1-2 كيلو فالهكتار) ورقيا. إلا كان pH > 7.5، حط كبريت."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître une carence en zinc sur la vigne ?",
+              "reponse": "Symptômes : feuilles petites et étroites (rosette), entre-nœuds courts, grappes lâches et baies de taille irrégulière. Solution : apport de sulfate de zinc (5-10 kg/ha) en foliaire avant la floraison."
+            },
+            "darija": {
+              "question": "كيفاش نعرف نقص الزنك فالعنب ؟",
+              "reponse": "الأعراض: الوراق صغار و ضيقين (وردة)، المسافات مابين العقد قصار، العناقيد مفرقين والحبات بأحجام مختلفة. الحل: تحط سلفات الزنك (5-10 كيلو فالهكتار) ورقيا قبل التزهير."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "maladies_vigne",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Comment reconnaître le mildiou sur la vigne ?",
+              "reponse": "Symptômes : taches huileuses jaunes sur les feuilles (face supérieure), duvet blanc (face inférieure) en conditions humides, baies ridées et momifiées. Traitement : fongicides cupriques (Bouillie bordelaise 2-3 kg/ha) tous les 10-15 jours d'avril à juin."
+            },
+            "darija": {
+              "question": "كيفاش نعرف المليديو فالعنب ؟",
+              "reponse": "الأعراض: بقع زيتية صفر على الوراق (الوجه الفوقاني)، رياش بيض (الوجه التحتاني) فالرطوبة، الحبات كاتجعد و كاتصغر. العلاج: فونجيسيدات نحاسية (2-3 كيلو فالهكتار) كل 10-15 يوم من أبريل لـ يونيو."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître l'oïdium sur la vigne ?",
+              "reponse": "Symptômes : feutrage blanc sur feuilles et baies, craquelures sur baies à maturité, grappes qui se dessèchent. Traitement : soufre mouillable (2-4 kg/ha) en mai-juin par temps sec. Évitez les excès d'azote qui favorisent la maladie."
+            },
+            "darija": {
+              "question": "كيفاش نعرف البياض الدقيقي فالعنب ؟",
+              "reponse": "الأعراض: غبار أبيض على الوراق والحبات، تشققات فالحبات فالنضج، العناقيد كاتجف. العلاج: الكبريت (2-4 كيلو فالهكتار) فماي-يونيو فالجفاف. تجنب الآزوت الزايد اللي كايخدم المرض."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître la pourriture grise sur la vigne ?",
+              "reponse": "Symptômes : moississures grises sur baies, pourriture en grappes serrées, odeur de moisi. Traitement préventif : éclaircissage des grappes, éviter l'irrigation par aspersion. Traitement curatif : fongicides à base de pyriméthanil (0.75-1 L/ha) à la véraison."
+            },
+            "darija": {
+              "question": "كيفاش نعرف التعفن الرمادي فالعنب ؟",
+              "reponse": "الأعراض: عفن رمادي على الحبات، تعفن فالعناقيد المتقاربة، ريحة العفن. الوقاية: تخفيف العناقيد، تجنب السقي بالرش. العلاج: فونجيسيدات (0.75-1 ليتر فالهكتار) فالنضج."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre le mildiou de façon préventive ?",
+              "reponse": "Prévention : taille aérée pour réduire l'humidité, élimination des feuilles tombées, évitez l'irrigation par aspersion, pulvérisations de bouillie bordelaise (2-3 kg/ha) tous les 10-15 jours dès le stade 3-5 feuilles."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو المليديو بالوقاية ؟",
+              "reponse": "الوقاية: التقليم المفتوح باش تقلل الرطوبة، إزالة الوراق اللي طاحت، تجنب السقي بالرش، رش النحاس (2-3 كيلو فالهكتار) كل 10-15 يوم من مرحلة 3-5 ورقات."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelles sont les principales maladies de la vigne à Doukkala ?",
+              "reponse": "Les principales maladies sont : le mildiou (Plasmopara viticola), l'oïdium (Erysiphe necator), et la pourriture grise (Botrytis cinerea). Le mildiou est le plus dangereux en années humides. L'oïdium est favorisé par les étés chauds et secs."
+            },
+            "darija": {
+              "question": "شنو هم الأمراض الرئيسية للعنب فدكالة ؟",
+              "reponse": "الأمراض الرئيسية هي: المليديو، البياض الدقيقي، والتعفن الرمادي. المليديو هو الأخطر فالأعوام الممطرة. البياض الدقيقي كاينتشر فالصيف الحار والجاف."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "ravageurs_vigne",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Comment reconnaître l'eudemis (ver de la grappe) sur la vigne ?",
+              "reponse": "Symptômes : baies piquées et momifiées, chenilles vertes ou brunes dans les grappes, toiles soyeuses. Traitement préventif : piégeage sexuel avec phéromones (mai-juin). Traitement bio : Bacillus thuringiensis (50-100 g/hl) dès l'éclosion des œufs."
+            },
+            "darija": {
+              "question": "كيفاش نعرف دودة العنقود فالعنب ؟",
+              "reponse": "الأعراض: الحبات مثقوبة ومجففة، يرقات خضر أو كحلة فالعناقيد، خيوط حرير. الوقاية: مصايد الفيرومونات (ماي-يونيو). العلاج العضوي: باكيلوس ثورينجينسيس (50-100 غرام فالهكتوليتر) من فقس البيض."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître la cochenille farineuse sur la vigne ?",
+              "reponse": "Symptômes : boucliers blancs cotonneux sur sarments et grappes, miellat → développement de fumagine (noir sur les feuilles). Traitement : huile blanche en hiver (1-2 L/ha), pyréthrinoïdes au printemps. Auxiliaires : coccinelles (Cryptolaemus montrouzieri)."
+            },
+            "darija": {
+              "question": "كيفاش نعرف البق الدقيقي فالعنب ؟",
+              "reponse": "الأعراض: دروع بيض قطنيين على الأغصان والعناقيد، العسل → فطور سود على الوراق. العلاج: الزيت الأبيض فالشتي (1-2 ليتر فالهكتار)، بيريترينويدات فربيع. الأعداء الطبيعية: الخنافس."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre l'eudemis de façon biologique ?",
+              "reponse": "Méthodes bio : piégeage massif avec phéromones (1 piège/arbre) en mai-juin, pulvérisation de Bacillus thuringiensis (50-100 g/hl) au stade éclosion des œufs, lâchers de trichogrammes (micro-guêpes parasitoïdes), et filets anti-insectes."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو دودة العنقود بالطرق العضوية ؟",
+              "reponse": "الطرق العضوية: مصايد الفيرومونات (1 مصيدة/شجرة) فماي-يونيو، رش باكيلوس ثورينجينسيس (50-100 غرام فالهكتوليتر) من فقس البيض، إطلاق التريكوغراما (دبابير طفيلية)، والشباك ضد الحشرات."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les principaux ravageurs de la vigne à Doukkala ?",
+              "reponse": "Les principaux ravageurs sont : l'eudemis (Lobesia botrana) et la cochenille farineuse (Planococcus citri). L'eudemis est le plus destructeur car il attaque directement les baies. La cochenille est plus fréquente en irrigué."
+            },
+            "darija": {
+              "question": "شنو هم الآفات الرئيسية للعنب فدكالة ؟",
+              "reponse": "الآفات الرئيسية هي: دودة العنقود والبق الدقيقي. دودة العنقود هي الأكثر تدميرا حيت كاتهاجم الحبات مباشرة. البق كاين أكثر فالمسقي."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "plantation_vigne",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quand planter la vigne à Doukkala ?",
+              "reponse": "La période idéale de plantation est de NOVEMBRE à MARS (hors gel). La plantation en automne permet aux racines de se développer avant l'été."
+            },
+            "darija": {
+              "question": "فوقاش نزرع العنب فدكالة ؟",
+              "reponse": "أحسن وقت للزرع هو من نونبر لـ مارس (بعيد على الجليد). الزرع فالخريف كايعطي الجذور وقت باش تنمو قبل الصيف."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle densité de plantation pour la vigne ?",
+              "reponse": "Traditionnel : 1600-2500 pieds/ha (4x2 m ou 2.5x2 m). Intensif : 3000-5000 pieds/ha (3x1 m ou 2.5x1 m). Pour le raisin de table, espacez plus (3x2 m) pour faciliter la récolte et l'aération."
+            },
+            "darija": {
+              "question": "شحال هي الكثافة ديال زرع العنب ؟",
+              "reponse": "تقليدي: 1600-2500 كرمة فالهكتار (4x2 م). كثيف: 3000-5000 كرمة فالهكتار (3x1 م). لعنب المائدة، وسع أكثر (3x2 م) باش تسهل الحصاد والتهوية."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment planter un pied de vigne ?",
+              "reponse": "Creusez un trou de 40x40x40 cm. Mélangez la terre extraite avec 5 kg de fumier composté et 100 g de superphosphate. Placez le pied, comblez, tassez légèrement, arrosez abondamment (20-30 L d'eau). Installez un tuteur si nécessaire."
+            },
+            "darija": {
+              "question": "كيفاش نزرع كرمة العنب ؟",
+              "reponse": "حفر حفرة 40x40x40 سم. اخلط التراب مع 5 كيلو ديال الزبل المكمور و 100 غرام ديال السوبرفوسفات. حط الكرمة، اردم، ضغط شوية، وسقي بزاف (20-30 ليتر ماء). حط دعامة إلا كانت ضرورية."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "taille_vigne",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quand tailler la vigne à Doukkala ?",
+              "reponse": "La taille se fait en JANVIER-FÉVRIER (hors gel). La taille trop précoce (décembre) expose les bourgeons au gel. La taille trop tardive (mars) réduit la vigueur."
+            },
+            "darija": {
+              "question": "فوقاش نقلم العنب فدكالة ؟",
+              "reponse": "التقليم كايكون فيناير-فبراير (بعيد على الجليد). التقليم بكري (دجنبر) كايعرض البراعم للجليد. التقليم متأخر (مارس) كاينقص القوة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les types de taille de la vigne ?",
+              "reponse": "Deux types principaux : 1) Taille en guyot (simple ou double) : 8-12 bourgeons par pied, adaptée aux vignes palissées. 2) Taille en cordon : palissage sur fils horizontaux, adaptée aux vignes en intensif."
+            },
+            "darija": {
+              "question": "شنو هم أنواع تقليم العنب ؟",
+              "reponse": "نوعين رئيسيين: 1) تقليم غيوت: 8-12 برعم فالكرمة، مناسب للكروم المعروشة. 2) تقليم كوردون: التعريش على أسلاك أفقية، مناسب للكروم الكثيفة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment tailler une jeune vigne ?",
+              "reponse": "Les 2-3 premières années : taille de formation. Choisissez 1-2 sarments principaux (charpentières), supprimez les autres. La première année, taillez à 2 yeux. La deuxième année, taillez à 4-6 yeux. La troisième année, passez à la taille de production (8-12 yeux)."
+            },
+            "darija": {
+              "question": "كيفاش نقلم الكرمة الصغيرة ؟",
+              "reponse": "فالسنوات 2-3 الأولى: تقليم التكوين. اختار 1-2 أغصان رئيسية، نزيل الباقي. العام الأول، قلم على 2 عيون. العام الثاني، قلم على 4-6 عيون. العام الثالث، دوز للتقليم الإنتاجي (8-12 عين)."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "palissage_vigne",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quand installer le palissage de la vigne ?",
+              "reponse": "Le palissage s'installe en MARS-AVRIL, avant le début de la croissance. Il se compose de fils horizontaux à 50, 100 et 150 cm du sol, tendus sur des piquets."
+            },
+            "darija": {
+              "question": "فوقاش نركب التعريش ديال العنب ؟",
+              "reponse": "التعريش كايتنصب فمارس-أبريل، قبل بداية النمو. كايتكون من أسلاك أفقية على 50، 100، و 150 سم من الأرض، مشدودة على أعمدة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment palisser la vigne ?",
+              "reponse": "Attachez les sarments aux fils horizontaux tous les 20 cm avec des attaches souples (rafia, clips). Dirigez les sarments verticalement ou en éventail selon le système de taille (guyot ou cordon)."
+            },
+            "darija": {
+              "question": "كيفاش نعريش العنب ؟",
+              "reponse": "اربط الأغصان على الأسلاك الأفقية كل 20 سم بروابط طرية (رافية، كليبات). وجه الأغصان عموديا أو على شكل مروحة حسب نظام التقليم (غيوت أو كوردون)."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "recolte_vigne",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quand récolter le raisin de table à Doukkala ?",
+              "reponse": "Le raisin de table se récolte de JUILLET à SEPTEMBRE selon la variété. Le moment idéal est quand les baies sont colorées, fermes, sucrées (16-18° Brix), et que les pépins sont bruns."
+            },
+            "darija": {
+              "question": "فوقاش نحصد عنب المائدة فدكالة ؟",
+              "reponse": "عنب المائدة كايتحصد من يوليوز لـ شتنبر حسب النوع. الوقت المناسب فوقاش الحبات ملونة، قاسحين، حلوين (16-18° بريكس)، والبذور كحلة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand récolter le raisin de cuve à Doukkala ?",
+              "reponse": "Le raisin de cuve se récolte d'AOÛT à OCTOBRE. Le moment idéal est quand le taux de sucre est élevé (18-22° Brix), l'acidité est équilibrée (6-8 g/L), et les pépins sont bruns."
+            },
+            "darija": {
+              "question": "فوقاش نحصد عنب المعصر فدكالة ؟",
+              "reponse": "عنب المعصر كايتحصد من غشت لـ أكتوبر. الوقت المناسب فوقاش السكر عالي (18-22° بريكس)، الحمض متوازن (6-8 غرام فليتر)، والبذور كحلة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment récolter le raisin ?",
+              "reponse": "Récolte manuelle (cagettes de 5 kg) pour ne pas abîmer les baies. Coupez les grappes avec un sécateur en laissant un pédoncule de 1-2 cm. Récoltez tôt le matin quand les baies sont fraîches. Triez les grappes abîmées."
+            },
+            "darija": {
+              "question": "كيفاش نحصد العنب ؟",
+              "reponse": "الحصاد باليد (سلال 5 كيلو) باش ما تجرحش الحبات. قطع العناقيد بالمقص مع ترك عود 1-2 سم. احصد فالصباح بكري فوقاش الحبات تكون طريين. فرز العناقيد المعطوبة."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "projets_vigne",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quels sont les problèmes du cépage Doukkali ?",
+              "reponse": "Les principaux problèmes sont : la dégénérescence variétale (perte de qualité et de productivité), la faible technicité des viticulteurs (manque de formation), et la concurrence des cépages importés."
+            },
+            "darija": {
+              "question": "شنو هي المشاكل ديال نوع دكالي ؟",
+              "reponse": "المشاكل الرئيسية هي: التدهور الوراثي (نقص الجودة والإنتاج)، ضعف التقنيات عند الفلاحين (نقص التكوين)، والمنافسة مع الأنواع المستوردة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les projets de l'ORMVAD pour la vigne ?",
+              "reponse": "L'ORMVAD a lancé un projet de rajeunissement des vergers et des essais variétaux à la station de Had Ouled Frej pour sélectionner des cépages adaptés à l'irrigué. L'objectif est de préserver le patrimoine génétique du cépage Doukkali."
+            },
+            "darija": {
+              "question": "شنو هي مشاريع المكتب الجهوي للتنمية الفلاحية للعنب ؟",
+              "reponse": "المكتب الجهوي للتنمية الفلاحية بدا مشروع لتجديد الكروم وتجارب على أنواع جديدة فمحطة حد أولاد فرج باش يختار أنواع مناسبة للمسقي. الهدف هو الحفاظ على التراث الوراثي ديال نوع دكالي."
+            }
+          },{
+  "chatbot_vigne_doukkala_simple_corrige": {
+    "version": "1.1",
+    "date_mise_a_jour": "2026-04-12",
+    "langues": ["francais", "darija"],
+    "remarque": "En darija, on dit 'شجرة العنب' (xajret 3neb) ou 'العنبة' (l3enba), pas 'karma'",
+    "categories": [
+      {
+        "nom": "questions_simples",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quand est-ce qu'on plante la vigne à Doukkala ?",
+              "reponse": "On plante la vigne de NOVEMBRE à MARS, quand il ne gèle pas. L'automne est la meilleure saison."
+            },
+            "darija": {
+              "question": "فوقاش كاتزرع شجرة العنب فدكالة ؟",
+              "reponse": "كاتزرع شجرة العنب من نونبر لـ مارس، فوقاش ما كاينش الجليد. الخريف هو أحسن وقت."
+            }
+          },
+          {
+            "francais": {
+              "question": "Combien de temps la vigne met-elle pour produire ?",
+              "reponse": "La vigne commence à produire après 2-3 ans. La pleine production est atteinte vers 5-6 ans."
+            },
+            "darija": {
+              "question": "شحال من عام باش شجرة العنب كاتبدا تعطي ؟",
+              "reponse": "شجرة العنب كاتبدا تعطي مورا 2-3 سنين. الإنتاج الكامل كايكون فـ 5-6 سنين."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la meilleure variété de raisin à Doukkala ?",
+              "reponse": "La variété locale 'DOUKKALI' est la plus répandue (65% des surfaces). Elle est bien adaptée au climat et aux sols de la région."
+            },
+            "darija": {
+              "question": "شنو هو أحسن نوع ديال العنب فدكالة ؟",
+              "reponse": "النوع المحلي 'دكالي' هو الأكثر انتشارا (65% ديال المساحة). هو مناسب للطقس والأرض فهاد المنطقة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Combien d'eau faut-il pour la vigne ?",
+              "reponse": "Une vigne adulte a besoin de 5000 à 7000 m³ d'eau par hectare (500-700 mm). Les jeunes vignes ont besoin de plus d'eau."
+            },
+            "darija": {
+              "question": "شحال ديال الماء خاص شجرة العنب ؟",
+              "reponse": "شجرة العنب الكبيرة كاتحتاج لـ 5000 لـ 7000 متر مكعب فالهكتار (500-700 مم). الشجر الصغار كايحتاجو للماء أكثر."
+            }
+          },
+          {
+            "francais": {
+              "question": "Puis-je cultiver la vigne sans irrigation ?",
+              "reponse": "OUI, 12822 hectares sont cultivés en bour (sans irrigation) à Doukkala. Mais le rendement est plus faible (10-15 tonnes/ha contre 20-30 tonnes/ha en irrigué)."
+            },
+            "darija": {
+              "question": "نقدر نزرع شجرة العنب بلا سقي ؟",
+              "reponse": "اه، 12822 هكتار كايزرعو فالبور فدكالة. ولكن الإنتاج كاينقص (10-15 طن فالهكتار مقابل 20-30 طن فالمسقي)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le meilleur système d'irrigation pour la vigne ?",
+              "reponse": "Le GOUTTE-À-GOUTTE est le meilleur. Il économise 30-50% d'eau et réduit les maladies (les feuilles restent sèches)."
+            },
+            "darija": {
+              "question": "شنو هو أحسن نظام للسقي لشجرة العنب ؟",
+              "reponse": "السقي بالتنقيط هو الأحسن. كايوف الماء بـ 30-50% و كايقلل الأمراض (الوراق كاتبقى جافة)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand faut-il arrêter d'arroser la vigne ?",
+              "reponse": "Arrêtez l'irrigation 2-3 semaines avant la récolte. Cela concentre les sucres et améliore la qualité du raisin."
+            },
+            "darija": {
+              "question": "فوقاش خاصنا نوقف السقي ديال شجرة العنب ؟",
+              "reponse": "وقف السقي 2-3 أسابيع قبل الحصاد. هاد الشي كايزيد السكر و الجودة ديال العنب."
+            }
+          },
+          {
+            "francais": {
+              "question": "De quel engrais la vigne a-t-elle le plus besoin ?",
+              "reponse": "La vigne a surtout besoin de POTASSIUM (100-150 kg/ha). Le potassium améliore la qualité des baies (sucre, couleur) et la résistance à la sécheresse."
+            },
+            "darija": {
+              "question": "شنو هو السماد اللي شجرة العنب كاتحتاجو أكثر ؟",
+              "reponse": "شجرة العنب كاتحتاج أكثر للبوتاسيوم (100-150 كيلو فالهكتار). البوتاسيوم كايزيد الجودة (سكر، لون) ومقاومة الجفاف."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment savoir si ma vigne manque d'azote ?",
+              "reponse": "Les feuilles sont pâles (jaunâtres), les sarments sont fins, et la croissance est lente. Ajoutez de l'urée (50-80 kg/ha) au printemps."
+            },
+            "darija": {
+              "question": "كيفاش نعرف أن شجرة العنب عندها نقص ف الآزوت ؟",
+              "reponse": "الوراق كاتكون صافرة، الأغصان رقاق، والنمو كايبطا. زيد اليوريا (50-80 كيلو فالهكتار) فربيع."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître le mildiou sur la vigne ?",
+              "reponse": "Taches jaunes sur les feuilles (dessus) et duvet blanc (dessous). Traitez avec de la bouillie bordelaise (2-3 kg/ha) tous les 10-15 jours."
+            },
+            "darija": {
+              "question": "كيفاش نعرف المليديو فشجرة العنب ؟",
+              "reponse": "بقع صفر على الوراق (الفوق) و رياش بيض (التحت). عالج بالنحاس (2-3 كيلو فالهكتار) كل 10-15 يوم."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître l'oïdium sur la vigne ?",
+              "reponse": "Feutrage blanc sur les feuilles et les baies, comme de la farine. Traitez avec du soufre (2-4 kg/ha) par temps sec."
+            },
+            "darija": {
+              "question": "كيفاش نعرف البياض الدقيقي فشجرة العنب ؟",
+              "reponse": "غبار أبيض على الوراق والحبات، بحال الدقيق. عالج بالكبريت (2-4 كيلو فالهكتار) فالجفاف."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand faut-il tailler la vigne ?",
+              "reponse": "On taille la vigne en JANVIER-FÉVRIER, quand elle est au repos (sans feuilles). Ne taillez pas en période de gel."
+            },
+            "darija": {
+              "question": "فوقاش خاصنا نقلم شجرة العنب ؟",
+              "reponse": "كايتقلم شجرة العنب فيناير-فبراير، فوقاش هي ساكنة (بلا ورق). ما تقلمش فوقاش كاين الجليد."
+            }
+          },
+          {
+            "francais": {
+              "question": "Combien de grappes par pied de vigne ?",
+              "reponse": "Un pied de vigne adulte donne 8 à 12 grappes. Éclaircissez si nécessaire pour avoir de plus belles grappes."
+            },
+            "darija": {
+              "question": "شحال ديال العنقود فشجرة العنب الواحدة ؟",
+              "reponse": "شجرة العنب الكبيرة كاتعطي 8 لـ 12 عنقود. خفف العناقيد إلا كان ضروري باش يكونو كبار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand récolter le raisin de table ?",
+              "reponse": "Le raisin de table se récolte de JUILLET à SEPTEMBRE. Les baies doivent être colorées, fermes et sucrées."
+            },
+            "darija": {
+              "question": "فوقاش نحصد عنب المائدة ؟",
+              "reponse": "عنب المائدة كايتحصد من يوليوز لـ شتنبر. الحبات خاصها تكون ملونة، قاسحين، وحلوين."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le rendement de la vigne à Doukkala ?",
+              "reponse": "Le rendement moyen est de 10-15 tonnes/ha en traditionnel, 20-30 tonnes/ha en intensif. La région produit 30000 tonnes par an."
+            },
+            "darija": {
+              "question": "شحال هو الإنتاج ديال شجرة العنب فدكالة ؟",
+              "reponse": "الإنتاج الوسيط هو 10-15 طن فالهكتار فالتقليدي، 20-30 طن فالهكتار فالكثيف. المنطقة كاتنتج 30000 طن فالعام."
+            }
+          },
+          {
+            "francais": {
+              "question": "La vigne résiste-t-elle à la sécheresse ?",
+              "reponse": "OUI, la vigne résiste modérément à la sécheresse grâce à ses racines profondes. Mais un manque d'eau pendant la floraison réduit la production."
+            },
+            "darija": {
+              "question": "واش شجرة العنب كاتصمد للجفاف ؟",
+              "reponse": "اه، شجرة العنب كاتصمد شوية للجفاف بسباب جذورها العميقة. ولكن نقص الماء فالتزهير كاينقص الإنتاج."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel sol convient le mieux à la vigne ?",
+              "reponse": "La vigne aime les sols profonds (>60 cm), bien drainés, avec un pH entre 6 et 7.5. Les sols limono-argileux sont idéaux."
+            },
+            "darija": {
+              "question": "شنو هو النوع ديال الأرض المناسب لشجرة العنب ؟",
+              "reponse": "شجرة العنب كاتحب الأرض العميقة (>60 سم)، اللي كاتصرف الماء مزيان، مع pH مابين 6 و 7.5. الأرض الطينية الرملية هي المثالية."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment protéger la vigne du gel ?",
+              "reponse": "Pour protéger la vigne du gel : buttez la base, utilisez des voiles d'hivernage, ou brûlez des bottes de paille pour créer de la fumée (dans les petites parcelles)."
+            },
+            "darija": {
+              "question": "كيفاش نحمي شجرة العنب من الجليد ؟",
+              "reponse": "باش تحمي شجرة العنب من الجليد: راكم التراب على القاعدة، استعمل أغطية شتوية، أو حرق بالات التبن باش تدي دخان (فالمساحات الصغار)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la durée de vie d'un pied de vigne ?",
+              "reponse": "Un pied de vigne bien entretenu peut vivre 30 à 50 ans. Certaines vignes centenaires existent encore à Doukkala."
+            },
+            "darija": {
+              "question": "شحال هو العمر ديال شجرة العنب ؟",
+              "reponse": "شجرة العنب اللي كاتصان مزيان تقدر تعيش 30 لـ 50 عام. كاين حتى كروم معمرة فدكالة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Peut-on planter la vigne près de la mer ?",
+              "reponse": "OUI, la vigne peut être plantée près de la mer à Doukkala. Mais attention aux vents forts (jusqu'à 61.8 km/h à El Jadida). Installez des brise-vent."
+            },
+            "darija": {
+              "question": "نقدر نزرع شجرة العنب قريب من البحر ؟",
+              "reponse": "اه، شجرة العنب كاتزرع قريب من البحر فدكالة. ولكن الحذر من الرياح القوية (حتال 61.8 كلم/س فالجديدة). حط مصدات رياح."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le prix du raisin de table à Doukkala ?",
+              "reponse": "Le prix du raisin de table varie entre 5 et 15 dirhams le kilogramme selon la variété, la qualité et la saison."
+            },
+            "darija": {
+              "question": "شحال هو ثمن عنب المائدة فدكالة ؟",
+              "reponse": "ثمن عنب المائدة كايتغير مابين 5 و 15 درهم فالكيلو حسب النوع، الجودة، و الموسم."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment conserver le raisin après récolte ?",
+              "reponse": "Conservez le raisin au réfrigérateur (4-8°C) dans un sachet perforé. Il se conserve 1-2 semaines. Ne le lavez pas avant stockage."
+            },
+            "darija": {
+              "question": "كيفاش نحفظ العنب مورا الحصاد ؟",
+              "reponse": "حفظ العنب فالبراد (4-8 درجات) فكيس مثقوب. كايتحفظ 1-2 أسابيع. ما تغسلش قبل التخزين."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand faut-il fertiliser la vigne en potassium ?",
+              "reponse": "La fertilisation potassique se fait en AUTOMNE (octobre-novembre) ou en HIVER. Le potassium améliore la résistance au gel et la qualité des baies."
+            },
+            "darija": {
+              "question": "فوقاش خاصنا نسمد شجرة العنب بالبوتاسيوم ؟",
+              "reponse": "تسميد البوتاسيوم كايكون فالخريف (أكتوبر-نونبر) أو الشتي. البوتاسيوم كايزيد مقاومة الجليد والجودة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Qu'est-ce que la véraison de la vigne ?",
+              "reponse": "La véraison est le moment où les baies changent de couleur (du vert au rouge ou jaune) et commencent à accumuler du sucre. C'est une étape critique pour la qualité."
+            },
+            "darija": {
+              "question": "شنو هو النضج ديال شجرة العنب ؟",
+              "reponse": "النضج هو الوقت اللي كاتبدا فيه الحبات تبدل اللون (من خضر ل حمر أو صفر) و كاتبدا تجمع السكر. هي مرحلة حرجة للجودة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Pourquoi mes grappes sont-elles lâches ?",
+              "reponse": "Des grappes lâches peuvent être dues à : une carence en potassium, un manque d'eau pendant la floraison, ou une mauvaise pollinisation."
+            },
+            "darija": {
+              "question": "علاش العناقيد ديالي مفرقين ؟",
+              "reponse": "العناقيد المفرقين يمكن يكونو بسبب: نقص البوتاسيوم، نقص الماء فالتزهير، أو تلقيح ضعيف."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre les oiseaux sur la vigne ?",
+              "reponse": "Protégez votre vigne des oiseaux avec des filets anti-oiseaux, des épouvantails, ou des bandes réfléchissantes. Le filet est la méthode la plus efficace."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو الطيور على شجرة العنب ؟",
+              "reponse": "حمي شجرة العنب من الطيور بالشباك، الفزاعة، أو الشرائط العاكسة. الشباك هو أحسن طريقة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Peut-on faire du vin avec le raisin de Doukkala ?",
+              "reponse": "OUI, il existe 216 hectares de vigne de cuve à Doukkala. Le raisin est utilisé pour la vinification locale."
+            },
+            "darija": {
+              "question": "نقدر نصنع الخمرة من عنب دكالة ؟",
+              "reponse": "اه، كاين 216 هكتار ديال عنب المعصر فدكالة. العنب كايتخدم لصناعة الخمرة المحلية."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la distance entre les pieds de vigne ?",
+              "reponse": "En traditionnel : 4x2 m (1600 pieds/ha). En intensif : 3x1 m (3300 pieds/ha) ou 2.5x1 m (4000 pieds/ha)."
+            },
+            "darija": {
+              "question": "شحال هي المسافة مابين أشجار العنب ؟",
+              "reponse": "فالتقليدي: 4x2 م (1600 شجرة فالهكتار). فالكثيف: 3x1 م (3300 شجرة) أو 2.5x1 م (4000 شجرة)."
+            }
+          },
+          {
+            "francais": {
+              "question": "À quelle profondeur planter la vigne ?",
+              "reponse": "On plante la vigne à 40 cm de profondeur, dans un trou de 40x40x40 cm."
+            },
+            "darija": {
+              "question": "فوقاش عمق خاصنا نزرع شجرة العنب ؟",
+              "reponse": "كاتزرع شجرة العنب على عمق 40 سم، فحفرة 40x40x40 سم."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand arrêter l'azote sur la vigne ?",
+              "reponse": "Arrêtez l'azote après la FLORAISON (fin mai). Un excès d'azote tardif favorise l'oïdium et la pourriture grise."
+            },
+            "darija": {
+              "question": "فوقاش نوقف الآزوت على شجرة العنب ؟",
+              "reponse": "وقف الآزوت مورا التزهير (أخر ماي). الآزوت المتأخر كايخدم البياض الدقيقي والتعفن الرمادي."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment savoir si ma vigne a soif ?",
+              "reponse": "Signes : les feuilles se recroquevillent, les sarments cessent de pousser, les baies restent petites. Arrosez immédiatement."
+            },
+            "darija": {
+              "question": "كيفاش نعرف أن شجرة العنب عطشانة ؟",
+              "reponse": "العلامات: الوراق كاتلتف، الأغصان كاتوقف النمو، الحبات كاتبقى صغار. سقي مباشرة."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
+        ]
+      }
+    ]
+  }
+}

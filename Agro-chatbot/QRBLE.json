@@ -1,0 +1,1213 @@
+{
+  "chatbot_ble_doukkala": {
+    "version": "1.0",
+    "date_mise_a_jour": "2026-04-12",
+    "langues": ["francais", "darija"],
+    "sources": [
+      "Monographie El Jadida 2021 (HCP)",
+      "ORMVAD Doukkala (2023-2025)",
+      "INRA Maroc - Fiche technique des blés (2023)",
+      "Données climatiques Open-Meteo 2020-2026",
+      "Direction Provinciale Agriculture El Jadida",
+      "Données techniques des variétés Achtar, Amal, Arrih - Doukkala"
+    ],
+    "cultures": ["ble_dur", "ble_tendre"],
+    "categories": [
+      {
+        "nom": "general_superficies",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quelle est la superficie totale du blé dans la province d'El Jadida ?",
+              "reponse": "Selon la Monographie 2021, la superficie totale du blé est de 106800 hectares : 27800 ha de blé dur et 79000 ha de blé tendre. C'est la première culture céréalière de la région."
+            },
+            "darija": {
+              "question": "شحال هي المساحة ديال القمح فإقليم الجديدة ؟",
+              "reponse": "حسب الإحصاء العام 2021، المساحة ديال القمح هي 106800 هكتار: 27800 هكتار قمح صلب و 79000 هكتار قمح طري. هي أول زراعة حبوب فهاد المنطقة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la production totale de blé à Doukkala ?",
+              "reponse": "Selon la Monographie 2021, la production totale est de 320050 tonnes : 90280 tonnes de blé dur et 229770 tonnes de blé tendre."
+            },
+            "darija": {
+              "question": "شحال هو الإنتاج ديال القمح فدكالة ؟",
+              "reponse": "حسب الإحصاء العام 2021، الإنتاج هو 320050 طن: 90280 طن قمح صلب و 229770 طن قمح طري."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le rendement moyen du blé dur à Doukkala ?",
+              "reponse": "Selon la Monographie 2021, le rendement moyen du blé dur est de 3.25 quintaux par hectare (325 kg/ha). En irrigué, on peut atteindre 30-45 quintaux/ha."
+            },
+            "darija": {
+              "question": "شحال هو المردود ديال القمح الصلب فدكالة ؟",
+              "reponse": "حسب الإحصاء العام 2021، المردود هو 3.25 قنطار فالهكتار (325 كيلو فالهكتار). فالسقي، نقدر نوصل لـ 30-45 قنطار فالهكتار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le rendement moyen du blé tendre à Doukkala ?",
+              "reponse": "Selon la Monographie 2021, le rendement moyen du blé tendre est de 2.91 quintaux par hectare (291 kg/ha). Il est légèrement inférieur à celui du blé dur."
+            },
+            "darija": {
+              "question": "شحال هو المردود ديال القمح الطري فدكالة ؟",
+              "reponse": "حسب الإحصاء العام 2021، المردود هو 2.91 قنطار فالهكتار (291 كيلو فالهكتار). هو شوية أقل من القمح الصلب."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la différence de superficie entre blé dur et blé tendre ?",
+              "reponse": "Le blé tendre occupe 79000 hectares, soit 2.8 fois plus que le blé dur (27800 ha). Le blé tendre est plus populaire pour la consommation locale (pain, pâtisseries)."
+            },
+            "darija": {
+              "question": "شنو هو الفرق فالمساحة مابين القمح القاصح والقمح الرطب ؟",
+              "reponse": "القمح الطري كايتزرع فـ 79000 هكتار، يعني 2.8 مرة أكثر من القمح القاصح (27800 هكتار). القمح الرطب  كايتستهلك أكثر فالمغرب (الخبز، الحلويات)."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "calendrier_cultural",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quand semer le blé à Doukkala ?",
+              "reponse": "La période optimale de semis est du 10 au 30 NOVEMBRE. Les semis précoces (avant novembre) exposent au stress hydrique et aux maladies. Les semis tardifs (décembre) réduisent le rendement de 30-50%."
+            },
+            "darija": {
+              "question": "فوقاش نزرع القمح فدكالة ؟",
+              "reponse": "أحسن وقت للزرع هو من 10 لـ 30 نونبر. الزرع بكري (قبل نونبر) كايعرض الزرع للجفاف والأمراض. الزرع متأخر (دجنبر) كاينقص الإنتاج بـ 30-50%."
+            }
+          },
+          {
+            "francais": {
+              "question": "Peut-on semer le blé en décembre à Doukkala ?",
+              "reponse": "Oui, mais le rendement sera réduit de 30 à 50% par rapport à un semis en novembre. Si vous devez semer en décembre, augmentez la densité de 20% et choisissez des variétés précoces."
+            },
+            "darija": {
+              "question": "نقدر نزرع القمح فدجنبر فدكالة ؟",
+              "reponse": "اه، ولكن الإنتاج غادي ينقص بـ 30 لـ 50% مقارنة بالزرع فنونبر. إلا كان ضروري تزرع فدجنبر، زيد الكثافة بـ 20% و اختار الأنواع المبكرة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand récolter le blé à Doukkala ?",
+              "reponse": "La récolte se fait en MAI-JUIN, lorsque l'humidité du grain est inférieure à 14%. Le blé tendre mûrit généralement une semaine avant le blé dur."
+            },
+            "darija": {
+              "question": "فوقاش نحصد القمح فدكالة ؟",
+              "reponse": "الحصاد كايكون فماي-يونيو، فوقاش الرطوبة ديال الحبة تكون أقل من 14%. القمح الطري كاينضج تقريبا أسبوع قبل القمح الصلب."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le cycle de culture du blé à Doukkala ?",
+              "reponse": "Le cycle est de 150 à 180 jours selon la variété et les conditions climatiques. Semis en novembre, récolte en mai-juin. Les variétés précoces ont un cycle de 130-150 jours."
+            },
+            "darija": {
+              "question": "شحال هو دورة الزرع ديال القمح فدكالة ؟",
+              "reponse": "الدورة هي 150 لـ 180 يوم حسب النوع والطقس. الزرع فنونبر، الحصاد فماي-يونيو. الأنواع المبكرة دورة 130-150 يوم."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la meilleure période pour semer le blé dans les zones irriguées ?",
+              "reponse": "Dans les zones irriguées (périmètre du Doukkala), on peut semer jusqu'au 15 DÉCEMBRE grâce à l'irrigation de complément. Le rendement reste bon si l'irrigation est bien gérée."
+            },
+            "darija": {
+              "question": "شنو هو أحسن وقت لزرع القمح فلمناطق المسقية ؟",
+              "reponse": "فلمناطق المسقية (دكالة)، نقدر نزرع حتى 15 دجنبر بسباب السقي التكميلي. الإنتاج كايبقى مزيان إلا كان السقي مزيان."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "varietes",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quelles sont les variétés de blé dur recommandées pour Doukkala ?",
+              "reponse": "Les variétés recommandées sont : 'Marzak' (tolérante à la sécheresse), 'Amal' (bon rendement), 'Karim' (résistante aux maladies), 'Icar' (pour l'irrigué), et 'Mahmoudi' (traditionnelle)."
+            },
+            "darija": {
+              "question": "شنو هم الأنواع ديال القمح الصلب اللي تنصح بها فدكالة ؟",
+              "reponse": "الأنواع اللي تنصح بها هي: 'مرزاق' (تقاوم الجفاف)، 'أمل' (إنتاج مزيان)، 'كريم' (تقاوم الأمراض)، 'إيكار' (للمسقي)، و 'محمودي' (تقليدي)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelles sont les variétés de blé tendre recommandées pour Doukkala ?",
+              "reponse": "Les variétés recommandées sont : 'Achtar' (tolérante à la sécheresse), 'Rajae' (bon rendement en bour), 'Kharoub' (résistante aux maladies), 'Tarek' (pour l'export), et 'Wafa' (précoce)."
+            },
+            "darija": {
+              "question": "شنو هم الأنواع ديال القمح الطري اللي تنصح بها فدكالة ؟",
+              "reponse": "الأنواع اللي تنصح بها هي: 'أشتر' (تقاوم الجفاف)، 'رجاء' (إنتاج مزيان فالبور)، 'خروب' (تقاوم الأمراض)، 'طارق' (للتصدير)، و 'وفاء' (مبكر)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle variété de blé est la plus résistante à la sécheresse ?",
+              "reponse": "Le blé dur 'Marzak' et le blé tendre 'Achtar' sont les plus résistants à la sécheresse. Ils sont idéaux pour les zones non irriguées de Doukkala où les pluies sont faibles (moyenne annuelle 8-10 mm)."
+            },
+            "darija": {
+              "question": "شنو هو النوع ديال القمح اللي كايقاوم الجفاف أكثر ؟",
+              "reponse": "القمح الصلب 'مرزاق' والقمح الطري 'أشتر' هوما اللي كايقاومو الجفاف. مناسبين للمناطق الغير مسقية فدكالة فين الشتا قليلة (المعدال 8-10 ميلي متر فالعام)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle variété de blé est la plus précoce ?",
+              "reponse": "Le blé tendre 'Wafa' et le blé dur 'Icar' sont les plus précoces (cycle 130-140 jours). Ils permettent d'éviter le stress hydrique de fin de printemps."
+            },
+            "darija": {
+              "question": "شنو هو النوع المبكر ديال القمح ؟",
+              "reponse": "القمح الطري 'وفاء' والقمح الصلب 'إيكار' هوما الأكثر مبكرة (دورة 130-140 يوم). كايخلوك تتفادى الجفاف ديال أخر الربيع."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle variété de blé est la meilleure pour l'irrigué ?",
+              "reponse": "Le blé dur 'Icar' et le blé tendre 'Tarek' sont les meilleurs pour l'irrigué. Ils ont un potentiel de rendement de 40-50 qx/ha avec une irrigation bien gérée."
+            },
+            "darija": {
+              "question": "شنو هو النوع الأحسن للمسقي ؟",
+              "reponse": "القمح الصلب 'إيكار' والقمح الطري 'طارق' هوما الأحسن للمسقي. عندهم إمكانية ديال 40-50 قنطار فالهكتار مع السقي المزيان."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la variété de blé la plus précoce (Achtar, Amal, Arrih) ?",
+              "reponse": "Achtar est semi-précoce avec un cycle de 190 jours. Amal est demi-précoce avec 195 jours. Arrih est tardif avec 200 jours. Achtar est donc la plus précoce des trois."
+            },
+            "darija": {
+              "question": "شنو هو نوع القمح الأكثر مبكرة (أشتر، أمل، الريح) ؟",
+              "reponse": "أشتر هو نصف مبكر بدورة 190 يوم. أمل هو نصف مبكر بدورة 195 يوم. الريح هو متأخر بدورة 200 يوم. أشتر هو الأكثر مبكرة من بين الثلاثة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la variété de blé la plus tardive (Achtar, Amal, Arrih) ?",
+              "reponse": "Arrih est la variété la plus tardive avec un cycle de 200 jours, suivie d'Amal (195 jours) et d'Achtar (190 jours)."
+            },
+            "darija": {
+              "question": "شنو هو نوع القمح الأكثر تأخيرا (أشتر، أمل، الريح) ؟",
+              "reponse": "الريح هو النوع الأكثر تأخيرا بدورة 200 يوم، تاليه أمل (195 يوم) و أشتر (190 يوم)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la période de semis pour Achtar ?",
+              "reponse": "La période de semis pour Achtar est du 15 au 30 NOVEMBRE. La récolte se fait du 20 au 30 MAI."
+            },
+            "darija": {
+              "question": "شنو هي فترة الزرع ديال أشتر ؟",
+              "reponse": "فترة الزرع ديال أشتر هي من 15 لـ 30 نونبر. الحصاد كايكون من 20 لـ 30 ماي."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la période de semis pour Amal ?",
+              "reponse": "La période de semis pour Amal est du 15 au 25 NOVEMBRE. La récolte se fait du 25 MAI au 5 JUIN."
+            },
+            "darija": {
+              "question": "شنو هي فترة الزرع ديال أمل ؟",
+              "reponse": "فترة الزرع ديال أمل هي من 15 لـ 25 نونبر. الحصاد كايكون من 25 ماي لـ 5 يونيو."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la période de semis pour Arrih ?",
+              "reponse": "La période de semis pour Arrih est du 1er au 15 DÉCEMBRE. La récolte se fait du 5 au 15 JUIN."
+            },
+            "darija": {
+              "question": "شنو هي فترة الزرع ديال اريح ؟",
+              "reponse": "فترة الزرع ديال اريح هي من 1 لـ 15 دجنبر. الحصاد كايكون من 5 لـ 15 يونيو."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "semis_et_densite",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quelle est la densité de semis pour le blé à Doukkala ?",
+              "reponse": "En bour (non irrigué) : 200-250 pieds/m² (90-120 kg/ha). En irrigué : 300-400 pieds/m² (120-150 kg/ha). Augmentez la densité en cas de semis tardif."
+            },
+            "darija": {
+              "question": "شحال هي الكثافة ديال زرع القمح فدكالة ؟",
+              "reponse": "فالبور: 200-250 نبتة فالمتر مربع (90-120 كيلو فالهكتار). فالسقي: 300-400 نبتة فالمتر مربع (120-150 كيلو فالهكتار). زيد الكثافة إلا كان الزرع متأخر."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la profondeur de semis pour le blé ?",
+              "reponse": "La profondeur idéale est de 2 à 4 cm. Un semis trop profond (>6 cm) retarde la levée de 5-10 jours. Un semis trop superficiel (<2 cm) expose les graines aux oiseaux et à la sécheresse."
+            },
+            "darija": {
+              "question": "شحال هو العمق ديال زرع القمح ؟",
+              "reponse": "العمق المثالي هو 2 لـ 4 سم. الزرع العمق (>6 سم) كايعطل الطلوع بـ 5-10 أيام. الزرع القريب من السطح (<2 سم) كايعرض الحبوب للطيور والجفاف."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel écartement entre les rangs pour le blé ?",
+              "reponse": "L'écartement recommandé est de 15 à 20 cm entre les rangs. Un écartement plus large (25-30 cm) est possible en zones sèches pour économiser l'eau."
+            },
+            "darija": {
+              "question": "شحال هي المسافة مابين الصفوف للقمح ؟",
+              "reponse": "المسافة الموصى بها هي 15 لـ 20 سم مابين الصفوف. مسافة أكبر (25-30 سم) ممكنة فلمناطق الجافة باش توفّر الماء."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle quantité de semence par hectare pour le blé ?",
+              "reponse": "Il faut 90 à 150 kg de semence par hectare selon la variété et la densité souhaitée. Les variétés à petits grains nécessitent moins de poids."
+            },
+            "darija": {
+              "question": "شحال هي كمية البذور فالهكتار للقمح ؟",
+              "reponse": "خاصك 90 لـ 150 كيلو ديال البذور فالهكتار حسب النوع والكثافة اللي بغيتي. الأنواع اللي فيها حبات صغار كايحتاجو لوزن أقل."
+            }
+          },
+          {
+            "francais": {
+              "question": "Faut-il traiter les semences de blé avant semis ?",
+              "reponse": "OUI, le traitement des semences est FORTEMENT recommandé. Utilisez un fongicide-insecticide (ex. : Vibrance Duo, Cruiser) pour protéger contre les maladies du sol (fusariose, charbon) et les ravageurs (cécidomyie, pucerons)."
+            },
+            "darija": {
+              "question": "واش خاصنا نعالج البذور قبل الزرع ؟",
+              "reponse": "اه، معالجة البذور ضرورية جدا. استعمل فونجيسيد-مبيد حشرات (مثال: فايبرانس ديو، كروزير) باش تحمي من الأمراض الترابية (الفيوزاريوز) والآفات (حفار القمح، المن)."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "irrigation",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quels sont les besoins en eau du blé ?",
+              "reponse": "Le blé a besoin de 450 à 650 mm d'eau (4500-6500 m³/ha) selon le stade et la variété. Les besoins sont plus élevés pour le blé tendre que pour le blé dur."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال الماء للقمح ؟",
+              "reponse": "القمح كايحتاج لـ 450 لـ 650 ميلي متر ديال الماء (4500-6500 متر مكعب فالهكتار) حسب المرحلة والنوع. القمح الطري كايحتاج ماء أكثر من الصلب."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les stades critiques pour l'irrigation du blé ?",
+              "reponse": "Les stades critiques sont : tallage (60-80 mm), montaison (80-100 mm), et épiaison-floraison (100-120 mm). Un manque d'eau à l'épiaison réduit le rendement de 50-70%."
+            },
+            "darija": {
+              "question": "شنو هم المراحل الحرجة للسقي للقمح ؟",
+              "reponse": "المراحل الحرجة هي: التفريع (60-80 مم)، الساق (80-100 مم)، و السنابل-التزهير (100-120 مم). نقص الماء فمرحلة السنابل كاينقص الإنتاج بـ 50-70%."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel système d'irrigation est le meilleur pour le blé ?",
+              "reponse": "L'aspersion est la plus utilisée (efficacité 70%), mais le goutte-à-goutte enterré est plus efficace (90%) et économise 30-50% d'eau. Le gravitaire est déconseillé (efficacité <50%)."
+            },
+            "darija": {
+              "question": "شنو هو أحسن نظام للسقي للقمح ؟",
+              "reponse": "الرش هو الأكثر إستعمالا (كفاءة 70%)، ولكن التنقيط تحت الأرض هو الأكثر فعالية (90%) و كايوف الماء بـ 30-50%. السقي بالفيض غير مناسب (كفاءة <50%)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand arrêter l'irrigation du blé ?",
+              "reponse": "Arrêtez l'irrigation au stade grain pâteux (BBCH 83-85), lorsque l'humidité du grain est inférieure à 30%. Un excès d'eau à ce stade favorise la verse et les maladies."
+            },
+            "darija": {
+              "question": "فوقاش نوقف السقي ديال القمح ؟",
+              "reponse": "وقف السقي فوقاش الحبة كاتولي عجينة (BBCH 83-85)، فاش الرطوبة تكون أقل من 30%. الماء الزايد فهاد المرحلة كايوقع القمح وكايخدم الأمراض."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la fréquence d'irrigation du blé ?",
+              "reponse": "En irrigué : 5 à 7 tours d'eau. Tallage : tous les 10-15 jours. Montaison : tous les 7-10 jours. Épiaison-floraison : tous les 5-7 jours. Adaptez selon les pluies."
+            },
+            "darija": {
+              "question": "شحال هي المدة مابين السقيات للقمح ؟",
+              "reponse": "فالسقي: 5 لـ 7 دورات. التفريع: كل 10-15 يوم. الساق: كل 7-10 يوم. السنابل-التزهير: كل 5-7 يوم. كيّف مع الشتا."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les besoins en irrigation pour Achtar ?",
+              "reponse": "Achtar a besoin de 530 à 650 mm d'eau, avec un optimum de 590 mm. Les besoins par stade : semis-tallage (90 mm), tallage-montaison (135 mm), montaison-épiaison (165 mm), épiaison-floraison (110 mm), floraison-maturité (90 mm)."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال السقي لأشتر ؟",
+              "reponse": "أشتر كايحتاج لـ 530 لـ 650 ميلي متر، والمعدال المثالي 590 مم. الحوايج بالمراحل: الزرع-التفريع (90 مم)، التفريع-الساق (135 مم)، الساق-السنابل (165 مم)، السنابل-التزهير (110 مم)، التزهير-النضج (90 مم)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les besoins en irrigation pour Amal ?",
+              "reponse": "Amal a besoin de 400 à 450 mm d'eau, avec un optimum de 425 mm. C'est la variété la plus économe en eau."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال السقي لأمل ؟",
+              "reponse": "أمل كايحتاج لـ 400 لـ 450 ميلي متر، والمعدال المثالي 425 مم. هو النوع اللي كايوفر الماء أكثر."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les besoins en irrigation pour Arrih ?",
+              "reponse": "Arrih a besoin de 450 à 500 mm d'eau, avec un optimum de 475 mm."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال السقي للريح ؟",
+              "reponse": "الريح كايحتاج لـ 450 لـ 500 ميلي متر، والمعدال المثالي 475 مم."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle variété a le plus besoin d'eau (Achtar, Amal, Arrih) ?",
+              "reponse": "Achtar a le plus besoin d'eau (530-650 mm), suivie d'Arrih (450-500 mm) et d'Amal (400-450 mm)."
+            },
+            "darija": {
+              "question": "شنو هو النوع اللي كايحتاج لأكثر ماء (أشتر، أمل، الريح) ؟",
+              "reponse": "أشتر هو اللي كايحتاج لأكثر ماء (530-650 مم)، تاليه الريح (450-500 مم) و أمل (400-450 مم)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la variété la plus économe en eau (Achtar, Amal, Arrih) ?",
+              "reponse": "Amal est la variété la plus économe en eau avec seulement 400-450 mm nécessaires, contre 530-650 mm pour Achtar."
+            },
+            "darija": {
+              "question": "شنو هو النوع اللي كايوفر الماء أكثر (أشتر، أمل، الريح) ؟",
+              "reponse": "أمل هو النوع اللي كايوفر الماء أكثر ب 400-450 مم فقط، مقابل 530-650 مم لأشتر."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le stade qui consomme le plus d'eau pour Achtar ?",
+              "reponse": "Le stade montaison-épiaison consomme le plus d'eau pour Achtar avec 165 mm, suivi du stade tallage-montaison (135 mm)."
+            },
+            "darija": {
+              "question": "شنو هي المرحلة اللي كاتستهلك أكبر ماء لأشتر ؟",
+              "reponse": "مرحلة الساق-السنابل هي اللي كاتستهلك أكبر ماء لأشتر ب 165 مم، تاليها مرحلة التفريع-الساق (135 مم)."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "fertilisation",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quelle fertilisation de fond pour le blé ?",
+              "reponse": "Avant semis : P2O5 (31-68 kg/ha), K2O (53-102 kg/ha). Le phosphore favorise l'enracinement, le potassium la résistance à la sécheresse. Apport localisé à 5 cm de profondeur."
+            },
+            "darija": {
+              "question": "شحال هو السماد الأساسي للقمح ؟",
+              "reponse": "قبل الزرع: فوسفور (31-68 كيلو فالهكتار)، بوتاسيوم (53-102 كيلو فالهكتار). الفوسفور كايخدم الجذور، البوتاسيوم كايخدم مقاومة الجفاف. تحطه على 5 سم."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand faire la fertilisation azotée du blé ?",
+              "reponse": "Fertilisation azotée fractionnée en 3 apports : 50% au tallage (février), 30% à la montaison (mars), 20% à l'épiaison (avril). Dose totale : 56-140 kg N/ha selon le rendement visé."
+            },
+            "darija": {
+              "question": "فوقاش نسمد القمح بالآزوت ؟",
+              "reponse": "التسميد الآزوتي فثلاثة مرات: 50% فالتفريع (فبراير)، 30% فالساق (مارس)، 20% فسنابل (أبريل). الكمية: 56-140 كيلو آزوت فالهكتار حسب الإنتاج اللي بغيتي."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel engrais azoté utiliser pour le blé ?",
+              "reponse": "Urée (46% N) pour les apports de fond et de couverture. Nitrate d'ammonium (33% N) pour les apports précoces (assimilation rapide). Solution azotée (21% N) pour l'irrigation fertirrigation."
+            },
+            "darija": {
+              "question": "شنو هو السماد الآزوتي اللي نستعملو للقمح ؟",
+              "reponse": "اليوريا (46% آزوت) للسماد الأساسي والإضافي. نترات الأمونيوم (33% آزوت) للمراحل المبكرة (كتدخل بسرعة). المحلول الآزوتي (21% آزوت) للسقي مع السماد."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les signes d'une carence en azote sur blé ?",
+              "reponse": "Feuilles inférieures jaunissent (chlorose uniformisée), croissance ralentie, tiges fines, épis petits et clairsemés. Solution : apport d'urée (30-50 kg/ha) en couverture."
+            },
+            "darija": {
+              "question": "شنو هي علامات نقص الآزوت فالقمح ؟",
+              "reponse": "الوراق اللي تحت كاتصفر، النمو كايبطا، السيقان رقاق، السنابل صغار و مفرقين. الحل: تحط اليوريا (30-50 كيلو فالهكتار)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les signes d'une carence en phosphore sur blé ?",
+              "reponse": "Feuilles violacées (surtout en hiver), retard de croissance racinaire, épis mal formés, grains petits. Solution : apport de superphosphate (50-80 kg/ha) au semis."
+            },
+            "darija": {
+              "question": "شنو هي علامات نقص الفوسفور فالقمح ؟",
+              "reponse": "الوراق كاتحمر (خاصة فالشتي)، الجذور كايبطا نموها، السنابل كاتكون معطوبة، الحبات صغار. الحل: تحط سوبرفوسفات (50-80 كيلو فالهكتار) فوقاش كاتزرع."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les besoins en azote pour Achtar ?",
+              "reponse": "Achtar a besoin de 100 à 150 kg N/ha, avec un optimum de 125 kg N/ha. La répartition est : 30% au démarrage (20 jours), 30% au tallage (35 jours), et 40% à la montaison (75 jours)."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال الآزوت لأشتر ؟",
+              "reponse": "أشتر كايحتاج لـ 100 لـ 150 كيلو آزوت فالهكتار، والمعدال المثالي هو 125 كيلو فالهكتار. التوزيع: 30% فالبداية (20 يوم)، 30% فالتفريع (35 يوم)، و 40% فالساق (75 يوم)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les besoins en phosphore pour Achtar ?",
+              "reponse": "Achtar a besoin de 60 à 80 kg P/ha, avec un optimum de 70 kg P/ha."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال الفوسفور لأشتر ؟",
+              "reponse": "أشتر كايحتاج لـ 60 لـ 80 كيلو فوسفور فالهكتار، والمعدال المثالي هو 70 كيلو فالهكتار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les besoins en potassium pour Achtar ?",
+              "reponse": "Achtar a besoin de 40 à 60 kg K/ha, avec un optimum de 50 kg K/ha."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال البوتاسيوم لأشتر ؟",
+              "reponse": "أشتر كايحتاج لـ 40 لـ 60 كيلو بوتاسيوم فالهكتار، والمعدال المثالي هو 50 كيلو فالهكتار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les besoins en azote pour Amal ?",
+              "reponse": "Amal a besoin de 120 à 140 kg N/ha, avec un optimum de 130 kg N/ha."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال الآزوت لأمل ؟",
+              "reponse": "أمل كايحتاج لـ 120 لـ 140 كيلو آزوت فالهكتار، والمعدال المثالي هو 130 كيلو فالهكتار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les besoins en phosphore pour Amal ?",
+              "reponse": "Amal a besoin de 60 à 70 kg P/ha, avec un optimum de 65 kg P/ha."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال الفوسفور لأمل ؟",
+              "reponse": "أمل كايحتاج لـ 60 لـ 70 كيلو فوسفور فالهكتار، والمعدال المثالي هو 65 كيلو فالهكتار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les besoins en potassium pour Amal ?",
+              "reponse": "Amal a besoin de 50 à 60 kg K/ha, avec un optimum de 55 kg K/ha."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال البوتاسيوم لأمل ؟",
+              "reponse": "أمل كايحتاج لـ 50 لـ 60 كيلو بوتاسيوم فالهكتار، والمعدال المثالي هو 55 كيلو فالهكتار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les besoins en azote pour Arrih ?",
+              "reponse": "Arrih a besoin de 130 à 150 kg N/ha, avec un optimum de 140 kg N/ha."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال الآزوت للريح ؟",
+              "reponse": "الريح كايحتاج لـ 130 لـ 150 كيلو آزوت فالهكتار، والمعدال المثالي هو 140 كيلو فالهكتار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les besoins en phosphore pour Arrih ?",
+              "reponse": "Arrih a besoin de 70 à 80 kg P/ha, avec un optimum de 75 kg P/ha."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال الفوسفور للريح ؟",
+              "reponse": "الريح كايحتاج لـ 70 لـ 80 كيلو فوسفور فالهكتار، والمعدال المثالي هو 75 كيلو فالهكتار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les besoins en potassium pour Arrih ?",
+              "reponse": "Arrih a besoin de 60 à 70 kg K/ha, avec un optimum de 65 kg K/ha."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال البوتاسيوم للريح ؟",
+              "reponse": "الريح كايحتاج لـ 60 لـ 70 كيلو بوتاسيوم فالهكتار، والمعدال المثالي هو 65 كيلو فالهكتار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle variété a le plus besoin d'azote (Achtar, Amal, Arrih) ?",
+              "reponse": "Arrih a le plus besoin d'azote (130-150 kg N/ha), suivi d'Amal (120-140 kg N/ha) et d'Achtar (100-150 kg N/ha)."
+            },
+            "darija": {
+              "question": "شنو هو النوع اللي كايحتاج لأكثر آزوت (أشتر، أمل، الريح) ؟",
+              "reponse": "الريح هو اللي كايحتاج لأكثر آزوت (130-150 كيلو فالهكتار)، تاليه أمل (120-140 كيلو) و أشتر (100-150 كيلو)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les engrais disponibles pour le blé ?",
+              "reponse": "Les engrais disponibles sont : Urée (46% N), Ammonitrate (33.5% N), Superphosphate 45 (45% P), Chlorure de potassium (60% K), et NPK 15-15-15 (15% N, 15% P, 15% K)."
+            },
+            "darija": {
+              "question": "شنو هم الأسمدة المتوفرة للقمح ؟",
+              "reponse": "الأسمدة المتوفرة هي: اليوريا (46% آزوت)، أمونيترات (33.5% آزوت)، سوبرفوسفات 45 (45% فوسفور)، كلور البوتاسيوم (60% بوتاسيوم)، و NPK 15-15-15 (15% آزوت، 15% فوسفور، 15% بوتاسيوم)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand utiliser l'urée ?",
+              "reponse": "L'urée (46% N) est utilisée en engrais de fond (avant semis) ou en couverture (tallage, montaison). À utiliser avec précaution sur sol sec (risque de volatilisation)."
+            },
+            "darija": {
+              "question": "فوقاش نستعملو اليوريا ؟",
+              "reponse": "اليوريا (46% آزوت) كاتستعمل كسماد أساسي (قبل الزرع) أو إضافي (التفريع، الساق). استعملها بحذر على الأرض الجافة (خطر التطاير)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand utiliser l'ammonitrate ?",
+              "reponse": "L'ammonitrate (33.5% N) est utilisé en engrais de couverture au tallage et à la montaison. Il est plus rapidement assimilable que l'urée."
+            },
+            "darija": {
+              "question": "فوقاش نستعملو الأمونيترات ؟",
+              "reponse": "الأمونيترات (33.5% آزوت) كاتستعمل كسماد إضافي فالتفريع والساق. كاتدخل أسرع من اليوريا."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand utiliser le superphosphate ?",
+              "reponse": "Le superphosphate 45 (45% P) est utilisé uniquement en engrais de fond (avant semis). Il favorise l'enracinement et la floraison."
+            },
+            "darija": {
+              "question": "فوقاش نستعملو السوبرفوسفات ؟",
+              "reponse": "السوبرفوسفات 45 (45% فوسفور) كاتستعمل غير كسماد أساسي (قبل الزرع). كاتخدم الجذور والتزهير."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand utiliser le chlorure de potassium ?",
+              "reponse": "Le chlorure de potassium (60% K) est utilisé en engrais de fond (avant semis). Il améliore la résistance à la sécheresse et la qualité des grains."
+            },
+            "darija": {
+              "question": "فوقاش نستعملو كلور البوتاسيوم ؟",
+              "reponse": "كلور البوتاسيوم (60% بوتاسيوم) كاتستعمل كسماد أساسي (قبل الزرع). كاتزيد مقاومة الجفاف و جودة الحبات."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand utiliser le NPK 15-15-15 ?",
+              "reponse": "Le NPK 15-15-15 est utilisé en engrais de fond (avant semis). Il apporte l'azote, le phosphore et le potassium en proportions égales."
+            },
+            "darija": {
+              "question": "فوقاش نستعملو NPK 15-15-15 ؟",
+              "reponse": "NPK 15-15-15 كاتستعمل كسماد أساسي (قبل الزرع). كاتدي الآزوت، الفوسفور، والبوتاسيوم بنسب متساوية."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "maladies",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Comment reconnaître la rouille jaune sur blé ?",
+              "reponse": "Pustules jaune-orangé sur les feuilles (face supérieure), alignées entre les nervures. Épidémies en conditions humides (15-20°C). Traitement : fongicides triazoles (Tébucanazole 0.5-1 L/ha) dès l'apparition."
+            },
+            "darija": {
+              "question": "كيفاش نعرف الصدا الصفر فالقمح ؟",
+              "reponse": "بقع صفر على الوراق (الوجه الفوقاني)، مصفوفين مابين العروق. المرض كاينتشر فالرطوبة (15-20 درجة). العلاج: فونجيسيدات تريازول (تيبوكونازول 0.5-1 ليتر فالهكتار) من أول ما كايبان."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître la rouille brune sur blé ?",
+              "reponse": "Pustules brunes sur les feuilles et les tiges, plus petites que la rouille jaune. Apparaît plus tard (avril-mai). Traitement : fongicides triazoles ou strobilurines."
+            },
+            "darija": {
+              "question": "كيفاش نعرف الصدا القمحاوي فالقمح ؟",
+              "reponse": "بقع كحلة على الوراق والسيقان، أصغر من الصدا الصفر. كايبان متأخر (أبريل-ماي). العلاج: فونجيسيدات تريازول أو ستروبيلورين."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître la septoriose sur blé ?",
+              "reponse": "Taches allongées brunes avec points noirs (pycnides), nécrose des feuilles basses qui remonte vers le haut. Favorisée par l'humidité et les résidus infectés. Traitement : fongicides SDHI (Bixafen 1-1.5 L/ha) au début montaison."
+            },
+            "darija": {
+              "question": "كيفاش نعرف السبتوريوز فالقمح ؟",
+              "reponse": "بقع طويلة كحلة مع نقط سود، الوراق اللي تحت كاتموت و كاتطلع للفوق. كاتكثر فالرطوبة والبقايا المصابة. العلاج: فونجيسيدات SDHI (بيكسافين 1-1.5 ليتر فالهكتار) فبداية الساق."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître la fusariose sur blé ?",
+              "reponse": "Épis blanchâtres ou rose pâle, grains ratatinés avec mycotoxines (DON), pourriture racinaire en cas d'attaque précoce. Traitement : fongicides à base de prothioconazole (1-1.25 L/ha) à l'épiaison."
+            },
+            "darija": {
+              "question": "كيفاش نعرف الفيوزاريوز فالقمح ؟",
+              "reponse": "السنابل كاتصفر أو كاتحمر، الحبات كاتجعد و كاتصغر (سموم فطرية)، تعفن الجذور فوقاش كاتجي بكري. العلاج: فونجيسيدات (1-1.25 ليتر فالهكتار) فوقاش كاتخرج السنابل."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre le charbon du blé ?",
+              "reponse": "Le charbon (Ustilago) remplace les grains par une poudre noire. Prévention : traitement des semences avec un fongicide systémique (ex. : Carboxine + Thiram). Rotation des cultures (3-4 ans)."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو التفحم ديال القمح ؟",
+              "reponse": "التفحم كايبدل الحبة بغبار أسود. الوقاية: معالجة البذور بفونجيسيد جهازي (كاربوكسين + ثيرام). التناوب الزراعي (3-4 سنين)."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "ravageurs",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Comment reconnaître la cécidomyie sur blé ?",
+              "reponse": "Tiges cassées ou déformées, feuilles épaissies et foncées, larves visibles dans les tiges (coupe longitudinale). Traitement : pyréthrinoïdes (Deltaméthrine 0.2-0.3 L/ha) dès apparition des premiers vols."
+            },
+            "darija": {
+              "question": "كيفاش نعرف حفار القمح ؟",
+              "reponse": "السيقان مكسورة أو متشوهة، الوراق غليظة و داكنة، اليرقات باينة فالساق (قطع طولي). العلاج: بيريترينويدات (دلتاميثرين 0.2-0.3 ليتر فالهكتار) من أول ما كاتبان الحشرة الكبيرة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître le puceron russe sur blé ?",
+              "reponse": "Feuilles enroulées vers le bas, colonies vertes/noires sur la face inférieure, transmission de virus (jaunisse nanisante). Traitement : néonicotinoïdes (Imidaclopride 0.1-0.15 L/ha) hors floraison."
+            },
+            "darija": {
+              "question": "كيفاش نعرف المن الروسي فالقمح ؟",
+              "reponse": "الوراق كاتلتف لتحت، تجمعات خضر/سود تحت الوراق، كاينقل الفيروسات. العلاج: نيونيكوتينويد (إيميداكلوبريد 0.1-0.15 ليتر فالهكتار) برا التزهير."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter naturellement contre les pucerons du blé ?",
+              "reponse": "Auxiliaires naturels : coccinelles (Coccinella septempunctata), syrphes, chrysopes. Un champ avec 5-10 coccinelles/m² contrôle naturellement les pucerons. Évitez les insecticides pyréthrinoïdes en floraison."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو المن طبيعيا فالقمح ؟",
+              "reponse": "الأعداء الطبيعية: الخنافس (كوكسينيلا سبتيمبونكتاتا)، الذبانة الزرقاء (سيرف)، الكريزوب. حقل فيه 5-10 خنفسة فالمتر مربع كايقدر يتحكم فالمن طبيعيا. تجنب المبيدات الحشرية فالتزهير."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître les thrips sur blé ?",
+              "reponse": "Petits insectes allongés (1-2 mm) sur les épis, grains déformés et argentés, perte de poids. Traitement : pyréthrinoïdes (0.2-0.3 L/ha) si >5 thrips/épi."
+            },
+            "darija": {
+              "question": "كيفاش نعرف التربس فالقمح ؟",
+              "reponse": "حشرات صغار طويلة (1-2 مم) على السنابل، الحبات متشوهة و فضية، نقص فالوزن. العلاج: بيريترينويدات (0.2-0.3 ليتر فالهكتار) إلا كان عددهم >5 فسنبلة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre les oiseaux (moineaux, pigeons) sur blé ?",
+              "reponse": "Les oiseaux peuvent causer des dégâts importants à l'épiaison. Protection : épouvantails, filets anti-oiseaux, bandes réfléchissantes, ou fusils à pétards. La méthode la plus efficace est le filet sur petites surfaces."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو الطيور (الدوريات، الحمام) على القمح ؟",
+              "reponse": "الطيور كاتقدر تسبب ضرر كبير فمرحلة السنابل. الحماية: فزاعة، شباك ضد الطيور، شرائط عاكسة، أو مسدس الشديد. أحسن طريقة هي الشباك فالمساحات الصغيرة."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "sol_et_preparation",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quel type de sol convient le mieux au blé ?",
+              "reponse": "Le blé préfère les sols limono-argileux (35-40% argile, 40% limon), profonds (>50 cm), bien drainés, avec un pH de 6.5 à 7.5. Le blé dur tolère mieux les sols pauvres que le blé tendre."
+            },
+            "darija": {
+              "question": "شنو هو النوع ديال الأرض المناسب للقمح ؟",
+              "reponse": "القمح كايبغي الأرض الطينية الرملية، العميقة (>50 سم)، اللي كاتصرف الماء مزيان، مع pH 6.5 لـ 7.5. القمح الصلب كايصمد للأرض الفقيرة أكثر من الطري."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment préparer le sol avant semis du blé ?",
+              "reponse": "Labour profond (25-30 cm) en septembre-octobre si sol compacté, déchaumage pour enfouir les résidus, désherbage (glyphosate si adventices vivaces), apport de fond (P, K), puis nivellement."
+            },
+            "darija": {
+              "question": "كيفاش نحضر الأرض قبل زرع القمح ؟",
+              "reponse": "الحرث العميق (25-30 سم) فشتنبر-أكتوبر إلا كانت الأرض مضغوطة، الحرث السطحي باش تدفن البقايا، إزالة الحشائش (غليفوسات)، تحط السماد الأساسي (فوسفور، بوتاسيوم)، ثم التسوية."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est l'importance du labour pour le blé ?",
+              "reponse": "Le labour est ESSENTIEL pour : enfouir les résidus de culture (réduit les maladies), aérer le sol, faciliter l'enracinement, et contrôler les adventices. Un sol non labouré réduit le rendement de 20-30%."
+            },
+            "darija": {
+              "question": "شحال هي أهمية الحرث للقمح ؟",
+              "reponse": "الحرث ضروري جدا باش: تدفن البقايا (كتقلل الأمراض)، تهوي الأرض، تسهل نمو الجذور، وتتحكم فالحشائش. الأرض غير المحروثة كاينقص فيها الإنتاج بـ 20-30%."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel pH du sol pour le blé ?",
+              "reponse": "Le pH idéal est de 6.5 à 7.5. Un pH <5.5 (acide) bloque l'absorption du phosphore. Un pH >8 (calcaire) bloque le fer et le zinc. Corrigez avec de la chaux (pH bas) ou du soufre (pH haut)."
+            },
+            "darija": {
+              "question": "شحال هو pH الأرض المناسب للقمح ؟",
+              "reponse": "pH المثالي هو 6.5 لـ 7.5. pH <5.5 (حمضي) كايوقف إمتصاص الفوسفور. pH >8 (جيري) كايوقف الحديد والزنك. حط الجير (pH قليل) أو الكبريت (pH عالي)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est l'importance de la rotation des cultures pour le blé ?",
+              "reponse": "La rotation est ESSENTIELLE. Ne replantez pas de blé avant 2-3 ans sur la même parcelle. Rotation idéale : blé → légumineuses (fèves, pois chiches) → jachère ou culture fourragère. Réduit les maladies (fusariose, septoriose) et améliore la fertilité."
+            },
+            "darija": {
+              "question": "شحال هي أهمية التناوب الزراعي للقمح ؟",
+              "reponse": "التناوب ضروري جدا. ما تعاودش تزرع القمح قبل 2-3 سنين ف نفس الأرض. التناوب المثالي: قمح → قطاني (فول، جلبانة) → بور أو علف. كايقلل الأمراض و كايخصب الأرض."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "recolte_et_conservation",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quand récolter le blé ?",
+              "reponse": "Récoltez quand l'humidité du grain est inférieure à 14% (grain dur sous la dent). Vérifiez aussi : épis jaunes, tiges sèches. La récolte trop précoce donne des grains humides (risque de moisissures), trop tardive provoque la verse et la chute des grains."
+            },
+            "darija": {
+              "question": "فوقاش نحصد القمح ؟",
+              "reponse": "احصد فوقاش الرطوبة ديال الحبة تكون أقل من 14% (الحبة قاسحة فسنانك). تحقق حتى من: السنابل صفر، السيقان جافة. الحصاد بكري كايعطي حبات رطبة (خطر التعفن)، الحصاد متأخر كايوقع القمح وتطيح الحبات."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment régler la moissonneuse-batteuse pour le blé ?",
+              "reponse": "Barre de coupe à 10-15 cm du sol (évite les pierres). Batteur à 600-800 tr/min. Ventilateur à 800-1000 tr/min. Contre-batteur à 10-15 mm. Perte acceptable : <3% (1-2 grains/m²)."
+            },
+            "darija": {
+              "question": "كيفاش نضبط الحصادة للقمح ؟",
+              "reponse": "قضيب القطع على 10-15 سم من الأرض (تتفادى الحجارة). آلة الدراس 600-800 لفة فدقيقة. المروحة 800-1000 لفة فدقيقة. الفجوة 10-15 مم. الخسارة المقبولة: <3% (1-2 حبة فالمتر مربع)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment conserver le blé après récolte ?",
+              "reponse": "Stockez dans un local sec, frais (15-20°C), et bien aéré. Humidité du grain <14% (pour éviter les moisissures et les insectes). Utilisez des fongicides-insecticides de stockage (Deltaméthrine, Cyperméthrine) pour la conservation longue durée."
+            },
+            "darija": {
+              "question": "كيفاش نحفظ القمح مورا الحصاد ؟",
+              "reponse": "خزنو فمكان جاف، بارد (15-20 درجة)، فيه هوا مزيان. رطوبة الحبة <14% (باش تتفادى التعفن والحشرات). استعمل فونجيسيد-مبيد حشرات للتخزين (دلتاميثرين) للحفظ الطويل."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment réduire les pertes à la récolte du blé ?",
+              "reponse": "Conseils : récoltez tôt le matin (grains moins cassants), réglez bien la moissonneuse, évitez les jours de vent fort, et vérifiez les pertes régulièrement. Une perte de 3% représente 1-2 tonnes/ha sur un rendement de 40 tonnes."
+            },
+            "darija": {
+              "question": "كيفاش نقلل الخسارة فحصاد القمح ؟",
+              "reponse": "نصائح: احصد فالصباح بكري (الحبات ما كاتكسرش بسهولة)، ضبط الحصادة مزيان، تجنب الأيام اللي فيها رياح قوية، و تحقق من الخسارة بانتظام. خسارة 3% معناها 1-2 طن فالهكتار على إنتاج 40 طن."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le rendement record du blé à Doukkala ?",
+              "reponse": "Les rendements records en irrigué dépassent 50 quintaux/ha (5 tonnes/ha) avec des variétés modernes ('Icar', 'Tarek') et une irrigation bien gérée. En bour, les records sont de 8-10 qx/ha les bonnes années pluvieuses."
+            },
+            "darija": {
+              "question": "شحال هو الإنتاج القياسي للقمح فدكالة ؟",
+              "reponse": "الإنتاج القياسي فالسقي كايتعدى 50 قنطار فالهكتار (5 طن فالهكتار) مع الأنواع الحديثة ('إيكار'، 'طارق') والسقي المزيان. فالبور، الإنتاج القياسي هو 8-10 قنطار فالهكتار فالأعوام اللي فيها شتا مزيانة."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "climat_et_ble",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Le blé résiste-t-il à la sécheresse à Doukkala ?",
+              "reponse": "Le blé dur résiste mieux que le blé tendre, mais la sécheresse sévère (comme en été 2023 : 0 mm) réduit fortement le rendement. Le stade le plus sensible est l'épiaison-floraison. L'irrigation de complément est recommandée."
+            },
+            "darija": {
+              "question": "واش القمح كايقاوم الجفاف فدكالة ؟",
+              "reponse": "القمح الصلب كايقاوم أكثر من الطري، ولكن الجفاف الشديد (زيادة فصيف 2023: 0 ميلي متر) كاينقص الإنتاج بزاف. المرحلة الأكثر حساسية هي السنابل-التزهير. السقي التكميلي كاتنصح بيه."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est l'impact du gel sur le blé ?",
+              "reponse": "Le blé résiste au gel jusqu'à -5°C au stade tallage, mais est très sensible au gel à l'épiaison (détruit les fleurs). À Doukkala, le gel est rare (sauf à Ouled Frej : -0.2°C le 28/01/2024). Semez après le 15 novembre pour éviter les gelées précoces."
+            },
+            "darija": {
+              "question": "شحال هو تأثير الجليد على القمح ؟",
+              "reponse": "القمح كايصمد للجليد حتى -5 درجات فمرحلة التفريع، ولكن كايتأثر بزاف فالسنابل (كايموت الزهور). فدكالة، الجليد نادر (إلا فأولاد فرج: -0.2 درجة نهار 28/01/2024). ازرع مورا 15 نونبر باش تتفادى الجليد المبكر."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est l'impact du vent sur le blé ?",
+              "reponse": "Le vent fort (>50 km/h) peut causer la VERTE (couchage) du blé, surtout si les tiges sont fragiles (excès d'azote). À El Jadida, les vents peuvent atteindre 61.8 km/h (22/10/2023). Utilisez des variétés à tige courte et résistante."
+            },
+            "darija": {
+              "question": "شحال هو تأثير الرياح على القمح ؟",
+              "reponse": "الرياح القوية (>50 كلم/س) كاتقوقع القمح (تطيحو)، خاصة إلا كانت السيقان رقاق (آزوت زايد). فالجديدة، الرياح كاتوصل لـ 61.8 كلم/س (22/10/2023). استعمل الأنواع اللي فيها ساق قصيرة ومقاومة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la meilleure année pluviométrique récente pour le blé ?",
+              "reponse": "Les meilleures années sont 2020, 2021, et 2024 avec des pluies régulières en hiver. Les pires années sont 2023 (été sec, 0 mm) et 2025 (pluies violentes mais mal réparties). La pluviométrie est très irrégulière à Doukkala."
+            },
+            "darija": {
+              "question": "شنو هي أحسن عام فيها شتا للقمح فالفترة الأخيرة ؟",
+              "reponse": "أحسن الأعوام هي 2020، 2021، و 2024 فين الشتا كانت منتظمة فالشتي. أسوأ الأعوام هي 2023 (الصيف جاف، 0 مم) و 2025 (شتا عنيفة ولكن غير منتظمة). الشتا ما كاتش متلاومش فدكالة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment adapter la culture du blé au changement climatique à Doukkala ?",
+              "reponse": "Conseils : 1) Utilisez des variétés résistantes à la sécheresse ('Marzak', 'Achtar'). 2) Passez à l'irrigation goutte-à-goutte (économie d'eau 30-50%). 3) Semez précocement (10-30 novembre) pour utiliser les pluies d'hiver. 4) Fractionnez l'azote. 5) Adoptez le semi-direct pour conserver l'humidité."
+            },
+            "darija": {
+              "question": "كيفاش نكيف زراعة القمح مع التغير المناخي فدكالة ؟",
+              "reponse": "نصائح: 1) استعمل الأنواع اللي كاتقاوم الجفاف ('مرزاق'، 'أشتر'). 2) دوز للسقي بالتنقيط (توفير الماء بـ 30-50%). 3) ازرع مبكرا (10-30 نونبر) باش تستفيد من الشتا الشتوية. 4) فرق الآزوت. 5) اعتمد الزرع المباشر باش تحافظ على الرطوبة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le mois le plus chaud à Doukkala ?",
+              "reponse": "Le mois le plus chaud est AOÛT avec une température maximale moyenne de 30.5°C et une minimale de 20.5°C. L'ETP (évapotranspiration potentielle) est de 160 mm."
+            },
+            "darija": {
+              "question": "شنو هو الشهر اللي سخون فدكالة ؟",
+              "reponse": "الشهر اللي سخون هو غشت بحرارة قصوى 30.5 درجة و صغرى 20.5 درجة. ETP هو 160 مم."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le mois le plus froid à Doukkala ?",
+              "reponse": "Le mois le plus froid est JANVIER avec une température minimale moyenne de 7.0°C et une maximale de 16.5°C."
+            },
+            "darija": {
+              "question": "شنو هو الشهر اللي برد فدكالة ؟",
+              "reponse": "الشهر اللي برد هو يناير بحرارة صغرى 7.0 درجات و قصوى 16.5 درجة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le mois le plus pluvieux à Doukkala ?",
+              "reponse": "Le mois le plus pluvieux est DÉCEMBRE avec 70 mm de pluie, suivi de janvier (65 mm) et novembre (65 mm)."
+            },
+            "darija": {
+              "question": "شنو هو الشهر اللي فيه أكبر شتا فدكالة ؟",
+              "reponse": "الشهر اللي فيه أكبر شتا هو دجنبر ب 70 مم، تاليه يناير (65 مم) و نونبر (65 مم)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le mois le plus sec à Doukkala ?",
+              "reponse": "Le mois le plus sec est AOÛT avec seulement 3 mm de pluie, suivi de juillet (5 mm) et juin (12 mm)."
+            },
+            "darija": {
+              "question": "شنو هو الشهر اللي فيه أقل شتا فدكالة ؟",
+              "reponse": "الشهر اللي فيه أقل شتا هو غشت ب 3 مم فقط، تاليه يوليوز (5 مم) و يونيو (12 مم)."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "commercialisation",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Où vendre son blé à Doukkala ?",
+              "reponse": "Les principaux marchés sont : les coopératives céréalières, les silos de stockage (Office National Interprofessionnel des Céréales - ONICL), les minoteries locales, et les commerçants de gros. Le prix est fixé par l'ONICL chaque semaine."
+            },
+            "darija": {
+              "question": "فين نبيع القمح ديالي فدكالة ؟",
+              "reponse": "الأسواق الرئيسية هي: التعاونيات الحبوبية، الصوامع (المكتب الوطني المهني للحبوب - أونيكل)، المطاحن المحلية، والتجار بالجملة. الثمن كايتحدد من طرف أونيكل كل أسبوع."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le prix du blé à Doukkala ?",
+              "reponse": "Le prix du blé tendre est d'environ 250-300 DH/quintal, le blé dur 300-350 DH/quintal (prix 2025-2026). Le prix varie selon la qualité (poids spécifique, taux de protéines, humidité). L'ONICL subventionne le prix minimum garanti."
+            },
+            "darija": {
+              "question": "شحال هو ثمن القمح فدكالة ؟",
+              "reponse": "ثمن القمح الطري فحدود 250-300 درهم/قنطار، القمح الصلب 300-350 درهم/قنطار (ثمن 2025-2026). الثمن كايتغير حسب الجودة (الوزن النوعي، نسبة البروتين، الرطوبة). أونيكل كاتدعم السعر الأدنى المضمون."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la qualité de blé la mieux payée ?",
+              "reponse": "Le blé dur avec un poids spécifique >78 kg/hl et un taux de protéines >12% est le mieux payé. Le blé tendre avec un poids spécifique >76 kg/hl et un taux de protéines >11% est valorisé. Les grains moisis ou germés sont déclassés."
+            },
+            "darija": {
+              "question": "شنو هي الجودة ديال القمح اللي فيها أعلى ثمن ؟",
+              "reponse": "القمح الصلب مع وزن نوعي >78 كيلو/هكتوليتر و نسبة بروتين >12% هو اللي فيه أعلى ثمن. القمح الطري مع وزن نوعي >76 كيلو/هكتوليتر و نسبة بروتين >11% كايتقوم. الحبات المتعفنة أو المنبتة كاتنزل فالتصنيف."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand vendre son blé pour avoir le meilleur prix ?",
+              "reponse": "Les prix sont généralement plus élevés juste après la récolte (mai-juin) car la demande est forte. Ils baissent en été (juillet-août) quand l'offre augmente, puis remontent en hiver (décembre-janvier). Stockez si vous avez des silos de stockage."
+            },
+            "darija": {
+              "question": "فوقاش نبيع القمح باش ناخد أحسن ثمن ؟",
+              "reponse": "الأسعار كاتكون أعلى مباشرة مورا الحصاد (ماي-يونيو) حيت الطلب قوي. كاتنقص فالصيف (يوليوز-غشت) فوقاش العرض كايزيد، ثم كاتعاود تطلع فالشتي (دجنبر-يناير). خزن إلا عندك صوامع."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la marge bénéficiaire pour un agriculteur de blé ?",
+              "reponse": "Coûts de production : 5000-8000 DH/ha (semence, engrais, traitements). Avec un rendement de 30 qx/ha et un prix de 300 DH/qx, le chiffre d'affaires est de 9000 DH/ha. La marge est faible (1000-4000 DH/ha) sans irrigation. En irrigué, la marge est plus élevée mais les coûts aussi."
+            },
+            "darija": {
+              "question": "شحال هو الربح للفلاح اللي كايزرع القمح ؟",
+              "reponse": "تكاليف الإنتاج: 5000-8000 درهم فالهكتار (بذور، سماد، علاجات). مع إنتاج 30 قنطار فالهكتار و ثمن 300 درهم/قنطار، العائد هو 9000 درهم فالهكتار. الربح قليل (1000-4000 درهم فالهكتار) بلا سقي. فالسقي، الربح أكبر ولكن التكاليف أكبر حتى هي."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "travaux_et_entretien",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quand faut-il désherber le blé ?",
+              "reponse": "Désherbage en décembre-janvier (stade 3-5 feuilles). Utilisez un désherbant sélectif anti-graminées (ex. : Puma, Topik) pour les mauvaises herbes (folle avoine, ray-grass). Évitez le désherbage après la montaison (risque de phytotoxicité)."
+            },
+            "darija": {
+              "question": "فوقاش خاصنا نزيل الحشائش من القمح ؟",
+              "reponse": "إزالة الحشائش كاتكون فدجنبر-يناير (مرحلة 3-5 ورقات). استعمل مبيد حشائش انتقائي (مثال: بوما، توبيك) للحشائش (الزوان). تجنب إزالة الحشائش مورا الساق (خطر على القمح)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre la folle avoine dans le blé ?",
+              "reponse": "La folle avoine (Avena fatua) est une graminée adventice très nuisible. Lutte : rotation avec légumineuses, labour profond, désherbants sélectifs (Puma, Topik) au stade 3-5 feuilles du blé, et semences certifiées (évitez les semences contaminées)."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو الزوان فالقمح ؟",
+              "reponse": "الزوان هو حشيشة كاتضر بزاف. المكافحة: التناوب مع القطاني، الحرث العميق، مبيدات الحشائش الانتقائية (بوما، توبيك) فمرحلة 3-5 ورقات، و بذور معتمدة (تجنب البذور الملوثة)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Faut-il rouler le blé après semis ?",
+              "reponse": "OUI, le roulage après semis est recommandé pour : améliorer le contact sol-graine, réduire l'évaporation, et favoriser une levée homogène. Utilisez un rouleau léger (poids <300 kg/m). Évitez sur sols argileux humides (risque de compaction)."
+            },
+            "darija": {
+              "question": "واش خاصنا نضغط الأرض مورا زرع القمح ؟",
+              "reponse": "اه، الضغط مورا الزرع كاتنصح بيه باش: تحسن التلامس مابين الأرض و الحبة، تقلل التبخر، و تزيد الطلوع المتجانس. استعمل مدحلة خفيفة (وزن <300 كيلو فالمتر). تجنب على الأرض الطينية الرطبة (خطر الضغط)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand appliquer les fongicides sur blé ?",
+              "reponse": "Premier traitement : stade tallage (février) contre la rouille jaune. Deuxième traitement : stade montaison (mars) contre la septoriose. Troisième traitement : stade épiaison (avril) contre la fusariose. Traitez uniquement si les seuils de nuisibilité sont atteints."
+            },
+            "darija": {
+              "question": "فوقاش ندي فونجيسيدات على القمح ؟",
+              "reponse": "أول علاج: مرحلة التفريع (فبراير) ضد الصدا الصفر. ثاني علاج: مرحلة الساق (مارس) ضد السبتوريوز. ثالث علاج: مرحلة السنابل (أبريل) ضد الفيوزاريوز. عالج فقط إلا كان المرض تعدى الحد المسموح."
+            }
+          },
+          {
+            "francais": {
+              "question": "Qu'est-ce que le semi-direct pour le blé ?",
+              "reponse": "Le semi-direct est une technique sans labour. On sème directement dans les résidus de la culture précédente. Avantages : économie d'eau (30%), réduction de l'érosion, et amélioration de la fertilité. Inconvénients : risque de maladies plus élevé la première année."
+            },
+            "darija": {
+              "question": "شنو هو الزرع المباشر للقمح ؟",
+              "reponse": "الزرع المباشر هو تقنية بلا حرث. كاتزرع مباشرة فبقايا الزرع القديم. المزايا: توفير الماء (30%)، تقليل تآكل الأرض، و تحسين الخصوبة. العيوب: خطر الأمراض كايكون أكبر فالعام الأول."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "qualite_varietes",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quel est le taux de protéines d'Achtar ?",
+              "reponse": "Le taux de protéines d'Achtar est de 13.4%. C'est le plus élevé des trois variétés."
+            },
+            "darija": {
+              "question": "شحال هو نسبة البروتين ديال أشتر ؟",
+              "reponse": "نسبة البروتين ديال أشتر هي 13.4%. هي أعلى واحدة من بين الثلاثة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le taux de protéines d'Amal ?",
+              "reponse": "Le taux de protéines d'Amal est de 12.5%. C'est le plus faible des trois variétés."
+            },
+            "darija": {
+              "question": "شحال هو نسبة البروتين ديال أمل ؟",
+              "reponse": "نسبة البروتين ديال أمل هي 12.5%. هي أقل واحدة من بين الثلاثة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le taux de protéines d'Arrih ?",
+              "reponse": "Le taux de protéines d'Arrih est de 13.0%."
+            },
+            "darija": {
+              "question": "شحال هو نسبة البروتين ديال الريح ؟",
+              "reponse": "نسبة البروتين ديال الريح هي 13.0%."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "seuils_critiques_varietes",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quelle est la température optimale de croissance pour Achtar ?",
+              "reponse": "La température optimale de croissance pour Achtar est de 20°C. La floraison optimale est à 18°C."
+            },
+            "darija": {
+              "question": "شنو هي الحرارة المثالية للنمو ديال أشتر ؟",
+              "reponse": "الحرارة المثالية للنمو ديال أشتر هي 20 درجة. التزهير المثالي هو 18 درجة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la température optimale de croissance pour Amal ?",
+              "reponse": "La température optimale de croissance pour Amal est de 21°C. La floraison optimale est à 19°C."
+            },
+            "darija": {
+              "question": "شنو هي الحرارة المثالية للنمو ديال أمل ؟",
+              "reponse": "الحرارة المثالية للنمو ديال أمل هي 21 درجة. التزهير المثالي هو 19 درجة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la température optimale de croissance pour Arrih ?",
+              "reponse": "La température optimale de croissance pour Arrih est de 22°C. La floraison optimale est à 20°C."
+            },
+            "darija": {
+              "question": "شنو هي الحرارة المثالية للنمو ديال الريح ؟",
+              "reponse": "الحرارة المثالية للنمو ديال الريح هي 22 درجة. التزهير المثالي هو 20 درجة."
+            }
+          },
+          {
+            "francais": {
+              "question": "À partir de quelle température le blé subit un stress thermique ?",
+              "reponse": "Pour Achtar, le stress thermique commence à 32°C. Pour Amal, à 33°C. Pour Arrih, à 34°C. Arrih est la plus résistante à la chaleur."
+            },
+            "darija": {
+              "question": "من بعد شحال درجة كايبان الإجهاد الحراري على القمح ؟",
+              "reponse": "لأشتر، الإجهاد الحراري كايبان من 32 درجة. لأمل، من 33 درجة. للريح، من 34 درجة. الريح هو الأكثر مقاومة للحرارة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle variété résiste le mieux au gel ?",
+              "reponse": "Achtar et Amal résistent au gel jusqu'à -2°C. Arrih résiste seulement jusqu'à -1°C. Achtar et Amal sont donc plus résistants au gel."
+            },
+            "darija": {
+              "question": "شنو هو النوع اللي كايقاوم الجليد أكثر ؟",
+              "reponse": "أشتر و أمل كايقاومو الجليد حتى -2 درجة. الريح كايقاوم حتى -1 درجة فقط. أشتر و أمل هوما الأكثر مقاومة للجليد."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "formules_prediction",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Comment calculer le rendement du blé ?",
+              "reponse": "La formule est : Rendement = (N_effectif × coeff_N) + (ETR × coeff_eau) - (stress_temp × 0.5). Où N_effectif est l'azote effectif, coeff_N est le coefficient de la variété (3.2 pour Achtar, 3.5 pour Amal, 3.8 pour Arrih), ETR est l'évapotranspiration réelle, et stress_temp est le stress thermique."
+            },
+            "darija": {
+              "question": "كيفاش نحسب الإنتاج ديال القمح ؟",
+              "reponse": "القانون هو: الإنتاج = (الآزوت الفعال × معامل N) + (ETR × معامل الماء) - (الإجهاد الحراري × 0.5). آزوت فعال هو الآزوت اللي وصل للزرع، معامل N كايعتمد على النوع، ETR هو النتح الحقيقي، والإجهاد الحراري كاينقص الإنتاج."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "calendrier",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quel est le calendrier cultural du blé à Doukkala ?",
+              "reponse": "Calendrier : 15-30 nov : semis Achtar/Amal ; 1-15 déc : semis Arrih ; déc : 1er apport N (40 kg) au tallage ; fév : 2e apport N (50 kg) à la montaison ; mar : 3e apport N (30 kg) à l'épiaison ; avr : arrêt N (floraison) ; mai : arrêt eau (remplissage) ; 20 mai-15 juin : récolte."
+            },
+            "darija": {
+              "question": "شنو هو التقويم الفلاحي للقمح فدكالة ؟",
+              "reponse": "التقويم: 15-30 نونبر: زرع أشتر/أمل; 1-15 دجنبر: زرع الريح; دجنبر: أول تحطة آزوت (40 كيلو) فالتفريع; فبراير: ثاني تحطة (50 كيلو) فالساق; مارس: ثالث تحطة (30 كيلو) فسنابل; أبريل: وقف الآزوت (التزهير); ماي: وقف الماء (الملء); 20 ماي-15 يونيو: الحصاد."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand faire le premier apport d'azote ?",
+              "reponse": "Le premier apport d'azote (40 kg N/ha) se fait au stade TALLAGE, pendant le mois de DÉCEMBRE."
+            },
+            "darija": {
+              "question": "فوقاش ندي أول تحطة ديال الآزوت ؟",
+              "reponse": "أول تحطة ديال الآزوت (40 كيلو فالهكتار) كاتكون فمرحلة التفريع، فشهر دجنبر."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand faire le deuxième apport d'azote ?",
+              "reponse": "Le deuxième apport d'azote (50 kg N/ha) se fait au stade MONTAISON, pendant le mois de FÉVRIER."
+            },
+            "darija": {
+              "question": "فوقاش ندي ثاني تحطة ديال الآزوت ؟",
+              "reponse": "ثاني تحطة ديال الآزوت (50 كيلو فالهكتار) كاتكون فمرحلة الساق، فشهر فبراير."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand faire le troisième apport d'azote ?",
+              "reponse": "Le troisième apport d'azote (30 kg N/ha) se fait au stade ÉPIAISON, pendant le mois de MARS."
+            },
+            "darija": {
+              "question": "فوقاش ندي ثالث تحطة ديال الآزوت ؟",
+              "reponse": "ثالث تحطة ديال الآزوت (30 كيلو فالهكتار) كاتكون فمرحلة السنابل، فشهر مارس."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand faut-il arrêter l'azote ?",
+              "reponse": "L'azote doit être arrêté au stade FLORAISON (avril). Un apport tardif d'azote augmente le risque de verse et réduit la qualité des grains."
+            },
+            "darija": {
+              "question": "فوقاش خاصنا نوقف الآزوت ؟",
+              "reponse": "خاصنا نوقف الآزوت فمرحلة التزهير (أبريل). الآزوت المتأخر كايزيد خطر التطيح و كاينقص الجودة ديال الحبات."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand faut-il arrêter l'eau ?",
+              "reponse": "L'eau doit être arrêtée au stade REMPLISSAGE (mai). Un excès d'eau à ce stade favorise les maladies et la verse."
+            },
+            "darija": {
+              "question": "فوقاش خاصنا نوقف الماء ؟",
+              "reponse": "خاصنا نوقف الماء فمرحلة الملء (ماي). الماء الزايد فهاد المرحلة كايخدم الأمراض و التطيح."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,898 @@
+{
+  "chatbot_climat_agriculture_doukkala": {
+    "version": "2.0",
+    "date_mise_a_jour": "2026-04-12",
+    "langues": ["francais", "darija"],
+    "sources": [
+      "ORMVAD Doukkala (2023-2025)",
+      "INRA Maroc (2020-2023)",
+      "Monographie El Jadida 2021 (HCP)",
+      "AgriMaroc.ma (2025-2026)",
+      "Données climatiques Open-Meteo 2020-2026"
+    ],
+    "categories": [
+      {
+        "nom": "general_climat",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quel est le mois le plus chaud dans la région Doukkala ?",
+              "reponse": "D'après les données climatiques 2020-2025, le mois le plus chaud est AOÛT avec des maximales moyennes de 25.9°C à El Jadida et 30.8°C à Ouled Frej. Mais attention, des pics à 46°C ont été enregistrés à Ouled Frej le 29 juin 2025 !"
+            },
+            "darija": {
+              "question": "شهر سخون فدكالة ؟",
+              "reponse": "حسب المعطيات 2020-2025، الشهر اللي سخون هو غشت، بحرارة 25.9 درجة فالجديدة و 30.8 درجة فأولاد فرج. ولكن الحذر، كان نهار 29 يونيو 2025 وصلات الحرارة لـ 46 درجة فأولاد فرج!"
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le mois le plus froid à El Jadida ?",
+              "reponse": "Le mois le plus froid à El Jadida est JANVIER, avec une température minimale moyenne de 10.6°C. Les gelées sont très rares sur la côte."
+            },
+            "darija": {
+              "question": "شهر برد فالجديدة ؟",
+              "reponse": "الشهر اللي برد فالجديدة هو يناير، بحرارة صغرى 10.6 درجة. الجليد كاين شي نادر على الساحل."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand est-ce qu'il pleut le plus à Ouled Frej ?",
+              "reponse": "Le mois le plus pluvieux à Ouled Frej est DÉCEMBRE avec 1.7 mm de moyenne (2020-2025). Cependant, des orages exceptionnels peuvent donner beaucoup plus, comme le 28 décembre 2025 où il est tombé 43.8 mm à El Jadida."
+            },
+            "darija": {
+              "question": "فين كاتوقع الشتا أكثر فأولاد فرج ؟",
+              "reponse": "الشهر اللي كاتوقع فيه الشتا أكثر هو دجنبر بمعدال 1.7 ميلي متر. ولكن فاش كاتجي شتا شديدة، كاتوقع بزاف، مثال نهار 28 دجنبر 2025 سقطات 43.8 ميلي متر فالجديدة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est l'écart de température entre El Jadida et Ouled Frej en été ?",
+              "reponse": "En été, Ouled Frej est environ 5°C plus chaud qu'El Jadida. Par exemple, en août : 25.9°C à El Jadida contre 30.8°C à Ouled Frej. La brise marine rafraîchit la côte."
+            },
+            "darija": {
+              "question": "شحال الفرق فالحرارة مابين الجديدة و أولاد فرج فالصيف ؟",
+              "reponse": "فالصيف، أولاد فرج سخون بزيادة 5 درجات على الجديدة. مثال فغشت: 25.9 درجة فالجديدة مقابل 30.8 درجة فأولاد فرج. الرياح ديال البحر كاتبرد الساحل."
+            }
+          },
+          {
+            "francais": {
+              "question": "Y a-t-il des risques de gel dans la région Doukkala ?",
+              "reponse": "Oui, mais surtout à l'intérieur des terres (Ouled Frej). Le 28 janvier 2024, la température est descendue à -0.2°C à Ouled Frej ! Sur la côte (El Jadida), le gel est très rare. Protégez vos cultures sensibles en janvier-février."
+            },
+            "darija": {
+              "question": "واش كاين خطر ديال الجليد فدكالة ؟",
+              "reponse": "اه، ولكن أكثر فأولاد فرج. نهار 28 يناير 2024، الحرارة نزلات لـ -0.2 درجة فأولاد فرج! فالجديدة على البحر، الجليد كاين شي نادر. حمي زرعك فيناير و فبراير."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand le vent est-il le plus fort à El Jadida ?",
+              "reponse": "Le vent le plus fort jamais enregistré à El Jadida était le 22 OCTOBRE 2023 avec 61.8 km/h. L'automne et l'hiver sont généralement plus venteux sur la côte."
+            },
+            "darija": {
+              "question": "فين الرياح كاتكون قوية فالجديدة ؟",
+              "reponse": "أقوى رياح كانت نهار 22 أكتوبر 2023، وصلات لـ 61.8 كلم فالساعة. الخريف والشتي كايكونو فيهم الرياح قوية على الساحل."
+            }
+          },
+          {
+            "francais": {
+              "question": "Y a-t-il des années de sécheresse dans la région ?",
+              "reponse": "OUI. Par exemple, l'été 2023 (juin, juillet, août) a enregistré 0.0 mm de pluie à El Jadida. Les étés sont généralement très secs. Ne comptez jamais sur la pluie entre juin et septembre."
+            },
+            "darija": {
+              "question": "واش كاين أعوام جافة فدكالة ؟",
+              "reponse": "اه. مثال، الصيف ديال 2023 (يونيو، يوليوز، غشت) ما سقطاتش قطرة وحدة ديال الشتا فالجديدة. الصيف كايكون جاف بزاف. ما تعتمدش على الشتا مابين يونيو و شتنبر."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la température record à Ouled Frej ?",
+              "reponse": "La température la plus élevée jamais enregistrée à Ouled Frej est 46.0°C le 29 JUIN 2025. Ce jour-là, il ne faut absolument pas travailler aux champs entre 11h et 17h."
+            },
+            "darija": {
+              "question": "شحال هي أعلى حرارة ف أولاد فرج ؟",
+              "reponse": "أعلى حرارة كانت 46.0 درجة نهار 29 يونيو 2025. فهاد النهار، ممنوع تشتغل فالحقول مابين 11 و 17 ساعة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la température record à El Jadida ?",
+              "reponse": "La température la plus élevée à El Jadida est d'environ 35°C (observé en juillet-août). La côte est beaucoup plus tempérée que l'intérieur."
+            },
+            "darija": {
+              "question": "شحال هي أعلى حرارة ف الجديدة ؟",
+              "reponse": "أعلى حرارة فالجديدة فحدود 35 درجة (في يوليوز-غشت). الساحل كايكون أبرد من الداخل."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la pluviométrie annuelle moyenne à El Jadida ?",
+              "reponse": "D'après les moyennes mensuelles 2020-2025, la pluviométrie annuelle moyenne à El Jadida est d'environ 8-10 mm, mais attention : les pluies sont très irrégulières et concentrées sur l'hiver."
+            },
+            "darija": {
+              "question": "شحال هو المعدال ديال الشتا فالعام فالجديدة ؟",
+              "reponse": "حسب المعدالات الشهرية 2020-2025، المعدال السنوي فالجديدة فحدود 8-10 ميلي متر، ولكن الشتا ما كاتش متلاومش و كاتوقع فالشتي."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "ble_dur",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quand planter le blé dur dans la région Doukkala ?",
+              "reponse": "La période optimale de semis du blé dur est du 10 au 30 NOVEMBRE. Les semis précoces (avant novembre) exposent la culture au stress hydrique et aux maladies, les semis tardifs (décembre) réduisent le rendement."
+            },
+            "darija": {
+              "question": "فوقاش نزرع القمح الصلب فدكالة ؟",
+              "reponse": "أحسن وقت للزرع هو من 10 لـ 30 نونبر. الزرع بكري (قبل نونبر) كايعرض الزرع للجفاف والأمراض، الزرع متأخر (دجنبر) كاينقص الإنتاج."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle densité de semis pour le blé dur ?",
+              "reponse": "En pluvial (sans irrigation), 200-250 pieds/m². En irrigué, 300-400 pieds/m². Soit environ 90 à 150 kg de semences par hectare selon la variété."
+            },
+            "darija": {
+              "question": "شحال هي الكثافة ديال الزرع ديال القمح الصلب ؟",
+              "reponse": "فالبور (بلا سقي)، 200-250 نبتة فالمتر مربع. فالسقي، 300-400 نبتة. يعني 90 لـ 150 كيلو فالهكتار حسب النوع."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelles variétés de blé dur recommandez-vous pour Doukkala ?",
+              "reponse": "Les variétés recommandées sont : 'Marzak', 'Amal', et 'Karim'. Ce sont des variétés tolérantes à la sécheresse et résistantes aux principales maladies (rouille, septoriose)."
+            },
+            "darija": {
+              "question": "شنو الأنواع ديال القمح الصلب اللي تنصح بيها فدكالة ؟",
+              "reponse": "الأنواع اللي تنصح بها هي: 'مرزاق'، 'أمل'، و 'كريم'. هاد الأنواع كاتتحمل الجفاف و كاتقاوم الأمراض (الصدا، السبتوريوز)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître une carence en azote sur le blé ?",
+              "reponse": "Les feuilles inférieures jaunissent (chlorose uniformisée), la croissance est ralentie, les tiges sont fines, et les épis sont petits et clairsemés. Solution : apport d'urée (30-50 kg/ha) au stade tallage."
+            },
+            "darija": {
+              "question": "كيفاش نعرف نقص الآزوت فالقمح ؟",
+              "reponse": "الوراق اللي تحت كاتصفر، النمو كايبطا، السيقان كاتكون رقاق، و السنابل كاتكون صغار و مفرقين. الحل: تحط اليوريا (30-50 كيلو فالهكتار) فمرحلة التفريع."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les symptômes de la rouille jaune sur le blé ?",
+              "reponse": "Pustules jaune-orangé sur les feuilles (face supérieure), alignées entre les nervures. Épidémies en conditions humides (15-20°C). Traitement : fongicides triazoles (Tébucanazole 0.5-1 L/ha) dès l'apparition."
+            },
+            "darija": {
+              "question": "شنو هو الصدا الصفر فالقمح و كيفاش نعالجو ؟",
+              "reponse": "بقع صفر على الوراق (الوجه الفوقاني)، مصفوفين مابين العروق. المرض كاينتشر فالرطوبة (15-20 درجة). العلاج: فونجيسيدات تريازول (تيبوكونازول 0.5-1 ليتر فالهكتار) من أول ما كايبان."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand et comment fertiliser le blé dur ?",
+              "reponse": "Fertilisation de fond (avant semis) : P2O5 (31-68 kg/ha) et K2O (53-102 kg/ha). Fertilisation de couverture (azote) : 50% au tallage, 30% à la montaison, 20% à l'épiaison. Urée ou nitrate d'ammonium."
+            },
+            "darija": {
+              "question": "فوقاش و كيفاش نسمد القمح الصلب ؟",
+              "reponse": "التسميد الأساسي (قبل الزرع): فوسفور (31-68 كيلو) و بوتاسيوم (53-102 كيلو). التسميد الإضافي (آزوت): 50% فالتفريع، 30% فالساق، 20% فسنابل. يوريا أو نترات الأمونيوم."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les besoins en eau du blé dur ?",
+              "reponse": "Le blé dur a besoin de 450 à 650 mm d'eau selon le stade. Les stades critiques sont : tallage (60-80 mm), montaison (80-100 mm), et épiaison-floraison (100-120 mm). En irrigué, prévoyez 5 à 7 tours d'eau."
+            },
+            "darija": {
+              "question": "شحال هي الحوايج ديال الماء للقمح الصلب ؟",
+              "reponse": "القمح الصلب كايحتاج لـ 450 لـ 650 ميلي متر ديال الماء. المراحل الحرجة: التفريع (60-80 مم)، الساق (80-100 مم)، السنابل (100-120 مم). فالسقي، خاصك 5 لـ 7 دورات ديال الماء."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand récolter le blé dur ?",
+              "reponse": "La récolte se fait en MAI-JUIN, lorsque l'humidité du grain est inférieure à 14%. Utilisez une moissonneuse-batteuse bien réglée pour éviter les pertes."
+            },
+            "darija": {
+              "question": "فوقاش نحصد القمح الصلب ؟",
+              "reponse": "الحصاد كايكون فماي-يونيو، فوقاش الرطوبة ديال الحبة تكون أقل من 14%. استعمل حصادة كاتحرث كاتجمع (ضبطها باش ما تضيعش الحب)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel rendement puis-je espérer pour le blé dur ?",
+              "reponse": "En pluvial (sans irrigation) : 10-15 quintaux/hectare (1-1.5 tonnes). En irrigué : 30-45 quintaux/hectare (3-4.5 tonnes). Les records peuvent atteindre 50 qx/ha avec une bonne gestion."
+            },
+            "darija": {
+              "question": "شحال هو الإنتاج ديال القمح الصلب ؟",
+              "reponse": "فالبور: 10-15 قنطار فالهكتار. فالسقي: 30-45 قنطار فالهكتار. الإنتاج القياسي يقدر يوصل لـ 50 قنطار فالهكتار مع تدبير مزيان."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre la cécidomyie sur le blé ?",
+              "reponse": "La cécidomyie attaque les tiges. Prévention : semis tardifs (après 15 novembre) et destruction des adventices hôtes. Traitement : pyréthrinoïdes (Deltaméthrine 0.2-0.3 L/ha) dès apparition des premiers vols."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو حفار القمح ؟",
+              "reponse": "الوقاية: الزرع متأخر (مورا 15 نونبر) و إزالة الحشائش اللي كاتعيش فيها الآفة. العلاج: مبيدات الحشرات (دلتاميثرين 0.2-0.3 ليتر فالهكتار)."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "olivier",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quelle est la superficie de l'olivier à Doukkala ?",
+              "reponse": "Selon l'ORMVAD, la superficie totale de l'olivier à Doukkala est de 5495 hectares, dont 3279 hectares en irrigué (60%). À Ouled Frej, 400 ha (215 ha irrigués). À Sidi Bennour, 5095 ha (2989 ha irrigués)."
+            },
+            "darija": {
+              "question": "شحال هي المساحة ديال الزيتون فدكالة ؟",
+              "reponse": "حسب المكتب الجهوي للتنمية الفلاحية، المساحة ديال الزيتون فدكالة هي 5495 هكتار، منهم 3279 هكتار مسقية (60%). فأولاد فرج: 400 هكتار، فسيدي بنور: 5095 هكتار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelles variétés d'olivier planter à Doukkala ?",
+              "reponse": "Les variétés traditionnelles sont : Picholine, Haouzia, Menara. La variété introduite 'Arbequina' (origine Palestine) donne 15-20 tonnes/ha avec 700 arbres/ha, mais sa durée de vie n'est que de 15 ans."
+            },
+            "darija": {
+              "question": "شنو الأنواع ديال الزيتون اللي نزرع فدكالة ؟",
+              "reponse": "الأنواع التقليدية: بيشولين، حوزية، منارة. النوع المستورد 'أربيكينا' (أصل فلسطين) كايعطي 15-20 طن فالهكتار بـ 700 شجرة فالهكتار، ولكن عمره 15 عام فقط."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le prix des olives à Doukkala en 2023 ?",
+              "reponse": "Le prix des olives était de 10 à 12 dirhams le kilogramme. Le rendement en huile est de 16 à 19 litres par quintal (100 kg)."
+            },
+            "darija": {
+              "question": "شحال هو ثمن الزيتون فدكالة عام 2023 ؟",
+              "reponse": "ثمن الزيتون كان مابين 10 و 12 درهم فالكيلو. المردود ديال الزيت هو 16 لـ 19 ليتر فالقنطار (100 كيلو)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand planter l'olivier ?",
+              "reponse": "La période idéale de plantation est de NOVEMBRE à MARS (hors gel). Creusez un trou de 50x50x50 cm, ajoutez 10 kg de fumier et 200 g de superphosphate."
+            },
+            "darija": {
+              "question": "فوقاش نزرع الزيتون ؟",
+              "reponse": "أحسن وقت للزرع من نونبر لـ مارس (بعيد على الجليد). حفر حفرة 50x50x50 سم، ضيف 10 كيلو ديال الزبل و 200 غرام ديال السوبرفوسفات."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle densité de plantation pour l'olivier ?",
+              "reponse": "Traditionnel : 60-90 arbres/ha (10x10 m). Intensif : 200-400 arbres/ha (5x5 m). Pour la variété Arbequina, 700 arbres/ha (3.5x4 m)."
+            },
+            "darija": {
+              "question": "شحال هي الكثافة ديال زرع الزيتون ؟",
+              "reponse": "تقليدي: 60-90 شجرة فالهكتار. كثيف: 200-400 شجرة فالهكتار. للنوع أربيكينا: 700 شجرة فالهكتار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître une carence en fer sur l'olivier ?",
+              "reponse": "Chlorose internervaire sur jeunes feuilles (les feuilles jaunissent mais les nervures restent vertes). Solution : apport de chélate de fer (EDDHA) 1-2 kg/ha en foliaire ou au sol."
+            },
+            "darija": {
+              "question": "كيفاش نعرف نقص الحديد فشجرة الزيتون ؟",
+              "reponse": "الوراق الجداد كاتصفر ولكن العروق كاتبقى خضر. الحل: تحط شيلات الحديد (1-2 كيلو فالهكتار)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre la mouche de l'olivier ?",
+              "reponse": "Prévention : piégeage massif avec phéromones (1 piège/arbre). Traitement : Diméthoate (0.5-1 L/ha) en août-septembre, ou Spinosad (bio) 48-96 g/hl. Évitez les traitements en floraison (toxiques pour les abeilles)."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو ذبانة الزيتون ؟",
+              "reponse": "الوقاية: مصايد الفيرومونات (1 مصيدة/شجرة). العلاج: ديميتوات (0.5-1 ليتر فالهكتار) فغشت-شتنبر، أو سبينوساد (عضوي) 48-96 غرام فالهكتوليتر. تجنب العلاج فالتزهير (كيضر النحل)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand et comment tailler l'olivier ?",
+              "reponse": "La taille se fait en JANVIER-FÉVRIER (hors gel). Trois types : taille de formation (jeunes arbres : 3-4 branches charpentières), taille de fructification (adultes : aérer le centre, supprimer bois mort), taille sanitaire (enlever branches malades)."
+            },
+            "darija": {
+              "question": "فوقاش و كيفاش نقلم الزيتون ؟",
+              "reponse": "التقليم كايكون فيناير-فبراير (بعيد على الجليد). ثلاثة أنواع: تقليم التكوين (للشجر الصغار)، تقليم الإثمار (للكبار)، التقليم الصحي (نزيل الأغصان المريضة)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les besoins en eau de l'olivier ?",
+              "reponse": "Jeunes arbres : 4000-5000 m³/ha (400-500 mm). Adultes : 3000-4000 m³/ha (300-400 mm). Stades critiques : floraison (avril-mai) et grossissement des fruits (juillet-août). Irrigation goutte-à-goutte recommandée."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال الماء للزيتون ؟",
+              "reponse": "الشجر الصغار: 4000-5000 متر مكعب فالهكتار. الكبار: 3000-4000 متر مكعب. المراحل الحرجة: التزهير (أبريل-ماي) و تكبير الحبات (يوليوز-غشت). السقي بالتنقيط هو الأحسن."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand récolter les olives ?",
+              "reponse": "La récolte se fait d'OCTOBRE à DÉCEMBRE selon la variété. Méthode : récolte manuelle (gaules) ou mécanique (vibreur). Étalez les olives sur des nattes pendant 2-3 jours pour un séchage partiel."
+            },
+            "darija": {
+              "question": "فوقاش نحصد الزيتون ؟",
+              "reponse": "الحصاد كايكون من أكتوبر لـ دجنبر حسب النوع. الطريقة: الحصاد باليد (بالعصي) أو بالميكانيك. افرد الزيتون على الحصير لمدة 2-3 أيام حتى يجف شوية."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "figuier",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quelle est la superficie du figuier à Doukkala ?",
+              "reponse": "Selon la Monographie 2021 du HCP, la superficie du figuier dans la province d'El Jadida est de 2042 hectares, avec une production de 12500 tonnes (rendement 7.23 qx/ha)."
+            },
+            "darija": {
+              "question": "شحال هي المساحة ديال الكرموس فدكالة ؟",
+              "reponse": "حسب الإحصاء العام 2021، المساحة ديال الكرموس فإقليم الجديدة هي 2042 هكتار، بإنتاج 12500 طن (مردود 7.23 قنطار فالهكتار)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand planter le figuier ?",
+              "reponse": "La période idéale est de NOVEMBRE à MARS (hors gel). Creusez un trou de 60x60x60 cm, ajoutez 10 kg de fumier composté et 200 g de superphosphate."
+            },
+            "darija": {
+              "question": "فوقاش نزرع الكرموس ؟",
+              "reponse": "أحسن وقت من نونبر لـ مارس. حفر حفرة 60x60x60 سم، ضيف 10 كيلو ديال الزبل و 200 غرام ديال السوبرفوسفات."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle densité pour le figuier ?",
+              "reponse": "Traditionnel : 100-200 arbres/ha (5x5 m ou 10x5 m). Intensif : 400-600 arbres/ha (3x3 m). Le figuier supporte bien les sols pauvres et la sécheresse."
+            },
+            "darija": {
+              "question": "شحال هي الكثافة ديال زرع الكرموس ؟",
+              "reponse": "تقليدي: 100-200 شجرة فالهكتار. كثيف: 400-600 شجرة فالهكتار. الكرموس كايصمد فالأرض الفقيرة والجفاف."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître une carence en azote sur le figuier ?",
+              "reponse": "Feuilles pâles (jaunissement uniformisé), croissance réduite, fruits petits. Solution : apport d'urée ou sulfate d'ammonium (50-80 kg/ha) en février-mars."
+            },
+            "darija": {
+              "question": "كيفاش نعرف نقص الآزوت فالكرموس ؟",
+              "reponse": "الوراق كاتصفر، النمو كايبطا، الحبات كاتصغر. الحل: تحط اليوريا (50-80 كيلو فالهكتار) ففبراير-مارس."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand récolter les figues ?",
+              "reponse": "Deux récoltes par an : figues fraîches : juin-juillet et septembre-octobre. Figues sèches : août-septembre. Récolte manuelle (cagettes). Rendement : 20-40 kg/arbre en traditionnel, 50-80 kg/arbre en intensif."
+            },
+            "darija": {
+              "question": "فوقاش نحصد الكرموس ؟",
+              "reponse": "جوج قطافات فالعام: الكرموس الطري: يونيو-يوليوز و شتنبر-أكتوبر. الكرموس الجاف: غشت-شتنبر. الحصاد باليد. الإنتاج: 20-40 كيلو فالشجرة (تقليدي)، 50-80 كيلو فالشجرة (كثيف)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre la cochenille farineuse sur le figuier ?",
+              "reponse": "Traitement hivernal : huile blanche (1-2 L/ha). Auxiliaires : lâchers de coccinelles (Cryptolaemus montrouzieri). En cas d'attaque sévère : pyréthrinoïdes."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو البق الدقيقي فالكرموس ؟",
+              "reponse": "العلاج الشتوي: الزيت الأبيض (1-2 ليتر فالهكتار). الأعداء الطبيعية: إطلاق الخنافس (كريبتوليموس). فوقاش كاتزيد: البيريترينويدات."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les besoins en eau du figuier ?",
+              "reponse": "Jeunes arbres : 6000-8000 m³/ha (600-800 mm). Adultes : 5000-7000 m³/ha (500-700 mm). Stades critiques : développement des fruits (mai-juin) et grossissement (juillet-août). Irrigation goutte-à-goutte recommandée."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال الماء للكرموس ؟",
+              "reponse": "الشجر الصغار: 6000-8000 متر مكعب فالهكتار. الكبار: 5000-7000 متر مكعب. المراحل الحرجة: نمو الحبات (ماي-يونيو) و التكبر (يوليوز-غشت). السقي بالتنقيط هو الأحسن."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand tailler le figuier ?",
+              "reponse": "La taille se fait en JANVIER-FÉVRIER (hors gel). Objectifs : supprimer le bois mort, aérer le centre de l'arbre, limiter la hauteur à 3-4 m pour faciliter la récolte."
+            },
+            "darija": {
+              "question": "فوقاش نقلم الكرموس ؟",
+              "reponse": "التقليم كايكون فيناير-فبراير. الأهداف: نزيل الأغصان الميتة، نوسع وسط الشجرة، نحد الطول لـ 3-4 متر باش نسهل الحصاد."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel rendement pour le figuier à Doukkala ?",
+              "reponse": "Selon la Monographie 2021, le rendement moyen est de 7.23 quintaux/hectare (environ 720 kg/ha). En intensif bien conduit, on peut atteindre 3-5 tonnes/ha."
+            },
+            "darija": {
+              "question": "شحال هو الإنتاج ديال الكرموس فدكالة ؟",
+              "reponse": "حسب الإحصاء العام 2021، المردود هو 7.23 قنطار فالهكتار (تقريبا 720 كيلو فالهكتار). فالكثيف، نقدر نوصل لـ 3-5 طن فالهكتار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre l'anthracnose du figuier ?",
+              "reponse": "L'anthracnose provoque des taches brunes sur les fruits. Traitement : fongicides à base de mancozèbe ou captane (1.5-2 kg/ha) au début de la maturation."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو الأنثراكنوز ديال الكرموس ؟",
+              "reponse": "الأنثراكنوز كاتسبب بقع كحلة على الحبات. العلاج: فونجيسيدات مانكوزيب (1.5-2 كيلو فالهكتار) فبداية النضج."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "vigne",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quelle est la superficie de la vigne à Doukkala ?",
+              "reponse": "Selon la Monographie 2021, la superficie de la vigne est de 2420 hectares (2204 ha de vigne de table, 216 ha de vigne de cuve). Production : 9066 tonnes pour la vigne de table, 3240 tonnes pour la vigne de cuve."
+            },
+            "darija": {
+              "question": "شحال هي المساحة ديال العنب فدكالة ؟",
+              "reponse": "حسب الإحصاء العام 2021، المساحة ديال العنب هي 2420 هكتار (2204 هكتار عنب مائدة، 216 هكتار عنب معصر). الإنتاج: 9066 طن عنب مائدة، 3240 طن عنب معصر."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand planter la vigne ?",
+              "reponse": "La période idéale est de NOVEMBRE à MARS (hors gel). Creusez un trou de 40x40x40 cm, ajoutez 5 kg de fumier et 100 g de superphosphate par pied."
+            },
+            "darija": {
+              "question": "فوقاش نزرع العنب ؟",
+              "reponse": "أحسن وقت من نونبر لـ مارس. حفر حفرة 40x40x40 سم، ضيف 5 كيلو ديال الزبل و 100 غرام ديال السوبرفوسفات فالكرمة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle densité pour la vigne ?",
+              "reponse": "Traditionnel : 1600-2500 pieds/ha (4x2 m ou 2.5x2 m). Intensif : 3000-5000 pieds/ha (3x1 m ou 2.5x1 m). Pour le raisin de table, espacez plus (3x2 m) pour faciliter la récolte."
+            },
+            "darija": {
+              "question": "شحال هي الكثافة ديال زرع العنب ؟",
+              "reponse": "تقليدي: 1600-2500 كرمة فالهكتار. كثيف: 3000-5000 كرمة فالهكتار. لعنب المائدة، وسع أكثر (3x2 متر) باش تسهل الحصاد."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître le mildiou sur la vigne ?",
+              "reponse": "Taches huileuses jaunes sur les feuilles, baies ridées et momifiées. Dégâts importants en conditions humides. Traitement : cupriques (Bouillie bordelaise 2-3 kg/ha) tous les 10-15 jours d'avril à juin."
+            },
+            "darija": {
+              "question": "كيفاش نعرف المليديو فالعنب ؟",
+              "reponse": "بقع صفر على الوراق، الحبات كاتجعد و كاتصغر. الضرر كبير فالرطوبة. العلاج: النحاس (2-3 كيلو فالهكتار) كل 10-15 يوم من أبريل لـ يونيو."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre l'oïdium sur la vigne ?",
+              "reponse": "Symptômes : feutrage blanc sur feuilles et baies, craquelures sur baies à maturité. Traitement : soufre mouillable (2-4 kg/ha) en mai-juin par temps sec. Évitez les excès d'azote (favorise la maladie)."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو البياض الدقيقي فالعنب ؟",
+              "reponse": "الأعراض: غبار أبيض على الوراق والحبات، تشققات فالحبات فالنضج. العلاج: الكبريت (2-4 كيلو فالهكتار) فماي-يونيو فالجفاف. تجنب الآزوت الزايد (كايخدم المرض)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand tailler la vigne ?",
+              "reponse": "La taille se fait en JANVIER-FÉVRIER (hors gel). Types : taille en guyot (simple ou double) : 8-12 bourgeons par pied. Taille en cordon : palissage sur fils."
+            },
+            "darija": {
+              "question": "فوقاش نقلم العنب ؟",
+              "reponse": "التقليم كايكون فيناير-فبراير. الأنواع: تقليم غيوت (8-12 برعم فالكرمة)، تقليم كوردون (التعريش على الأسلاك)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les besoins en eau de la vigne ?",
+              "reponse": "Jeunes vignes : 6000-8000 m³/ha (600-800 mm). Adultes : 5000-7000 m³/ha (500-700 mm). Stades critiques : débourrement (mars-avril), floraison (mai), véraison (juillet-août). Irrigation goutte-à-goutte recommandée."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال الماء للعنب ؟",
+              "reponse": "الكروم الصغار: 6000-8000 متر مكعب فالهكتار. الكبار: 5000-7000 متر مكعب. المراحل الحرجة: ظهور البراعم (مارس-أبريل)، التزهير (ماي)، النضج (يوليوز-غشت). السقي بالتنقيط هو الأحسن."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand récolter le raisin ?",
+              "reponse": "Raisin de table : juillet-septembre. Raisin de cuve : août-octobre. Récolte manuelle (cagettes de 5 kg), tri des grappes abîmées. Rendement : 10-15 tonnes/ha en traditionnel, 20-30 tonnes/ha en intensif."
+            },
+            "darija": {
+              "question": "فوقاش نحصد العنب ؟",
+              "reponse": "عنب المائدة: يوليوز-شتنبر. عنب المعصر: غشت-أكتوبر. الحصاد باليد، نفرز العناقيد اللي معطوبة. الإنتاج: 10-15 طن فالهكتار (تقليدي)، 20-30 طن فالهكتار (كثيف)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre l'eudemis (ver de la grappe) ?",
+              "reponse": "Chenilles qui piquent les baies. Prévention : piégeage sexuel (phéromones). Traitement bio : Bacillus thuringiensis (50-100 g/hl) dès l'éclosion des œufs (mai-juin). Pyréthrinoïdes en dernier recours."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو دودة العنقود ؟",
+              "reponse": "اليرقات كايطلعو فالعناقيد. الوقاية: مصايد الفيرومونات. العلاج العضوي: باكيلوس ثورينجينسيس (50-100 غرام فالهكتوليتر). البيريترينويدات آخر حل."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel rendement pour la vigne à Doukkala ?",
+              "reponse": "Selon la Monographie 2021, le rendement moyen est de 4.11 qx/ha pour la vigne de table (très faible) et 15 qx/ha pour la vigne de cuve. Avec de bonnes pratiques, on peut atteindre 50-80 qx/ha."
+            },
+            "darija": {
+              "question": "شحال هو الإنتاج ديال العنب فدكالة ؟",
+              "reponse": "حسب الإحصاء العام 2021، المردود هو 4.11 قنطار فالهكتار لعنب المائدة، و 15 قنطار فالهكتار لعنب المعصر. مع التقنيات الجيدة، نقدر نوصل لـ 50-80 قنطار فالهكتار."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "betterave_sucriere",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quand planter la betterave sucrière ?",
+              "reponse": "Le semis se fait en OCTOBRE-NOVEMBRE. La betterave a besoin de 600-800 mm d'eau. Stades critiques : levée (10-20 jours après semis), croissance racinaire (juin-juillet), accumulation de sucre (août-septembre)."
+            },
+            "darija": {
+              "question": "فوقاش نزرع الشمندر السكري ؟",
+              "reponse": "الزرع كايكون فاكتوبر-نونبر. الشمندر كايحتاج لـ 600-800 ميلي متر ديال الماء. المراحل الحرجة: الطلوع (10-20 يوم مورا الزرع)، نمو الجذور (يونيو-يوليوز)، تكديس السكر (غشت-شتنبر)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les besoins en eau de la betterave ?",
+              "reponse": "La betterave sucrière a besoin de 600 à 800 mm d'eau selon les stades. En irrigué, prévoyez environ 6280 m³/ha. L'aspersion ou le goutte-à-goutte enterré sont recommandés."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال الماء للشمندر السكري ؟",
+              "reponse": "الشمندر كايحتاج لـ 600 لـ 800 ميلي متر ديال الماء. فالسقي، خاصك تقريبا 6280 متر مكعب فالهكتار. الرش أو التنقيط تحت الأرض هو الأحسن."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître la cercosporiose sur betterave ?",
+              "reponse": "Taches circulaires grises avec halo rougeâtre sur les feuilles. Dessèchement des feuilles en cas d'attaque sévère. Traitement : fongicides strobilurines (Azoxystrobine 0.75-1 L/ha) dès l'apparition."
+            },
+            "darija": {
+              "question": "كيفاش نعرف السيركوسبوريوز فالشمندر ؟",
+              "reponse": "بقع دائرية رماديين مع هالة حمرة على الوراق. الوراق كاتجف فوقاش كاتزيد. العلاج: فونجيسيدات (0.75-1 ليتر فالهكتار) من أول ما كايبان."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand récolter la betterave sucrière ?",
+              "reponse": "La récolte se fait de SEPTEMBRE à NOVEMBRE. Méthode : arrachage mécanique (décolleteuse-arracheuse), nettoyage et transport vers l'usine sucrière. Rendement moyen : 50-70 tonnes/ha (record 80 t/ha)."
+            },
+            "darija": {
+              "question": "فوقاش نحصد الشمندر السكري ؟",
+              "reponse": "الحصاد كايكون من شتنبر لـ نونبر. الطريقة: آلة نتاع القلع، التنظيف والنقل للمعمل السكري. الإنتاج: 50-70 طن فالهكتار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre la noctuelle terreuse sur betterave ?",
+              "reponse": "Ce ravageur sectionne les jeunes plants au collet. Prévention : piégeage avec appâts (son de blé), labour avant semis. Traitement bio : nématodes entomopathogènes (1-2 millions/ha) au semis."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو الدودة الأرضية فالشمندر ؟",
+              "reponse": "هاد الآفة كاتقطع الصغار من العنق. الوقاية: مصايد، الحرث قبل الزرع. العلاج العضوي: ديدان نيماتود (1-2 مليون فالهكتار) فوقاش كاتزرع."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle fertilisation pour la betterave sucrière ?",
+              "reponse": "Fond : N (80-120 kg/ha), P2O5 (100-150 kg/ha), K2O (150-200 kg/ha), Bore (1-2 kg/ha). Couverture : 50% N au stade 6-8 feuilles (avril), 50% N au début de tubérisation (juin)."
+            },
+            "darija": {
+              "question": "شحال هو السماد للشمندر السكري ؟",
+              "reponse": "أساسي: آزوت (80-120 كيلو)، فوسفور (100-150 كيلو)، بوتاسيوم (150-200 كيلو)، بور (1-2 كيلو). إضافي: 50% آزوت فـ 6-8 ورقات (أبريل)، 50% آزوت فبداية تكوين الجذر (يونيو)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les signes d'une carence en bore sur betterave ?",
+              "reponse": "Nécrose du cœur (pourriture interne), feuilles épaissies et déformées. Solution : apport de borax ou acide borique (1-2 kg/ha) en foliaire ou au sol."
+            },
+            "darija": {
+              "question": "شنو هي علامات نقص البور فالشمندر ؟",
+              "reponse": "موت القلب (تعفن داخلي)، الوراق كاتغلض و كاتتشوه. الحل: تحط بوراكس (1-2 كيلو فالهكتار)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel rendement pour la betterave à Doukkala ?",
+              "reponse": "Le rendement moyen est de 50 à 70 tonnes par hectare. Avec une irrigation et une fertilisation optimisées, on peut atteindre 80 tonnes/ha. La betterave est une culture très exigeante en eau et en fertilisants."
+            },
+            "darija": {
+              "question": "شحال هو الإنتاج ديال الشمندر فدكالة ؟",
+              "reponse": "الإنتاج الوسيط هو 50 لـ 70 طن فالهكتار. مع السقي والتسميد المزيان، نقدر نوصل لـ 80 طن فالهكتار. الشمندر كايحتاج بزاف للماء والسماد."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand irriguer la betterave sucrière ?",
+              "reponse": "Stades critiques : levée (tous les 3-5 jours), croissance racinaire (tous les 5-7 jours). Arrosez le matin ou le soir pour éviter l'évaporation. Évitez l'aspersion en période humide (favorise les maladies)."
+            },
+            "darija": {
+              "question": "فوقاش نسقي الشمندر السكري ؟",
+              "reponse": "المراحل الحرجة: الطلوع (كل 3-5 أيام)، نمو الجذور (كل 5-7 أيام). اسقي فالصباح أو الليل باش ما تتبخرش الماء. تجنب الرش فالشتي كاتزيد (كايخدم الأمراض)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre le puceron vert sur betterave ?",
+              "reponse": "Colonies vertes sur la face inférieure des feuilles, feuilles enroulées, miellat. Traitement : pyréthrinoïdes (Lambda-cyhalothrine 0.1-0.2 L/ha). Auxiliaires : coccinelles, syrphes."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو المن الأخضر فالشمندر ؟",
+              "reponse": "تجمعات خضر على الوجه التحتاني ديال الوراق، الوراق كاتلتف، العسل. العلاج: بيريترينويدات (0.1-0.2 ليتر فالهكتار). الأعداء الطبيعية: الخنافس، الدبابير."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "agrumes",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quelle est la superficie des agrumes à Doukkala ?",
+              "reponse": "Selon la Monographie 2021, les agrumes sont moins développés que les autres arbres fruitiers. Les principales cultures sont la vigne (2420 ha), le figuier (2042 ha), et l'olivier (291 ha seulement pour l'olivier en 2016-2017)."
+            },
+            "darija": {
+              "question": "شحال هي المساحة ديال الحمضيات فدكالة ؟",
+              "reponse": "حسب الإحصاء العام 2021، الحمضيات ما كاتش منتشرة بزاف. أهم الفواكه هي العنب (2420 هكتار)، الكرموس (2042 هكتار)، والزيتون (291 هكتار فقط ف2016-2017)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand planter les agrumes ?",
+              "reponse": "La période idéale est d'OCTOBRE à MARS (hors gel). Creusez un trou de 60x60x60 cm, ajoutez 20 kg de fumier composté et 300 g de superphosphate par arbre. Densité : 200-300 arbres/ha pour l'oranger, 300-400 pour le clémentinier."
+            },
+            "darija": {
+              "question": "فوقاش نزرع الحمضيات ؟",
+              "reponse": "أحسن وقت من أكتوبر لـ مارس. حفر حفرة 60x60x60 سم، ضيف 20 كيلو ديال الزبل و 300 غرام ديال السوبرفوسفات فالشجرة. الكثافة: 200-300 شجرة فالهكتار للبرتقال، 300-400 للكليمنتين."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les besoins en eau des agrumes ?",
+              "reponse": "Jeunes arbres : 8000-10000 m³/ha (800-1000 mm). Adultes : 6000-8000 m³/ha (600-800 mm). Stades critiques : floraison (avril-mai), grossissement des fruits (juin-août). Irrigation goutte-à-goutte recommandée (2-4 émetteurs/arbre)."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال الماء للحمضيات ؟",
+              "reponse": "الشجر الصغار: 8000-10000 متر مكعب فالهكتار. الكبار: 6000-8000 متر مكعب. المراحل الحرجة: التزهير (أبريل-ماي)، تكبير الحبات (يونيو-غشت). السقي بالتنقيط هو الأحسن (2-4 نقاطات فالشجرة)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître le mal secco sur agrumes ?",
+              "reponse": "Dessèchement soudain des branches, écorce fissurée avec exsudats gommeux. Pas de traitement curatif efficace → arrachage des arbres atteints. Prévention : choix de porte-greffes tolérants (Citrange Carrizo), désinfection du matériel de taille."
+            },
+            "darija": {
+              "question": "كيفاش نعرف مال سيكو فالحمضيات ؟",
+              "reponse": "جفاف مفاجئ للأغصان، تشققات فاللحاء مع صمغ. ما كاينش علاج → نقلع الشجر اللي مصاب. الوقاية: نختار أصول مقاومة (سيترانج كاريزو)، نعقم أدوات التقليم."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand récolter les agrumes ?",
+              "reponse": "Oranges : DÉCEMBRE-MARS. Clémentines : NOVEMBRE-JANVIER. Récolte manuelle (sécateur), calibrage et conditionnement en station. Rendement : 20-40 tonnes/ha pour l'oranger, 15-30 tonnes/ha pour le clémentinier."
+            },
+            "darija": {
+              "question": "فوقاش نحصد الحمضيات ؟",
+              "reponse": "البرتقال: دجنبر-مارس. الكليمنتين: نونبر-يناير. الحصاد باليد، التنظيف والتحزاب فالمحطة. الإنتاج: 20-40 طن فالهكتار للبرتقال، 15-30 طن للكليمنتين."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre le puceron noir sur agrumes ?",
+              "reponse": "Colonies noires sur jeunes pousses, feuilles enroulées, miellat. Traitement : savon insecticide ou huile horticole (1-2 L/ha). Pyréthrinoïdes en dernier recours (impact sur auxiliaires)."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو المن الأسود فالحمضيات ؟",
+              "reponse": "تجمعات سود على البراعم الصغار، الوراق كاتلتف، العسل. العلاج: صابون حشري أو زيت (1-2 ليتر فالهكتار). البيريترينويدات آخر حل (كاتضر الأعداء الطبيعية)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle fertilisation pour les agrumes ?",
+              "reponse": "Fond (automne) : N (100-150 kg/ha), P2O5 (80-120 kg/ha), K2O (150-200 kg/ha). Couverture (février-mars) : 40% N au débourrement, 60% N après floraison (mai). Fumier composté : 5-10 t/ha tous les 3-4 ans."
+            },
+            "darija": {
+              "question": "شحال هو السماد للحمضيات ؟",
+              "reponse": "أساسي (الخريف): آزوت (100-150 كيلو)، فوسفور (80-120 كيلو)، بوتاسيوم (150-200 كيلو). إضافي (فبراير-مارس): 40% آزوت عند ظهور البراعم، 60% آزوت مورا التزهير (ماي). زبل: 5-10 طن فالهكتار كل 3-4 سنين."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand tailler les agrumes ?",
+              "reponse": "La taille se fait en FÉVRIER-MARS (hors gel). Objectifs : supprimer le bois mort, aérer le centre de l'arbre, équilibrer la charge fruitière. Désinfectez les outils entre chaque arbre (eau de Javel 10%)."
+            },
+            "darija": {
+              "question": "فوقاش نقلم الحمضيات ؟",
+              "reponse": "التقليم كايكون ففبراير-مارس. الأهداف: نزيل الأغصان الميتة، نوسع وسط الشجرة، نوزن الحمولة. عقم الأدوات مابين شجرة و شجرة (الماء و الجافيل 10%)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre l'aleurode sur agrumes ?",
+              "reponse": "Petites mouches blanches sous les feuilles, miellat → fumagine. Traitement : huile de paraffine (1-1.5 L/ha) en été. Pièges jaunes englués pour réduire les populations."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو الذبانة البيضاء فالحمضيات ؟",
+              "reponse": "ذبابات بيض صغار تحت الوراق، العسل. العلاج: زيت البارافين (1-1.5 ليتر فالهكتار) فالصيف. مصايد صفراء للتقليل من العدد."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel rendement pour les agrumes à Doukkala ?",
+              "reponse": "Les agrumes ne sont pas très développés à Doukkala. La Monographie 2021 ne donne pas de chiffres spécifiques. Mais dans les bonnes conditions, l'oranger donne 20-40 tonnes/ha et le clémentinier 15-30 tonnes/ha."
+            },
+            "darija": {
+              "question": "شحال هو الإنتاج ديال الحمضيات فدكالة ؟",
+              "reponse": "الحمضيات ما كاتش منتشرة بزاف فدكالة. الإحصاء العام 2021 ما كاتعطي أرقام محددة. ولكن فالحالات الجيدة، البرتقال كايعطي 20-40 طن فالهكتار والكليمنتين 15-30 طن فالهكتار."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "maraichage",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quelle est la superficie du maraîchage à Doukkala ?",
+              "reponse": "Selon la Monographie 2021, la superficie du maraîchage est de 9583 hectares, avec une production de 328208 tonnes (rendement 34.25 qx/ha). Les principales cultures sont : pomme de terre (3270 ha), tomate (1453 ha), carotte (860 ha), courgette (853 ha), navet (840 ha)."
+            },
+            "darija": {
+              "question": "شحال هي المساحة ديال الخضرة فدكالة ؟",
+              "reponse": "حسب الإحصاء العام 2021، المساحة ديال الخضرة هي 9583 هكتار، بإنتاج 328208 طن. أهم الخضروات: البطاطا (3270 هكتار)، الطماطم (1453 هكتار)، الخيزو (860 هكتار)، القرعة (853 هكتار)، اللفت (840 هكتار)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand planter la pomme de terre à Doukkala ?",
+              "reponse": "La plantation se fait en OCTOBRE-NOVEMBRE pour une récolte printanière (mars-mai). Densité : 30000-40000 plants/ha. Profondeur : 10-15 cm. Variétés recommandées : 'Spunta', 'Désirée'."
+            },
+            "darija": {
+              "question": "فوقاش نزرع البطاطا فدكالة ؟",
+              "reponse": "الزرع كايكون فاكتوبر-نونبر لحصاد الربيع (مارس-ماي). الكثافة: 30000-40000 نبتة فالهكتار. العمق: 10-15 سم. الأنواع: 'سبونطا'، 'ديزيري'."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître le mildiou sur tomate ?",
+              "reponse": "Taches vert jaunâtre sur feuilles, fruits avec lésions brunes. Traitement préventif : cupriques (Bouillie bordelaise 2-3 kg/ha). Rotation avec non-hôtes (céréales) et paillage plastique."
+            },
+            "darija": {
+              "question": "كيفاش نعرف المليديو فالطماطم ؟",
+              "reponse": "بقع صفر على الوراق، الحبات مع بقع كحلة. العلاج الوقائي: النحاس (2-3 كيلو فالهكتار). التناوب مع الحبوب، التغطية بالبلاستيك."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les besoins en eau de la tomate ?",
+              "reponse": "La tomate a besoin de 500 à 700 mm d'eau. Stades critiques : floraison (tous les 2-3 jours), grossissement des fruits (tous les jours par forte chaleur). Irrigation goutte-à-goutte recommandée (économie d'eau 30-50%)."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال الماء للطماطم ؟",
+              "reponse": "الطماطم كاتحتاج لـ 500-700 ميلي متر. المراحل الحرجة: التزهير (كل 2-3 أيام)، تكبير الحبات (كل نهار فوقاش كاتسخون). السقي بالتنقيط هو الأحسن."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand récolter la pomme de terre ?",
+              "reponse": "La récolte se fait de MARS à MAI. Arrachage mécanique ou manuel. Rendement moyen : 20-40 tonnes/ha. La Monographie 2021 indique un rendement de 38.56 qx/ha pour la pomme de terre."
+            },
+            "darija": {
+              "question": "فوقاش نحصد البطاطا ؟",
+              "reponse": "الحصاد كايكون من مارس لـ ماي. القلع بالميكانيك أو باليد. الإنتاج: 20-40 طن فالهكتار. الإحصاء العام 2021 كايحكي على مردود 38.56 قنطار فالهكتار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre l'aleurode sur tomate ?",
+              "reponse": "Petites mouches blanches sous les feuilles, miellat → fumagine. Traitement : huile de paraffine (1-1.5 L/ha). Auxiliaires : Macrolophus caliginosus (punaises prédatrices). Pièges jaunes englués."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو الذبانة البيضاء فالطماطم ؟",
+              "reponse": "ذبابات بيض صغار تحت الوراق، العسل. العلاج: زيت البارافين (1-1.5 ليتر فالهكتار). الأعداء الطبيعية: ماكرولوفوس (بق). مصايد صفراء."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle fertilisation pour la tomate ?",
+              "reponse": "Fond : N (100-150 kg/ha), P2O5 (80-120 kg/ha), K2O (150-200 kg/ha), CaO (50-100 kg/ha si carence). Couverture : 50% N au début floraison, 50% N à la nouaison."
+            },
+            "darija": {
+              "question": "شحال هو السماد للطماطم ؟",
+              "reponse": "أساسي: آزوت (100-150 كيلو)، فوسفور (80-120 كيلو)، بوتاسيوم (150-200 كيلو)، كلس (50-100 كيلو). إضافي: 50% آزوت فبداية التزهير، 50% آزوت فالعقد."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître la pourriture apicale sur tomate ?",
+              "reponse": "Fond noir des fruits (nécrose à l'extrémité), feuilles déformées. C'est une carence en calcium. Solution : apport de nitrate de calcium (50-100 kg/ha) en foliaire ou au sol. Évitez les stress hydriques."
+            },
+            "darija": {
+              "question": "كيفاش نعرف تعفن القمة فالطماطم ؟",
+              "reponse": "قاع كحل فالحبات، الوراق كاتتشوه. هاد نقص فالكالسيوم. الحل: نترات الكالسيوم (50-100 كيلو فالهكتار). تجنب الإجهاد المائي."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel rendement pour la tomate à Doukkala ?",
+              "reponse": "Selon la Monographie 2021, le rendement moyen de la tomate est de 40.35 qx/ha (4 tonnes/ha). Avec une bonne irrigation et fertilisation, on peut atteindre 40-80 tonnes/ha."
+            },
+            "darija": {
+              "question": "شحال هو الإنتاج ديال الطماطم فدكالة ؟",
+              "reponse": "حسب الإحصاء العام 2021، المردود هو 40.35 قنطار فالهكتار (4 طن فالهكتار). مع السقي والتسميد المزيان، نقدر نوصل لـ 40-80 طن فالهكتار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre le doryphore sur pomme de terre ?",
+              "reponse": "Adulte et larves dévorant les feuilles → défoliation sévère. Prévention : rotation avec non-hôtes, paillage. Traitement bio : Bacillus thuringiensis (50-100 g/hl). Auxiliaires : coccinelles, carabes."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو خنفساء البطاطا ؟",
+              "reponse": "الحشرة و اليرقات كايأكلو الوراق. الوقاية: التناوب، التغطية. العلاج العضوي: باكيلوس ثورينجينسيس (50-100 غرام فالهكتوليتر). الأعداء الطبيعية: الخنافس."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "elevage",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quel est l'effectif de l'élevage dans la province d'El Jadida ?",
+              "reponse": "Selon la Monographie 2021 (données 2017), l'effectif total est de 591400 têtes : ovins (417900), bovins (168900), caprins (4600), chevaux (8520), mulets (12680), ânes (26640)."
+            },
+            "darija": {
+              "question": "شحال هو عدد المواشي فإقليم الجديدة ؟",
+              "reponse": "حسب الإحصاء العام 2021 (معطيات 2017)، العدد الإجمالي هو 591400 رأس: الضأن (417900)، الأبقار (168900)، الماعز (4600)، الخيول (8520)، البغال (12680)، الحمير (26640)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelles sont les principales cultures fourragères à Doukkala ?",
+              "reponse": "Selon la Monographie 2021, les superficies fourragères sont : orge fourragère (10326 ha), maïs fourrager (4971 ha), avoine fourragère (3109 ha), luzerne (2533 ha), bersim (991 ha). La luzerne donne le meilleur rendement (60.6 qx/ha)."
+            },
+            "darija": {
+              "question": "شنو هي أهم الزراعات العلفية فدكالة ؟",
+              "reponse": "حسب الإحصاء العام 2021، المساحات العلفية هي: الشعير العلفي (10326 هكتار)، الذرة العلفية (4971 هكتار)، الشوفان العلفي (3109 هكتار)، الفصة (2533 هكتار)، البرسيم (991 هكتار). الفصة كاتعطي أحسن مردود (60.6 قنطار فالهكتار)."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "monographie",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quelle est la superficie agricole utile de la province d'El Jadida ?",
+              "reponse": "Selon la Monographie 2021 du HCP, la superficie agricole utile est de 263318 hectares, dont 38637 hectares de terres irriguées (15.65%)."
+            },
+            "darija": {
+              "question": "شحال هي المساحة الفلاحية الصالحة فإقليم الجديدة ؟",
+              "reponse": "حسب الإحصاء العام 2021، المساحة الفلاحية الصالحة هي 263318 هكتار، منهم 38637 هكتار مسقية (15.65%)."
+            }
+          } 
+          
+          
+        ]
+      }
+    ]
+  }
+}

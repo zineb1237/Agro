@@ -1,0 +1,1166 @@
+{
+  "chatbot_olivier_doukkala": {
+    "version": "3.0",
+    "date_mise_a_jour": "2026-04-12",
+    "langues": ["francais", "darija"],
+    "region": "Doukkala (El Jadida - Ouled Frej)",
+    "culture": "olivier",
+    "total_questions": 68,
+    "sources": [
+      "Données agroforesterie EDP Sciences 2021",
+      "ORMVAD Doukkala",
+      "INRA Maroc",
+      "Monographie El Jadida 2021",
+      "Données climatiques Open-Meteo"
+    ],
+    "categories": [
+      {
+        "nom": "general",
+        "description": "Questions générales sur l'olivier à Doukkala",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quelles sont les variétés d'olivier cultivées à Doukkala ?",
+              "reponse": "Les variétés cultivées à Doukkala sont : Picholine marocaine (traditionnelle, très résistante), Haouzia, Menara, et Arbequina (variété introduite d'origine palestinienne, très productive mais durée de vie limitée à 15 ans)."
+            },
+            "darija": {
+              "question": "شنو هي أنواع الزيتون اللي كاتزرع فدكالة ؟",
+              "reponse": "الأنواع اللي كاتزرع فدكالة هي: بيشولين مغربية (تقليدية، مقاومة بزاف)، حوزية، منارة، و أربيكينا (نوع مستورد أصل فلسطيني، إنتاج كبير ولكن عمره 15 عام فقط)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le rendement moyen de l'olivier à Doukkala ?",
+              "reponse": "Le rendement moyen de l'olivier à Doukkala est de 1500 à 5000 kg par hectare (1.5 à 5 tonnes/ha). La Picholine marocaine donne 5-10 tonnes/ha, l'Arbequina donne 15-20 tonnes/ha."
+            },
+            "darija": {
+              "question": "شحال هو الإنتاج الوسيط ديال الزيتون فدكالة ؟",
+              "reponse": "الإنتاج الوسيط هو 1500 لـ 5000 كيلو فالهكتار (1.5 لـ 5 طن فالهكتار). البيشولين كاتعطي 5-10 طن فالهكتار، الأربيكينا كاتعطي 15-20 طن فالهكتار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la durée de vie d'un olivier à Doukkala ?",
+              "reponse": "Un olivier traditionnel (Picholine marocaine) peut vivre plusieurs centaines d'années (plus de 500 ans). La variété Arbequina ne vit que 15 ans."
+            },
+            "darija": {
+              "question": "شحال هو العمر ديال شجرة الزيتون فدكالة ؟",
+              "reponse": "شجرة الزيتون التقليدية (بيشولين) تقدر تعيش مئات السنين (أكثر من 500 عام). نوع أربيكينا كايعيش غير 15 عام."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "sol",
+        "description": "Exigences pédologiques pour l'olivier",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quel type de sol convient le mieux à l'olivier à Doukkala ?",
+              "reponse": "L'olivier préfère les sols légers à moyens (sableux à limono-argileux), profonds (>60 cm), bien drainés, avec un pH de 6 à 8. Il tolère les sols pauvres et calcaires."
+            },
+            "darija": {
+              "question": "شنو هو النوع ديال الأرض المناسب للزيتون فدكالة ؟",
+              "reponse": "الزيتون كايبغي الأرض الخفيفة للمتوسطة (رملية للطينية الرملية)، العميقة (>60 سم)، اللي كاتصرف الماء مزيان، مع pH 6 لـ 8. كايصمد حتى للأرض الفقيرة والجيرية."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel pH du sol est idéal pour l'olivier ?",
+              "reponse": "Le pH idéal pour l'olivier est entre 6 et 8. Il tolère les sols calcaires (pH élevé) mais une carence en fer peut apparaître si pH > 8."
+            },
+            "darija": {
+              "question": "شحال هو pH الأرض المناسب للزيتون ؟",
+              "reponse": "pH المثالي للزيتون هو مابين 6 و 8. كايصمد للأرض الجيرية (pH عالي) ولكن نقص الحديد كايبان إلا كان pH > 8."
+            }
+          },
+          {
+            "francais": {
+              "question": "L'olivier tolère-t-il la salinité du sol ?",
+              "reponse": "OUI, l'olivier tolère une salinité jusqu'à 8 dS/m (CE). C'est l'une des cultures les plus tolérantes au sel. Au-delà, la croissance est réduite."
+            },
+            "darija": {
+              "question": "واش الزيتون كايصمد للملوحة ديال الأرض ؟",
+              "reponse": "اه، الزيتون كايصمد للملوحة حتى 8 dS/m. هو من الزراعات اللي كاتصمد للملوحة. فوق هاد النسبة، النمو كاينقص."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle profondeur de sol est nécessaire pour l'olivier ?",
+              "reponse": "L'olivier a besoin d'une profondeur de sol d'au moins 60 cm pour un bon développement racinaire. Les sols superficiels (<40 cm) limitent la production."
+            },
+            "darija": {
+              "question": "شحال هو العمق اللي خاصو الأرض للزيتون ؟",
+              "reponse": "الزيتون كايحتاج لعمق أرض على الأقل 60 سم باش الجذور تنمو مزيان. الأرض السطحية (<40 سم) كاتحد الإنتاج."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment préparer le sol avant plantation de l'olivier ?",
+              "reponse": "Préparation : labour profond (40-50 cm) pour casser la semelle de labour, apport de matière organique (fumier composté 3-5 t/ha), nivellement, puis creusement des trous (60x60x60 cm) 2-3 mois avant plantation."
+            },
+            "darija": {
+              "question": "كيفاش نحضر الأرض قبل زرع الزيتون ؟",
+              "reponse": "التحضير: حرث عميق (40-50 سم) باش تكسر الطبقة المتصلبة، تحط مادة عضوية (زبل مكمور 3-5 طن فالهكتار)، التسوية، ثم حفر الحفر (60x60x60 سم) 2-3 أشهر قبل الزرع."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "climat",
+        "description": "Exigences climatiques pour l'olivier",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quelle température optimale pour la croissance de l'olivier ?",
+              "reponse": "La température optimale pour la croissance de l'olivier est entre 20 et 30°C. La floraison optimale se fait à 18-20°C. Au-dessus de 35°C, la croissance ralentit."
+            },
+            "darija": {
+              "question": "شنو هي الحرارة المثالية لنمو الزيتون ؟",
+              "reponse": "الحرارة المثالية لنمو الزيتون هي مابين 20 و 30 درجة. التزهير المثالي كايكون فـ 18-20 درجة. فوق 35 درجة، النمو كايبطا."
+            }
+          },
+          {
+            "francais": {
+              "question": "L'olivier résiste-t-il au gel à Doukkala ?",
+              "reponse": "L'olivier adulte résiste au gel jusqu'à -8°C, mais les jeunes arbres sont sensibles à -5°C. À Doukkala, le gel est rare (sauf à Ouled Frej : -0.2°C le 28/01/2024)."
+            },
+            "darija": {
+              "question": "واش الزيتون كايقاوم الجليد فدكالة ؟",
+              "reponse": "شجرة الزيتون الكبيرة كاتقاوم الجليد حتى -8 درجات، ولكن الشجر الصغار كاتتأثر فـ -5 درجات. فدكالة، الجليد نادر (إلا فأولاد فرج: -0.2 درجة نهار 28/01/2024)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est l'impact de la sécheresse sur l'olivier ?",
+              "reponse": "L'olivier résiste bien à la sécheresse grâce à ses racines profondes. Mais un stress hydrique sévère pendant la floraison et la nouaison réduit le rendement de 30-50%."
+            },
+            "darija": {
+              "question": "شحال هو تأثير الجفاف على الزيتون ؟",
+              "reponse": "الزيتون كايصمد للجفاف بسباب جذوره العميقة. ولكن الإجهاد المائي الشديد فالتزهير والعقد كاينقص الإنتاج بـ 30-50%."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est l'impact du vent sur l'olivier ?",
+              "reponse": "Le vent fort (>50 km/h) peut casser les branches et faire tomber les fruits. À El Jadida, les vents ont atteint 61.8 km/h le 22/10/2023. Installez des brise-vent (haies d'arbres) si nécessaire."
+            },
+            "darija": {
+              "question": "شحال هو تأثير الرياح على الزيتون ؟",
+              "reponse": "الرياح القوية (>50 كلم/س) كاتقدر تكسر الأغصان وتطيح الحبات. فالجديدة، الرياح وصلات لـ 61.8 كلم/س نهار 22/10/2023. حط مصدات رياح (شجر) إلا كان ضروري."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est l'impact du changement climatique sur l'olivier à Doukkala ?",
+              "reponse": "Le changement climatique se manifeste par des sécheresses plus fréquentes (0 mm en été 2023), des pics de chaleur extrême (46°C à Ouled Frej en 2025), et des pluies irrégulières. L'olivier résiste bien mais le rendement peut varier de 50% d'une année à l'autre."
+            },
+            "darija": {
+              "question": "شحال هو تأثير التغير المناخي على الزيتون فدكالة ؟",
+              "reponse": "التغير المناخي كايبان بالجفاف المتكرر (0 مم فصيف 2023)، موجات الحر الشديدة (46 درجة فأولاد فرج فـ 2025)، والشتي غير المنتظم. الزيتون كايصمد مزيان ولكن الإنتاج كايتغير بـ 50% من عام لآخر."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment adapter l'olivier au changement climatique ?",
+              "reponse": "Conseils : 1) Utilisez des variétés résistantes à la sécheresse (Picholine marocaine). 2) Passez au goutte-à-goutte (économie d'eau 30-50%). 3) Pratiquez l'agroforesterie avec des légumineuses (fèves). 4) Utilisez du paillage pour réduire l'évaporation. 5) Plantez des brise-vent."
+            },
+            "darija": {
+              "question": "كيفاش نكيف الزيتون مع التغير المناخي ؟",
+              "reponse": "نصائح: 1) استعمل الأنواع اللي كاتقاوم الجفاف (بيشولين مغربية). 2) دوز للتنقيط (توفير الماء بـ 30-50%). 3) اعتمد الزراعة الغابوية مع القطاني (الفول). 4) استعمل التغطية باش تقلل التبخر. 5) ازرع مصدات الرياح."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "plantation",
+        "description": "Plantation de l'olivier",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quand planter l'olivier à Doukkala ?",
+              "reponse": "La période idéale de plantation est de NOVEMBRE à MARS (hors gel). La plantation en automne permet aux racines de se développer avant l'été."
+            },
+            "darija": {
+              "question": "فوقاش نزرع الزيتون فدكالة ؟",
+              "reponse": "أحسن وقت للزرع هو من نونبر لـ مارس (بعيد على الجليد). الزرع فالخريف كايعطي الجذور وقت باش تنمو قبل الصيف."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle densité de plantation pour l'olivier ?",
+              "reponse": "Traditionnel : 60-90 arbres/ha (10x10 m ou 12x12 m). Intensif : 200-400 arbres/ha (5x5 m ou 7x4 m). Pour la variété Arbequina : 700 arbres/ha (3.5x4 m)."
+            },
+            "darija": {
+              "question": "شحال هي الكثافة ديال زرع الزيتون ؟",
+              "reponse": "تقليدي: 60-90 شجرة فالهكتار (10x10 م). كثيف: 200-400 شجرة فالهكتار (5x5 م). للنوع أربيكينا: 700 شجرة فالهكتار (3.5x4 م)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment planter un olivier ?",
+              "reponse": "Creusez un trou de 60x60x60 cm. Mélangez la terre extraite avec 10 kg de fumier composté et 200 g de superphosphate. Placez l'arbre, comblez, tassez légèrement, et arrosez abondamment. Installez un tuteur si nécessaire."
+            },
+            "darija": {
+              "question": "كيفاش نزرع شجرة الزيتون ؟",
+              "reponse": "حفر حفرة 60x60x60 سم. اخلط التراب مع 10 كيلو ديال الزبل المكمور و 200 غرام ديال السوبرفوسفات. حط الشجرة، اردم، ضغط شوية، وسقي بزاف. حط دعامة إلا كانت ضرورية."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "irrigation",
+        "description": "Gestion de l'irrigation de l'olivier",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quels sont les besoins en eau de l'olivier à Doukkala ?",
+              "reponse": "Jeunes arbres : 4000-5000 m³/ha (400-500 mm). Adultes : 3000-4000 m³/ha (300-400 mm). Les besoins sont plus élevés pendant la floraison (avril-mai) et le grossissement des fruits (juillet-août)."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال الماء للزيتون فدكالة ؟",
+              "reponse": "الشجر الصغار: 4000-5000 متر مكعب فالهكتار (400-500 مم). الكبار: 3000-4000 متر مكعب فالهكتار (300-400 مم). الحوايج كاتزيد فالتزهير (أبريل-ماي) وتكبير الحبات (يوليوز-غشت)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le meilleur système d'irrigation pour l'olivier ?",
+              "reponse": "Le GOUTTE-À-GOUTTE est le meilleur système pour l'olivier. Il permet une économie d'eau de 30-50% par rapport à l'aspersion, réduit les maladies foliaires et permet une fertilisation localisée."
+            },
+            "darija": {
+              "question": "شنو هو أحسن نظام للسقي للزيتون ؟",
+              "reponse": "السقي بالتنقيط هو الأحسن للزيتون. كايوف الماء بـ 30-50% مقارنة بالرش، كايقلل الأمراض الوراقية، و كايخلي السماد يوصل للجذور مباشرة."
+            }
+          },
+          {
+            "francais": {
+              "question": "À quelle fréquence irriguer l'olivier ?",
+              "reponse": "Jeunes arbres : tous les 3-5 jours en été, tous les 7-10 jours au printemps et automne. Adultes : tous les 7-10 jours en été, tous les 15-20 jours au printemps et automne. En hiver, arrêtez l'irrigation sauf sécheresse prolongée."
+            },
+            "darija": {
+              "question": "شحال هي المدة مابين السقيات للزيتون ؟",
+              "reponse": "الشجر الصغار: كل 3-5 أيام فالصيف، كل 7-10 أيام فربيع والخريف. الكبار: كل 7-10 أيام فالصيف، كل 15-20 يوم فربيع والخريف. فالشتي، وقف السقي إلا كان جفاف طويل."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand faut-il arrêter l'irrigation de l'olivier ?",
+              "reponse": "Arrêtez l'irrigation 2-3 semaines avant la récolte (septembre-octobre) pour favoriser la maturation des fruits et la qualité de l'huile. Reprenez l'irrigation après la récolte."
+            },
+            "darija": {
+              "question": "فوقاش خاصنا نوقف السقي ديال الزيتون ؟",
+              "reponse": "وقف السقي 2-3 أسابيع قبل الحصاد (شتنبر-أكتوبر) باش تزيد النضج وجودة الزيت. عاود السقي مورا الحصاد."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le stade le plus critique pour l'irrigation de l'olivier ?",
+              "reponse": "Le stade le plus critique est la FLORAISON (avril-mai) et la NOUAISON (mai-juin). Un manque d'eau à ces stades provoque la chute des fleurs et des jeunes fruits, réduisant le rendement de 50%."
+            },
+            "darija": {
+              "question": "شنو هي المرحلة الحرجة للسقي للزيتون ؟",
+              "reponse": "المرحلة الحرجة هي التزهير (أبريل-ماي) والعقد (ماي-يونيو). نقص الماء فهاد المراحل كايطيح الزهور والحبات الصغار، كاينقص الإنتاج بـ 50%."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle qualité d'eau faut-il pour l'olivier ?",
+              "reponse": "L'olivier tolère une salinité jusqu'à 8 dS/m. L'eau avec une CE > 3 dS/m peut provoquer un encroûtement des goutteurs. Un pH idéal de l'eau est entre 6.5 et 8. Un lessivage hivernal est recommandé si la salinité est élevée."
+            },
+            "darija": {
+              "question": "شحال هي الجودة ديال الماء اللي خاصها الزيتون ؟",
+              "reponse": "الزيتون كايصمد للملوحة حتى 8 dS/m. الماء مع CE > 3 dS/m كاتقدر تسد النقاطات. pH المثالي للماء هو مابين 6.5 و 8. الغسيل الشتوي كاتنصح بيه إلا كانت الملوحة عالية."
+            }
+          },
+          {
+            "francais": {
+              "question": "Peut-on irriguer l'olivier avec de l'eau saumâtre ?",
+              "reponse": "OUI, l'olivier tolère une salinité jusqu'à 8 dS/m. C'est l'une des rares cultures qui supporte l'eau saumâtre. Cependant, une irrigation prolongée avec une CE > 5 dS/m réduit progressivement le rendement."
+            },
+            "darija": {
+              "question": "نقدر نسقي الزيتون بالماء المالح شوية ؟",
+              "reponse": "اه، الزيتون كايصمد للملوحة حتى 8 dS/m. هو من الزراعات القليلة اللي كاتصمد للماء المالح. ولكن السقي الطويل مع CE > 5 dS/m كاينقص الإنتاج بالتدريج."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la profondeur des racines de l'olivier ?",
+              "reponse": "Les racines de l'olivier peuvent descendre jusqu'à 6-8 mètres de profondeur dans des sols profonds et non compactés. C'est ce qui lui permet de résister à la sécheresse."
+            },
+            "darija": {
+              "question": "شحال هو العمق ديال جذور الزيتون ؟",
+              "reponse": "جذور الزيتون تقدر توصل لـ 6-8 متر فالأرض العميقة الغير مضغوطة. هاد الشي كايخليه يصمد للجفاف."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le coefficient cultural (Kc) de l'olivier ?",
+              "reponse": "Le coefficient cultural (Kc) de l'olivier varie selon le stade : stade initial (0.4-0.6), stade développement (0.7-0.8), stade floraison-nouaison (0.9-1.0), stade maturation (0.6-0.7)."
+            },
+            "darija": {
+              "question": "شحال هو معامل الزرع (Kc) للزيتون ؟",
+              "reponse": "معامل الزرع (Kc) للزيتون كايتغير حسب المرحلة: المرحلة الأولى (0.4-0.6)، مرحلة النمو (0.7-0.8)، مرحلة التزهير-العقد (0.9-1.0)، مرحلة النضج (0.6-0.7)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est l'évapotranspiration potentielle (ETP) de l'olivier à Doukkala ?",
+              "reponse": "L'ETP annuelle à Doukkala est d'environ 1100-1200 mm. L'ETP maximale est en juillet (165 mm) et minimale en janvier (50 mm). L'olivier consomme 300-500 mm selon l'âge."
+            },
+            "darija": {
+              "question": "شحال هو ETP للزيتون فدكالة ؟",
+              "reponse": "ETP السنوية فدكالة هي 1100-1200 مم تقريبا. أعلى ETP فشيولية (165 مم) وأقل واحد فيناير (50 مم). الزيتون كايستهلك 300-500 مم حسب العمر."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le coût d'installation d'un système goutte-à-goutte pour l'olivier ?",
+              "reponse": "Le coût d'investissement pour un système goutte-à-goutte est de 15000 à 25000 dirhams par hectare. La maintenance annuelle est de 1000 à 1500 dirhams/ha. L'économie d'eau (30-50%) amortit l'investissement en 3-5 ans."
+            },
+            "darija": {
+              "question": "شحال هو ثمن تركيب نظام التنقيط للزيتون ؟",
+              "reponse": "ثمن التركيب هو 15000 لـ 25000 درهم فالهكتار. الصيانة السنوية هي 1000 لـ 1500 درهم فالهكتار. توفير الماء (30-50%) كايجعل الاستثمار مربح فـ 3-5 سنين."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la valorisation de l'eau pour l'olivier par rapport aux autres cultures ?",
+              "reponse": "Les céréales valorisent l'eau 2 à 4 fois mieux que la betterave. Pour l'olivier, la valorisation dépend du système d'irrigation : en goutte-à-goutte, l'olivier peut atteindre 5-10 DH/m³ selon le prix des olives."
+            },
+            "darija": {
+              "question": "شحال هو تقدير الماء للزيتون مقارنة مع الزراعات الأخرى ؟",
+              "reponse": "الحبوب كاتقدر الماء 2 لـ 4 مرات أكثر من الشمندر. للزيتون، التقدير كايعتمد على نظام السقي: فالتنقيط، الزيتون يقدر يوصل لـ 5-10 درهم/م³ حسب ثمن الزيتون."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "fertilisation",
+        "description": "Fertilisation et carences de l'olivier",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quels sont les besoins en azote de l'olivier ?",
+              "reponse": "L'olivier a besoin de 50 à 100 kg N/ha selon l'âge. Apport fractionné en deux fois : 50% à la reprise végétative (février), 50% après la floraison (mai)."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال الآزوت للزيتون ؟",
+              "reponse": "الزيتون كايحتاج لـ 50 لـ 100 كيلو آزوت فالهكتار حسب العمر. التسميد فجوج مرات: 50% فبداية النمو (فبراير)، 50% مورا التزهير (ماي)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les besoins en phosphore de l'olivier ?",
+              "reponse": "L'olivier a besoin de 100 à 150 kg P2O5/ha. Le phosphore favorise le développement racinaire et la floraison. Apport en automne ou début printemps, enfoui à 10 cm."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال الفوسفور للزيتون ؟",
+              "reponse": "الزيتون كايحتاج لـ 100 لـ 150 كيلو P2O5 فالهكتار. الفوسفور كايخدم الجذور والتزهير. تحطو فالخريف أو بداية الربيع، تدفنو على 10 سم."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les besoins en potassium de l'olivier ?",
+              "reponse": "L'olivier a besoin de 100 à 200 kg K2O/ha. Le potassium améliore la résistance à la sécheresse, la qualité des fruits et la résistance au gel. Apport en automne ou hiver."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال البوتاسيوم للزيتون ؟",
+              "reponse": "الزيتون كايحتاج لـ 100 لـ 200 كيلو K2O فالهكتار. البوتاسيوم كايزيد مقاومة الجفاف، الجودة ديال الحبات، ومقاومة الجليد. تحطو فالخريف أو الشتي."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel engrais organique utiliser pour l'olivier ?",
+              "reponse": "Le fumier composté (3-5 t/ha) ou le compost vert sont excellents. À épandre tous les 3-4 ans, de préférence en automne. Évitez le fumier frais (risque de brûlure des racines)."
+            },
+            "darija": {
+              "question": "شنو هو السماد العضوي اللي نستعملو للزيتون ؟",
+              "reponse": "الزبل المكمور (3-5 طن فالهكتار) أو الكومپو هوما مزيانين. تحطو كل 3-4 سنين، أحسن وقت فالخريف. تجنب الزبل الطري (خطر على الجذور)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand faut-il fertiliser l'olivier ?",
+              "reponse": "Fertilisation de fond (P, K, matière organique) : automne (octobre-novembre). Fertilisation azotée : février (50%) et mai (50%). Fertilisation foliaire (zinc, bore, fer) : avril-mai (stade floraison)."
+            },
+            "darija": {
+              "question": "فوقاش خاصنا نسمد الزيتون ؟",
+              "reponse": "السماد الأساسي (فوسفور، بوتاسيوم، مادة عضوية): الخريف (أكتوبر-نونبر). السماد الآزوتي: فبراير (50%) و ماي (50%). السماد الوراقي (زنك، بور، حديد): أبريل-ماي (مرحلة التزهير)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment faire un apport foliaire d'engrais sur l'olivier ?",
+              "reponse": "Les apports foliaires se font au printemps (avril-mai) au stade floraison. Diluez les engrais dans l'eau (ex : 1-2 kg de sulfate de zinc ou chélate de fer pour 1000 L d'eau). Pulvérisez tôt le matin ou tard le soir pour éviter les brûlures."
+            },
+            "darija": {
+              "question": "كيفاش ندي السماد الوراقي على الزيتون ؟",
+              "reponse": "السماد الوراقي كايكون فربيع (أبريل-ماي) فمرحلة التزهير. دوب السماد فالماء (مثال: 1-2 كيلو سلفات زنك أو شيلات حديد لـ 1000 ليتر ماء). رش فالصباح بكري أو فوقاش كاتبرد باش تتجنب الحرق."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la dose de bore pour l'olivier ?",
+              "reponse": "L'olivier a besoin de 1 à 2 kg de bore par hectare. Une carence en bore provoque la chute des fleurs et des fruits. Apport foliaire (acide borique 0.5-1 kg/ha) au stade floraison."
+            },
+            "darija": {
+              "question": "شحال هي الكمية ديال البور للزيتون ؟",
+              "reponse": "الزيتون كايحتاج لـ 1 لـ 2 كيلو بور فالهكتار. نقص البور كايطيح الزهور والحبات. السماد الوراقي (حمض البوريك 0.5-1 كيلو فالهكتار) فمرحلة التزهير."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand faire l'analyse de sol pour l'olivier ?",
+              "reponse": "Faites une analyse de sol tous les 3-4 ans, de préférence en automne (après la récolte). Prélévez des échantillons à 0-20 cm et 20-40 cm de profondeur. L'analyse permet d'ajuster la fertilisation."
+            },
+            "darija": {
+              "question": "فوقاش ندي تحليل التربة للزيتون ؟",
+              "reponse": "خد تحليل التربة كل 3-4 سنين، أحسن وقت فالخريف (مورا الحصاد). خد عينات من 0-20 سم و 20-40 سم. التحليل كايساعدك تضبط التسميد."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "carences",
+        "description": "Symptômes et solutions des carences",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Comment reconnaître une carence en azote sur l'olivier ?",
+              "reponse": "Symptômes : feuilles pâles (jaunissement uniformisé), croissance réduite, branches fines, fruits petits. Solution : apport d'urée ou sulfate d'ammonium (50-80 kg/ha) en février-mars."
+            },
+            "darija": {
+              "question": "كيفاش نعرف نقص الآزوت فشجرة الزيتون ؟",
+              "reponse": "الأعراض: الوراق كاتصفر، النمو كايبطا، الأغصان رقاق، الحبات صغار. الحل: تحط اليوريا (50-80 كيلو فالهكتار) ففبراير-مارس."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître une carence en phosphore sur l'olivier ?",
+              "reponse": "Symptômes : feuilles petites et étroites, violacées en hiver, retard de floraison, fruits petits et clairsemés. Solution : apport de superphosphate (100-150 kg/ha) au printemps, enfoui à 10 cm."
+            },
+            "darija": {
+              "question": "كيفاش نعرف نقص الفوسفور فشجرة الزيتون ؟",
+              "reponse": "الأعراض: الوراق صغار و ضيقين، كاتحمر فالشتي، تأخر التزهير، الحبات صغار و مفرقين. الحل: تحط سوبرفوسفات (100-150 كيلو فالهكتار) فربيع، تدفنو على 10 سم."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître une carence en potassium sur l'olivier ?",
+              "reponse": "Symptômes : bords des feuilles bruns (nécrose marginale), fruits déformés, sensibilité aux gelées, écorce fissurée. Solution : apport de chlorure ou sulfate de potassium (100-200 kg/ha) en automne ou hiver."
+            },
+            "darija": {
+              "question": "كيفاش نعرف نقص البوتاسيوم فشجرة الزيتون ؟",
+              "reponse": "الأعراض: حواف الوراق كحلة، الحبات متشوهة، حساسية للجليد، اللحاء كايتشقق. الحل: تحط كلور أو سلفات البوتاسيوم (100-200 كيلو فالهكتار) فالخريف أو الشتي."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître une carence en fer sur l'olivier ?",
+              "reponse": "Symptômes : chlorose internervaire sur jeunes feuilles (les feuilles jaunissent mais les nervures restent vertes). Solution : apport de chélate de fer (EDDHA) 1-2 kg/ha en foliaire ou au sol. Si pH > 8, apport de soufre."
+            },
+            "darija": {
+              "question": "كيفاش نعرف نقص الحديد فشجرة الزيتون ؟",
+              "reponse": "الأعراض: الوراق الجداد كاتصفر ولكن العروق كاتبقى خضر. الحل: تحط شيلات الحديد (1-2 كيلو فالهكتار) ورقيا أو فالأرض. إلا كان pH > 8، حط كبريت."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître une carence en zinc sur l'olivier ?",
+              "reponse": "Symptômes : feuilles petites et étroites (rosette), entre-nœuds courts, chlorose internervaire. Solution : apport de sulfate de zinc (5-10 kg/ha) en foliaire ou au sol."
+            },
+            "darija": {
+              "question": "كيفاش نعرف نقص الزنك فشجرة الزيتون ؟",
+              "reponse": "الأعراض: الوراق صغار و ضيقين (وردة)، المسافات مابين العقد قصار، صفار بين العروق. الحل: تحط سلفات الزنك (5-10 كيلو فالهكتار) ورقيا أو فالأرض."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "maladies",
+        "description": "Maladies de l'olivier",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Comment reconnaître l'œil de paon sur l'olivier ?",
+              "reponse": "Symptômes : taches circulaires brunes avec anneaux concentriques sur les feuilles, chute des feuilles en cas d'attaque sévère, fruits momifiés. Traitement : fongicides cupriques (Bouillie bordelaise 2-3 kg/ha) en automne et printemps."
+            },
+            "darija": {
+              "question": "كيفاش نعرف عين الطاووس فشجرة الزيتون ؟",
+              "reponse": "الأعراض: بقع دائرية كحلة مع حلقات متحدة المركز على الوراق، تطيح الوراق فوقاش كاتزيد، الحبات كاتجمد. العلاج: فونجيسيدات نحاسية (2-3 كيلو فالهكتار) فالخريف والربيع."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître la verticilliose sur l'olivier ?",
+              "reponse": "Symptômes : flétrissement soudain d'une branche, stries brunes dans le bois (coupe longitudinale), feuilles jaunissent puis brunissent. PAS DE TRAITEMENT CURATIF → arrachage des arbres atteints. Prévention : éviter les sols gorgés d'eau, désinfection du matériel de taille."
+            },
+            "darija": {
+              "question": "كيفاش نعرف الفيرتيسيليوز فشجرة الزيتون ؟",
+              "reponse": "الأعراض: ذبول مفاجئ لفرع، خطوط كحلة فالعود (قطع طولي)، الوراق كاتصفر ثم كاتحمر. ما كاينش علاج → نقلع الشجر اللي مصابة. الوقاية: تجنب الأرض اللي كاتخزن الماء، تعقيم أدوات التقليم."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître la pourriture des racines sur l'olivier ?",
+              "reponse": "Symptômes : feuilles jaunes et flétries, racines noires et molles, croissance ralentie. Traitement : fongicides à base de fosétyl-Al (2-3 L/ha en drenching). Prévention : drainage du sol, éviter les excès d'irrigation."
+            },
+            "darija": {
+              "question": "كيفاش نعرف تعفن الجذور فشجرة الزيتون ؟",
+              "reponse": "الأعراض: الوراق صفر و ذابلة، الجذور سود و طرية، النمو كايبطا. العلاج: فونجيسيدات (2-3 ليتر فالهكتار). الوقاية: تصريف الماء فالأرض، تجنب السقي الزايد."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître la fumagine sur l'olivier ?",
+              "reponse": "La fumagine est un champignon noir qui recouvre les feuilles et les fruits. Elle se développe sur le miellat produit par les cochenilles et les pucerons. Traitement : contrôler les insectes producteurs de miellat, puis laver les feuilles à l'eau claire."
+            },
+            "darija": {
+              "question": "كيفاش نعرف الفطريات السود على الزيتون ؟",
+              "reponse": "الفطريات السود كاتغطي الوراق والحبات. كاتنمو على العسل اللي كاتنتجو البق والمن. العلاج: مكافحة الحشرات اللي كاتنتج العسل، ثم غسل الوراق بالماء."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre la maladie de l'olivier 'la lepra' ?",
+              "reponse": "La lepra (ou tuberculose) provoque des excroissances sur les branches. Traitement : couper et brûler les branches atteintes, désinfecter les outils. Prévention : éviter les blessures sur l'arbre, traiter les cochenilles."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو مرض الزيتون 'البروس' ؟",
+              "reponse": "البروس كايعطي زوائد على الأغصان. العلاج: قطع وحرق الأغصان المصابة، تعقيم الأدوات. الوقاية: تجنب تجريح الشجرة، معالجة البق."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelles sont les maladies fongiques les plus dangereuses pour l'olivier à Doukkala ?",
+              "reponse": "Les plus dangereuses sont : l'œil de paon (Spilocaea oleagina), la verticilliose (Verticillium dahliae), et la pourriture des racines (Phytophthora spp.). L'œil de paon est la plus fréquente à Doukkala à cause de l'humidité hivernale."
+            },
+            "darija": {
+              "question": "شنو هو أخطر الأمراض الفطرية للزيتون فدكالة ؟",
+              "reponse": "أخطر الأمراض هي: عين الطاووس، الفيرتيسيليوز، وتعفن الجذور. عين الطاووس هو الأكثر انتشارا فدكالة بسباب الرطوبة الشتوية."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre l'œil de paon de façon préventive ?",
+              "reponse": "Prévention : taille aérée (éliminer les branches internes), variétés résistantes (ex. 'Picholine marocaine'), ramassage et destruction des feuilles tombées. Traitement curatif : fongicides cupriques (2-3 kg/ha) alternés avec la dodine (20-30 g/hl)."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو عين الطاووس بالوقاية ؟",
+              "reponse": "الوقاية: التقليم المفتوح (نزيل الأغصان الداخلية)، الأنواع المقاومة (بيشولين)، جمع وتدمير الوراق اللي طاحت. العلاج: فونجيسيدات نحاسية (2-3 كيلو فالهكتار) بالتناوب مع دودين (20-30 غرام فالهكتوليتر)."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "ravageurs",
+        "description": "Ravageurs de l'olivier",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Comment reconnaître la mouche de l'olivier ?",
+              "reponse": "Symptômes : piqûres sur les fruits (noircissement et chute), larves visibles dans les olives (coupe du fruit). Traitement : piégeage massif avec phéromones (1 piège/arbre), insecticides Diméthoate (0.5-1 L/ha) en août-septembre, ou Spinosad (bio) 48-96 g/hl."
+            },
+            "darija": {
+              "question": "كيفاش نعرف ذبانة الزيتون ؟",
+              "reponse": "الأعراض: ثقوب فالحبات (تصفر و تطيح)، اليرقات باينة فالزيتون (قطع الحبة). العلاج: مصايد الفيرومونات (1 مصيدة/شجرة)، مبيدات ديميتوات (0.5-1 ليتر فالهكتار) فغشت-شتنبر، أو سبينوساد (عضوي) 48-96 غرام فالهكتوليتر."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître la cochenille noire sur l'olivier ?",
+              "reponse": "Symptômes : boucliers noirs sur branches et fruits, miellat → développement de fumagine (noir sur les feuilles). Traitement : huile blanche (hiver) + pyréthrinoïdes (1-2 L/ha huile + 0.2 L/ha pyréthrinoïdes). Auxiliaires : coccinelles (Chilocorus bipustulatus)."
+            },
+            "darija": {
+              "question": "كيفاش نعرف البق الأسود فشجرة الزيتون ؟",
+              "reponse": "الأعراض: دروع سود على الأغصان والحبات، العسل → فطور سود على الوراق. العلاج: الزيت الأبيض (الشتي) + بيريترينويدات (1-2 ليتر زيت + 0.2 ليتر مبيد). الأعداء الطبيعية: الخنافس."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître la teigne de l'olivier ?",
+              "reponse": "Symptômes : galeries dans les fruits, chute prématurée des olives. Traitement : piégeage avec phéromones (mai-juin), récolte précoce des olives atteintes. Insecticide bio : Bacillus thuringiensis (50-100 g/hl) dès l'éclosion des œufs (juin)."
+            },
+            "darija": {
+              "question": "كيفاش نعرف فراشة الزيتون ؟",
+              "reponse": "الأعراض: أنفاق فالحبات، تطيح الحبات بكري. العلاج: مصايد الفيرومونات (ماي-يونيو)، الحصاد المبكر للحبات المصابة. مبيد عضوي: باكيلوس ثورينجينسيس (50-100 غرام فالهكتوليتر) من فقس البيض (يونيو)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître la psylle de l'olivier ?",
+              "reponse": "La psylle est un petit insecte vert-jaune (2-3 mm) qui provoque l'enroulement des feuilles et la formation de galles. Traitement : huile blanche (hiver), pyréthrinoïdes au printemps, ou savon insecticide."
+            },
+            "darija": {
+              "question": "كيفاش نعرف بسيل الزيتون ؟",
+              "reponse": "بسيل هو حشرة صغيرة خضر-صفر (2-3 مم) كاتسبب التفاف الوراق وتكوين العقد. العلاج: الزيت الأبيض (الشتي)، بيريترينويدات فربيع، أو صابون حشري."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre la cochenille violette sur l'olivier ?",
+              "reponse": "La cochenille violette (Parlatoria oleae) forme des boucliers violets sur les branches et les fruits. Traitement : huile blanche en hiver (1-2 L/ha), pyréthrinoïdes au printemps, ou lâchers d'auxiliaires (Aphytis maculicornis)."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو البق البنفسجي على الزيتون ؟",
+              "reponse": "البق البنفسجي كايصنع دروع بنفسجية على الأغصان والحبات. العلاج: الزيت الأبيض فالشتي (1-2 ليتر فالهكتار)، بيريترينويدات فربيع، أو إطلاق الأعداء الطبيعية (أفيتيس)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre la mouche de l'olivier de façon biologique ?",
+              "reponse": "Méthodes bio : piégeage massif avec phéromones (1 piège/arbre), pulvérisation de Spinosad (48-96 g/hl), lâchers d'auxiliaires (parasitoïdes), et récolte précoce. Évitez les insecticides chimiques en floraison (toxiques pour les abeilles)."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو ذبانة الزيتون بالطرق العضوية ؟",
+              "reponse": "الطرق العضوية: مصايد الفيرومونات (1 مصيدة/شجرة)، رش سبينوساد (48-96 غرام فالهكتوليتر)، إطلاق الأعداء الطبيعية، والحصاد المبكر. تجنب المبيدات الكيماوية فالتزهير (كاتضر النحل)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les auxiliaires naturels de l'olivier contre les ravageurs ?",
+              "reponse": "Les auxiliaires sont : coccinelles (Chilocorus bipustulatus contre cochenilles), parasitoïdes (Aphytis spp., Metaphycus spp.), chrysopes, et syrphes. Ils peuvent contrôler naturellement les populations de ravageurs."
+            },
+            "darija": {
+              "question": "شنو هم الأعداء الطبيعية للزيتون ضد الآفات ؟",
+              "reponse": "الأعداء الطبيعية هي: الخنافس (شيلوكوروس ضد البق)، الطفيليات (أفيتيس، ميتافيكوس)، كريزوب، وسيرف. كايقدرون يتحكمون فالآفات طبيعيا."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "taille",
+        "description": "Taille de l'olivier",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quand tailler l'olivier à Doukkala ?",
+              "reponse": "La taille se fait en JANVIER-FÉVRIER (hors gel). Évitez la taille en période humide (risque de maladies). Ne taillez pas les années de gel sévère."
+            },
+            "darija": {
+              "question": "فوقاش نقلم الزيتون فدكالة ؟",
+              "reponse": "التقليم كايكون فيناير-فبراير (بعيد على الجليد). تجنب التقليم فالشتي (خطر الأمراض). ما تقلمش فالأعوام اللي فيها جليد شديد."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les différents types de taille de l'olivier ?",
+              "reponse": "Trois types : 1) Taille de formation (jeunes arbres) : 3-4 branches charpentières. 2) Taille de fructification (adultes) : aérer le centre, supprimer le bois mort. 3) Taille sanitaire : éliminer les branches atteintes de maladies."
+            },
+            "darija": {
+              "question": "شنو هم الأنواع ديال تقليم الزيتون ؟",
+              "reponse": "ثلاثة أنواع: 1) تقليم التكوين (للشجر الصغار): 3-4 فروع رئيسية. 2) تقليم الإثمار (للكبار): توسيع الوسط، نزيل الأغصان الميتة. 3) التقليم الصحي: نزيل الأغصان المريضة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment tailler un jeune olivier ?",
+              "reponse": "Les 3-4 premières années : sélectionnez 3-4 branches charpentières bien réparties, supprimez les branches basses et les gourmands. La hauteur idéale est de 1.5-2 m pour faciliter la récolte."
+            },
+            "darija": {
+              "question": "كيفاش نقلم شجرة الزيتون الصغيرة ؟",
+              "reponse": "فالسنوات 3-4 الأولى: اختار 3-4 فروع رئيسية موزعين مزيان، نزيل الأغصان اللي تحت والسرطانات. الطول المثالي هو 1.5-2 متر باش تسهل الحصاد."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment tailler un vieil olivier ?",
+              "reponse": "Pour un vieil olivier : supprimez le bois mort et les branches qui se croisent, rabattez les branches trop hautes (réduction de hauteur), aérez le centre. Ne retirez pas plus de 30% du feuillage par an. Étalez la taille sur 2-3 ans pour les arbres très négligés."
+            },
+            "darija": {
+              "question": "كيفاش نقلم شجرة الزيتون القديمة ؟",
+              "reponse": "للشجرة القديمة: نزيل الأغصان الميتة والمتقاطعة، نقص الأغصان الطوال (تخفيف الطول)، نوسع الوسط. لا تزيل أكثر من 30% ديال الوراق فالعام. وزع التقليم على 2-3 سنين للأشجار اللي ما تقلّمش بزاف."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels outils utiliser pour tailler l'olivier ?",
+              "reponse": "Utilisez : un sécateur pour les petites branches (<2 cm), un scie à élaguer pour les branches moyennes (2-5 cm), une tronçonneuse pour les grosses branches (>5 cm). Désinfectez les outils entre chaque arbre avec de l'alcool à 70° ou de l'eau de Javel diluée."
+            },
+            "darija": {
+              "question": "شنو هي الأدوات اللي نستعملو لتقليم الزيتون ؟",
+              "reponse": "استعمل: مقص صغير للأغصان الصغار (<2 سم)، منشار للفروع المتوسطة (2-5 سم)، منشار آلي للفروع الكبار (>5 سم). عقم الأدوات مابين كل شجرة بالكحول 70% أو الجافيل المخفف."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "recolte",
+        "description": "Récolte des olives",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quand récolter les olives à Doukkala ?",
+              "reponse": "La récolte se fait d'OCTOBRE à DÉCEMBRE selon la variété et l'utilisation. Pour l'huile, récoltez quand les olives sont violettes/noires (octobre-novembre). Pour les olives de table, récoltez quand elles sont vertes (septembre-octobre)."
+            },
+            "darija": {
+              "question": "فوقاش نحصد الزيتون فدكالة ؟",
+              "reponse": "الحصاد كايكون من أكتوبر لـ دجنبر حسب النوع والاستعمال. للزيت، احصد فوقاش الزيتون كايكون أرجواني/كحل (أكتوبر-نونبر). للزيتون للمائدة، احصد فوقاش كايكون خضر (شتنبر-أكتوبر)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment récolter les olives ?",
+              "reponse": "Méthodes : récolte manuelle (gaules, peignes) ou mécanique (vibreur à tronc). Étalez les olives sur des nattes ou des bâches pendant 2-3 jours pour un séchage partiel avant la trituration. Évitez de blesser les fruits (réduit la qualité de l'huile)."
+            },
+            "darija": {
+              "question": "كيفاش نحصد الزيتون ؟",
+              "reponse": "الطرق: الحصاد باليد (العصي، الأمشاط) أو بالميكانيك (هزاز). افرد الزيتون على الحصير أو الشراشف لمدة 2-3 أيام حتى يجف شوية قبل العصر. تجنب تجريح الحبات (كاينقص جودة الزيت)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le rendement en huile d'olive ?",
+              "reponse": "Un quintal (100 kg) d'olives donne entre 16 et 19 litres d'huile d'olive. Le rendement dépend de la variété, de la maturité, et du mode d'extraction (presse traditionnelle ou centrifugeuse)."
+            },
+            "darija": {
+              "question": "شحال هو الإنتاج ديال زيت الزيتون ؟",
+              "reponse": "القنطار (100 كيلو) ديال الزيتون كايعطي مابين 16 و 19 ليتر ديال الزيت. الإنتاج كايعتمد على النوع، النضج، وطريقة العصر (معصرة تقليدية أو سنترفيوج)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment savoir si les olives sont prêtes à être récoltées ?",
+              "reponse": "Signes de maturité : couleur qui passe du vert au violet/noir, fruit qui se détache facilement, diminution de l'amertume (goût). Pour l'huile, récoltez quand 50-70% des olives sont noires. Pour les olives de table, récoltez quand elles sont vert-jaune."
+            },
+            "darija": {
+              "question": "كيفاش نعرف أن الزيتون جاهز للحصاد ؟",
+              "reponse": "علامات النضج: اللون كايتغير من خضر ل أرجواني/كحل، الحبة كاتنزع بسهولة، المرارة كاتنقص. للزيت، احصد فوقاش 50-70% ديال الزيتون كحل. للزيتون للمائدة، احصد فوقاش كايكون خضر-صفر."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment conserver les olives après récolte ?",
+              "reponse": "Les olives fraîches se conservent 2-3 jours à température ambiante. Pour une conservation plus longue (1-2 semaines), mettez-les au réfrigérateur (4-8°C). Pour les olives de table, utilisez la saumure (eau + sel 8-10%). Ne lavez pas les olives avant stockage (risque de pourriture)."
+            },
+            "darija": {
+              "question": "كيفاش نحفظ الزيتون مورا الحصاد ؟",
+              "reponse": "الزيتون الطري كايتحفظ 2-3 أيام فدرجة حرارة الغرفة. للحفظ الطويل (1-2 أسابيع)، حطو فالبراد (4-8 درجات). للزيتون للمائدة، استعمل المالح (ماء + ملح 8-10%). ما تغسلش الزيتون قبل التخزين (خطر التعفن)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le meilleur moment de la journée pour récolter les olives ?",
+              "reponse": "Récoltez tôt le matin (7h-10h) ou en fin d'après-midi (16h-18h) quand les températures sont fraîches. Évitez la récolte en plein soleil (chaleur dégrade la qualité de l'huile). Ne récoltez pas sous la pluie (olives humides = huile de moindre qualité)."
+            },
+            "darija": {
+              "question": "شنو هو أحسن وقت فوقاش نحصد الزيتون ؟",
+              "reponse": "احصد فالصباح بكري (7h-10h) أو فالزوال (16h-18h) فوقاش الحرارة معتدلة. تجنب الحصاد فالشمس الشديدة (الحرارة كاتخرب جودة الزيت). ما تحصدش فوقاش كاتوقع الشتا (الزيتون المبلول = زيت بجودة أقل)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le prix des olives à Doukkala ?",
+              "reponse": "Le prix des olives varie entre 10 et 12 dirhams le kilogramme (données 2023). Le prix de l'huile d'olive varie entre 40 et 80 dirhams le litre selon la qualité."
+            },
+            "darija": {
+              "question": "شحال هو ثمن الزيتون فدكالة ؟",
+              "reponse": "ثمن الزيتون كايتغير مابين 10 و 12 درهم فالكيلو (معطيات 2023). ثمن زيت الزيتون كايتغير مابين 40 و 80 درهم فالليتر حسب الجودة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le prix de la main d'œuvre pour l'olivier à Doukkala ?",
+              "reponse": "Le salaire journalier pour la main d'œuvre en irrigation gravitaire est de 40 dirhams par jour. Pour l'irrigation par aspersion, il est de 35 dirhams par jour. Pour la taille et la récolte, comptez 50-70 dirhams par jour selon la période."
+            },
+            "darija": {
+              "question": "شحال هو الأجر اليومي لليد العاملة للزيتون فدكالة ؟",
+              "reponse": "الأجر اليومي لليد العاملة فالسقي بالفيض هو 40 درهم فاليوم. فالسقي بالرش هو 35 درهم فاليوم. للتقليم والحصاد، احسب 50-70 درهم فاليوم حسب الفترة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le coût de production de l'olivier à Doukkala ?",
+              "reponse": "Le coût de production de l'olivier est d'environ 5000-8000 dirhams par hectare pour les charges variables (taille, irrigation, fertilisation). Avec une production de 5 tonnes/ha à 10 DH/kg, le chiffre d'affaires est de 50000 DH/ha. La marge bénéficiaire peut atteindre 40000-45000 DH/ha."
+            },
+            "darija": {
+              "question": "شحال هو تكلفة إنتاج الزيتون فدكالة ؟",
+              "reponse": "تكلفة إنتاج الزيتون هي 5000-8000 درهم فالهكتار للتكاليف المتغيرة (التقليم، السقي، التسميد). مع إنتاج 5 طن فالهكتار ب 10 درهم فالكيلو، العائد هو 50000 درهم فالهكتار. الربح يقدر يوصل لـ 40000-45000 درهم فالهكتار."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "agroforesterie",
+        "description": "Agroforesterie avec l'olivier",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quelle est la densité de plantation de l'olivier en agroforesterie ?",
+              "reponse": "La densité de plantation est de 60 à 110 arbres par hectare, avec une moyenne de 92 arbres/ha. Cette densité plus faible permet d'associer d'autres cultures entre les rangs."
+            },
+            "darija": {
+              "question": "شحال هي الكثافة ديال زرع الزيتون فالزراعة الغابوية ؟",
+              "reponse": "الكثافة هي 60 لـ 110 شجرة فالهكتار، بمعدال 92 شجرة فالهكتار. هاد الكثافة الأقل كاتخليك تشارك زراعات أخرى مابين الصفوف."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est l'impact de la fève sur le rendement de l'olivier ?",
+              "reponse": "L'association avec la FÈVE a un impact POSITIF. Le rendement de l'olivier passe à 2365 kg/ha (contre 1700-2271 kg/ha en verger pur). Le LER (Land Equivalent Ratio) est de 1.83, très favorable."
+            },
+            "darija": {
+              "question": "شحال هو تأثير الفول على الإنتاج ديال الزيتون ؟",
+              "reponse": "التناوب مع الفول عندو تأثير إيجابي. الإنتاج ديال الزيتون كايوصل لـ 2365 كيلو فالهكتار (مقابل 1700-2271 كيلو فالبستان الحر). LER هو 1.83، كايعني إيجابي بزاف."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est l'impact du pois chiche sur le rendement de l'olivier ?",
+              "reponse": "L'association avec le POIS CHICHE a un impact neutre ou positif. Le rendement de l'olivier passe à 2150 kg/ha, avec un LER de 1.53."
+            },
+            "darija": {
+              "question": "شحال هو تأثير الجلبانة على الإنتاج ديال الزيتون ؟",
+              "reponse": "التناوب مع الجلبانة عندو تأثير محايد أو إيجابي. الإنتاج ديال الزيتون كايوصل لـ 2150 كيلو فالهكتار، مع LER 1.53."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est l'impact des céréales sur le rendement de l'olivier ?",
+              "reponse": "L'association avec les CÉRÉALES (blé, orge) a un impact NÉGATIF sur le rendement de l'olivier. Les LER sont plus faibles (1.23-1.29). Il est déconseillé d'associer l'olivier avec des céréales."
+            },
+            "darija": {
+              "question": "شحال هو تأثير الحبوب على الإنتاج ديال الزيتون ؟",
+              "reponse": "التناوب مع الحبوب (القمح، الشعير) عندو تأثير سلبي على الإنتاج ديال الزيتون. LER كايكون أقل (1.23-1.29). لا تنصح بمشاركة الزيتون مع الحبوب."
+            }
+          },
+          {
+            "francais": {
+              "question": "Qu'est-ce que le LER (Land Equivalent Ratio) pour l'olivier ?",
+              "reponse": "Le LER est le rapport de l'équivalence terrestre. Un LER > 1 indique que l'association est plus productive que les cultures séparées. Pour l'olivier-fève, LER=1.83 (excellent). Pour l'olivier-pois chiche, LER=1.53 (bon). Pour l'olivier-orge, LER=1.29. Pour l'olivier-blé, LER=1.23."
+            },
+            "darija": {
+              "question": "شنو هو LER للزيتون ؟",
+              "reponse": "LER هو نسبة التكافؤ الأرضي. LER > 1 كايعني أن التناوب كايعطي إنتاج أكبر من الزراعات المنفصلة. للزيتون-فول، LER=1.83 (ممتاز). للزيتون-جلبانة، LER=1.53 (مزيان). للزيتون-شعير، LER=1.29. للزيتون-قمح، LER=1.23."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les avantages de l'agroforesterie pour l'olivier ?",
+              "reponse": "Avantages : augmentation du rendement de l'olivier (jusqu'à +30% avec la fève), amélioration de la fertilité du sol (fixation d'azote par les légumineuses), réduction de l'érosion, meilleure utilisation de l'eau, et diversification des revenus."
+            },
+            "darija": {
+              "question": "شنو هي المزايا ديال الزراعة الغابوية للزيتون ؟",
+              "reponse": "المزايا: زيادة الإنتاج ديال الزيتون (حتى +30% مع الفول)، تحسين خصوبة الأرض (تثبيت الآزوت من القطاني)، تقليل تآكل الأرض، أحسن استغلال للماء، وتنويع المداخيل."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel écartement entre les oliviers en agroforesterie ?",
+              "reponse": "En agroforesterie, on utilise un écartement plus large : 10x10 m (100 arbres/ha) à 12x12 m (70 arbres/ha). Cela laisse suffisamment d'espace entre les rangs pour cultiver des légumineuses (fèves, pois chiches) ou des céréales."
+            },
+            "darija": {
+              "question": "شحال هي المسافة مابين أشجار الزيتون فالزراعة الغابوية ؟",
+              "reponse": "فالزراعة الغابوية، كاتستعمل مسافة أكبر: 10x10 م (100 شجرة فالهكتار) لـ 12x12 م (70 شجرة فالهكتار). هاد الشي كايخلي مساحة كافية مابين الصفوف لزراعة القطاني (فول، جلبانة) أو الحبوب."
+            }
+          },
+          {
+            "francais": {
+              "question": "Peut-on associer l'olivier avec des plantes aromatiques ?",
+              "reponse": "OUI, l'association avec des plantes aromatiques (romarin, thym, lavande) est bénéfique. Elles attirent les auxiliaires (pollinisateurs, prédateurs de ravageurs) et peuvent être une source de revenu complémentaire."
+            },
+            "darija": {
+              "question": "نقدر نشاركو الزيتون مع النباتات العطرية ؟",
+              "reponse": "اه، التناوب مع النباتات العطرية (إكليل الجبل، الزعتر، الخزامى) مفيد. كاتجذب الأعداء الطبيعية (الملقحات، مفترسات الآفات) ويمكن تكون مصدر دخل إضافي."
+            }
+          }, 
+          {
+            "francais": {
+              "question": "Quelle est la superficie de l'olivier à Doukkala ?",
+              "reponse": "Selon l'ORMVAD, la superficie de l'olivier à Doukkala est d'environ 5495 hectares, dont 3279 hectares en irrigué (60%). La principale zone est Sidi Bennour avec 5095 ha."
+            },
+            "darija": {
+              "question": "شحال هي المساحة ديال الزيتون فدكالة ؟",
+              "reponse": "حسب المكتب الجهوي للتنمية الفلاحية، المساحة ديال الزيتون فدكالة هي 5495 هكتار، منهم 3279 هكتار مسقية (60%). المنطقة الرئيسية هي سيدي بنور ب 5095 هكتار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la production d'olives à Doukkala ?",
+              "reponse": "La production annuelle d'olives à Doukkala est d'environ 20000 tonnes, dont 2000 litres d'huile d'olive. La production est principalement destinée à la consommation locale."
+            },
+            "darija": {
+              "question": "شحال هو الإنتاج ديال الزيتون فدكالة ؟",
+              "reponse": "الإنتاج السنوي ديال الزيتون فدكالة هو 20000 طن تقريبا، منهم 2000 ليتر ديال زيت الزيتون. الإنتاج كايتوجه أساسا للاستهلاك المحلي."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelles sont les zones principales de l'olivier à Doukkala ?",
+              "reponse": "Les zones principales sont : Laâounate, Boulaouane, Ouled Frej, et Sidi Bennour. Ouled Frej compte 400 hectares (215 ha irrigués). Sidi Bennour compte 5095 hectares (2989 ha irrigués)."
+            },
+            "darija": {
+              "question": "شنو هم المناطق الرئيسية للزيتون فدكالة ؟",
+              "reponse": "المناطق الرئيسية هي: لعونات، بولاوان، أولاد فرج، و سيدي بنور. أولاد فرج فيها 400 هكتار (215 هكتار مسقية). سيدي بنور فيها 5095 هكتار (2989 هكتار مسقية)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la meilleure variété d'olivier pour Doukkala ?",
+              "reponse": "La Picholine marocaine est la meilleure pour Doukkala. Elle est très résistante à la sécheresse, aux maladies, et peut vivre plus de 500 ans. L'Arbequina est plus productive mais moins résistante."
+            },
+            "darija": {
+              "question": "شنو هو أحسن نوع ديال الزيتون فدكالة ؟",
+              "reponse": "البيشولين المغربية هو الأحسن فدكالة. كاتقاوم الجفاف والأمراض بزاف، وتقدر تعيش أكثر من 500 عام. الأربيكينا كاتعطي إنتاج أكبر ولكنها أقل مقاومة."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "irrigation_nouvelles",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Peut-on cultiver l'olivier sans irrigation à Doukkala ?",
+              "reponse": "OUI, l'olivier est cultivé en bour (non irrigué) sur 40% de la superficie (environ 2200 ha). Mais le rendement est plus faible (1.5-2 tonnes/ha) qu'en irrigué (4-5 tonnes/ha)."
+            },
+            "darija": {
+              "question": "نقدر نزرع الزيتون بلا سقي فدكالة ؟",
+              "reponse": "اه، الزيتون كايتزرع فالبور على 40% ديال المساحة (تقريبا 2200 هكتار). ولكن الإنتاج كاينقص (1.5-2 طن فالهكتار) مقارنة مع المسقي (4-5 طن فالهكتار)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le débit recommandé pour les goutteurs sur olivier ?",
+              "reponse": "Le débit recommandé est de 2 à 4 litres par heure par goutteur. Installez 2 à 4 émetteurs par arbre selon la densité et le type de sol (plus d'émetteurs sur sol sableux)."
+            },
+            "darija": {
+              "question": "شحال هو الجريان الموصى به للنقاطات على الزيتون ؟",
+              "reponse": "الجريان الموصى به هو 2 لـ 4 ليتر فالساعة للنقاطة الواحدة. حط 2 لـ 4 نقاطات فالشجرة حسب الكثافة ونوع التربة (نقاطات أكثر على الأرض الرملية)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment gérer l'irrigation de l'olivier en année sèche ?",
+              "reponse": "Concentrez l'irrigation sur les stades critiques (floraison avril-mai, nouaison mai-juin). Réduisez l'irrigation en automne et hiver. Utilisez du paillage (paille, plastique) pour conserver l'humidité."
+            },
+            "darija": {
+              "question": "كيفاش نسيق الزيتون فالعام الجاف ؟",
+              "reponse": "ركز السقي على المراحل الحرجة (التزهير أبريل-ماي، العقد ماي-يونيو). قلل السقي فالخريف والشتي. استعمل التغطية (قش، بلاستيك) باش تحافظ على الرطوبة."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "fertilisation_nouvelles",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quel est le rôle du magnésium pour l'olivier ?",
+              "reponse": "Le magnésium est essentiel pour la photosynthèse. Une carence en magnésium provoque une chlorose internervaire sur les feuilles âgées. Apport : sulfate de magnésium (20-30 kg/ha) en foliaire."
+            },
+            "darija": {
+              "question": "شنو هو دور المغنيزيوم للزيتون ؟",
+              "reponse": "المغنيزيوم ضروري لعملية البناء الضوئي. نقص المغنيزيوم كايعطي صفار بين العروق فالوراق القدام. الكمية: سلفات المغنيزيوم (20-30 كيلو فالهكتار) ورقيا."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la période d'arrêt de la fertilisation azotée ?",
+              "reponse": "Arrêtez la fertilisation azotée après la nouaison (juin). Un apport d'azote tardif favorise la croissance végétative au détriment des fruits et réduit la qualité de l'huile."
+            },
+            "darija": {
+              "question": "فوقاش خاصنا نوقف التسميد الآزوتي ؟",
+              "reponse": "وقف التسميد الآزوتي مورا العقد (يونيو). الآزوت المتأخر كايخدم النمو الوراق على حساب الحبات و كاينقص جودة الزيت."
+            }
+          },
+          {
+            "francais": {
+              "question": "Peut-on utiliser les engrais foliaires en été sur olivier ?",
+              "reponse": "NON, évitez les apports foliaires en été (juillet-août) à cause des fortes chaleurs (risque de brûlures). Faites-les au printemps (avril-mai) ou en automne (septembre-octobre)."
+            },
+            "darija": {
+              "question": "نقدر نستعملو السماد الوراقي فالصيف على الزيتون ؟",
+              "reponse": "لا، تجنب السماد الوراقي فالصيف (يوليوز-غشت) بسباب الحرارة الشديدة (خطر الحرق). ديره فربيع (أبريل-ماي) أو فالخريف (شتنبر-أكتوبر)."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "maladies_nouvelles",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Comment reconnaître la bactériose sur l'olivier ?",
+              "reponse": "Symptômes : chancres sur les branches, écoulement gommeux, dépérissement des rameaux. Traitement : cupriques (Bouillie bordelaise) et taille des branches atteintes. Désinfectez les outils."
+            },
+            "darija": {
+              "question": "كيفاش نعرف البكتيريا على الزيتون ؟",
+              "reponse": "الأعراض: تقرحات على الأغصان، خروج الصمغ، موت الأغصان. العلاج: النحاس وتقليم الأغصان المصابة. عقم الأدوات."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre la maladie de l'olivier 'la lepra' ?",
+              "reponse": "La lepra (ou tuberculose) provoque des excroissances sur les branches. Traitement : couper et brûler les branches atteintes, désinfecter les outils. Prévention : éviter les blessures sur l'arbre."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو مرض الزيتون 'البروس' ؟",
+              "reponse": "البروس كايعطي زوائد على الأغصان. العلاج: قطع وحرق الأغصان المصابة، تعقيم الأدوات. الوقاية: تجنب تجريح الشجرة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment prévenir les maladies de l'olivier à Doukkala ?",
+              "reponse": "Prévention : taille aérée (évite l'humidité), variétés résistantes (Picholine marocaine), ramassage des feuilles tombées, traitements préventifs (cuivre en automne et printemps)."
+            },
+            "darija": {
+              "question": "كيفاش نقي الأمراض ديال الزيتون فدكالة ؟",
+              "reponse": "الوقاية: التقليم المفتوح (تتفادى الرطوبة)، أنواع مقاومة (بيشولين)، جمع الوراق اللي طاحت، علاجات وقائية (نحاس فالخريف والربيع)."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "ravageurs_nouvelles",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Comment reconnaître la cochenille à capuchon sur l'olivier ?",
+              "reponse": "Symptômes : boucliers bruns en forme de capuchon sur les branches, affaiblissement de l'arbre, chute des feuilles. Traitement : huile blanche (hiver) + pyréthrinoïdes."
+            },
+            "darija": {
+              "question": "كيفاش نعرف البق على شكل قلنسوة على الزيتون ؟",
+              "reponse": "الأعراض: دروع كحلة على شكل قلنسوة على الأغصان، ضعف الشجرة، تطيح الوراق. العلاج: الزيت الأبيض (الشتي) + بيريترينويدات."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre les rongeurs (campagnols) sur olivier ?",
+              "reponse": "Les campagnols attaquent les racines et le collet. Protection : piégeage, répulsifs naturels (purin d'ail), protection du tronc (grillage), et favoriser les prédateurs (chouettes, rapaces)."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو القوارض (فئران الحقول) على الزيتون ؟",
+              "reponse": "القوارض كايهاجمو الجذور والعنق. الحماية: مصايد، طاردات طبيعية (منقوع الثوم)، حماية الجذع (شبك معدني)، وتشجيع الأعداء الطبيعية (البومات)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment protéger l'olivier des sangliers ?",
+              "reponse": "Les sangliers sont attirés par les olives tombées au sol. Protection : ramassage régulier des olives tombées, clôtures électriques, répulsifs olfactifs, et effaroucheurs sonores."
+            },
+            "darija": {
+              "question": "كيفاش نحمي الزيتون من الخنازير البرية ؟",
+              "reponse": "الخنازير البرية كاتنجذب للزيتون اللي طاح فالأرض. الحماية: جمع الزيتون المتساقط بانتظام، سياجات كهربائية، طاردات الرائحة، وأجهزة صوتية للتخويف."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "taille_nouvelles",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Peut-on tailler l'olivier en automne ?",
+              "reponse": "NON, évitez la taille en automne. Les plaies de taille mettent plus de temps à cicatriser en automne (risque de maladies). Taillez uniquement en JANVIER-FÉVRIER."
+            },
+            "darija": {
+              "question": "نقدر نقلم الزيتون فالخريف ؟",
+              "reponse": "لا، تجنب التقليم فالخريف. الجروح كاتاخد وقت أطول باش تتقفل فالخريف (خطر الأمراض). قلم غير فيناير-فبراير."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment tailler un olivier en gobelet ?",
+              "reponse": "La taille en gobelet est la plus courante. Sélectionnez 3-4 branches principales partant du tronc à 50-80 cm de hauteur. Supprimez les branches centrales pour former un 'gobelet' ouvert."
+            },
+            "darija": {
+              "question": "كيفاش نقلم الزيتون على شكل كأس ؟",
+              "reponse": "التقليم على شكل كأس هو الأكثر شيوعا. اختار 3-4 فروع رئيسية خارجة من الجذع على 50-80 سم. نزيل الأغصان الوسطى باش نعمل شكل 'كأس' مفتوح."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "recolte_nouvelles",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quel est le rendement en huile de l'olivier Arbequina ?",
+              "reponse": "L'Arbequina donne un rendement en huile de 18 à 22 litres par quintal (100 kg d'olives). C'est plus élevé que la Picholine (16-18 L/qx). Son huile est douce et fruitée."
+            },
+            "darija": {
+              "question": "شحال هو إنتاج الزيت ديال أربيكينا ؟",
+              "reponse": "أربيكينا كاتعطي إنتاج زيت ديال 18 لـ 22 ليتر فالقنطار (100 كيلو زيتون). هاد الشي أعلى من البيشولين (16-18 ليتر/قنطار). زيتها معتدل وفواكهي."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le meilleur moment pour récolter les olives de table ?",
+              "reponse": "Les olives de table se récoltent quand elles sont vert-jaune, généralement en SEPTEMBRE-OCTOBRE. Elles doivent être fermes et non tachées."
+            },
+            "darija": {
+              "question": "شنو هو أحسن وقت لحصاد الزيتون للمائدة ؟",
+              "reponse": "زيتون المائدة كايتحصد فوقاش كايكون خضر-صفر، غالبا فشتنبر-أكتوبر. خاصو يكون قاسح وما فيهش بقع."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment conserver les olives de table ?",
+              "reponse": "Mettez les olives dans une saumure (eau + sel 8-10%) pendant 3-6 mois. Ajoutez du citron, de l'ail, du thym, ou du laurier pour les parfumer. Changez la saumure toutes les 2 semaines."
+            },
+            "darija": {
+              "question": "كيفاش نحفظ زيتون المائدة ؟",
+              "reponse": "حط الزيتون فالمالح (ماء + ملح 8-10%) لمدة 3-6 شهور. زيد الليمون، الثوم، الزعتر، أو الغار باش تعطره. بدل المالح كل 2 أسابيع."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "economie_nouvelles",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Existe-t-il des coopératives d'huile d'olive à Doukkala ?",
+              "reponse": "OUI, il existe 15 unités de trituration modernes à Doukkala, principalement à Sidi Bennour et Ouled Frej. La coopérative 'Khemis Metouh' mise en service en 2016 a un rendement de 17 L/qx."
+            },
+            "darija": {
+              "question": "واش كاين تعاونيات د زيت الزيتون فدكالة ؟",
+              "reponse": "اه، كاين 15 وحدة عصر حديثة فدكالة، خاصة فسيدي بنور وأولاد فرج. تعاونية 'خميس متوح' اللي دخلات الخدمة فـ 2016 عندها إنتاج 17 ليتر/قنطار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le rendement économique de l'olivier à Doukkala ?",
+              "reponse": "Avec un rendement de 5 t/ha et un prix de 10 DH/kg, le chiffre d'affaires est de 50000 DH/ha. Les charges sont de 5000-8000 DH/ha. La marge bénéficiaire est de 42000-45000 DH/ha."
+            },
+            "darija": {
+              "question": "شحال هو العائد الاقتصادي للزيتون فدكالة ؟",
+              "reponse": "مع إنتاج 5 طن فالهكتار وثمن 10 درهم فالكيلو، العائد هو 50000 درهم فالهكتار. التكاليف هي 5000-8000 درهم فالهكتار. الربح هو 42000-45000 درهم فالهكتار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Y a-t-il des subventions pour l'olivier à Doukkala ?",
+              "reponse": "OUI, dans le cadre du programme Génération Green, des subventions sont disponibles pour l'irrigation goutte-à-goutte (jusqu'à 80%), la plantation d'oliviers, et la modernisation des unités de trituration."
+            },
+            "darija": {
+              "question": "واش كاين دعم للزيتون فدكالة ؟",
+              "reponse": "اه، فبرنامج الجيل الأخضر، كاين دعم للسقي بالتنقيط (حتال 80%)، زراعة الزيتون، وتحديث وحدات العصر."
+            }
+          }
+        ]
+    },
+          {
+            "francais": {
+              "question": "Quel est le conseil le plus important pour réussir l'olivier à Doukkala ?",
+              "reponse": "Le conseil le plus important est l'IRRIGATION GOUTTE-À-GOUTTE associée à l'AGROFORESTERIE avec des légumineuses (fèves, pois chiches). Cela économise l'eau, améliore le sol, et augmente le rendement."
+            },
+            "darija": {
+              "question": "شنو هو أحسن نصيح باش تنجح زراعة الزيتون فدكالة ؟",
+              "reponse": "أحسن نصيحة هي السقي بالتنقيط مع الزراعة الغابوية مع القطاني (الفول، الجلبانة). هاد الشي كايوف الماء، كايحسن التربة، و كايزيد الإنتاج."
+            }
+          },
+              {
+            "francais": {
+              "question": "Résumé en 5 points pour réussir l'olivier à Doukkala ?",
+              "reponse": "1) Variétés résistantes (Picholine marocaine). 2) Sol profond et bien drainé. 3) Irrigation goutte-à-goutte. 4) Agroforesterie avec légumineuses (fèves). 5) Taille en gobelet en janvier-février."
+            },
+            "darija": {
+              "question": "ملخص فـ 5 نقاط باش تنجح زراعة الزيتون فدكالة ؟",
+              "reponse": "1) أنواع مقاومة (بيشولين مغربية). 2) أرض عميقة وكاتصرف الماء. 3) سقي بالتنقيط. 4) زراعة غابوية مع قطاني (فول). 5) تقليم على شكل كأس فيناير-فبراير."
+            }}
+        ]
+      }
+    
+  }

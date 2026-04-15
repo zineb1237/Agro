@@ -1,0 +1,1032 @@
+{
+  "chatbot_mais_doukkala": {
+    "version": "4.0",
+    "date_mise_a_jour": "2026-04-12",
+    "langues": ["francais", "darija"],
+    "region": "Doukkala (El Jadida - Ouled Frej)",
+    "culture": "mais",
+    "total_questions": 100,
+    "sources": [
+      "ORMVAD Doukkala",
+      "INRA Maroc",
+      "Monographie El Jadida 2021 (HCP)",
+      "Données climatiques Open-Meteo"
+    ],
+    "categories": [
+      {
+        "nom": "general",
+        "description": "Questions générales sur le maïs à Doukkala",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quelle est la superficie du maïs à Doukkala ?",
+              "reponse": "Selon la Monographie 2021, la superficie du maïs en bour (non irrigué) est de 38978 hectares, et le maïs irrigué occupe 4766 hectares."
+            },
+            "darija": {
+              "question": "شحال هي المساحة ديال الذرة فدكالة ؟",
+              "reponse": "حسب الإحصاء العام 2021، المساحة ديال الذرة فالبور هي 38978 هكتار، والذرة المسقية كاتاخد 4766 هكتار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le rendement du maïs à Doukkala ?",
+              "reponse": "Le rendement du maïs en bour est de 0.62 qx/ha (très faible). Le maïs irrigué donne 4.68 qx/ha (0.47 tonnes/ha). Avec de bonnes pratiques, on peut atteindre 8-12 tonnes/ha."
+            },
+            "darija": {
+              "question": "شحال هو الإنتاج ديال الذرة فدكالة ؟",
+              "reponse": "الإنتاج ديال الذرة فالبور هو 0.62 قنطار فالهكتار (ضعيف بزاف). الذرة المسقية كاتعطي 4.68 قنطار فالهكتار (0.47 طن فالهكتار). مع التقنيات الجيدة، نقدر نوصل لـ 8-12 طن فالهكتار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la différence entre le maïs grain et le maïs fourrager ?",
+              "reponse": "Le maïs grain est récolté pour les grains (alimentation humaine et animale). Le maïs fourrager est récolté en plante entière (tige + feuilles + épi) pour l'alimentation du bétail."
+            },
+            "darija": {
+              "question": "شنو الفرق مابين ذرة الحب و ذرة العلف ؟",
+              "reponse": "ذرة الحب كاتحصد للحبات (للإنسان والبهائم). ذرة العلف كاتحصد كاملة (الساق + الوراق + الكوز) للبهائم."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "sol",
+        "description": "Exigences pédologiques pour le maïs",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quel type de sol convient le mieux au maïs ?",
+              "reponse": "Le maïs préfère les sols profonds (>60 cm), limono-argileux à limono-sableux, riches en matière organique, avec un pH de 6 à 7.5."
+            },
+            "darija": {
+              "question": "شنو هو النوع ديال الأرض المناسب للذرة ؟",
+              "reponse": "الذرة كاتحب الأرض العميقة (>60 سم)، الطينية-الرملية، الغنية بالمادة العضوية، مع pH 6 لـ 7.5."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle profondeur de sol est nécessaire pour le maïs ?",
+              "reponse": "Le maïs a besoin d'une profondeur de sol d'au moins 60 cm pour un bon développement racinaire. Les racines peuvent descendre jusqu'à 1.5-2 mètres."
+            },
+            "darija": {
+              "question": "شحال هو العمق اللي خاصو الأرض للذرة ؟",
+              "reponse": "الذرة كاتحتاج لعمق أرض على الأقل 60 سم باش الجذور تنمو مزيان. الجذور تقدر توصل لـ 1.5-2 متر."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le pH idéal du sol pour le maïs ?",
+              "reponse": "Le pH idéal pour le maïs est entre 6 et 7.5 (légèrement acide à neutre). Un pH trop bas (<5.5) bloque l'absorption du phosphore."
+            },
+            "darija": {
+              "question": "شحال هو pH الأرض المناسب للذرة ؟",
+              "reponse": "pH المثالي للذرة هو مابين 6 و 7.5. pH منخفض (<5.5) كايوقف إمتصاص الفوسفور."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment préparer le sol pour le maïs ?",
+              "reponse": "Labour profond (25-30 cm) en mars-avril, apport de matière organique (fumier composté 3-5 t/ha), puis nivellement avant semis."
+            },
+            "darija": {
+              "question": "كيفاش نحضر الأرض للذرة ؟",
+              "reponse": "حرث عميق (25-30 سم) فمارس-أبريل، تحط مادة عضوية (زبل مكمور 3-5 طن فالهكتار)، ثم التسوية قبل الزرع."
+            }
+          },
+          {
+            "francais": {
+              "question": "Le maïs peut-il pousser sur des sols argileux ?",
+              "reponse": "OUI, le maïs pousse bien sur les sols argileux profonds (>60 cm) car ils retiennent l'eau et les nutriments. Mais attention au drainage (évitez les sols trop compacts)."
+            },
+            "darija": {
+              "question": "واش الذرة كاتنبت فالأرض الطينية ؟",
+              "reponse": "اه، الذرة كاتنبت مزيان فالأرض الطينية العميقة (>60 سم) حيت كاتحفظ الماء والعناصر الغذائية. ولكن الحذر من الأرض المضغوطة بزاف (خاصها تصريف الماء)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Le maïs peut-il pousser sur des sols sableux ?",
+              "reponse": "OUI, mais les sols sableux drainent trop vite. Il faut irriguer plus fréquemment (tous les 2-3 jours) et apporter plus de matière organique (fumier 5-10 t/ha)."
+            },
+            "darija": {
+              "question": "واش الذرة كاتنبت فالأرض الرملية ؟",
+              "reponse": "اه، ولكن الأرض الرملية كاتصرف الماء بسرعة. خاصك تسقي كل 2-3 أيام وتحط مادة عضوية أكثر (زبل 5-10 طن فالهكتار)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment corriger un sol acide pour le maïs ?",
+              "reponse": "Si pH < 5.5, ajoutez de la CHAUX agricole (1-2 tonnes/ha) 3 mois avant le semis. Le maïs préfère un pH entre 6 et 7.5."
+            },
+            "darija": {
+              "question": "كيفاش نصلحو الأرض الحامضية للذرة ؟",
+              "reponse": "إلا كان pH < 5.5، زيد الجير الفلاحي (1-2 طن فالهكتار) 3 أشهر قبل الزرع. الذرة كاتحب pH مابين 6 و 7.5."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment corriger un sol calcaire pour le maïs ?",
+              "reponse": "Si pH > 8, ajoutez du SOUFRE (100-200 kg/ha) ou du sulfate d'ammonium. Cela acidifie le sol et libère les éléments nutritifs bloqués."
+            },
+            "darija": {
+              "question": "كيفاش نصلحو الأرض الجيرية للذرة ؟",
+              "reponse": "إلا كان pH > 8، زيد الكبريت (100-200 كيلو فالهكتار) أو سلفات الأمونيوم. هاد الشي كايحمض الأرض ويحرر العناصر الغذائية."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "climat",
+        "description": "Exigences climatiques pour le maïs",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quelle est la température optimale pour le maïs ?",
+              "reponse": "La température optimale pour le maïs est entre 20 et 30°C. La germination commence à 10-12°C. Le maïs est sensible au gel (<0°C)."
+            },
+            "darija": {
+              "question": "شنو هي الحرارة المثالية للذرة ؟",
+              "reponse": "الحرارة المثالية للذرة هي مابين 20 و 30 درجة. الإنبات كايبان من 10-12 درجة. الذرة كاتتأثر بالجليد (<0 درجة)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Le maïs résiste-t-il à la sécheresse à Doukkala ?",
+              "reponse": "NON, le maïs est très sensible à la sécheresse, surtout pendant la floraison et le remplissage des grains. L'irrigation est OBLIGATOIRE pour un bon rendement."
+            },
+            "darija": {
+              "question": "واش الذرة كاتصمد للجفاف فدكالة ؟",
+              "reponse": "لا، الذرة كاتتأثر بزاف بالجفاف، خاصة فالتزهير وملء الحبات. السقي ضروري باش تحصل على إنتاج مزيان."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand semer le maïs à Doukkala ?",
+              "reponse": "Le maïs se sème au PRINTEMPS (mars-avril) après les dernières gelées. La température du sol doit être >12°C."
+            },
+            "darija": {
+              "question": "فوقاش نزرع الذرة فدكالة ؟",
+              "reponse": "الذرة كاتزرع فربيع (مارس-أبريل) مورا آخر موجة برد. حرارة الأرض خاصها تكون >12 درجة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand récolter le maïs grain ?",
+              "reponse": "Le maïs grain se récolte en AOÛT-SEPTEMBRE, quand les grains sont durs et l'humidité est inférieure à 25-30%."
+            },
+            "darija": {
+              "question": "فوقاش نحصد ذرة الحب ؟",
+              "reponse": "ذرة الحب كاتحصد فغشت-شتنبر، فوقاش الحبات كاتكون قاسحة والرطوبة أقل من 25-30%."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand récolter le maïs fourrager ?",
+              "reponse": "Le maïs fourrager se récolte en JUILLET-AOÛT, au stade laiteux-pâteux (grains remplis mais encore tendres), avant qu'ils ne durcissent."
+            },
+            "darija": {
+              "question": "فوقاش نحصد ذرة العلف ؟",
+              "reponse": "ذرة العلف كاتحصد فشيولية-غشت، فوقاش الحبات مملوءين ولكن مازال طرية (قبل ما يقساو)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Le maïs résiste-t-il au vent à Doukkala ?",
+              "reponse": "Le maïs est SENSIBLE au vent fort (>40 km/h), surtout à la floraison et en fin de cycle (risque de verse). À El Jadida, les vents atteignent 61.8 km/h. Plantez des brise-vent (haies d'arbres) autour des parcelles."
+            },
+            "darija": {
+              "question": "واش الذرة كاتصمد للرياح فدكالة ؟",
+              "reponse": "الذرة كاتتأثر بالرياح القوية (>40 كلم/س)، خاصة فالتزهير وآخر الدورة (خطر التطيح). فالجديدة، الرياح كاتوصل لـ 61.8 كلم/س. ازرع مصدات رياح (شجر) حوالين الحقول."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est l'humidité optimale pour le maïs ?",
+              "reponse": "Humidité du sol optimale : 60-80% de la capacité au champ. Humidité de l'air optimale : 50-70%. Une humidité >80% favorise les maladies (mildiou, rouille)."
+            },
+            "darija": {
+              "question": "شنو هي الرطوبة المثالية للذرة ؟",
+              "reponse": "رطوبة الأرض المثالية: 60-80% ديال السعة الحقلية. رطوبة الهوا المثالية: 50-70%. رطوبة >80% كاتخدم الأمراض (المليديو، الصدا)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Peut-on cultiver le maïs en hiver à Doukkala ?",
+              "reponse": "NON, le maïs ne résiste pas au gel (<0°C tue les plants). La température minimale de croissance est 10-12°C. Le maïs se cultive uniquement au printemps-été (mars à septembre)."
+            },
+            "darija": {
+              "question": "نقدر نزرع الذرة فالشتي فدكالة ؟",
+              "reponse": "لا، الذرة ما كاتصمدش للجليد (<0 درجة كايموت النبات). الحرارة الصغرى للنمو هي 10-12 درجة. الذرة كاتزرع غير فربيع-صيف (مارس لـ شتنبر)."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "irrigation",
+        "description": "Gestion de l'irrigation du maïs",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quels sont les besoins en eau du maïs ?",
+              "reponse": "Le maïs a besoin de 500 à 800 mm d'eau (5000-8000 m³/ha) selon le stade et la variété. C'est une culture très exigeante en eau."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال الماء للذرة ؟",
+              "reponse": "الذرة كاتحتاج لـ 500 لـ 800 ميلي متر ديال الماء (5000-8000 متر مكعب فالهكتار) حسب المرحلة والنوع. هي زراعة كاتطلب الماء بزاف."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les stades critiques pour l'irrigation du maïs ?",
+              "reponse": "Les stades critiques sont : la LEVÉE, la FLORAISON (émission des soies), et le REMPLISSAGE DES GRAINS. Un manque d'eau à la floraison réduit le rendement de 50-80%."
+            },
+            "darija": {
+              "question": "شنو هم المراحل الحرجة للسقي للذرة ؟",
+              "reponse": "المراحل الحرجة هي: الطلوع، التزهير (خروج الخيوط)، وملء الحبات. نقص الماء فالتزهير كاينقص الإنتاج بـ 50-80%."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le meilleur système d'irrigation pour le maïs ?",
+              "reponse": "Le GOUTTE-À-GOUTTE est le meilleur (économie d'eau 30-50%). L'aspersion est aussi efficace mais augmente le risque de maladies foliaires."
+            },
+            "darija": {
+              "question": "شنو هو أحسن نظام للسقي للذرة ؟",
+              "reponse": "السقي بالتنقيط هو الأحسن (توفير الماء بـ 30-50%). الرش هو حتى هو فعال ولكن كايزيد خطر الأمراض الوراقية."
+            }
+          },
+          {
+            "francais": {
+              "question": "À quelle fréquence irriguer le maïs ?",
+              "reponse": "Levée : tous les 3-5 jours. Croissance : tous les 5-7 jours. Floraison et remplissage : tous les 3-5 jours. En été, augmentez la fréquence à cause de l'évaporation."
+            },
+            "darija": {
+              "question": "شحال هي المدة مابين السقيات للذرة ؟",
+              "reponse": "الطلوع: كل 3-5 أيام. النمو: كل 5-7 أيام. التزهير والملء: كل 3-5 أيام. فالصيف، زيد فالسقيات بسباب التبخر."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand faut-il arrêter l'irrigation du maïs ?",
+              "reponse": "Arrêtez l'irrigation quand les grains sont à maturité (stade grain dur, humidité <30%). Un excès d'eau à ce stade favorise les maladies et la verse."
+            },
+            "darija": {
+              "question": "فوقاش خاصنا نوقف السقي ديال الذرة ؟",
+              "reponse": "وقف السقي فوقاش الحبات كاتنضج (مرحلة الحبة القاسحة، رطوبة <30%). الماء الزايد فهاد المرحلة كايخدم الأمراض وتطيح النباتات."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le coefficient cultural (Kc) du maïs ?",
+              "reponse": "Le coefficient cultural du maïs est : initial (0.3-0.5), développement (0.7-0.9), mi-saison (1.0-1.2), fin de saison (0.8-1.0). Le maïs consomme beaucoup d'eau en mi-saison."
+            },
+            "darija": {
+              "question": "شحال هو معامل الزرع (Kc) للذرة ؟",
+              "reponse": "معامل الزرع للذرة هو: الأولى (0.3-0.5)، النمو (0.7-0.9)، وسط الموسم (1.0-1.2)، آخر الموسم (0.8-1.0). الذرة كاتستهلك الماء بزاف فوسط الموسم."
+            }
+          },
+          {
+            "francais": {
+              "question": "Peut-on irriguer le maïs par gravitaire ?",
+              "reponse": "OUI, mais l'efficacité est faible (40-50% seulement). Le goutte-à-goutte (90% efficacité) ou l'aspersion (70-80%) sont bien meilleurs."
+            },
+            "darija": {
+              "question": "نقدر نسقي الذرة بالفيض ؟",
+              "reponse": "اه، ولكن الكفاءة ضعيفة (40-50% فقط). السقي بالتنقيط (90% كفاءة) أو الرش (70-80%) هوما أحسن بزاف."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la qualité d'eau requise pour le maïs ?",
+              "reponse": "Le maïs tolère une salinité jusqu'à 2.5 dS/m (CE). Au-delà, le rendement diminue. Le pH idéal de l'eau est entre 6 et 7.5."
+            },
+            "darija": {
+              "question": "شحال هي الجودة ديال الماء اللي خاصها الذرة ؟",
+              "reponse": "الذرة كاتصمد للملوحة حتى 2.5 dS/m. فوق هاد النسبة، الإنتاج كاينقص. pH المثالي للماء هو مابين 6 و 7.5."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la consommation d'eau du maïs par jour ?",
+              "reponse": "Le maïs consomme 5 à 8 mm d'eau par jour (50-80 m³/ha par jour) en pleine croissance (juin-juillet). À la floraison, la consommation peut atteindre 10 mm/jour."
+            },
+            "darija": {
+              "question": "شحال هو استهلاك الماء للذرة فاليوم ؟",
+              "reponse": "الذرة كاتستهلك 5 لـ 8 مم ديال الماء فاليوم (50-80 متر مكعب فالهكتار فاليوم) فمرحلة النمو الكبيرة (يونيو-يوليوز). فالتزهير، الاستهلاك يقدر يوصل لـ 10 مم/يوم."
+            }
+          },
+          {
+            "francais": {
+              "question": "Peut-on réduire l'irrigation du maïs sans perdre de rendement ?",
+              "reponse": "OUI, en utilisant le goutte-à-goutte (économie 30-50%) et l'irrigation déficitaire contrôlée (réduire l'eau après la floraison). Ne réduisez JAMAIS l'eau à la floraison (perte de rendement 50-80%)."
+            },
+            "darija": {
+              "question": "نقدر ننقصو السقي ديال الذرة بلا ما ينقص الإنتاج ؟",
+              "reponse": "اه، باستعمال التنقيط (توفير 30-50%) والسقي الناقص المتحكم فيه (نقص الماء مورا التزهير). ما تنقصش الماء فالتزهير أبدا (خسارة 50-80% فالإنتاج)."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "fertilisation",
+        "description": "Fertilisation et carences du maïs",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quels sont les besoins en azote du maïs ?",
+              "reponse": "Le maïs a besoin de 120 à 200 kg N/ha. Fractionnez en 2-3 apports : 30% au semis, 40% au stade 4-6 feuilles, 30% au stade 8-10 feuilles."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال الآزوت للذرة ؟",
+              "reponse": "الذرة كاتحتاج لـ 120 لـ 200 كيلو آزوت فالهكتار. فرقو على 2-3 مرات: 30% فوقاش كاتزرع، 40% فـ 4-6 ورقات، 30% فـ 8-10 ورقات."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les besoins en phosphore du maïs ?",
+              "reponse": "Le maïs a besoin de 60 à 100 kg P2O5/ha. Le phosphore favorise le développement racinaire et la floraison. Apport au semis."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال الفوسفور للذرة ؟",
+              "reponse": "الذرة كاتحتاج لـ 60 لـ 100 كيلو P2O5 فالهكتار. الفوسفور كايخدم الجذور والتزهير. تحطو فوقاش كاتزرع."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les besoins en potassium du maïs ?",
+              "reponse": "Le maïs a besoin de 80 à 150 kg K2O/ha. Le potassium améliore la résistance à la sécheresse, la qualité des grains et la résistance à la verse."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال البوتاسيوم للذرة ؟",
+              "reponse": "الذرة كاتحتاج لـ 80 لـ 150 كيلو K2O فالهكتار. البوتاسيوم كايزيد مقاومة الجفاف، جودة الحبات، ومقاومة التطيح."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel engrais utiliser pour le maïs ?",
+              "reponse": "Engrais de fond : NPK 15-15-15 ou DAP (18-46-0). Engrais de couverture : urée (46% N) ou ammonitrate (33.5% N) fractionné en 2-3 apports."
+            },
+            "darija": {
+              "question": "شنو هو السماد اللي نستعملو للذرة ؟",
+              "reponse": "السماد الأساسي: NPK 15-15-15 أو DAP (18-46-0). السماد الإضافي: اليوريا (46% آزوت) أو أمونيترات (33.5% آزوت) مقسمة على 2-3 مرات."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand faut-il fertiliser le maïs en azote ?",
+              "reponse": "1er apport : au semis (30%). 2ème apport : stade 4-6 feuilles (40%). 3ème apport : stade 8-10 feuilles (30%). Ne fertilisez pas après la floraison."
+            },
+            "darija": {
+              "question": "فوقاش خاصنا نسمد الذرة بالآزوت ؟",
+              "reponse": "أول تحطة: فوقاش كاتزرع (30%). ثاني تحطة: 4-6 ورقات (40%). ثالث تحطة: 8-10 ورقات (30%). ما تسمدش مورا التزهير."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le rôle du soufre pour le maïs ?",
+              "reponse": "Le soufre améliore l'absorption de l'azote et la formation des protéines. Une carence en soufre donne des feuilles jaunes. Apport : sulfate d'ammonium (20-30 kg S/ha)."
+            },
+            "darija": {
+              "question": "شنو هو دور الكبريت للذرة ؟",
+              "reponse": "الكبريت كايزيد إمتصاص الآزوت وتكوين البروتينات. نقص الكبريت كايعطي ورق صفر. الكمية: سلفات الأمونيوم (20-30 كيلو كبريت فالهكتار)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le rôle du zinc pour le maïs ?",
+              "reponse": "Le zinc est ESSENTIEL pour le maïs. Une carence en zinc provoque des bandes blanches sur les feuilles et réduit le rendement. Apport : sulfate de zinc (5-10 kg/ha) en foliaire."
+            },
+            "darija": {
+              "question": "شنو هو دور الزنك للذرة ؟",
+              "reponse": "الزنك ضروري بزاف للذرة. نقص الزنك كايعطي خطوط بيض على الوراق و كاينقص الإنتاج. الكمية: سلفات الزنك (5-10 كيلو فالهكتار) ورقيا."
+            }
+          },
+          {
+            "francais": {
+              "question": "Peut-on utiliser la fertirrigation pour le maïs ?",
+              "reponse": "OUI, la fertirrigation (appliquer l'engrais via l'irrigation goutte-à-goutte) est très efficace. Elle permet une économie d'engrais de 20-30%."
+            },
+            "darija": {
+              "question": "نقدر نستعملو السماد مع السقي للذرة ؟",
+              "reponse": "اه، السماد مع السقي (السماد كايتحط فالماء دالتنقيط) فعال بزاف. كايوف السماد بـ 20-30%."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le meilleur engrais vert avant le maïs ?",
+              "reponse": "Les meilleurs engrais verts sont la fève, le pois chiche ou la luzerne. Semez-les en automne, enfouissez-les au printemps (mars) avant le maïs. Ils apportent 50-100 kg N/ha."
+            },
+            "darija": {
+              "question": "شنو هو أحسن سماد أخضر قبل الذرة ؟",
+              "reponse": "أحسن سماد أخضر هو الفول، الجلبانة، أو الفصة. ازرعهم فالخريف، ادفنهم فربيع (مارس) قبل الذرة. كايعطيو 50-100 كيلو آزوت فالهكتار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment appliquer l'engrais foliaire sur maïs ?",
+              "reponse": "Appliquez l'engrais foliaire (ex : Urée 5%, sulfate de zinc, bore) tôt le matin ou tard le soir. Diluez dans l'eau (2-3 kg/100 L). Évitez en plein soleil (brûlures)."
+            },
+            "darija": {
+              "question": "كيفاش ندي السماد الوراقي على الذرة ؟",
+              "reponse": "دي السماد الوراقي (مثال: يوريا 5%، سلفات زنك، بور) فالصباح بكري أو فالعشية. دوبو فالماء (2-3 كيلو/100 ليتر). تجنب فوقاش الشمس قوية (حرق)."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "carences",
+        "description": "Symptômes et solutions des carences",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Comment reconnaître une carence en azote sur maïs ?",
+              "reponse": "Symptômes : feuilles pâles (jaunissement en 'V' à partir de la pointe), croissance réduite, tiges fines. Solution : apport d'urée (50-80 kg/ha)."
+            },
+            "darija": {
+              "question": "كيفاش نعرف نقص الآزوت ف الذرة ؟",
+              "reponse": "الأعراض: الوراق كاتصفر (صفار على شكل 'V' من الراس)، النمو كايبطا، السيقان رقاق. الحل: تحط اليوريا (50-80 كيلو فالهكتار)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître une carence en phosphore sur maïs ?",
+              "reponse": "Symptômes : jeunes plants violets, croissance lente, racines peu développées. Solution : apport de superphosphate (50-80 kg/ha) au semis."
+            },
+            "darija": {
+              "question": "كيفاش نعرف نقص الفوسفور ف الذرة ؟",
+              "reponse": "الأعراض: النباتات الصغار كاتحمر، النمو كايبطا، الجذور صغار. الحل: تحط سوبرفوسفات (50-80 كيلو فالهكتار) فوقاش كاتزرع."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître une carence en potassium sur maïs ?",
+              "reponse": "Symptômes : bords des feuilles bruns (nécrose marginale), tiges fragiles, grains petits. Solution : apport de chlorure ou sulfate de potassium (80-100 kg/ha)."
+            },
+            "darija": {
+              "question": "كيفاش نعرف نقص البوتاسيوم ف الذرة ؟",
+              "reponse": "الأعراض: حواف الوراق كحلة، السيقان كاتكسر بسهولة، الحبات صغار. الحل: تحط كلور أو سلفات البوتاسيوم (80-100 كيلو فالهكتار)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître une carence en zinc sur maïs ?",
+              "reponse": "Symptômes : bandes blanches ou jaunes de chaque côté de la nervure centrale, entre-nœuds courts. Solution : apport de sulfate de zinc (5-10 kg/ha) en foliaire."
+            },
+            "darija": {
+              "question": "كيفاش نعرف نقص الزنك ف الذرة ؟",
+              "reponse": "الأعراض: خطوط بيض أو صفر على جناب العرق الرئيسي، المسافات مابين العقد قصار. الحل: تحط سلفات الزنك (5-10 كيلو فالهكتار) ورقيا."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "maladies",
+        "description": "Maladies du maïs",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Comment reconnaître le mildiou du maïs ?",
+              "reponse": "Symptômes : taches jaunes sur les feuilles, duvet grisâtre sur la face inférieure, pourriture des épis. Traitement : fongicides cupriques ou strobilurines."
+            },
+            "darija": {
+              "question": "كيفاش نعرف المليديو ديال الذرة ؟",
+              "reponse": "الأعراض: بقع صفر على الوراق، رياش رمادي تحت الوراق، تعفن الأكوز. العلاج: فونجيسيدات نحاسية أو ستروبيلورين."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître la rouille du maïs ?",
+              "reponse": "Symptômes : pustules brun-rouge sur les feuilles (face supérieure et inférieure), dessèchement prématuré. Traitement : fongicides triazoles."
+            },
+            "darija": {
+              "question": "كيفاش نعرف الصدا ديال الذرة ؟",
+              "reponse": "الأعراض: بقع حمر-كحلة على الوراق (الفوق والتحت)، جفاف مبكر. العلاج: فونجيسيدات تريازول."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître le charbon du maïs ?",
+              "reponse": "Symptômes : galles blanches puis noires sur les épis, les tiges et les feuilles. Pas de traitement curatif. Prévention : rotation des cultures, semences résistantes."
+            },
+            "darija": {
+              "question": "كيفاش نعرف التفحم ديال الذرة ؟",
+              "reponse": "الأعراض: كيسان بيض ثم سود على الأكوز، السيقان، والوراق. ما كاينش علاج. الوقاية: التناوب الزراعي، بذور مقاومة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre la fusariose du maïs ?",
+              "reponse": "Symptômes : grains roses ou rouges, mycotoxines dangereuses. Prévention : rotation avec non-hôtes, variétés résistantes. Traitement : fongicides à base de triazoles."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو الفيوزاريوز ديال الذرة ؟",
+              "reponse": "الأعراض: حبات وردة أو حمر، سموم فطرية خطيرة. الوقاية: التناوب مع زراعات أخرى، أنواع مقاومة. العلاج: فونجيسيدات تريازول."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître la bactériose du maïs ?",
+              "reponse": "Symptômes : taches foliaires linéaires, brunes, avec un halo jaune. Traitement : cupriques (Bouillie bordelaise) et rotation des cultures."
+            },
+            "darija": {
+              "question": "كيفاش نعرف البكتيريا ديال الذرة ؟",
+              "reponse": "الأعراض: بقع خطية كحلة على الوراق مع هالة صفر. العلاج: النحاس والتناوب الزراعي."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre la pourriture des tiges du maïs ?",
+              "reponse": "Symptômes : tiges molles, plantes qui versent, intérieur des tiges noirci. Prévention : rotation des cultures, éviter l'excès d'azote, variétés résistantes."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو تعفن الساق ديال الذرة ؟",
+              "reponse": "الأعراض: السيقان طرية، النباتات كاتطيح، جوا الساق كايسود. الوقاية: التناوب الزراعي، تجنب الآزوت الزايد، أنواع مقاومة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la maladie la plus dangereuse pour le maïs à Doukkala ?",
+              "reponse": "La plus dangereuse est le CHARBON (Ustilago maydis) qui forme des galles noires sur les épis et les tiges. Il n'y a pas de traitement curatif, seule la prévention (rotation, variétés résistantes) fonctionne."
+            },
+            "darija": {
+              "question": "شنو هو أخطر مرض للذرة فدكالة ؟",
+              "reponse": "أخطر مرض هو التفحم (Ustilago maydis) اللي كايعطي كيسان سود على الأكوز والسيقان. ما كاينش علاج، غير الوقاية (التناوب، أنواع مقاومة)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître le virus de la mosaïque du maïs ?",
+              "reponse": "Symptômes : taches jaunes et vertes en mosaïque sur les feuilles, croissance rabougrie, épis petits. Transmis par les pucerons. Pas de traitement. Prévention : variétés résistantes, lutte contre les pucerons."
+            },
+            "darija": {
+              "question": "كيفاش نعرف فيروس الفسيفساء ديال الذرة ؟",
+              "reponse": "الأعراض: بقع صفر وخضر على الوراق (فسيفساء)، النمو كايبطا، الأكوز صغار. كاينقلو المن. ما كاينش علاج. الوقاية: أنواع مقاومة، مكافحة المن."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre le flétrissement bactérien du maïs ?",
+              "reponse": "Symptômes : stries jaunes sur les feuilles, flétrissement rapide, pourriture de la tige. Traitement : cupriques, élimination des plants malades, rotation des cultures."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو الذبول البكتيري ديال الذرة ؟",
+              "reponse": "الأعراض: خطوط صفر على الوراق، ذبول سريع، تعفن الساق. العلاج: النحاس، إزالة النباتات المريضة، التناوب الزراعي."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "ravageurs",
+        "description": "Ravageurs du maïs",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Comment reconnaître la pyrale du maïs ?",
+              "reponse": "Symptômes : galeries dans les tiges et les épis, chute des épis, trous de sortie des chenilles. Traitement : Bacillus thuringiensis (bio) ou pyréthrinoïdes."
+            },
+            "darija": {
+              "question": "كيفاش نعرف فراشة الذرة ؟",
+              "reponse": "الأعراض: أنفاق فالساق والأكوز، تطيح الأكوز، ثقوب خروج اليرقات. العلاج: باكيلوس ثورينجينسيس (عضوي) أو بيريترينويدات."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître la sésamie du maïs ?",
+              "reponse": "Symptômes : chenilles roses dans les tiges, galeries, plants cassés. Traitement : pyréthrinoïdes, nématodes entomopathogènes, ou piégeage phéromonal."
+            },
+            "darija": {
+              "question": "كيفاش نعرف السيزاميا ديال الذرة ؟",
+              "reponse": "الأعراض: يرقات وردة فالساق، أنفاق، النباتات مكسورة. العلاج: بيريترينويدات، نيماتود، أو مصايد الفيرومونات."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre les pucerons sur maïs ?",
+              "reponse": "Les pucerons transmettent des virus. Traitement : pyréthrinoïdes (0.1-0.2 L/ha) ou savon insecticide. Auxiliaires : coccinelles, syrphes."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو المن على الذرة ؟",
+              "reponse": "المن كاينقل الفيروسات. العلاج: بيريترينويدات (0.1-0.2 ليتر فالهكتار) أو صابون حشري. الأعداء الطبيعية: الخنافس، السيرف."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître les vers des épis du maïs ?",
+              "reponse": "Symptômes : chenilles roses ou vertes dans les épis, grains grignotés, excréments visibles. Traitement : Bacillus thuringiensis (bio) ou pyréthrinoïdes à la floraison."
+            },
+            "darija": {
+              "question": "كيفاش نعرف الديدان فالأكوز ديال الذرة ؟",
+              "reponse": "الأعراض: يرقات وردة أو خضر فالأكوز، الحبات مقروضين، خروج ديدان. العلاج: باكيلوس ثورينجينسيس (عضوي) أو بيريترينويدات فالتزهير."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre les sauterelles sur maïs ?",
+              "reponse": "Les sauterelles peuvent défolier le maïs rapidement. Traitement : insecticides pyréthrinoïdes (deltaméthrine 0.2-0.3 L/ha) en traitement localisé."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو الجراد على الذرة ؟",
+              "reponse": "الجراد كايقدر ياكل الوراق بسرعة. العلاج: مبيدات بيريترينويدات (دلتاميثرين 0.2-0.3 ليتر فالهكتار) موضعيا."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment protéger le maïs des oiseaux ?",
+              "reponse": "Les oiseaux (étourneaux, pigeons) attaquent les épis. Protection : épouvantails, bandes réfléchissantes, filets anti-oiseaux, ou fusils à pétard."
+            },
+            "darija": {
+              "question": "كيفاش نحمي الذرة من الطيور ؟",
+              "reponse": "الطيور (الزرزور، الحمام) كايهاجمو الأكوز. الحماية: فزاعة، شرائط عاكسة، شباك ضد الطيور، أو مسدس الشديد."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître les thrips sur maïs ?",
+              "reponse": "Symptômes : feuilles argentées ou blanchâtres, points noirs (excréments), déformation des jeunes feuilles. Traitement : pyréthrinoïdes (0.2 L/ha) ou savon insecticide."
+            },
+            "darija": {
+              "question": "كيفاش نعرف التربس على الذرة ؟",
+              "reponse": "الأعراض: الوراق كاتولي فضية، نقاط سود (البراز)، تشوه الوراق الصغار. العلاج: بيريترينويدات (0.2 ليتر فالهكتار) أو صابون حشري."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre les limaces sur jeunes maïs ?",
+              "reponse": "Les limaces attaquent les jeunes plants la nuit. Protection : pièges à bière, barrières de cendre ou de coquilles d'œufs, nématodes (Phasmarhabditis hermaphrodita), ou granulés anti-limaces (ferramol, bio)."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو البزاز على الذرة الصغيرة ؟",
+              "reponse": "البزاز كايهاجم النباتات الصغار فليل. الحماية: مصايد البيرة، حواجز الرماد أو قشر البيض، نيماتود، أو حبيبات ضد البزاز (عضوية)."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "pratiques_culturales",
+        "description": "Pratiques culturales du maïs",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quelle est la densité de semis du maïs ?",
+              "reponse": "La densité est de 60000 à 80000 plants par hectare (soit 20-25 kg de semence/ha). Écartement : 70-80 cm entre les rangs, 15-20 cm entre les plants."
+            },
+            "darija": {
+              "question": "شحال هي الكثافة ديال زرع الذرة ؟",
+              "reponse": "الكثافة هي 60000 لـ 80000 نبتة فالهكتار (يعني 20-25 كيلو بذور فالهكتار). المسافة: 70-80 سم مابين الصفوف، 15-20 سم مابين النباتات."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la profondeur de semis du maïs ?",
+              "reponse": "La profondeur de semis est de 3 à 5 cm. Un semis trop profond retarde la levée, trop superficiel expose les graines aux oiseaux et à la sécheresse."
+            },
+            "darija": {
+              "question": "شحال هو العمق ديال زرع الذرة ؟",
+              "reponse": "العمق هو 3 لـ 5 سم. الزرع العمق كايعطل الطلوع، الزرع القريب من السطح كايعرض البذور للطيور والجفاف."
+            }
+          },
+          {
+            "francais": {
+              "question": "Faut-il butter le maïs ?",
+              "reponse": "OUI, le buttage est recommandé. Il consiste à ramener de la terre au pied des plants pour renforcer l'ancrage et limiter la verse. À faire au stade 40-50 cm."
+            },
+            "darija": {
+              "question": "واش خاصنا نراكمو التراب على الذرة ؟",
+              "reponse": "اه، تراكم التراب كاتنصح بيه. كاتجيب التراب حول قاعدة النباتات باش تشد الأرض وتقلل التطيح. ديرها فوقاش النباتات توصل 40-50 سم."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "varietes",
+        "description": "Variétés de maïs",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quelles sont les variétés de maïs recommandées pour Doukkala ?",
+              "reponse": "Les variétés recommandées sont : 'DK 777' (précoce), 'DK 7777' (tolérant sécheresse), 'Pioneer 30F35' (rendement élevé), 'Jazz' (maïs doux), et 'Goldentop' (maïs fourrager)."
+            },
+            "darija": {
+              "question": "شنو هم الأنواع ديال الذرة اللي تنصح بها فدكالة ؟",
+              "reponse": "الأنواع اللي تنصح بها هي: 'DK 777' (مبكر)، 'DK 7777' (يقاوم الجفاف)، 'Pioneer 30F35' (إنتاج كبير)، 'Jazz' (ذرة حلوة)، و 'Goldentop' (ذرة علف)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la différence entre maïs précoce et maïs tardif ?",
+              "reponse": "Le maïs précoce a un cycle de 80-100 jours (semis mars, récolte juin-juillet). Le maïs tardif a un cycle de 120-150 jours (semis avril, récolte août-septembre)."
+            },
+            "darija": {
+              "question": "شنو الفرق مابين الذرة المبكرة والمتأخرة ؟",
+              "reponse": "الذرة المبكرة دورة 80-100 يوم (زرع مارس، حصاد يونيو-يوليوز). الذرة المتأخرة دورة 120-150 يوم (زرع أبريل، حصاد غشت-شتنبر)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle variété de maïs résiste le mieux à la sécheresse ?",
+              "reponse": "La variété 'DK 7777' est tolérante à la sécheresse, ainsi que 'Syngenta 521' et 'KWS 22'. Ces variétés ont des racines profondes et un système racinaire développé."
+            },
+            "darija": {
+              "question": "شنو هو النوع ديال الذرة اللي كايقاوم الجفاف أكثر ؟",
+              "reponse": "النوع 'DK 7777' كايقاوم الجفاف، وكذلك 'Syngenta 521' و 'KWS 22'. هاد الأنواع عندهم جذور عميقة وكبيرة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la meilleure variété de maïs pour le fourrage ?",
+              "reponse": "Les meilleures variétés pour le fourrage sont 'Goldentop', 'Giant King', et 'Zenith'. Elles produisent beaucoup de biomasse (tige + feuilles + épi)."
+            },
+            "darija": {
+              "question": "شنو هو أحسن نوع ديال الذرة للعلف ؟",
+              "reponse": "أحسن الأنواع للعلف هي 'Goldentop'، 'Giant King'، و 'Zenith'. كايعطيو كتلة كبيرة (ساق + ورق + كوز)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Peut-on cultiver du maïs doux à Doukkala ?",
+              "reponse": "OUI, le maïs doux (variété 'Jazz' ou 'Brocade') peut être cultivé. Il est récolté plus tôt (juin-juillet) et a besoin de beaucoup d'irrigation."
+            },
+            "darija": {
+              "question": "نقدر نزرع الذرة الحلوة فدكالة ؟",
+              "reponse": "اه، الذرة الحلوة (نوع 'Jazz' أو 'Brocade') كاتزرع. كاتحصد بكري (يونيو-يوليوز) و كاتحتاج للسقي بزاف."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "semis",
+        "description": "Techniques de semis",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Peut-on semer le maïs en mai à Doukkala ?",
+              "reponse": "NON, mai est trop tard. Le maïs semé en mai souffre de la chaleur estivale pendant la floraison, ce qui réduit le rendement de 50%."
+            },
+            "darija": {
+              "question": "نقدر نزرع الذرة فماي فدكالة ؟",
+              "reponse": "لا، ماي معتّال. الذرة اللي كاتزرع فماي كاتتأثر بالحرارة فالتزهير، و الإنتاج كاينقص بـ 50%."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la température minimale du sol pour semer le maïs ?",
+              "reponse": "La température minimale du sol doit être de 10-12°C à 5 cm de profondeur. En dessous, la germination est lente et irrégulière."
+            },
+            "darija": {
+              "question": "شحال هي الحرارة الصغرى ديال الأرض باش نزرع الذرة ؟",
+              "reponse": "الحرارة الصغرى ديال الأرض خاصها تكون 10-12 درجة على عمق 5 سم. تحت هاد النسبة، الإنبات كايبطا ويكون غير منتظم."
+            }
+          },
+          {
+            "francais": {
+              "question": "Peut-on semer le maïs en ligne ou en poquet ?",
+              "reponse": "Le semis en LIGNE est recommandé (70-80 cm entre les lignes). Le semis en poquet (trous espacés) est moins efficace et plus difficile à gérer."
+            },
+            "darija": {
+              "question": "نقدر نزرع الذرة على خطوط ولا على ثقوب ؟",
+              "reponse": "الزرع على خطوط (70-80 سم مابين الخطوط) هو اللي كاتنصح بيه. الزرع على ثقوب أقل فعالية وصعبة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Faut-il traiter les semences de maïs avant semis ?",
+              "reponse": "OUI, le traitement des semences est RECOMMANDÉ. Utilisez un fongicide-insecticide (ex. : Cruiser, Maxim) pour protéger contre les maladies du sol et les ravageurs (vers gris, pucerons)."
+            },
+            "darija": {
+              "question": "واش خاصنا نعالج بذور الذرة قبل الزرع ؟",
+              "reponse": "اه، معالجة البذور كاتنصح بيها بزاف. استعمل فونجيسيد-مبيد حشرات (مثال: كروزير، ماكسيم) باش تحمي من أمراض الأرض والآفات."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "recolte",
+        "description": "Récolte et conservation du maïs",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Comment savoir si le maïs grain est prêt à récolter ?",
+              "reponse": "Signes : grains durs, une rayure à l'ongle ne laisse pas de trace, teneur en eau <25-30%, enveloppes des épis sèches et brunes."
+            },
+            "darija": {
+              "question": "كيفاش نعرف أن ذرة الحب جاهزة للحصاد ؟",
+              "reponse": "العلامات: الحبات قاسحة، الظفر ما كايطبعش فيها، نسبة الماء <25-30%، قشور الأكوز جافة وكحلة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment récolter le maïs grain mécaniquement ?",
+              "reponse": "Utilisez une MOISSONNEUSE-BATTEUSE équipée d'un bec à maïs. Récoltez quand l'humidité est <25%. Le rendement moyen est de 8-12 tonnes/ha."
+            },
+            "darija": {
+              "question": "كيفاش نحصد ذرة الحب بالميكانيك ؟",
+              "reponse": "استعمل حصادة مجهزة برأس للذرة. احصد فوقاش الرطوبة <25%. الإنتاج الوسيط هو 8-12 طن فالهكتار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment conserver le maïs grain après récolte ?",
+              "reponse": "Séchez le maïs jusqu'à 14-15% d'humidité. Stockez dans un silo ou un local sec, frais (15-20°C), bien aéré, et traité contre les insectes."
+            },
+            "darija": {
+              "question": "كيفاش نحفظ ذرة الحب مورا الحصاد ؟",
+              "reponse": "جفف الذرة حتى 14-15% رطوبة. خزنها فصومعة أو مكان جاف، بارد (15-20 درجة)، فيه هوا مزيان، ومعالج ضد الحشرات."
+            }
+          },
+          {
+            "francais": {
+              "question": "Peut-on récolter le maïs à la main ?",
+              "reponse": "OUI, pour les petites surfaces (<1 ha). Cassez l'épi, tournez-le et tirez vers le bas. Récoltez tôt le matin quand les épis sont frais. Pour les grandes surfaces, utilisez une moissonneuse-batteuse."
+            },
+            "darija": {
+              "question": "نقدر نحصد الذرة باليد ؟",
+              "reponse": "اه، للمساحات الصغار (<1 هكتار). اكسر الكوز، لفه واسحب لتحت. احصد فالصباح بكري فوقاش الأكوز يكونو طريين. للمساحات الكبار، استعمل حصادة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment sécher le maïs après récolte ?",
+              "reponse": "Étalez les épis ou les grains sur une bâche au soleil pendant 5-10 jours. Retournez-les quotidiennement. Le maïs est sec quand les grains sonnent \"creux\" et l'humidité <14%."
+            },
+            "darija": {
+              "question": "كيفاش نجفف الذرة مورا الحصاد ؟",
+              "reponse": "افرد الأكوز أو الحبات على شرشف فالشمس لمدة 5-10 أيام. قلبهم كل نهار. الذرة كاتجف فوقاش الحبات كاتدي صوت \"فارغ\" والرطوبة <14%."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "mais_fourrager",
+        "description": "Maïs fourrager",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quand récolter le maïs fourrager pour une meilleure qualité ?",
+              "reponse": "Récoltez au stade LAITEUX-PÂTEUX (grains remplis mais encore mous). La teneur en matière sèche doit être de 30-35% pour une bonne ensilage."
+            },
+            "darija": {
+              "question": "فوقاش نحصد ذرة العلف باش تكون جودة مزيانة ؟",
+              "reponse": "احصد فوقاش الحبات مملوءين ولكن مازال طرية (مرحلة الحليبي-العجيني). نسبة المادة الجافة خاصها تكون 30-35% للصومعة الجيدة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment ensiler le maïs fourrager ?",
+              "reponse": "Hachez le maïs (longueur 1-2 cm), tassez dans un silo (sans air), recouvrez d'une bâche plastique, laissez fermenter 40-60 jours."
+            },
+            "darija": {
+              "question": "كيفاش نعمل الصومعة ديال ذرة العلف ؟",
+              "reponse": "قطع الذرة (طول 1-2 سم)، ضغطها فالصومعة (بلا هوا)، غطيها بالبلاستيك، خليها تختمر 40-60 يوم."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "rotation",
+        "description": "Rotation des cultures",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quelle est la meilleure rotation après le maïs ?",
+              "reponse": "La meilleure rotation après le maïs est : maïs → blé → légumineuses (fèves, pois chiches) → jachère. Ne replantez pas de maïs avant 3-4 ans."
+            },
+            "darija": {
+              "question": "شنو هو أحسن تناوب مورا الذرة ؟",
+              "reponse": "أحسن تناوب هو: ذرة → قمح → قطاني (فول، جلبانة) → بور. ما تعاودش تزرع الذرة قبل 3-4 سنين."
+            }
+          },
+          {
+            "francais": {
+              "question": "Pourquoi faut-il faire une rotation après le maïs ?",
+              "reponse": "La rotation évite l'accumulation des maladies (charbon, fusariose), réduit les ravageurs (pyrale), et maintient la fertilité du sol."
+            },
+            "darija": {
+              "question": "علاش خاصنا نبدلو الزرع مورا الذرة ؟",
+              "reponse": "التناوب كايمنع تراكم الأمراض (التفحم، الفيوزاريوز)، كاينقص الآفات (فراشة الذرة)، و كايحافظ على خصوبة الأرض."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "economie",
+        "description": "Aspects économiques",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quel est le prix du maïs grain à Doukkala ?",
+              "reponse": "Le prix du maïs grain varie entre 300 et 500 dirhams le quintal (3-5 DH/kg) selon la qualité et la saison."
+            },
+            "darija": {
+              "question": "شحال هو ثمن ذرة الحب فدكالة ؟",
+              "reponse": "ثمن ذرة الحب كايتغير مابين 300 و 500 درهم فالقنطار (3-5 درهم فالكيلو) حسب الجودة والموسم."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le coût de production du maïs à Doukkala ?",
+              "reponse": "Le coût de production est d'environ 8000-12000 DH/ha (semence, engrais, irrigation, traitements). Avec un rendement de 10 t/ha à 400 DH/t, le chiffre d'affaires est de 40000 DH/ha."
+            },
+            "darija": {
+              "question": "شحال هو تكلفة إنتاج الذرة فدكالة ؟",
+              "reponse": "تكلفة الإنتاج فحدود 8000-12000 درهم فالهكتار (بذور، سماد، سقي، علاجات). مع إنتاج 10 طن فالهكتار ب 400 درهم فطن، العائد هو 40000 درهم فالهكتار."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "stockage",
+        "description": "Stockage du maïs",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Comment protéger le maïs stocké des insectes ?",
+              "reponse": "Utilisez des insecticides de stockage (Deltaméthrine, Cyperméthrine) ou des méthodes bio (neem, terre de diatomée, sachets de laurier). Stockez dans des sacs hermétiques ou des silos métalliques."
+            },
+            "darija": {
+              "question": "كيفاش نحمي الذرة المخزنة من الحشرات ؟",
+              "reponse": "استعمل مبيدات حشرية للتخزين (دلتاميثرين) أو طرق عضوية (النيم، التراب الدياتومي، أوراق الغار). خزن فكياس محكمة أو صوامع معدنية."
+            }
+          },
+          {
+            "francais": {
+              "question": "Combien de temps le maïs grain se conserve-t-il ?",
+              "reponse": "Le maïs grain bien séché (humidité <14%) et bien stocké se conserve 1 à 2 ans. Après, la qualité diminue (perte de germination, goût rance)."
+            },
+            "darija": {
+              "question": "شحال ديال الوقت كايتحفظ فيها ذرة الحب ؟",
+              "reponse": "ذرة الحب المجففة مزيان (رطوبة <14%) والمخزنة مزيان كاتحفظ 1 لـ 2 سنين. من بعد، الجودة كاتنقص (نقص فالإنبات، طعم مر)."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "valeur_ajoutee",
+        "description": "Valorisation du maïs",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Peut-on fabriquer du pop-corn avec le maïs de Doukkala ?",
+              "reponse": "NON, le maïs grain ordinaire ne fait pas de pop-corn. Il faut une variété spéciale (maïs à éclater, ex. 'White Cloud', 'Japanese Hulless')."
+            },
+            "darija": {
+              "question": "نقدر نصنعو الضغوطة (pop-corn) من ذرة دكالة ؟",
+              "reponse": "لا، ذرة الحب العادية ما كاتعملش الضغوطة. خاصك نوع خاص (ذرة الفشار، مثال: 'White Cloud')."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les sous-produits du maïs ?",
+              "reponse": "Sous-produits : tiges et feuilles (fourrage), rafles (combustible), son (alimentation animale), huile de maïs, sirop de glucose, et amidon (industrie agroalimentaire)."
+            },
+            "darija": {
+              "question": "شنو هم المنتجات الثانوية ديال الذرة ؟",
+              "reponse": "المنتجات الثانوية: السيقان والوراق (علف)، الكوز (وقود)، النخالة (علف للبهائم)، زيت الذرة، شراب الجلوكوز، والنشاء (الصناعة الغذائية)."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "certification",
+        "description": "Certification des semences",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Où acheter des semences de maïs certifiées à Doukkala ?",
+              "reponse": "Les semences certifiées sont disponibles chez : l'ORMVAD (El Jadida), les coopératives agricoles, et les distributeurs agréés (Pioneer, KWS, Syngenta, Bayer)."
+            },
+            "darija": {
+              "question": "فين نشتري بذور الذرة المعتمدة فدكالة ؟",
+              "reponse": "البذور المعتمدة كاينة ف: المكتب الجهوي للتنمية الفلاحية (الجديدة)، التعاونيات الفلاحية، والموزعين المعتمدين (Pioneer, KWS, Syngenta, Bayer)."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "conseils_pratiques",
+        "description": "Conseils pratiques",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quel est le meilleur moment de la journée pour irriguer le maïs ?",
+              "reponse": "Irriguez tôt le MATIN (6h-9h) ou tard le SOIR (17h-20h) pour éviter l'évaporation. Évitez l'irrigation en plein soleil."
+            },
+            "darija": {
+              "question": "شنو هو أحسن وقت فاليوم باش نسقي الذرة ؟",
+              "reponse": "سقي فالصباح بكري (6h-9h) أو فالعشية (17h-20h) باش تتفادى التبخر. تجنب السقي فوقاش الشمس قوية."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment augmenter le rendement du maïs ?",
+              "reponse": "Conseils : 1) Choisissez une variété adaptée. 2) Respectez les dates de semis. 3) Irriguez aux stades critiques. 4) Fertilisez fractionné. 5) Traitez les maladies et ravageurs. 6) Faites une rotation."
+            },
+            "darija": {
+              "question": "كيفاش نزيدو الإنتاج ديال الذرة ؟",
+              "reponse": "نصائح: 1) اختار نوع مناسب. 2) احترم مواعيد الزرع. 3) سقي فالمراحل الحرجة. 4) قسم السماد. 5) عالج الأمراض والآفات. 6) بدل الزرع."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

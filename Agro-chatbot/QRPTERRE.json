@@ -1,0 +1,731 @@
+{
+  "chatbot_pomme_de_terre_doukkala": {
+    "version": "1.0",
+    "date_mise_a_jour": "2026-04-12",
+    "langues": ["francais", "darija"],
+    "sources": [
+      "Monographie El Jadida 2021 (HCP)",
+      "ORMVAD Doukkala (2023-2025)",
+      "INRA Maroc (2020-2023)",
+      "Données climatiques Open-Meteo 2020-2026"
+    ],
+    "culture": "pomme_de_terre",
+    "categories": [
+      {
+        "nom": "general_superficies",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quelle est la superficie de la pomme de terre dans la province d'El Jadida ?",
+              "reponse": "Selon la Monographie 2021 du HCP, la superficie de la pomme de terre est de 3270 hectares, avec une production de 122500 tonnes. C'est la première culture maraîchère de la région."
+            },
+            "darija": {
+              "question": "شحال هي المساحة ديال البطاطا فإقليم الجديدة ؟",
+              "reponse": "حسب الإحصاء العام 2021، المساحة ديال البطاطا هي 3270 هكتار، بإنتاج 122500 طن. هي أول خضرة فهاد المنطقة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le rendement moyen de la pomme de terre à Doukkala ?",
+              "reponse": "Selon la Monographie 2021, le rendement moyen est de 38.56 quintaux par hectare (3.856 tonnes/ha). Avec une bonne irrigation et fertilisation, on peut atteindre 20-40 tonnes/ha."
+            },
+            "darija": {
+              "question": "شحال هو المردود ديال البطاطا فدكالة ؟",
+              "reponse": "حسب الإحصاء العام 2021، المردود هو 38.56 قنطار فالهكتار (3.856 طن فالهكتار). مع السقي والتسميد المزيان، نقدر نوصل لـ 20-40 طن فالهكتار."
+            }
+          },
+          {
+            "francais": {
+              "question": "La pomme de terre est-elle la première culture maraîchère à Doukkala ?",
+              "reponse": "OUI. Avec 3270 hectares, la pomme de terre est la première culture maraîchère, devant la tomate (1453 ha), la carotte (860 ha) et la courgette (853 ha)."
+            },
+            "darija": {
+              "question": "واش البطاطا هي أول خضرة فدكالة ؟",
+              "reponse": "اه. ب 3270 هكتار، البطاطا هي أول خضرة، تاليها الطماطم (1453 هكتار)، الخيزو (860 هكتار)، والقرعة (853 هكتار)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la production totale de pomme de terre à Doukkala ?",
+              "reponse": "Selon la Monographie 2021, la production totale est de 122500 tonnes. C'est l'équivalent de 24500 camions de 5 tonnes."
+            },
+            "darija": {
+              "question": "شحال هو الإنتاج ديال البطاطا فدكالة ؟",
+              "reponse": "حسب الإحصاء العام 2021، الإنتاج هو 122500 طن. هاد الشي كايعني 24500 شاحنة ديال 5 طن."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel pourcentage de la surface maraîchère représente la pomme de terre ?",
+              "reponse": "La pomme de terre représente 34% de la surface maraîchère totale (3270 ha sur 9583 ha). C'est la culture maraîchère dominante."
+            },
+            "darija": {
+              "question": "شحال هو النسبة ديال البطاطا من المساحة ديال الخضرة ؟",
+              "reponse": "البطاطا كاتمثل 34% ديال المساحة ديال الخضرة (3270 هكتار من 9583 هكتار). هي الخضرة اللي فيها أكبر مساحة."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "calendrier_cultural",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quand planter la pomme de terre à Doukkala ?",
+              "reponse": "La plantation se fait en OCTOBRE-NOVEMBRE pour une récolte printanière (mars-mai). On peut aussi planter en janvier-février pour une récolte d'été, mais l'irrigation est obligatoire."
+            },
+            "darija": {
+              "question": "فوقاش نزرع البطاطا فدكالة ؟",
+              "reponse": "الزرع كايكون فاكتوبر-نونبر لحصاد الربيع (مارس-ماي). نقدر نزرع حتى فيناير-فبراير لحصاد الصيف، ولكن السقي ضروري."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la deuxième saison de plantation de pomme de terre ?",
+              "reponse": "La deuxième saison est la plantation d'ÉTÉ (juillet-août) pour une récolte d'automne (octobre-novembre). Mais la chaleur estivale à Ouled Frej (souvent >40°C) rend cette saison difficile."
+            },
+            "darija": {
+              "question": "شنو هو الموسم الثاني لزرع البطاطا ؟",
+              "reponse": "الموسم الثاني هو الزرع فالصيف (يوليوز-غشت) لحصاد الخريف (أكتوبر-نونبر). ولكن الحرارة فالصيف فأولاد فرج (كاتعدى 40 درجة) كاتصعب هاد الموسم."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand récolter la pomme de terre de printemps ?",
+              "reponse": "La récolte de printemps se fait de MARS à MAI, environ 120-150 jours après la plantation. Le moment idéal est quand les feuilles commencent à jaunir et à se dessécher."
+            },
+            "darija": {
+              "question": "فوقاش نحصد البطاطا دالربيع ؟",
+              "reponse": "الحصاد الربيعي كايكون من مارس لـ ماي، تقريبا 120-150 يوم مورا الزرع. الوقت المناسب فوقاش الوراق كاتبدا تصفر و كاتجف."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand récolter la pomme de terre d'été ?",
+              "reponse": "La récolte d'été se fait d'OCTOBRE à NOVEMBRE. Attention aux fortes chaleurs de juillet-août qui peuvent brûler les plants si l'irrigation n'est pas suffisante."
+            },
+            "darija": {
+              "question": "فوقاش نحصد البطاطا دالصيف ؟",
+              "reponse": "الحصاد الصيفي كايكون من أكتوبر لـ نونبر. الحذر من الحرارة الشديدة فشيولية-غشت اللي كاتقدر تحرق النباتات إلا ما كانش السقي كافي."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le cycle de culture de la pomme de terre ?",
+              "reponse": "Le cycle est de 90 à 150 jours selon la variété et la saison. Les variétés précoces (90-110 jours) et les variétés tardives (120-150 jours)."
+            },
+            "darija": {
+              "question": "شحال هو دورة الزرع ديال البطاطا ؟",
+              "reponse": "الدورة هي 90 لـ 150 يوم حسب النوع والموسم. الأنواع المبكرة (90-110 يوم) والأنواع المتأخرة (120-150 يوم)."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "varietes",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quelles variétés de pomme de terre recommandez-vous pour Doukkala ?",
+              "reponse": "Les variétés recommandées sont : 'Spunta' (résistante à la sécheresse), 'Désirée' (bon rendement), 'Almera' (précoce), 'Fabula' (pour l'export), et 'Mondial' (tolérante aux maladies)."
+            },
+            "darija": {
+              "question": "شنو الأنواع ديال البطاطا اللي تنصح بها فدكالة ؟",
+              "reponse": "الأنواع اللي تنصح بها هي: 'سبونطا' (تقاوم الجفاف)، 'ديزيري' (إنتاج مزيان)، 'الميرا' (مبكرة)، 'فابولا' (للتصدير)، و 'مونديال' (تقاوم الأمراض)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle variété de pomme de terre est la plus résistante à la sécheresse ?",
+              "reponse": "La variété 'Spunta' est réputée pour sa résistance à la sécheresse, ce qui la rend idéale pour Doukkala où les étés sont secs (0 mm de pluie en juin-juillet-août 2023)."
+            },
+            "darija": {
+              "question": "شنو هو النوع ديال البطاطا اللي كايقاوم الجفاف ؟",
+              "reponse": "النوع 'سبونطا' معروف بمقاومته للجفاف، هاد الشي كايخليه مناسب لدكالة فين الصيف جاف (0 ميلي متر فصيف 2023)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle variété de pomme de terre est précoce ?",
+              "reponse": "La variété 'Almera' est précoce (90-100 jours). Elle permet une récolte rapide, idéale pour les cultures de printemps."
+            },
+            "darija": {
+              "question": "شنو هو النوع المبكر ديال البطاطا ؟",
+              "reponse": "النوع 'الميرا' مبكر (90-100 يوم). كايخليك تحصد بسرعة، مناسب للزراعة الربيعية."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle variété de pomme de terre est la meilleure pour l'export ?",
+              "reponse": "La variété 'Fabula' est très demandée pour l'export grâce à sa belle forme, sa peau lisse et sa bonne conservation. Elle est cultivée sous irrigation goutte-à-goutte."
+            },
+            "darija": {
+              "question": "شنو هو النوع الأحسن للتصدير ديال البطاطا ؟",
+              "reponse": "النوع 'فابولا' مطلوب بزاف للتصدير حيت شكلو جميل، قشرتو ناعمة، و كاتحفظ مزيان. كاتزرع تحت السقي بالتنقيط."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle variété de pomme de terre résiste au mildiou ?",
+              "reponse": "La variété 'Mondial' a une bonne tolérance au mildiou, mais aucune variété n'est totalement résistante. La rotation des cultures est essentielle."
+            },
+            "darija": {
+              "question": "شنو هو النوع اللي كايقاوم المليديو فالبطاطا ؟",
+              "reponse": "النوع 'مونديال' عندو مقاومة مزيانة للمليديو، ولكن ما كاينش نوع مقاوم بالكامل. التناوب فالزراعات ضروري."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "plantation_et_densite",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quelle est la densité de plantation de la pomme de terre ?",
+              "reponse": "La densité est de 30000 à 40000 plants par hectare. L'écartement recommandé est de 70-75 cm entre les rangs et 25-30 cm entre les plants."
+            },
+            "darija": {
+              "question": "شحال هي الكثافة ديال زرع البطاطا ؟",
+              "reponse": "الكثافة هي 30000 لـ 40000 نبتة فالهكتار. المسافة الموصى بها هي 70-75 سم مابين الصفوف و 25-30 سم مابين النباتات."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la profondeur de plantation des tubercules ?",
+              "reponse": "La profondeur de plantation est de 8 à 12 cm. Une plantation trop superficielle expose les tubercules à la lumière (verdissement), trop profonde retarde la levée."
+            },
+            "darija": {
+              "question": "شحال هو العمق ديال زرع الدرنات ؟",
+              "reponse": "العمق هو 8 لـ 12 سم. الزرع قريب من السطح كايعرض الدرنات للضوء (تصفر)، الزرع عمق كايأخر الطلوع."
+            }
+          },
+          {
+            "francais": {
+              "question": "Faut-il couper les tubercules de semence ?",
+              "reponse": "OUI, si les tubercules sont gros (>50 g). Coupez-les en morceaux de 30-40 g avec au moins 2-3 yeux par morceau. Désinfectez le couteau entre chaque coupe (eau de Javel 10%)."
+            },
+            "darija": {
+              "question": "واش خاصنا نقطع درنات البذور ؟",
+              "reponse": "اه، إلا كانت الدرنات كبار (>50 غرام). قطعها لقطع 30-40 غرام مع 2-3 عيون فكل قطعة. عقم السكين مابين كل قطعة (ماء و جافيل 10%)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Faut-il prégermer les tubercules avant plantation ?",
+              "reponse": "La prégermination (mettre les tubercules à la lumière 2-3 semaines avant plantation) accélère la levée et permet une récolte plus précoce. Très utile pour la culture de printemps."
+            },
+            "darija": {
+              "question": "واش خاصنا ننبت الدرنات قبل الزرع ؟",
+              "reponse": "الإنبات قبل الزرع (تحط الدرنات فالضوء 2-3 أسابيع قبل الزرع) كايعجل الطلوع و كايخلي الحصاد مبكر. مفيد بزاف للزراعة الربيعية."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la quantité de semence par hectare ?",
+              "reponse": "Il faut 1500 à 2000 kg de tubercules de semence par hectare, soit environ 30000 à 40000 plants."
+            },
+            "darija": {
+              "question": "شحال هي الكمية ديال البذور فالهكتار ؟",
+              "reponse": "خاصك 1500 لـ 2000 كيلو ديال الدرنات فالهكتار، يعني 30000 لـ 40000 نبتة."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "irrigation",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quels sont les besoins en eau de la pomme de terre ?",
+              "reponse": "La pomme de terre a besoin de 400 à 600 mm d'eau (4000-6000 m³/ha) selon le stade et la saison. C'est moins que la tomate (500-700 mm)."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال الماء للبطاطا ؟",
+              "reponse": "البطاطا كاتحتاج لـ 400 لـ 600 ميلي متر ديال الماء (4000-6000 متر مكعب فالهكتار) حسب المرحلة والموسم. هاد الشي أقل من الطماطم (500-700 ميلي متر)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le meilleur système d'irrigation pour la pomme de terre ?",
+              "reponse": "Le goutte-à-goutte est le meilleur (économie d'eau 30-50%, réduction des maladies foliaires). L'aspersion est aussi possible mais augmente le risque de mildiou en période humide."
+            },
+            "darija": {
+              "question": "شنو هو أحسن نظام للسقي للبطاطا ؟",
+              "reponse": "السقي بالتنقيط هو الأحسن (توفير الماء 30-50%، تقليل الأمراض الوراقية). الرش ممكن ولكن كايزيد خطر المليديو فالشتي."
+            }
+          },
+          {
+            "francais": {
+              "question": "À quelle fréquence irriguer la pomme de terre ?",
+              "reponse": "Stade végétatif : tous les 5-7 jours. Floraison et tubérisation : tous les 3-5 jours. En été, tous les 2-3 jours à cause de l'évaporation élevée (températures >35°C)."
+            },
+            "darija": {
+              "question": "شحال هي المدة مابين السقيات للبطاطا ؟",
+              "reponse": "مرحلة النمو: كل 5-7 أيام. التزهير و تكوين الدرنات: كل 3-5 أيام. فالصيف، كل 2-3 أيام بسباب التبخر الزايد (حرارة >35 درجة)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand faut-il arrêter l'irrigation de la pomme de terre ?",
+              "reponse": "Il faut arrêter l'irrigation 2 à 3 semaines avant la récolte, quand les feuilles commencent à jaunir. Cela permet aux tubercules de mûrir et de former une peau résistante."
+            },
+            "darija": {
+              "question": "فوقاش خاصنا نوقف السقي ديال البطاطا ؟",
+              "reponse": "خاصنا نوقف السقي 2 لـ 3 أسابيع قبل الحصاد، فوقاش الوراق كاتبدا تصفر. هاد الشي كايخلي الدرنات تنضج وتكون قشرة مقاومة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le stade le plus critique pour l'irrigation de la pomme de terre ?",
+              "reponse": "Le stade le plus critique est la TUBÉRISATION (formation des tubercules), environ 4-6 semaines après la plantation. Un manque d'eau à ce stade réduit le rendement de 50%."
+            },
+            "darija": {
+              "question": "شنو هي المرحلة الحرجة للسقي للبطاطا ؟",
+              "reponse": "المرحلة الحرجة هي تكوين الدرنات (4-6 أسابيع مورا الزرع). نقص الماء فهاد المرحلة كاينقص الإنتاج ب 50%."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "fertilisation",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quelle fertilisation de fond pour la pomme de terre ?",
+              "reponse": "Fertilisation de fond avant plantation : N (80-120 kg/ha), P2O5 (100-150 kg/ha), K2O (150-200 kg/ha). Le potassium est très important pour la qualité des tubercules."
+            },
+            "darija": {
+              "question": "شحال هو السماد الأساسي للبطاطا ؟",
+              "reponse": "السماد الأساسي قبل الزرع: آزوت (80-120 كيلو)، فوسفور (100-150 كيلو)، بوتاسيوم (150-200 كيلو). البوتاسيوم مهم بزاف للجودة ديال الدرنات."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand faire la fertilisation de couverture ?",
+              "reponse": "Fertilisation de couverture (azote) en deux apports : 50% au stade végétatif (4-5 semaines après plantation), 50% au début de tubérisation (6-8 semaines)."
+            },
+            "darija": {
+              "question": "فوقاش نسمد السماد الإضافي ؟",
+              "reponse": "السماد الإضافي (آزوت) فجوج مرات: 50% فمرحلة النمو (4-5 أسابيع مورا الزرع)، 50% فبداية تكوين الدرنات (6-8 أسابيع)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel engrais organique utiliser pour la pomme de terre ?",
+              "reponse": "Le fumier composté (10-20 tonnes/ha) ou le compost vert (5-10 tonnes/ha) sont excellents. À enfouir 2-3 semaines avant plantation. Évitez le fumier frais (risque de maladies)."
+            },
+            "darija": {
+              "question": "شنو هو السماد العضوي اللي نستعملو للبطاطا ؟",
+              "reponse": "الزبل المكمور (10-20 طن فالهكتار) أو الكومپو (5-10 طن) هوما مزيانين. ادفنهم 2-3 أسابيع قبل الزرع. تجنب الزبل الطري (خطر ديال الأمراض)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les signes d'une carence en potassium sur pomme de terre ?",
+              "reponse": "Bords des feuilles bruns (nécrose marginale), tubercules déformés, peau rugueuse. Solution : apport de chlorure ou sulfate de potassium (100-150 kg/ha)."
+            },
+            "darija": {
+              "question": "شنو هي علامات نقص البوتاسيوم فالبطاطا ؟",
+              "reponse": "حواف الوراق كحلة، الدرنات متشوهة، القشرة خشنة. الحل: تحط كلور أو سلفات البوتاسيوم (100-150 كيلو فالهكتار)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les signes d'une carence en azote sur pomme de terre ?",
+              "reponse": "Feuilles pâles (jaunissement des vieilles feuilles), croissance ralentie, tubercules petits. Solution : apport d'urée ou nitrate d'ammonium (50-80 kg/ha)."
+            },
+            "darija": {
+              "question": "شنو هي علامات نقص الآزوت فالبطاطا ؟",
+              "reponse": "الوراق كاتصفر (الوراق القدام)، النمو كايبطا، الدرنات صغار. الحل: تحط اليوريا (50-80 كيلو فالهكتار)."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "maladies",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Comment reconnaître le mildiou sur pomme de terre ?",
+              "reponse": "Taches brunes sur les feuilles (face supérieure), duvet blanc (face inférieure) en conditions humides, pourriture des tubercules. Traitement : cupriques (Bouillie bordelaise 2-3 kg/ha) tous les 10-15 jours."
+            },
+            "darija": {
+              "question": "كيفاش نعرف المليديو فالبطاطا ؟",
+              "reponse": "بقع كحلة على الوراق (الوجه الفوقاني)، رياش بيض (الوجه التحتاني) فالرطوبة، تعفن الدرنات. العلاج: النحاس (2-3 كيلو فالهكتار) كل 10-15 يوم."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre l'alternariose de la pomme de terre ?",
+              "reponse": "Taches concentriques noires sur feuilles, nécrose des tubercules. Traitement : fongicides à base de mancozèbe (1.5-2 kg/ha) ou de chlorothalonil. Rotation avec céréales."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو ألترناريوز ديال البطاطا ؟",
+              "reponse": "بقع دائرية سود على الوراق، تعفن الدرنات. العلاج: فونجيسيدات مانكوزيب (1.5-2 كيلو فالهكتار). التناوب مع الحبوب."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître la gale commune de la pomme de terre ?",
+              "reponse": "Lésions liégeuses brunes sur la surface des tubercules, plus ou moins profondes. Provoquée par un sol calcaire et sec. Prévention : irrigation régulière, variétés résistantes."
+            },
+            "darija": {
+              "question": "كيفاش نعرف الجرب المتوسط ديال البطاطا ؟",
+              "reponse": "جروح فلينية كحلة على سطح الدرنات. كاتجيبها الأرض الجيرية والجافة. الوقاية: السقي المنتظم، الأنواع المقاومة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre le rhizoctone de la pomme de terre ?",
+              "reponse": "Taches noires sur les tubercules (sclérotes), fonte des semis. Traitement : fongicides à base de flutolanil ou pencycuron au traitement des tubercules avant plantation."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو ريزوكتون ديال البطاطا ؟",
+              "reponse": "بقع سود على الدرنات، موت الصغار. العلاج: فونجيسيدات على الدرنات قبل الزرع."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelles sont les principales maladies de la pomme de terre à Doukkala ?",
+              "reponse": "Les principales maladies sont : mildiou, alternariose, gale commune, rhizoctone, et pourriture bactérienne. Le mildiou est le plus dangereux en années humides."
+            },
+            "darija": {
+              "question": "شنو هي الأمراض الرئيسية ديال البطاطا فدكالة ؟",
+              "reponse": "الأمراض الرئيسية هي: المليديو، الألترناريوز، الجرب المتوسط، الريزوكتون، والتعفن البكتيري. المليديو هو أخطرهم فالأعوام اللي فيها شتا."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "ravageurs",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Comment reconnaître le doryphore sur pomme de terre ?",
+              "reponse": "Adultes (rayés jaune et noir) et larves (rouges à tête noire) dévorent les feuilles. Peut causer une défoliation totale. Traitement bio : Bacillus thuringiensis (50-100 g/hl)."
+            },
+            "darija": {
+              "question": "كيفاش نعرف خنفساء البطاطا ؟",
+              "reponse": "الحشرة الكبيرة (صفرا و سودا) واليرقات (حمر مع راس كحل) كايأكلو الوراق. تقدر تاكل كل الوراق. العلاج العضوي: باكيلوس ثورينجينسيس (50-100 غرام فالهكتوليتر)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre le doryphore de façon naturelle ?",
+              "reponse": "Prévention : rotation avec non-hôtes (céréales, légumineuses), paillage. Auxiliaires : coccinelles, carabes, et chrysopes. Ramassage manuel des adultes et larves sur petites surfaces."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو خنفساء البطاطا طبيعيا ؟",
+              "reponse": "الوقاية: التناوب مع الحبوب والقطاني، التغطية. الأعداء الطبيعية: الخنافس، الكاراب، والكريزوب. الجمع باليد للحشرة واليرقات فالمساحات الصغيرة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître les pucerons sur pomme de terre ?",
+              "reponse": "Colonies vertes ou noires sur la face inférieure des feuilles, feuilles enroulées, miellat (substance collante). Transmettent des virus (enroulement, mosaïque)."
+            },
+            "darija": {
+              "question": "كيفاش نعرف المن فالبطاطا ؟",
+              "reponse": "تجمعات خضر أو سود تحت الوراق، الوراق كاتلتف، عسل. كاينقلو الفيروسات (التفاف، فسيفساء)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre les nématodes de la pomme de terre ?",
+              "reponse": "Les nématodes attaquent les racines (kystes, galles). Prévention : rotation longue (5-6 ans), variétés résistantes, solarisation du sol (bâche plastique en été)."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو النيماتود ديال البطاطا ؟",
+              "reponse": "النيماتود كايهاجم الجذور. الوقاية: التناوب الطويل (5-6 سنين)، الأنواع المقاومة، تعقيم الأرض بالبلاستيك فالصيف."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les principaux ravageurs de la pomme de terre à Doukkala ?",
+              "reponse": "Les principaux ravageurs sont : doryphore, pucerons (vecteurs de virus), nématodes, et taupins (vers fil-de-fer). Le doryphore est le plus destructeur."
+            },
+            "darija": {
+              "question": "شنو هم الآفات الرئيسية ديال البطاطا فدكالة ؟",
+              "reponse": "الآفات الرئيسية هي: خنفساء البطاطا، المن (الناقل للفيروسات)، النيماتود، والدودة السلكية. خنفساء البطاطا هي الأكثر تدميرا."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "sol_et_preparation",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quel type de sol convient le mieux à la pomme de terre ?",
+              "reponse": "La pomme de terre préfère les sols légers à moyens (sableux à limono-argileux), profonds (>50 cm), bien drainés, avec un pH de 5.5 à 7. Évitez les sols lourds (argileux) qui favorisent les maladies."
+            },
+            "darija": {
+              "question": "شنو هو النوع ديال الأرض المناسب للبطاطا ؟",
+              "reponse": "البطاطا كاتحب الأرض الخفيفة للمتوسطة (رملية للطينية الرملية)، العميقة (>50 سم)، اللي كاتصرف الماء مزيان، مع pH 5.5 لـ 7. تجنب الأرض الثقيلة (الطينية) اللي كاتخدم الأمراض."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment préparer le sol avant plantation ?",
+              "reponse": "Labour profond (25-30 cm) en septembre-octobre, apport de matière organique (fumier composté), nivellement, puis billonnage (buttes de 20-25 cm de haut) pour faciliter l'irrigation et la récolte."
+            },
+            "darija": {
+              "question": "كيفاش نحضر الأرض قبل الزرع ؟",
+              "reponse": "الحرث العميق (25-30 سم) فشتنبر-أكتوبر، تحط المادة العضوية (زبل مكمور)، التسوية، ثم التخطيط (قنوات 20-25 سم عالية) باش تسهل السقي والحصاد."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est l'importance de la rotation des cultures pour la pomme de terre ?",
+              "reponse": "La rotation des cultures est ESSENTIELLE. Ne replantez pas de pomme de terre avant 3-4 ans sur la même parcelle. Rotation idéale : céréales (blé, orge) → légumineuses (fèves) → pomme de terre."
+            },
+            "darija": {
+              "question": "شحال هي أهمية التناوب الزراعي للبطاطا ؟",
+              "reponse": "التناوب الزراعي ضروري جدا. ما تعاودش تزرع البطاطا قبل 3-4 سنين ف نفس الأرض. التناوب المثالي: الحبوب (القمح، الشعير) → القطاني (الفول) → البطاطا."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel pH du sol pour la pomme de terre ?",
+              "reponse": "Le pH idéal est de 5.5 à 7 (légèrement acide à neutre). Un pH > 7.5 favorise la gale commune. Corrigez avec du soufre si le pH est trop élevé."
+            },
+            "darija": {
+              "question": "شحال هو pH الأرض المناسب للبطاطا ؟",
+              "reponse": "pH المثالي هو 5.5 لـ 7 (حمضي شوية لمعتدل). pH > 7.5 كايخدم الجرب المتوسط. حط الكبريت إلا كان pH عالي."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est l'importance du billonnage pour la pomme de terre ?",
+              "reponse": "Le billonnage (buttes de terre) est crucial : il protège les tubercules de la lumière (verdissement), facilite l'irrigation et le drainage, et rend la récolte plus facile. Buttes de 20-25 cm de haut."
+            },
+            "darija": {
+              "question": "شحال هي أهمية التخطيط للبطاطا ؟",
+              "reponse": "التخطيط (القنوات ديال التراب) ضروري: كايحمي الدرنات من الضوء (تصفر)، كايسهل السقي والتصريف، و كايخلي الحصاد ساهل. القنوات تكون 20-25 سم فالعلو."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "recolte_et_conservation",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Comment savoir si la pomme de terre est prête à récolter ?",
+              "reponse": "Signes : les feuilles jaunissent et se dessèchent, la peau des tubercules est ferme (ne se décolle pas au frottement). Testez en arrachant un pied."
+            },
+            "darija": {
+              "question": "كيفاش نعرف أن البطاطا جاهزة للحصاد ؟",
+              "reponse": "العلامات: الوراق كاتصفر و كاتجف، القشرة ديال الدرنات قاسحة (ما كاتقشرش بسهولة). جرب اقلع نبتة وحدة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand récolter la pomme de terre pour une meilleure conservation ?",
+              "reponse": "Récoltez quand les feuilles sont complètement sèches (120-150 jours après plantation). Laissez les tubercules sécher au champ 2-3 heures, puis stockez dans un local frais (4-8°C), sombre et aéré."
+            },
+            "darija": {
+              "question": "فوقاش نحصد البطاطا باش تحفظ مزيان ؟",
+              "reponse": "احصد فوقاش الوراق جفت بالكامل (120-150 يوم مورا الزرع). خلي الدرنات تجف فالحقل 2-3 ساعات، ثم خزنها فمكان بارد (4-8 درجات)، مظلم، و فيه هوا."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment conserver la pomme de terre après récolte ?",
+              "reponse": "Stockez dans un local frais (4-8°C), sombre (évite le verdissement), avec une humidité relative de 85-90%. Éliminez les tubercules abîmés. Ne lavez pas avant stockage."
+            },
+            "darija": {
+              "question": "كيفاش نحفظ البطاطا مورا الحصاد ؟",
+              "reponse": "خزنها فمكان بارد (4-8 درجات)، مظلم (باش ما تصفرش)، مع رطوبة 85-90%. أخرج الدرنات المعطوبة. ما غسلش قبل التخزين."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le rendement moyen de la pomme de terre à Doukkala ?",
+              "reponse": "Selon la Monographie 2021, le rendement moyen est de 38.56 qx/ha (3.86 tonnes/ha). En irrigué avec bonnes pratiques, on atteint 20-40 tonnes/ha. Les records peuvent dépasser 50 tonnes/ha."
+            },
+            "darija": {
+              "question": "شحال هو الإنتاج ديال البطاطا فدكالة ؟",
+              "reponse": "حسب الإحصاء العام 2021، المردود هو 38.56 قنطار فالهكتار (3.86 طن فالهكتار). فالسقي مع التقنيات الجيدة، نقدر نوصل لـ 20-40 طن فالهكتار. الإنتاج القياسي يقدر يوصل لـ 50 طن فالهكتار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le prix de la pomme de terre à Doukkala ?",
+              "reponse": "Le prix varie entre 4 et 8 dirhams le kilogramme selon la saison. Les prix sont plus élevés hors saison (juillet-septembre) et plus bas en pleine production (mars-mai)."
+            },
+            "darija": {
+              "question": "شحال هو ثمن البطاطا فدكالة ؟",
+              "reponse": "الثمن كايتغير مابين 4 و 8 درهم فالكيلو حسب الموسم. الأسعار كاتعلا برا الموسم (يوليوز-شتنبر) و كاتنقص فالإنتاج الكبير (مارس-ماي)."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "climat_et_pomme_de_terre",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "La pomme de terre résiste-t-elle à la sécheresse à Doukkala ?",
+              "reponse": "Non, la pomme de terre est très sensible à la sécheresse, surtout pendant la tubérisation. Les étés à Doukkala sont très secs (0 mm de pluie en juin-août 2023). L'irrigation est OBLIGATOIRE pour une production correcte."
+            },
+            "darija": {
+              "question": "واش البطاطا كاتقاوم الجفاف فدكالة ؟",
+              "reponse": "لا، البطاطا كاتتأثر بزاف بالجفاف، خاصة فمرحلة تكوين الدرنات. الصيف فدكالة جاف بزاف (0 ميلي متر فصيف 2023). السقي ضروري باش تحصل على إنتاج مزيان."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle température maximale supporte la pomme de terre ?",
+              "reponse": "La pomme de terre arrête sa croissance quand la température dépasse 30°C. À Ouled Frej, les températures dépassent souvent 40°C en été, ce qui rend la culture estivale très difficile sans irrigation intensive."
+            },
+            "darija": {
+              "question": "شحال هي الحرارة القصوى اللي كاتصمد لها البطاطا ؟",
+              "reponse": "البطاطا كاتوقف النمو ديالها فوقاش الحرارة تعدى 30 درجة. فأولاد فرج، الحرارة كاتعدى 40 درجة فالصيف، هاد الشي كايصعب الزراعة الصيفية بلا سقي مكثف."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est l'impact du gel sur la pomme de terre ?",
+              "reponse": "Le gel (<0°C) tue les plants de pomme de terre. À Doukkala, le gel est rare sur la côte mais possible à l'intérieur (Ouled Frej a enregistré -0.2°C le 28 janvier 2024). Plantez après les dernières gelées (fin février)."
+            },
+            "darija": {
+              "question": "شحال هو تأثير الجليد على البطاطا ؟",
+              "reponse": "الجليد (<0 درجة) كايموت النباتات ديال البطاطا. فدكالة، الجليد نادر على الساحل ولكن ممكن فالداخل (أولاد فرج سجلت -0.2 درجة نهار 28 يناير 2024). ازرع مورا آخر موجة برد (أخر فبراير)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la meilleure saison pour cultiver la pomme de terre à Doukkala ?",
+              "reponse": "La meilleure saison est le PRINTEMPS (plantation octobre-novembre, récolte mars-mai). Les températures sont douces (15-25°C) et les risques de gel sont faibles."
+            },
+            "darija": {
+              "question": "شنو هو أحسن موسم لزرع البطاطا فدكالة ؟",
+              "reponse": "أحسن موسم هو الربيع (زرع فاكتوبر-نونبر، حصاد فمارس-ماي). الحرارة تكون معتدلة (15-25 درجة) وخطر الجليد يكون قليل."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment protéger la pomme de terre des fortes chaleurs à Ouled Frej ?",
+              "reponse": "Utilisez un paillage (paille, plastique) pour réduire l'évaporation, irriguez tôt le matin ou tard le soir, et choisissez des variétés résistantes à la chaleur comme 'Spunta'."
+            },
+            "darija": {
+              "question": "كيفاش نحمي البطاطا من الحرارة الشديدة فأولاد فرج ؟",
+              "reponse": "استعمل التغطية (قش، بلاستيك) باش تقلل التبخر، اسقي فالصباح بكري أو فوقاش كاتبرد، و اختار الأنواع اللي كاتقاوم الحرارة بحال 'سبونطا'."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "commercialisation",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Où vendre sa pomme de terre à Doukkala ?",
+              "reponse": "Les principaux marchés sont : le marché de gros d'El Jadida (Souk Jdid), les coopératives agricoles, et les commerçants locaux. Une partie est exportée vers Casablanca et Marrakech."
+            },
+            "darija": {
+              "question": "فين نبيع البطاطا ديالي فدكالة ؟",
+              "reponse": "الأسواق الرئيسية هي: سوق الجملة فالجديدة (سوق جديد)، التعاونيات الفلاحية، والتجار المحليين. جزء كايتصدر للدار البيضاء ومراكش."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la période où le prix de la pomme de terre est le plus élevé ?",
+              "reponse": "Les prix sont les plus élevés hors saison, entre JUILLET et SEPTEMBRE, car la production est faible à cause des fortes chaleurs. Les prix sont les plus bas en avril-mai (pleine récolte)."
+            },
+            "darija": {
+              "question": "فوقاش كايكون الثمن ديال البطاطا أغلى ؟",
+              "reponse": "الأسعار كاتكون أغلى برا الموسم، مابين يوليوز و شتنبر، حيت الإنتاج كايكون قليل بسباب الحرارة. الأسعار كاتكون أرخص فأبريل-ماي (فوقاش كاين إنتاج كبير)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel calibre de pomme de terre est le plus demandé ?",
+              "reponse": "Les calibres les plus demandés sont : 35-55 mm (petites), 55-70 mm (moyennes), et 70-90 mm (grosses). Les pommes de terre de calibre 55-70 mm sont les plus populaires sur le marché local."
+            },
+            "darija": {
+              "question": "شنو هو الحجم المطلوب ديال البطاطا ؟",
+              "reponse": "الأحجام المطلوبة هي: 35-55 مم (صغار)، 55-70 مم (متوسط)، و 70-90 مم (كبار). البطاطا حجم 55-70 مم هي الأكثر طلبًا فالسوق المحلي."
+            }
+          },
+          {
+            "francais": {
+              "question": "La pomme de terre de Doukkala est-elle exportée ?",
+              "reponse": "Oui, une partie de la production est exportée vers l'Europe (France, Espagne) et l'Afrique de l'Ouest. Les variétés 'Fabula' et 'Almera' sont les plus demandées pour l'export."
+            },
+            "darija": {
+              "question": "واش البطاطا ديال دكالة كاتصدر للخارج ؟",
+              "reponse": "اه، جزء من الإنتاج كايتصدر لأوروبا (فرونس، صبانيا) ولغرب أفريقيا. الأنواع 'فابولا' و 'الميرا' هي الأكثر طلبًا للتصدير."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la marge bénéficiaire pour un agriculteur de pomme de terre ?",
+              "reponse": "Les coûts de production sont d'environ 20000-30000 DH/ha (semence, irrigation, fertilisants, main d'œuvre). Avec un rendement de 30 tonnes/ha et un prix de 5 DH/kg, le chiffre d'affaires est de 150000 DH/ha. La marge bénéficiaire peut atteindre 100000-120000 DH/ha."
+            },
+            "darija": {
+              "question": "شحال هو الربح للفلاح اللي كايزرع البطاطا ؟",
+              "reponse": "تكاليف الإنتاج فحدود 20000-30000 درهم فالهكتار. مع إنتاج 30 طن فالهكتار وثمن 5 درهم فالكيلو، العائد هو 150000 درهم فالهكتار. الربح يقدر يوصل لـ 100000-120000 درهم فالهكتار."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "travaux_et_entretien",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Faut-il butter la pomme de terre ?",
+              "reponse": "OUI, le buttage est essentiel. Il consiste à ramener de la terre autour des plants pour protéger les tubercules de la lumière (verdissement) et favoriser leur grossissement. À faire 2-3 fois pendant le cycle."
+            },
+            "darija": {
+              "question": "واش خاصنا نراكمو التراب على البطاطا ؟",
+              "reponse": "اه، تراكم التراب ضروري. كاتجيب التراب حوالين النباتات باش تحمي الدرنات من الضوء (تصفر) وتكبر. ديرها 2-3 مرات فالدورة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand faire le premier buttage ?",
+              "reponse": "Le premier buttage se fait quand les plants mesurent 15-20 cm (environ 3-4 semaines après plantation). Le second buttage 2-3 semaines plus tard."
+            },
+            "darija": {
+              "question": "فوقاش نعمل أول تراكم ديال التراب ؟",
+              "reponse": "أول تراكم كايكون فوقاش النباتات توصل 15-20 سم (تقريبا 3-4 أسابيع مورا الزرع). التراكم الثاني 2-3 أسابيع من بعد."
+            }
+          },
+          {
+            "francais": {
+              "question": "Faut-il tailler les fanes de pomme de terre ?",
+              "reponse": "Non, ne taillez pas les fanes avant qu'elles ne soient naturellement sèches. La taille prématurée réduit le rendement de 30-50%. Attendez le jaunissement naturel."
+            },
+            "darija": {
+              "question": "واش خاصنا نقلم الفان ديال البطاطا ؟",
+              "reponse": "لا، ما تقلمش الفان قبل ما تجف طبيعيا. التقليم بكري كاينقص الإنتاج بـ 30-50%. تسنى حتى تصفر طبيعيا."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment désherber la pomme de terre ?",
+              "reponse": "Désherbage mécanique (binage) entre les rangs et manuel dans les rangs. Évitez les herbicides sauf en cas d'infestation sévère. Le paillage (paille, plastique) réduit les adventices."
+            },
+            "darija": {
+              "question": "كيفاش نزيل الحشائش من البطاطا ؟",
+              "reponse": "إزالة الحشائش بالميكانيك (العتل) مابين الصفوف وباليد فالصفوف. تجنب مبيدات الحشائش إلا فوقاش كاتزيد بزاف. التغطية (قش، بلاستيك) كاتقلل الحشائش."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est l'importance de l'irrigation goutte-à-goutte pour la pomme de terre ?",
+              "reponse": "Le goutte-à-goutte permet une économie d'eau de 30-50% par rapport à l'aspersion. Il réduit aussi les maladies foliaires (mildiou) car les feuilles restent sèches. C'est l'investissement recommandé pour Doukkala."
+            },
+            "darija": {
+              "question": "شحال هي أهمية السقي بالتنقيط للبطاطا ؟",
+              "reponse": "السقي بالتنقيط كايوف الماء بـ 30-50% مقارنة بالرش. كايقلل حتى الأمراض الوراقية (المليديو) حيت الوراق كاتبقى جافة. هو الاستثمار الموصى به فدكالة."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
