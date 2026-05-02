@@ -1,0 +1,58 @@
+services:
+  backend:
+    build:
+      context: ./backend/Agro
+      dockerfile: Dockerfile
+    ports:
+      - "8000:80"
+    # volumes: commenté
+    environment:
+      DB_CONNECTION: mysql
+      DB_HOST: db
+      DB_PORT: 3306
+      DB_DATABASE: agriculture_db
+      DB_USERNAME: root
+      DB_PASSWORD: secret 
+      SESSION_DRIVER: file               # ← mot de passe
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - agro-network
+
+  frontend:
+    build:
+      context: ./frontend/agro
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    # volumes: commenté
+    depends_on:
+      - backend
+    networks:
+      - agro-network
+
+  db:
+    image: mysql:8.0.33
+    environment:
+      MYSQL_ROOT_PASSWORD: secret       # ← mot de passe
+      MYSQL_DATABASE: agriculture_db
+    ports:
+      - "3310:3306"                     # ← changement de port
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - agro-network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+networks:
+  agro-network:
+    driver: bridge
+
+volumes:
+  mysql_data:

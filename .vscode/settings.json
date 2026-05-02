@@ -1,0 +1,19 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3310,
+            "driver": "MySQL",
+            "name": "agro",
+            "database": "agriculture_db",
+            "username": "root",
+            "password": "secret"
+        }
+    ]
+}
