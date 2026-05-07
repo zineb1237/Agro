@@ -35,7 +35,7 @@ export const store = reactive({
   },
   
   cartTotal: computed(() => {
-    return store.cart.reduce((total, item) => total + (item.price * item.quantity), 0)
+    return store.cart.reduce((total, item) => total + (item.prix * item.quantity), 0)
   }),
   
   cartCount: computed(() => {

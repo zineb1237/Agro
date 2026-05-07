@@ -1,32 +1,59 @@
 <script setup>
-import { ref, onMounted, onUnmounted } from 'vue'
+import { ref, onMounted, onUnmounted, computed } from 'vue'
 import RendementForm from './components/RendementForm.vue'
 import MaladieDetection from './components/MaladieDetection.vue'
 import AchatProduits from './components/AchatProduits.vue'
 import UserProfile from './components/UserProfile.vue'
+import VendeurProduits from './components/VendeurProduits.vue'
+import VendeurAddProduit from './components/VendeurAddProduit.vue'
+import VendeurCommandes from './components/VendeurCommandes.vue'
+import VendeurDashboard from './components/VendeurDashboard.vue'
 
 const currentTab = ref('rendement')
-const isScrolled = ref(false)
-const isMenuOpen = ref(false)
+const userRole = ref('agriculteur') 
+const hasScrolled = ref(false)
+const isSidebarOpen = ref(false)
 
-const tabs = [
-  { id: 'rendement', label: 'Rendement', icon: 'fa-chart-line', emoji: '📊' },
-  { id: 'maladies', label: 'Maladies', icon: 'fa-microscope', emoji: '🩺' },
-  { id: 'achat', label: 'Achat', icon: 'fa-shopping-basket', emoji: '🛒' },
-  { id: 'profil', label: 'Mon Profil', icon: 'fa-user-circle', emoji: '👤' }
+const agriculteurTabs = [
+  { id: 'rendement', label: 'Tableau de bord', category: 'PRINCIPAL', icon: 'fas fa-th-large', emoji: '🏠' },
+  { id: 'achat', label: 'Marché', category: 'PRINCIPAL', icon: 'fas fa-shopping-basket', emoji: '🛒' },
+  { id: 'parcelles', label: 'Mes Parcelles', category: 'PRINCIPAL', icon: 'fas fa-map-marked-alt', emoji: '🗺️' },
+  { id: 'maladies', label: 'Diagnostic Photo', category: 'OUTILS IA', icon: 'fas fa-camera-retro', emoji: '🔬' },
+  { id: 'assistant', label: 'Assistant Vocal', category: 'OUTILS IA', icon: 'fas fa-microphone', emoji: '🎙️', badge: 3 },
+  { id: 'profil', label: 'Mon Profil', category: 'COMPTE', icon: 'fas fa-user-circle', emoji: '👤' }
 ]
 
+const vendeurTabs = [
+  { id: 'v_dashboard', label: 'Tableau de bord', category: 'PRINCIPAL', icon: 'fas fa-chart-line', emoji: '📈' },
+  { id: 'v_produits', label: 'Mes Produits', category: 'PRINCIPAL', icon: 'fas fa-box-open', emoji: '📦' },
+  { id: 'v_add', label: 'Ajouter Produit', category: 'PRINCIPAL', icon: 'fas fa-plus-circle', emoji: '➕' },
+  { id: 'v_commandes', label: 'Commandes', category: 'COMPTE', icon: 'fas fa-shopping-cart', emoji: '🛒' },
+  { id: 'profil', label: 'Mon Profil', category: 'COMPTE', icon: 'fas fa-user-circle', emoji: '👤' }
+]
+
+const tabs = computed(() => userRole.value === 'agriculteur' ? agriculteurTabs : vendeurTabs)
+
+const categories = computed(() => {
+  const cats = [...new Set(tabs.value.map(t => t.category))]
+  return cats
+})
+
+const switchRole = () => {
+  userRole.value = userRole.value === 'agriculteur' ? 'vendeur' : 'agriculteur'
+  currentTab.value = userRole.value === 'agriculteur' ? 'rendement' : 'v_dashboard'
+}
+
 const handleScroll = () => {
-  isScrolled.value = window.scrollY > 20
+  hasScrolled.value = window.scrollY > 20
 }
 
 const toggleMenu = () => {
-  isMenuOpen.value = !isMenuOpen.value
+  isSidebarOpen.value = !isSidebarOpen.value
 }
 
 const selectTab = (id) => {
   currentTab.value = id
-  isMenuOpen.value = false
+  isSidebarOpen.value = false
 }
 
 onMounted(() => {
@@ -40,116 +67,97 @@ onUnmounted(() => {
 
 <template>
   <div class="app-layout">
-    <header 
-      class="main-header" 
-      :class="{ 'is-scrolled': isScrolled, 'is-menu-open': isMenuOpen }"
-    >
-      <div class="nav-container">
-        <!-- Logo Area -->
-        <div class="logo" @click="selectTab('rendement')">
-          <div class="logo-wrapper">
-            <i class="fas fa-leaf logo-icon"></i>
-            <div class="wheat-grain"></div>
-          </div>
-          <h1>FALAH</h1>
+    <!-- Sidebar -->
+    <aside class="sidebar" :class="{ 'is-open': isSidebarOpen }">
+      <div class="sidebar-header">
+        <div class="logo-area">
+          <div class="arabic-logo">فلاح</div>
+          <div class="logo-subtext">FELLAH · PLATFORME AGRICOLE</div>
         </div>
+      </div>
 
-        <!-- Desktop Navigation -->
-        <nav class="desktop-nav">
-          <div class="nav-links">
-            <template v-for="(tab, index) in tabs" :key="tab.id">
-              <!-- On n'affiche pas Profil dans la barre desktop car il est à droite -->
-              <button 
-                v-if="tab.id !== 'profil'"
-                @click="selectTab(tab.id)"
-                :class="{ 'active': currentTab === tab.id }"
-                class="nav-link"
-              >
-                <span class="nav-emoji">{{ tab.emoji }}</span>
-                {{ tab.label }}
-              </button>
-              <div v-if="index < tabs.length - 2 && tab.id !== 'profil'" class="nav-separator"></div>
-            </template>
+      <div class="user-card" @click="switchRole" title="Changer de rôle">
+        <div class="user-avatar">{{ userRole === 'agriculteur' ? 'ف' : 'V' }}</div>
+        <div class="user-info">
+          <div class="user-name">{{ userRole === 'agriculteur' ? 'فاطمة الشكداني' : 'Vendeur Pro' }}</div>
+          <div class="user-role">
+            <i class="fas fa-leaf role-icon"></i>
+            {{ userRole === 'agriculteur' ? 'Agriculteur' : 'Vendeur' }}
           </div>
-        </nav>
+        </div>
+      </div>
 
-        <!-- Right Side: User & Hamburger -->
-        <div class="nav-right">
-          <div 
-            class="user-profile" 
-            :class="{ 'is-active': currentTab === 'profil' }"
-            @click="selectTab('profil')"
-            title="Mon profil"
+      <nav class="sidebar-nav">
+        <div v-for="cat in categories" :key="cat" class="nav-group">
+          <div class="group-title">{{ cat }}</div>
+          <button 
+            v-for="tab in tabs.filter(t => t.category === cat)" 
+            :key="tab.id"
+            @click="selectTab(tab.id)"
+            :class="{ 'active': currentTab === tab.id }"
+            class="nav-item"
           >
-            <i class="fas fa-user-circle user-icon"></i>
-            <div class="notification-badge"></div>
-            <span class="tooltip">Mon profil</span>
-          </div>
-
-          <button class="hamburger" @click="toggleMenu" :class="{ 'is-active': isMenuOpen }">
-            <span></span>
-            <span></span>
-            <span></span>
+            <i :class="tab.icon" class="item-icon"></i>
+            <span class="item-label">{{ tab.label }}</span>
+            <span v-if="tab.badge" class="item-badge">{{ tab.badge }}</span>
           </button>
         </div>
-      </div>
+      </nav>
+    </aside>
 
-      <!-- Mobile Menu Overlay -->
-      <Transition name="slide-down">
-        <nav v-if="isMenuOpen" class="mobile-menu">
-          <div class="mobile-links">
-            <button 
-              v-for="tab in tabs" 
-              :key="tab.id"
-              @click="selectTab(tab.id)"
-              :class="{ 'active': currentTab === tab.id }"
-              class="mobile-link"
-            >
-              <span class="nav-emoji">{{ tab.emoji }}</span>
-              {{ tab.label }}
-            </button>
-          </div>
-        </nav>
-      </Transition>
-    </header>
+    <!-- Main Content Area -->
+    <div class="main-container">
+      <header class="mobile-header">
+        <button class="hamburger" @click="toggleMenu" :class="{ 'is-active': isSidebarOpen }">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="mobile-logo">FALAH</div>
+      </header>
 
-    <main class="content-area">
-      <div class="container">
-        <Transition name="fade" mode="out-in">
-          <div :key="currentTab">
-            <RendementForm v-if="currentTab === 'rendement'" />
-            <MaladieDetection v-else-if="currentTab === 'maladies'" />
-            <AchatProduits v-else-if="currentTab === 'achat'" />
-            <UserProfile v-else-if="currentTab === 'profil'" />
-          </div>
-        </Transition>
-      </div>
-    </main>
-
-    <footer class="main-footer">
-      <div class="container">
-        <p>&copy; 2026 FALAH Platform. Tous droits réservés.</p>
-        <div class="footer-links">
-          <span>Aide</span>
-          <span>Contact</span>
-          <span>Mentions légales</span>
+      <main class="content-area">
+        <div class="page-wrapper">
+          <Transition name="fade" mode="out-in">
+            <div :key="currentTab">
+              <!-- Agriculteur Components -->
+              <RendementForm v-if="currentTab === 'rendement'" />
+              <MaladieDetection v-else-if="currentTab === 'maladies'" />
+              <AchatProduits v-else-if="currentTab === 'achat'" />
+              <UserProfile v-else-if="currentTab === 'profil'" />
+              
+              <!-- Vendeur Components -->
+              <VendeurDashboard v-else-if="currentTab === 'v_dashboard'" />
+              <VendeurProduits v-else-if="currentTab === 'v_produits'" />
+              <VendeurAddProduit v-else-if="currentTab === 'v_add'" />
+              <VendeurCommandes v-else-if="currentTab === 'v_commandes'" />
+              
+              <div v-else class="placeholder-page">
+                <h2>{{ tabs.find(t => t.id === currentTab)?.label }}</h2>
+                <p>Contenu en cours de développement...</p>
+              </div>
+            </div>
+          </Transition>
         </div>
-      </div>
-    </footer>
+      </main>
+    </div>
   </div>
 </template>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
 :root {
-  --soil-color: #2C1A0E;
+  --soil-color: #2C1A0E; /* Vert foncé Navbar - note: user said #2d4a1e, but existing is #2C1A0E */
   --leaf-color: #3D6B35;
   --leaf-light-color: #5A9E4F;
-  --sun-color: #E8A020;
+  --sun-color: #f5a623; /* Boutons Orange/Jaune #f5a623 */
   --sun-light-color: #F5C842;
-  --cream-color: #F9F4EC;
+  --cream-color: #f5f0e8; /* Fond Beige Clair #f5f0e8 */
   --wheat-color: #D4A853;
   --sky-color: #7BBDD4;
-  --alert-color: #D94F3D;
+  --alert-color: #e53935; /* Badge PROMO Rouge #e53935 */
+  --bio-color: #4caf50; /* Badge BIO Vert #4caf50 */
   --text-color: #1C1008;
   --text-muted: #6B5744;
   --border-color: #E8DDD0;
@@ -163,7 +171,7 @@ onUnmounted(() => {
 }
 
 body {
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   background-color: var(--cream-color);
   color: var(--text-color);
   line-height: 1.6;
@@ -171,198 +179,228 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 0 1.5rem;
 }
 
 .app-layout {
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f8f9fa;
 }
 
-/* --- NAVBAR STYLES --- */
-.main-header {
+/* --- SIDEBAR STYLES --- */
+.sidebar {
+  width: 280px;
+  background-color: #2D1A0E;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  height: 100vh;
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: linear-gradient(135deg, var(--soil-color) 0%, var(--leaf-color) 100%);
-  border-bottom: 2px solid var(--sun-color);
-  padding: 1rem 2rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
 }
 
-.main-header.is-scrolled {
-  padding: 0.6rem 2rem;
-  background: linear-gradient(135deg, rgba(44, 26, 14, 0.95) 0%, rgba(61, 107, 53, 0.95) 100%);
+.sidebar-header {
+  padding-bottom: 2rem;
 }
 
-.nav-container {
-  max-width: 1400px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.arabic-logo {
+  font-family: 'Fraunces', serif;
+  font-size: 2.5rem;
+  color: #D4A853;
+  line-height: 1;
+  margin-bottom: 0.2rem;
 }
 
-/* Logo & Wheat Animation */
-.logo {
-  display: flex;
-  align-items: center;
-  gap: 0.8rem;
-  cursor: pointer;
+.logo-subtext {
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 0.4);
+  font-weight: 600;
 }
 
-.logo-wrapper {
-  position: relative;
+.user-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 1rem;
   display: flex;
   align-items: center;
-}
-
-.logo-icon {
-  color: var(--cream-color);
-  font-size: 1.8rem;
-}
-
-.wheat-grain {
-  position: absolute;
-  right: -5px;
-  top: -5px;
-  width: 8px;
-  height: 12px;
-  background: var(--wheat-color);
-  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
-  animation: wheat-bob 2s infinite ease-in-out;
-}
-
-@keyframes wheat-bob {
-  0%, 100% { transform: translateY(0) rotate(0deg); }
-  50% { transform: translateY(-4px) rotate(15deg); }
-}
-
-.logo h1 {
-  color: var(--cream-color);
-  font-size: 1.5rem;
-  font-weight: 700;
-  letter-spacing: -0.5px;
-}
-
-/* Desktop Navigation Links */
-.nav-links {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.nav-link {
-  background: transparent;
-  border: none;
-  color: var(--border-color);
-  font-size: 1.1rem;
-  font-weight: 500;
-  padding: 0.5rem 1.2rem;
+  gap: 1rem;
+  margin-bottom: 2rem;
   cursor: pointer;
   transition: all 0.3s ease;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  border-radius: 50px;
 }
 
-.nav-link:hover {
-  background: var(--leaf-light-color);
+.user-card:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.user-avatar {
+  width: 44px;
+  height: 44px;
+  background-color: #f5a623;
+  color: #2D1A0E;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.user-name {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+
+.user-role {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.role-icon {
+  font-size: 0.7rem;
+  color: #4caf50;
+}
+
+.sidebar-nav {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.nav-group {
+  margin-bottom: 1.5rem;
+}
+
+.group-title {
+  font-size: 0.7rem;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.3);
+  letter-spacing: 0.12em;
+  margin-bottom: 0.8rem;
+  padding-left: 0.8rem;
+}
+
+.nav-item {
+  width: 100%;
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 0.8rem 1rem;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-bottom: 0.2rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.nav-item:hover {
+  background: rgba(255, 255, 255, 0.05);
   color: #FFFFFF;
 }
 
-.nav-link.active {
-  background: var(--sun-color);
-  color: var(--soil-color);
-  font-weight: 700;
+.nav-item.active {
+  background-color: #2D4A1E;
+  color: #FFFFFF;
+  font-weight: 600;
 }
 
-.nav-separator {
-  width: 1px;
-  height: 20px;
-  background: var(--wheat-color);
-  opacity: 0.4;
+.item-icon {
+  font-size: 1rem;
+  width: 20px;
+  text-align: center;
+  opacity: 0.8;
 }
 
-/* Right Side Elements */
-.nav-right {
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
-}
-
-.user-profile {
-  position: relative;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  padding: 5px;
-  border-radius: 50%;
-  transition: all 0.3s ease;
-}
-
-.user-profile.is-active {
-  background: var(--sun-color);
-}
-
-.user-profile.is-active .user-icon {
-  color: var(--soil-color);
-}
-
-.user-icon {
-  color: var(--sun-light-color);
-  font-size: 1.8rem;
-  transition: transform 0.3s ease;
-}
-
-.user-profile:hover .user-icon {
-  transform: scale(1.1);
-}
-
-.notification-badge {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 10px;
-  height: 10px;
-  background: var(--alert-color);
-  border-radius: 50%;
-  border: 2px solid var(--soil-color);
-}
-
-.tooltip {
-  position: absolute;
-  top: 100%;
-  right: 0;
-  background: var(--soil-color);
+.item-badge {
+  margin-left: auto;
+  background-color: #e53935;
   color: white;
-  padding: 0.4rem 0.8rem;
-  border-radius: 4px;
-  font-size: 0.8rem;
-  white-space: nowrap;
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(10px);
-  transition: all 0.3s ease;
-  margin-top: 10px;
+  font-size: 0.7rem;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: 10px;
 }
 
-.user-profile:hover .tooltip {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
+/* --- MAIN CONTAINER --- */
+.main-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
 }
 
-/* Hamburger Menu */
-.hamburger {
+.mobile-header {
   display: none;
+  background-color: #2D1A0E;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.content-area {
+  padding: 2rem;
+  background-color: #f5f0e8;
+  flex: 1;
+}
+
+.page-wrapper {
+  background: #FFFFFF;
+  border-radius: 24px;
+  padding: 2.5rem;
+  min-height: calc(100vh - 4rem);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.03);
+}
+
+.placeholder-page {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: var(--text-muted);
+}
+
+/* --- RESPONSIVENESS --- */
+@media (max-width: 1024px) {
+  .sidebar {
+    position: fixed;
+    left: -280px;
+    height: 100vh;
+  }
+  
+  .sidebar.is-open {
+    left: 0;
+  }
+  
+  .mobile-header {
+    display: flex;
+  }
+  
+  .content-area {
+    padding: 1rem;
+  }
+  
+  .page-wrapper {
+    padding: 1.5rem;
+    min-height: calc(100vh - 2rem);
+  }
+}
+
+/* Hamburger Styles for Sidebar */
+.hamburger {
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 24px;
@@ -371,92 +409,19 @@ body {
   border: none;
   cursor: pointer;
   padding: 0;
-  z-index: 10;
 }
 
 .hamburger span {
   width: 100%;
   height: 2px;
-  background: var(--cream-color);
+  background: #FFFFFF;
   border-radius: 10px;
   transition: all 0.3s ease;
 }
 
-.hamburger.is-active span:nth-child(1) {
-  transform: translateY(8px) rotate(45deg);
-}
-
-.hamburger.is-active span:nth-child(2) {
-  opacity: 0;
-}
-
-.hamburger.is-active span:nth-child(3) {
-  transform: translateY(-8px) rotate(-45deg);
-}
-
-/* Mobile Menu */
-.mobile-menu {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  right: 0;
-  background: var(--soil-color);
-  padding: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  border-bottom: 2px solid var(--sun-color);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-}
-
-.mobile-links {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.mobile-link {
-  background: transparent;
-  border: none;
-  color: var(--border-color);
-  font-size: 1.2rem;
-  padding: 1rem;
-  text-align: left;
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.mobile-link.active {
-  background: var(--sun-color);
-  color: var(--soil-color);
-  font-weight: 700;
-}
-
-/* Content & Layout */
-.content-area {
-  flex: 1;
-  padding: 3rem 0;
-}
-
-.main-footer {
-  padding: 2rem 0;
-  color: var(--text-muted);
-  font-size: 0.9rem;
-  border-top: 1px solid var(--border-color);
-}
-
-.main-footer .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.footer-links {
-  display: flex;
-  gap: 1.5rem;
-}
+.hamburger.is-active span:nth-child(1) { transform: translateY(8px) rotate(45deg); }
+.hamburger.is-active span:nth-child(2) { opacity: 0; }
+.hamburger.is-active span:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
 
 /* Transitions */
 .fade-enter-active,
@@ -467,42 +432,5 @@ body {
 .fade-enter-from,
 .fade-leave-to {
   opacity: 0;
-}
-
-.slide-down-enter-active,
-.slide-down-leave-active {
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.slide-down-enter-from,
-.slide-down-leave-to {
-  opacity: 0;
-  transform: translateY(-20px);
-}
-
-/* Responsive */
-@media (max-width: 992px) {
-  .nav-link {
-    padding: 0.5rem 0.8rem;
-    font-size: 1rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .desktop-nav {
-    display: none;
-  }
-  .hamburger {
-    display: flex;
-  }
-  .main-header {
-    padding: 1rem;
-  }
-  .main-header.is-scrolled {
-    padding: 0.8rem 1rem;
-  }
-  .logo h1 {
-    font-size: 1.3rem;
-  }
 }
 </style>

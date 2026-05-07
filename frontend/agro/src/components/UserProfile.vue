@@ -23,7 +23,7 @@ onMounted(() => {
   // Charger les stats depuis le localStorage
   const yieldHistory = JSON.parse(localStorage.getItem('falah_yield_history') || '[]')
   const diseaseHistory = JSON.parse(localStorage.getItem('falah_disease_history') || '[]')
-  const cartHistory = JSON.parse(localStorage.getItem('falah_cart_history') || '[]') // On pourrait ajouter un historique de commandes réel
+  //const cartHistory = JSON.parse(localStorage.getItem('falah_cart_history') || '[]') // On pourrait ajouter un historique de commandes réel
 
   stats.totalYieldPredictions = yieldHistory.length
   stats.diseasesDetected = diseaseHistory.length
