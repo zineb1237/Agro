@@ -1,0 +1,852 @@
+{
+  "chatbot_melon_swihla_doukkala": {
+    "version": "1.0",
+    "date_mise_a_jour": "2026-04-12",
+    "langues": ["francais", "darija"],
+    "region": "Doukkala (El Jadida, Ouled Frej, Sidi Bennour)",
+    "culture": "Melon Swihla jaune (دلاح سويلة الصفر)",
+    "total_questions": 105,
+    "questions_reponses": [
+      {
+        "id": "SWI_001",
+        "question_fr": "C'est quoi le melon Swihla jaune ?",
+        "reponse_fr": "Le melon Swihla jaune est une variété traditionnelle de Doukkala. À maturité, sa peau devient jaune/crème, sa chair est fondante, très sucrée et très parfumée. Il est très prisé sur les marchés locaux.",
+        "question_darija": "شنو هو الدلاح سويلة الصفر ؟",
+        "reponse_darija": "الدلاح سويلة الصفر هو نوع تقليدي فدكالة. فالنضج، قشرتو كاتولي صفرا/كريمية، وحمرو كاتذاب وحلوة بزاف ومعطرة. كايتقدر بزاف فالسوق المحلية.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_002",
+        "question_fr": "Pourquoi le melon Swihla devient jaune à maturité ?",
+        "reponse_fr": "À maturité, la chlorophylle (pigment vert) disparaît et les caroténoïdes (pigments jaunes) apparaissent. C'est un signe naturel de maturation.",
+        "question_darija": "علاش الدلاح سويلة كايبان صفر فالنضج ؟",
+        "reponse_darija": "فالنضج، الصبغة الخضر (الكلوروفيل) كاتغيب والصبغة الصفر (الكاروتينويد) كاتبان. هاد شي علامة طبيعية على النضج.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_003",
+        "question_fr": "Quelle est la superficie du melon Swihla à Doukkala ?",
+        "reponse_fr": "Le melon Swihla occupe environ 3 000 à 4 000 hectares à Doukkala, principalement à Ouled Frej et Sidi Bennour. C'est la variété la plus cultivée dans la région.",
+        "question_darija": "شحال هي المساحة ديال الدلاح سويلة فدكالة ؟",
+        "reponse_darija": "الدلاح سويلة كايتزرع فـ 3.000 لـ 4.000 هكتار فدكالة، بزاف فولاد فرج وسيدي بنور. هو النوع الأكثر زراعة فهاد المنطقة.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_004",
+        "question_fr": "Quand semer le melon Swihla à Ouled Frej ?",
+        "reponse_fr": "Le semis du melon Swihla à Ouled Frej se fait de MARS à AVRIL en plein champ, ou de FÉVRIER à MARS sous tunnel. La récolte a lieu de JUIN à AOÛT.",
+        "question_darija": "فاش نزرع الدلاح سويلة فولاد فرج ؟",
+        "reponse_darija": "زرع الدلاح سويلة فولاد فرج كايكون من مارس لـ أبريل فالحقل المكشوف، ولا من فبراير لـ مارس تحت التونيل. الحصاد كايكون من يونيو لـ غشت.",
+        "zone": "Ouled Frej"
+      },
+      {
+        "id": "SWI_005",
+        "question_fr": "Quel est le cycle du melon Swihla ?",
+        "reponse_fr": "Le cycle du melon Swihla est de 80 à 100 jours du semis à la récolte. Il est plus court sous serre (75-85 jours) et plus long en plein champ (90-100 jours).",
+        "question_darija": "شحال هي دورة الدلاح سويلة ؟",
+        "reponse_darija": "الدورة ديال الدلاح سويلة هي 80 لـ 100 يوم من الزرع لـ الحصاد. كاتكون قصيرة تحت السير (75-85 يوم) وطويلة فالحقل المكشوف (90-100 يوم).",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_006",
+        "question_fr": "Quel rendement pour le melon Swihla ?",
+        "reponse_fr": "Le rendement moyen du melon Swihla est de 20 à 30 tonnes par hectare. En irrigué et avec une bonne fertilisation, on peut atteindre 35-40 t/ha. Chaque fruit pèse 1,5 à 3 kg.",
+        "question_darija": "شحال هو الإنتاج ديال الدلاح سويلة ؟",
+        "reponse_darija": "الإنتاج الوسيط ديال الدلاح سويلة هو 20 لـ 30 طن فالهكتار. فالسقي والتسميد المزيان، نقدر نوصلو لـ 35-40 طن فالهكتار. كل فاكهة كاتوزن 1,5 لـ 3 كيلو.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_007",
+        "question_fr": "Comment reconnaître un melon Swihla mûr ?",
+        "reponse_fr": "Un melon Swihla est mûr quand : 1) la peau devient jaune/crème, 2) la tige se détache facilement (craquelure en étoile), 3) le fruit est parfumé, 4) le côté opposé à la tige est légèrement mou.",
+        "question_darija": "كيفاش نعرف أن الدلاح سويلة ناضج ؟",
+        "reponse_darija": "الدلاح سويلة كايكون ناضج ملي: 1) القشرة كاتولي صفرا/كريمية، 2) الساق كاتفصل بسهولة (شقوق على شكل نجمة)، 3) الثمرة عندها ريحة حلوة، 4) الجهة اللي مقابل الساق كاتكون طرية شويا.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_008",
+        "question_fr": "Quel type de sol pour le melon Swihla ?",
+        "reponse_fr": "Le melon Swihla préfère les sols sableux à limono-sableux, bien drainés, avec un pH entre 6,0 et 7,5. À Ouled Frej, les sols Tirs sableux (L-282) conviennent bien.",
+        "question_darija": "شنو هو نوع الأرض المناسب للدلاح سويلة ؟",
+        "reponse_darija": "الدلاح سويلة كايبغي الأرض الرملية للرملية-الطينية، اللي كاتصرف الماء مزيان، مع pH مابين 6,0 و 7,5. فولاد فرج، تيرس الرملي (L-282) مناسب.",
+        "zone": "Ouled Frej"
+      },
+      {
+        "id": "SWI_009",
+        "question_fr": "Quels sont les besoins en eau du melon Swihla ?",
+        "reponse_fr": "Le melon Swihla a besoin de 400 à 600 mm d'eau (4000-6000 m³/ha). Les besoins sont élevés pendant la floraison et la nouaison. L'irrigation au goutte-à-goutte est recommandée.",
+        "question_darija": "شحال هو الماء اللي كايحتاجه الدلاح سويلة ؟",
+        "reponse_darija": "الدلاح سويلة كايحتاج لـ 400 لـ 600 ميلي متر ديال الماء (4000-6000 متر مكعب فالهكتار). الحوايج كاتكون عالية فالتزهير وعقد الثمار. السقي بالتنقيط هو الموصى به.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_010",
+        "question_fr": "Quand arrêter l'irrigation du melon Swihla ?",
+        "reponse_fr": "Arrêtez l'irrigation 7 à 10 jours avant la récolte pour concentrer le sucre et améliorer le goût. Un excès d'eau à ce stade donne des fruits fades.",
+        "question_darija": "فاش نوقف السقي ديال الدلاح سويلة ؟",
+        "reponse_darija": "وقف السقي 7 لـ 10 أيام قبل الحصاد باش السكر كايتكدس والطعم كايكون مزيان. الماء الزايد فهاد المرحلة كايعطي ثمار ما عندها حتى حلاوة.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_011",
+        "question_fr": "Quelle fertilisation pour le melon Swihla ?",
+        "reponse_fr": "Fertilisation de fond : fumier composté (20-30 t/ha) + NPK 15-15-15 (200-300 kg/ha). Fertilisation de couverture : azote (50-80 kg N/ha) fractionné en 2-3 apports, potassium (80-100 kg K2O/ha).",
+        "question_darija": "شحال هو السماد للدلاح سويلة ؟",
+        "reponse_darija": "السماد الأساسي: زبل مكمور (20-30 طن فالهكتار) + NPK 15-15-15 (200-300 كيلو فالهكتار). السماد الإضافي: آزوت (50-80 كيلو N فالهكتار) على 2-3 مرات، بوتاسيوم (80-100 كيلو K2O فالهكتار).",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_012",
+        "question_fr": "Comment améliorer le sucre du melon Swihla ?",
+        "reponse_fr": "Pour améliorer le sucre : apportez assez de potassium (80-100 kg K2O/ha), arrêtez l'irrigation 7-10 jours avant récolte, récoltez à pleine maturité, et évitez les excès d'azote.",
+        "question_darija": "كيفاش نزيد الحلاوة فالدلاح سويلة ؟",
+        "reponse_darija": "باش تزيد الحلاوة: حط بوتاسيوم كافي (80-100 كيلو K2O فالهكتار)، وقف السقي 7-10 أيام قبل الحصاد، احصد فالنضج الكامل، وتجنب الآزوت الزايد.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_013",
+        "question_fr": "Quelles sont les principales maladies du melon Swihla ?",
+        "reponse_fr": "Les principales maladies sont : le mildiou (taches jaunes), l'oïdium (poudre blanche), la fusariose (flétrissement), et les viroses (mosaïque, feuilles déformées).",
+        "question_darija": "شنو هم الأمراض الرئيسية ديال الدلاح سويلة ؟",
+        "reponse_darija": "الأمراض الرئيسية هي: الميلديو (بقع صفر)، البياض الدقيقي (غبرة بيضا)، الفيوزاريوز (الذبول)، والفيروسات (الفسيفساء، الوراق مشوهة).",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_014",
+        "question_fr": "Comment lutter contre l'oïdium sur melon Swihla ?",
+        "reponse_fr": "L'oïdium se traite avec du soufre (3-5 kg/ha) ou des fongicides spécifiques (Tébucanazole). Prévention : éviter l'humidité excessive, aérer les serres, rotation des cultures.",
+        "question_darija": "كيفاش نكافحو البياض الدقيقي فالدلاح سويلة ؟",
+        "reponse_darija": "البياض الدقيقي كايتعالج بالكبريت (3-5 كيلو فالهكتار) ولا فونجيسيدات خاصة. الوقاية: تجنب الرطوبة الزايدة، تهوية السير، التناوب الزراعي.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_015",
+        "question_fr": "Quels sont les principaux ravageurs du melon Swihla ?",
+        "reponse_fr": "Les principaux ravageurs sont : les pucerons (transmettent les virus), les thrips (déforment les fruits), les acariens (toiles), et la mouche des cucurbitacées (piqûres).",
+        "question_darija": "شنو هم الآفات الرئيسية ديال الدلاح سويلة ؟",
+        "reponse_darija": "الآفات الرئيسية هي: المن (كاينقل الفيروسات)، التربس (كايشوه الثمار)، العناكب الحمرا (خيوط)، وذبابة القرعيات (ثقوب).",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_016",
+        "question_fr": "Comment lutter contre la mouche des cucurbitacées ?",
+        "reponse_fr": "Lutte : pièges jaunes collants (20-30/ha), traitement chimique (Deltaméthrine 0.2-0.3 L/ha), élimination des fruits tombés et abîmés.",
+        "question_darija": "كيفاش نكافحو ذبابة القرعيات ؟",
+        "reponse_darija": "المكافحة: مصايد صفر لاصقة (20-30 فالهكتار)، العلاج الكيميائي (دلتاميثرين 0.2-0.3 ليتر فالهكتار)، إزالة الثمار اللي وقعات أو متعوبة.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_017",
+        "question_fr": "Faut-il tailler le melon Swihla ?",
+        "reponse_fr": "OUI, la taille est recommandée. On taille les tiges secondaires (gourmands) après la nouaison pour concentrer la sève sur les fruits. Conservez 3-4 fruits par plant.",
+        "question_darija": "واش خاصنا نقلم الدلاح سويلة ؟",
+        "reponse_darija": "ايوا، التقليم كاتنصح بيه. كاتقطع السيقان الجانبية (السرطانات) مورا عقد الثمار باش السائل كايتجمع فالثمار. خلي 3-4 ثمار فالنبتة الواحدة.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_018",
+        "question_fr": "Quel est le prix du melon Swihla à Doukkala ?",
+        "reponse_fr": "Le prix du melon Swihla varie de 3 à 6 DH/kg en pleine saison (juin-juillet), et de 8 à 12 DH/kg hors saison. Les melons de première qualité (calibre, sucre) sont mieux payés.",
+        "question_darija": "شحال هو ثمن الدلاح سويلة فدكالة ؟",
+        "reponse_darija": "ثمن الدلاح سويلة كايتغير من 3 لـ 6 درهم/كيلو فوسط الموسم (يونيو-يوليوز)، ومن 8 لـ 12 درهم/كيلو برا الموسم. الدلاح ديال الجودة الأولى كايتشرى بثمن أعلى.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_019",
+        "question_fr": "Où vendre le melon Swihla à Doukkala ?",
+        "reponse_fr": "Les principaux marchés sont : le marché de gros d'El Jadida, les coopératives agricoles d'Ouled Frej, et les commerçants de Sidi Bennour. Certains producteurs vendent directement aux minoteries ou supermarchés.",
+        "question_darija": "فين نبيع الدلاح سويلة فدكالة ؟",
+        "reponse_darija": "الأسواق الرئيسية هي: سوق الجملة فالجديدة، التعاونيات الفلاحية فولاد فرج، والتجار فسيدي بنور. بعض الفلاحين كايبيعو مباشرة للمطاحن ولا السوبرمارشيه.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_020",
+        "question_fr": "Comment conserver le melon Swihla après récolte ?",
+        "reponse_fr": "Le melon Swihla se conserve 1 à 2 semaines à 10-15°C avec une humidité de 85-90%. Ne stockez pas en dessous de 7°C (risque de pourriture).",
+        "question_darija": "كيفاش نحفظ الدلاح سويلة مورا الحصاد ؟",
+        "reponse_darija": "الدلاح سويلة كايتحفظ 1 لـ 2 أساميع فـ 10-15 درجة مع رطوبة 85-90%. ما تحفظش تحت 7 درجات (خطر التعفن).",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_021",
+        "question_fr": "Quel est le meilleur précédent cultural pour le melon Swihla ?",
+        "reponse_fr": "Le meilleur précédent est les céréales (blé, orge) ou les légumineuses (fèves, pois chiches). Évitez de planter après d'autres cucurbitacées (pastèque, concombre, courgette).",
+        "question_darija": "شنو هو أحسن زرع قبل الدلاح سويلة ؟",
+        "reponse_darija": "أحسن زرع هو الحبوب (القمح، الشعير) ولا القطاني (الفول، الحمص). تجنب تزرع مورا القرعيات الأخرى (الديال، الخيار، القرعة).",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_022",
+        "question_fr": "Quelle est la température optimale pour le melon Swihla ?",
+        "reponse_fr": "La température optimale est de 20 à 30°C. La germination nécessite au moins 15-18°C. Le melon ne résiste pas au gel (température < 0°C tue la plante).",
+        "question_darija": "شنو هي الحرارة المثالية للدلاح سويلة ؟",
+        "reponse_darija": "الحرارة المثالية هي 20 لـ 30 درجة. الإنبات كايحتاج لـ 15-18 درجة على الأقل. الدلاح ما كايصمدش للجليد (الحرارة < 0 درجة كاتموت النبات).",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_023",
+        "question_fr": "Quel écartement pour le melon Swihla ?",
+        "reponse_fr": "Écartement recommandé : 1,5 à 2 m entre les rangs, et 0,5 à 1 m entre les plants (soit 5000 à 13000 plants/ha). Les billons (buttes) sont espacés de 1,5 m.",
+        "question_darija": "شحال هي المسافة مابين النباتات ديال الدلاح سويلة ؟",
+        "reponse_darija": "المسافة الموصى بها: 1,5 لـ 2 م مابين الصفوف، و 0,5 لـ 1 م مابين النباتات (يعني 5000 لـ 13000 نبتة فالهكتار). المسافة مابين المدور هي 1,5 م.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_024",
+        "question_fr": "Quels sont les signes d'une carence en bore sur melon Swihla ?",
+        "reponse_fr": "Carence en bore : fruits déformés, craquelures, mauvais développement, et chute des fleurs. Solution : apport de borax (1-2 kg/ha) au stade floraison.",
+        "question_darija": "شنو هي علامات نقص البور فالدلاح سويلة ؟",
+        "reponse_darija": "نقص البور: ثمار مشوهة، تشققات، نمو ضعيف، وتطيح الزهور. الحل: تحط بوراكس (1-2 كيلو فالهكتار) فمرحلة التزهير.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_025",
+        "question_fr": "Comment lutter contre les pucerons sur melon Swihla ?",
+        "reponse_fr": "Lutte : insecticides (Imidaclopride 0.1-0.15 L/ha hors floraison), auxiliaires naturels (coccinelles, syrphes), et pièges jaunes collants.",
+        "question_darija": "كيفاش نكافحو المن فالدلاح سويلة ؟",
+        "reponse_darija": "المكافحة: مبيدات حشرية (إيميداكلوبريد 0.1-0.15 ليتر فالهكتار برا التزهير)، الأعداء الطبيعية (الخنافس، السيرف)، ومصايد صفر لاصقة.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_026",
+        "question_fr": "Quand récolter le melon Swihla à El Jadida ?",
+        "reponse_fr": "À El Jadida, la récolte du melon Swihla se fait de JUIN à AOÛT. Les premiers melons sous serre sont récoltés fin mai.",
+        "question_darija": "فاش نحصد الدلاح سويلة فالجديدة ؟",
+        "reponse_darija": "فالجديدة، حصاد الدلاح سويلة كايكون من يونيو لـ غشت. أول دلاح تحت السير كايتحصد فماي.",
+        "zone": "El Jadida"
+      },
+      {
+        "id": "SWI_027",
+        "question_fr": "Quel est l'impact du stress hydrique sur le melon Swihla ?",
+        "reponse_fr": "Un stress hydrique sévère réduit le rendement de 30-50%, donne des fruits petits, durs et moins sucrés, et provoque la chute des fleurs et des jeunes fruits.",
+        "question_darija": "شحال هو تأثير الإجهاد المائي على الدلاح سويلة ؟",
+        "reponse_darija": "الإجهاد المائي الشديد كاينقص الإنتاج بـ 30-50%، كايعطي ثمار صغار، قاسحين وأقل حلاوة، وكايسبب تطيح الزهور والثمار الصغار.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_028",
+        "question_fr": "Comment préparer le sol pour le melon Swihla ?",
+        "reponse_fr": "Préparation : labour profond (25-30 cm) en février, apport de fumier composté (20-30 t/ha), nivellement, puis billons (buttes) espacés de 1,5 m.",
+        "question_darija": "كيفاش نحضر الأرض للدلاح سويلة ؟",
+        "reponse_darija": "التحضير: حرث عميق (25-30 سم) ففبراير، تحط الزبل المكمور (20-30 طن فالهكتار)، التسوية، ثم المدور (النتو) بيناتهوم 1,5 م.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_029",
+        "question_fr": "Quelle est la meilleure variété de melon pour Ouled Frej ?",
+        "reponse_fr": "La meilleure variété pour Ouled Frej est le melon Swihla traditionnel. Il est très bien adapté aux sols sableux et au climat de la région.",
+        "question_darija": "شنو هو أحسن نوع ديال الدلاح لولاد فرج ؟",
+        "reponse_darija": "أحسن نوع لولاد فرج هو الدلاح سويلة التقليدي. كايتكيف مزيان مع الأرض الرملية والطقس ديال المنطقة.",
+        "zone": "Ouled Frej"
+      },
+      {
+        "id": "SWI_030",
+        "question_fr": "Comment protéger le melon Swihla du gel ?",
+        "reponse_fr": "Le gel est rare à Doukkala, mais en cas d'alerte, utilisez des tunnels en plastique, un paillage, ou irriguez la veille (l'eau humide protège).",
+        "question_darija": "كيفاش نحمي الدلاح سويلة من الجليد ؟",
+        "reponse_darija": "الجليد نادر فدكالة، ولكن إلا كان تحذير، استعمل التونيلات البلاستيكية، التغطية، ولا سقي اليوم اللي قبله (الماء الرطب كايحمي).",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_031",
+        "question_fr": "Quels sont les besoins en potassium du melon Swihla ?",
+        "reponse_fr": "Le melon Swihla a besoin de 80 à 100 kg K2O/ha. Le potassium améliore la qualité du fruit, la teneur en sucre et la résistance aux maladies.",
+        "question_darija": "شحال هو الحوايج ديال البوتاسيوم للدلاح سويلة ؟",
+        "reponse_darija": "الدلاح سويلة كايحتاج لـ 80 لـ 100 كيلو K2O فالهكتار. البوتاسيوم كايزيد الجودة ديال الثمرة، الحلاوة، ومقاومة الأمراض.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_032",
+        "question_fr": "Quels sont les besoins en azote du melon Swihla ?",
+        "reponse_fr": "Le melon Swihla a besoin de 50 à 80 kg N/ha. Fractionnez en 2-3 apports : 50% au tallage, 50% à la floraison. Trop d'azote donne des fruits fades.",
+        "question_darija": "شحال هو الحوايج ديال الآزوت للدلاح سويلة ؟",
+        "reponse_darija": "الدلاح سويلة كايحتاج لـ 50 لـ 80 كيلو N فالهكتار. فرقو على 2-3 مرات: 50% فالتفريع، 50% فالتزهير. الآزوت الزايد كايعطي ثمار ما عندها حتى طعم.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_033",
+        "question_fr": "Quel est le pH idéal pour le melon Swihla ?",
+        "reponse_fr": "Le pH idéal est entre 6,0 et 7,5 (légèrement acide à neutre). Un pH trop bas (<5,5) bloque l'absorption du phosphore et du bore.",
+        "question_darija": "شحال هو pH الأرض المناسب للدلاح سويلة ؟",
+        "reponse_darija": "pH المثالي هو مابين 6,0 و 7,5 (حمضي شوية لـ متعادل). pH قليل (<5,5) كايوقف إمتصاص الفوسفور والبور.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_034",
+        "question_fr": "Comment lutter contre les thrips sur melon Swihla ?",
+        "reponse_fr": "Lutte : insecticides (Spinosad 0.2-0.3 L/ha), pièges bleus collants (20-30/ha), élimination des mauvaises herbes, et rotation des cultures.",
+        "question_darija": "كيفاش نكافحو التربس فالدلاح سويلة ؟",
+        "reponse_darija": "المكافحة: مبيدات حشرية (سبينوساد 0.2-0.3 ليتر فالهكتار)، مصايد زرق لاصقة (20-30 فالهكتار)، إزالة الحشائش، والتناوب الزراعي.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_035",
+        "question_fr": "Quel est le rendement moyen du melon Swihla à Ouled Frej ?",
+        "reponse_fr": "À Ouled Frej, le rendement moyen du melon Swihla est de 25 à 35 tonnes par hectare. Les bonnes années, on atteint 40 t/ha.",
+        "question_darija": "شحال هو الإنتاج الوسيط ديال الدلاح سويلة فولاد فرج ؟",
+        "reponse_darija": "فولاد فرج، الإنتاج الوسيط ديال الدلاح سويلة هو 25 لـ 35 طن فالهكتار. فالأعوام المزيانة، نوصلو لـ 40 طن فالهكتار.",
+        "zone": "Ouled Frej"
+      },
+      {
+        "id": "SWI_036",
+        "question_fr": "Quand planter le melon Swihla sous serre à El Jadida ?",
+        "reponse_fr": "Sous serre à El Jadida, le semis peut commencer dès FÉVRIER pour une récolte en MAI-JUIN. La variété Swihla se plante à partir de mi-février.",
+        "question_darija": "فاش نزرع الدلاح سويلة تحت السير فالجديدة ؟",
+        "reponse_darija": "تحت السير فالجديدة، الزرع كايبان من فبراير باش الحصاد كايكون فماي-يونيو. النوع سويلة كايتزرع من نص فبراير.",
+        "zone": "El Jadida"
+      },
+      {
+        "id": "SWI_037",
+        "question_fr": "Quels sont les signes d'une carence en potassium sur melon Swihla ?",
+        "reponse_fr": "Symptômes : bords des feuilles brûlés (nécrose marginale), fruits mous et peu sucrés, faible résistance aux maladies. Solution : apport de sulfate de potassium (80-100 kg K2O/ha).",
+        "question_darija": "شنو هي علامات نقص البوتاسيوم فالدلاح سويلة ؟",
+        "reponse_darija": "الأعراض: حواف الوراق كاتحرق، الثمار كاتكون طرية وما فيها حتى حلاوة، مقاومة الأمراض ضعيفة. الحل: تحط سلفات البوتاسيوم (80-100 كيلو K2O فالهكتار).",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_038",
+        "question_fr": "Quels sont les signes d'une carence en azote sur melon Swihla ?",
+        "reponse_fr": "Symptômes : feuilles pâles (jaunissement), croissance lente, tiges fines, fruits petits. Solution : apport d'urée ou de nitrate d'ammonium (30-50 kg N/ha).",
+        "question_darija": "شنو هي علامات نقص الآزوت فالدلاح سويلة ؟",
+        "reponse_darija": "الأعراض: الوراق كاتصفر، النمو كايبطا، السيقان رقاق، الثمار صغار. الحل: تحط اليوريا ولا نترات الأمونيوم (30-50 كيلو N فالهكتار).",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_039",
+        "question_fr": "Comment lutter contre les acariens sur melon Swihla ?",
+        "reponse_fr": "Les acariens se traitent avec des acaricides (Abamectine 0.2-0.3 L/ha) ou du soufre. Prévention : maintenir une humidité suffisante, introduire des auxiliaires (phytoseiulus).",
+        "question_darija": "كيفاش نكافحو العناكب الحمرا فالدلاح سويلة ؟",
+        "reponse_darija": "العناكب كاتعالج بمبيدات العناكب (أبامكتين 0.2-0.3 ليتر فالهكتار) ولا الكبريت. الوقاية: خلي رطوبة كافية، ودخل الأعداء الطبيعية (فيتوسيولوس).",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_040",
+        "question_fr": "Quel est le poids moyen d'un melon Swihla ?",
+        "reponse_fr": "Un melon Swihla pèse entre 1,5 et 3 kg. Les plus gros peuvent atteindre 4 kg dans de bonnes conditions.",
+        "question_darija": "شحال هو الوزن ديال الدلاح سويلة ؟",
+        "reponse_darija": "الدلاح سويلة كايزن مابين 1,5 و 3 كيلو. الكبار يقدر يوصلو لـ 4 كيلو فالأحوال المزيانة.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_041",
+        "question_fr": "Combien de melons Swihla par plant ?",
+        "reponse_fr": "On conserve 3 à 4 melons par plant après la taille. Sans taille, le plant peut produire 5-6 fruits mais plus petits.",
+        "question_darija": "شحال ديال دلاح سويلة فالنبتة ؟",
+        "reponse_darija": "كاتخلي 3 لـ 4 دلاحات فالنبتة مورا التقليم. بلا تقليم، النبتة تقدر تنتج 5-6 ثمار ولكن صغار.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_042",
+        "question_fr": "Quelle est la durée de conservation du melon Swihla ?",
+        "reponse_fr": "Le melon Swihla se conserve 5 à 7 jours à température ambiante, et 1 à 2 semaines à 10-15°C. Il se conserve moins longtemps que les variétés hybrides.",
+        "question_darija": "شحال هي المدة ديال حفظ الدلاح سويلة ؟",
+        "reponse_darija": "الدلاح سويلة كايتحفظ 5 لـ 7 أيام فدرجة الحرارة العادية، و 1 لـ 2 أساميع فـ 10-15 درجة. كايتحفظ وقت أقل من الأنواع الهجينة.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_043",
+        "question_fr": "Comment transporter le melon Swihla sans l'abîmer ?",
+        "reponse_fr": "Transport : récoltez tôt le matin, manipulez avec précaution (pas de choc), utilisez des caisses en plastique aérées, et ne superposez pas plus de 2-3 couches.",
+        "question_darija": "كيفاش ننقل الدلاح سويلة بلا ما يتعطل ؟",
+        "reponse_darija": "النقل: احصد فالصباح بكري، شيل بحذر (لا للصدمات)، استعمل صناديق بلاستيكية مهواة، وما تحطش أكثر من 2-3 طبقات.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_044",
+        "question_fr": "Quel est le meilleur moment pour récolter le melon Swihla ?",
+        "reponse_fr": "Le meilleur moment est tôt le matin (avant 8h), quand les fruits sont frais et fermes. Évitez la récolte en pleine chaleur.",
+        "question_darija": "شنو هو أحسن وقت لحصاد الدلاح سويلة ؟",
+        "reponse_darija": "أحسن وقت هو فالصباح بكري (قبل 8 ساعات)، فاش الثمار ناضيين وقاسحين. تجنب الحصاد فالنص النهار.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_045",
+        "question_fr": "Comment irriguer le melon Swihla au goutte-à-goutte ?",
+        "reponse_fr": "Irrigation au goutte-à-goutte : 5 à 10 litres par plant par jour selon le stade. Fréquence : tous les 2-3 jours en début de cycle, tous les jours en floraison et nouaison.",
+        "question_darija": "كيفاش نسقي الدلاح سويلة بالتنقيط ؟",
+        "reponse_darija": "السقي بالتنقيط: 5 لـ 10 ليتر فالنبتة فاليوم حسب المرحلة. المدة: كل 2-3 أيام فبداية الدورة، كل يوم فالتزهير وعقد الثمار.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_046",
+        "question_fr": "Quel est l'impact de la chaleur sur le melon Swihla ?",
+        "reponse_fr": "Une chaleur excessive (>35°C) bloque la floraison, réduit la nouaison, et donne des fruits moins sucrés. Utilisez des filets d'ombrage si nécessaire.",
+        "question_darija": "شحال هو تأثير الحرارة على الدلاح سويلة ؟",
+        "reponse_darija": "الحرارة الزايدة (>35 درجة) كاتوقف التزهير، كاتنقص عقد الثمار، وكاتعطي ثمار أقل حلاوة. استعمل شباك التظليل إلا كان ضروري.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_047",
+        "question_fr": "Quel est l'impact de l'humidité sur le melon Swihla ?",
+        "reponse_fr": "Une humidité élevée (>80%) favorise les maladies fongiques (mildiou, oïdium). Une humidité faible (<40%) favorise les acariens.",
+        "question_darija": "شحال هو تأثير الرطوبة على الدلاح سويلة ؟",
+        "reponse_darija": "الرطوبة العالية (>80%) كاتخدم الأمراض الفطرية (الميلديو، البياض الدقيقي). الرطوبة القليلة (<40%) كاتخدم العناكب الحمرا.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_048",
+        "question_fr": "Faut-il pailler le melon Swihla ?",
+        "reponse_fr": "OUI, le paillage (plastique noir ou paille) est recommandé. Il réduit l'évaporation, limite les mauvaises herbes, et protège les fruits du contact avec le sol.",
+        "question_darija": "واش خاصنا نغطي الأرض للدلاح سويلة ؟",
+        "reponse_darija": "ايوا، التغطية (بلاستيك أسود ولا التبن) كاتنصح بيه. كاتقلل التبخر، كاتحد من الحشائش، وكاتحمي الثمار من التلامس مع الأرض.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_049",
+        "question_fr": "Quels sont les signes d'un excès d'eau sur melon Swihla ?",
+        "reponse_fr": "Signes : feuilles jaunes, croissance ralentie, pourriture des racines (flétrissement soudain), fruits fades et aqueux, et développement de maladies fongiques.",
+        "question_darija": "شنو هي علامات الماء الزايد على الدلاح سويلة ؟",
+        "reponse_darija": "العلامات: الوراق صفر، النمو كايبطا، تعفن الجذور (الذبول المفاجئ)، ثمار ما عندها حتى طعم وما فيها ماء، وانتشار الأمراض الفطرية.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_050",
+        "question_fr": "Quels sont les signes d'un manque d'eau sur melon Swihla ?",
+        "reponse_fr": "Signes : feuilles flétries le midi, croissance lente, fruits petits et durs, floraison réduite, et chute des fleurs et des jeunes fruits.",
+        "question_darija": "شنو هي علامات نقص الماء على الدلاح سويلة ؟",
+        "reponse_darija": "العلامات: الوراق كاتذبل فالنصف النهار، النمو كايبطا، الثمار صغار وقاسحين، التزهير كاينقص، وتطيح الزهور والثمار الصغار.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_051",
+        "question_fr": "Comment lutter contre le mildiou sur melon Swihla ?",
+        "reponse_fr": "Le mildiou se traite avec des fongicides à base de mancozèbe ou de cuivre (bouillie bordelaise). Prévention : espacer les irrigations, éviter l'humidité sur les feuilles.",
+        "question_darija": "كيفاش نكافحو الميلديو فالدلاح سويلة ؟",
+        "reponse_darija": "الميلديو كايتعالج بفونجيسيدات على أساس مانكوزيب ولا النحاس. الوقاية: وسع بين السقيات، تجنب الرطوبة على الوراق.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_052",
+        "question_fr": "Quelles sont les variétés hybrides de melon pour Doukkala ?",
+        "reponse_fr": "Les variétés hybrides adaptées sont : Magenta, Galia, Tendral, et Ananas. Elles ont un rendement plus élevé que Swihla mais un goût différent.",
+        "question_darija": "شنو هم الأنواع الهجينة ديال الدلاح المناسبة لدكالة ؟",
+        "reponse_darija": "الأنواع الهجينة المناسبة هي: ماجنتا، غاليا، تيندرال، و الأناناس. عندهم إنتاج أعلى من سويلة ولكن الطعم مختلف.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_053",
+        "question_fr": "Peut-on cultiver le melon Swihla en bio ?",
+        "reponse_fr": "OUI, mais c'est difficile à cause des maladies et ravageurs. Il faut des rotations longues (4-5 ans), des variétés résistantes, et des traitements naturels (cuivre, soufre, auxiliaires).",
+        "question_darija": "نقدر نزرع الدلاح سويلة فالبيلوجي (عضوي) ؟",
+        "reponse_darija": "ايوا، ولكن صعيب بسباب الأمراض والآفات. خاصك تناوب طويل (4-5 سنين)، أنواع مقاومة، وعلاجات طبيعية (نحاس، كبريت، الأعداء الطبيعية).",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_054",
+        "question_fr": "Quel est le rôle du bore pour le melon Swihla ?",
+        "reponse_fr": "Le bore est essentiel pour la floraison, la pollinisation et la nouaison. Une carence en bore provoque des fruits déformés et des craquelures.",
+        "question_darija": "شنو هو دور البور للدلاح سويلة ؟",
+        "reponse_darija": "البور ضروري للتزهير، التلقيح وعقد الثمار. نقص البور كايسبب ثمار مشوهة وتشققات.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_055",
+        "question_fr": "Comment polliniser le melon Swihla sous serre ?",
+        "reponse_fr": "Sous serre, la pollinisation est souvent insuffisante. Utilisez des bourdons (1 ruche/2000 m²) ou la pollinisation manuelle (transférer le pollen avec un pinceau).",
+        "question_darija": "كيفاش نلقح الدلاح سويلة تحت السير ؟",
+        "reponse_darija": "تحت السير، التلقيح كايكون ناقص. استعمل النحل الطنان (1 خلية/2000 متر مربع) ولا التلقيح اليدوي (تنقل الطلع بالفرشاة).",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_056",
+        "question_fr": "Quel est le meilleur engrais pour le melon Swihla ?",
+        "reponse_fr": "Le meilleur engrais est un NPK 15-15-15 (200-300 kg/ha) au semis, complété par du fumier composté (20-30 t/ha) et du sulfate de potassium (80-100 kg K2O/ha).",
+        "question_darija": "شنو هو أحسن سماد للدلاح سويلة ؟",
+        "reponse_darija": "أحسن سماد هو NPK 15-15-15 (200-300 كيلو فالهكتار) فاش كاتزرع، مكمل بالزبل المكمور (20-30 طن فالهكتار) وسلفات البوتاسيوم (80-100 كيلو K2O فالهكتار).",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_057",
+        "question_fr": "Quelle est la profondeur de semis pour le melon Swihla ?",
+        "reponse_fr": "La profondeur de semis est de 2 à 3 cm. Trop profond retarde la levée, trop superficiel expose les graines à la sécheresse et aux oiseaux.",
+        "question_darija": "شحال هو العمق ديال زرع الدلاح سويلة ؟",
+        "reponse_darija": "عمق الزرع هو 2 لـ 3 سم. العمق بزاف كايعطل الطلوع، القريب من السطح كايعرض البذور للجفاف والطيور.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_058",
+        "question_fr": "Quelle est la densité de semis pour le melon Swihla ?",
+        "reponse_fr": "La densité est de 5000 à 13000 plants par hectare, selon l'écartement choisi (1,5-2 m entre rangs, 0,5-1 m entre plants).",
+        "question_darija": "شحال هي الكثافة ديال زرع الدلاح سويلة ؟",
+        "reponse_darija": "الكثافة هي 5000 لـ 13000 نبتة فالهكتار، على حسب المسافة المختارة (1,5-2 م مابين الصفوف، 0,5-1 م مابين النباتات).",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_059",
+        "question_fr": "Faut-il traiter les semences de melon Swihla ?",
+        "reponse_fr": "OUI, le traitement des semences est recommandé contre les maladies du sol (fusariose) et les ravageurs. Utilisez un fongicide-insecticide (ex. : Vibrance Duo).",
+        "question_darija": "واش خاصنا نعالج بذور الدلاح سويلة ؟",
+        "reponse_darija": "ايوا، معالجة البذور كاتنصح بيه ضد الأمراض الترابية (الفيوزاريوز) والآفات. استعمل فونجيسيد-مبيد حشرات (مثال: فايبرانس ديو).",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_060",
+        "question_fr": "Comment lutter contre les nématodes sur melon Swihla ?",
+        "reponse_fr": "Lutte : rotation avec des céréales (blé, orge) sur 3-4 ans, utilisation de variétés résistantes, solarisation du sol (plastique transparent en été), et apport de compost.",
+        "question_darija": "كيفاش نكافحو النيماتودا فالدلاح سويلة ؟",
+        "reponse_darija": "المكافحة: التناوب مع الحبوب (القمح، الشعير) على 3-4 سنين، استعمال أنواع مقاومة، تعقيم الأرض بالشمس (بلاستيك شفاف فالصيف)، وتحط الكومپو.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_061",
+        "question_fr": "Quel est le coût de production du melon Swihla ?",
+        "reponse_fr": "Le coût de production est d'environ 20 000 à 30 000 DH/ha (semences, irrigation, engrais, traitements, main-d'œuvre). Avec un rendement de 30 t/ha à 5 DH/kg, le chiffre d'affaires est de 150 000 DH/ha.",
+        "question_darija": "شحال هو تكلفة الإنتاج ديال الدلاح سويلة ؟",
+        "reponse_darija": "تكلفة الإنتاج فحدود 20.000 لـ 30.000 درهم فالهكتار (بذور، سقي، سماد، علاجات، اليد العاملة). مع إنتاج 30 طن فالهكتار ب 5 درهم/كيلو، العائد هو 150.000 درهم فالهكتار.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_062",
+        "question_fr": "Quelle est la marge bénéficiaire pour le melon Swihla ?",
+        "reponse_fr": "La marge bénéficiaire varie de 20 000 à 80 000 DH/ha selon le rendement et le prix de vente. Les bonnes années, la marge peut dépasser 100 000 DH/ha.",
+        "question_darija": "شحال هو الربح للدلاح سويلة ؟",
+        "reponse_darija": "الربح كايتغير من 20.000 لـ 80.000 درهم فالهكتار على حسب الإنتاج وثمن البيع. فالأعوام المزيانة، الربح يقدر يتعدى 100.000 درهم فالهكتار.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_063",
+        "question_fr": "Où trouver des semences de melon Swihla ?",
+        "reponse_fr": "Les semences de melon Swihla sont disponibles dans les coopératives agricoles d'El Jadida et Ouled Frej, chez les revendeurs agréés ORMVAD, et dans certaines minoteries locales.",
+        "question_darija": "فين نلقى بذور الدلاح سويلة ؟",
+        "reponse_darija": "بذور الدلاح سويلة كاينة فالتعاونيات الفلاحية فالجديدة وولاد فرج، عند الموزعين المعتمدين ديال المكتب الجهوي للتنمية الفلاحية، وفبعض المطاحن المحلية.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_064",
+        "question_fr": "Quel est le rôle de l'ORMVAD pour le melon Swihla ?",
+        "reponse_fr": "L'ORMVAD conseille les agriculteurs sur les itinéraires techniques, la gestion de l'irrigation, la fertilisation, et la lutte contre les maladies. Il coordonne aussi la commercialisation.",
+        "question_darija": "شنو هو دور المكتب الجهوي للتنمية الفلاحية للدلاح سويلة ؟",
+        "reponse_darija": "المكتب الجهوي كاينصح الفلاحين على التقنيات، تسيير السقي، التسميد، ومكافحة الأمراض. كاينسق حتى فالتسويق.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_065",
+        "question_fr": "Quels sont les mois de production du melon Swihla ?",
+        "reponse_fr": "Le melon Swihla est produit de JUIN à AOÛT en plein champ. Sous serre, la production peut commencer en MAI et se terminer en SEPTEMBRE.",
+        "question_darija": "شنو هم شهور الإنتاج ديال الدلاح سويلة ؟",
+        "reponse_darija": "الدلاح سويلة كايتنتج من يونيو لـ غشت فالحقل المكشوف. تحت السير، الإنتاج كايبان من ماي لـ شتنبر.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_066",
+        "question_fr": "Comment améliorer la qualité du melon Swihla ?",
+        "reponse_fr": "Pour améliorer la qualité : apportez assez de potassium, arrêtez l'irrigation avant récolte, taillez les tiges secondaires, récoltez à pleine maturité, et protégez les fruits du soleil.",
+        "question_darija": "كيفاش نزيد الجودة ديال الدلاح سويلة ؟",
+        "reponse_darija": "باش تزيد الجودة: حط بوتاسيوم كافي، وقف السقي قبل الحصاد، قطع السيقان الجانبية، احصد فالنضج الكامل، وحمي الثمار من الشمس.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_067",
+        "question_fr": "Quel est l'impact du stress salin sur le melon Swihla ?",
+        "reponse_fr": "Le melon Swihla tolère une salinité jusqu'à 2-3 dS/m. Au-delà, la croissance ralentit, les fruits deviennent plus petits et moins sucrés, et les feuilles brûlent sur les bords.",
+        "question_darija": "شحال هو تأثير الملوحة على الدلاح سويلة ؟",
+        "reponse_darija": "الدلاح سويلة كايصمد للملوحة حتى 2-3 dS/m. فوق هاد النسبة، النمو كايبطا، الثمار كاتصغر وتقل حلاوتها، وحواف الوراق كاتحرق.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_068",
+        "question_fr": "Comment lutter contre les oiseaux sur le melon Swihla ?",
+        "reponse_fr": "Protection : filets anti-oiseaux (maille 2-3 cm), épouvantails, bandes réfléchissantes (CD, aluminium), ou fusils à pétards. Le filet est le plus efficace.",
+        "question_darija": "كيفاش نكافحو الطيور على الدلاح سويلة ؟",
+        "reponse_darija": "الحماية: شباك ضد الطيور (فتحة 2-3 سم)، فزاعة، شرائط عاكسة (سي دي، ألومينيوم)، أو مسدس الشديد. الشباك هو الأكثر فعالية.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_069",
+        "question_fr": "Quelle est la différence entre Swihla et les autres melons ?",
+        "reponse_fr": "Le Swihla est plus sucré et plus parfumé que les variétés hybrides, mais il a une conservation plus courte et un rendement légèrement inférieur. Sa peau devient jaune/crème à maturité.",
+        "question_darija": "شنو هو الفرق مابين سويلة والدلاح الآخر ؟",
+        "reponse_darija": "سويلة كاتكون أحلى ومعطرة أكثر من الأنواع الهجينة، ولكن الحفظ ديالها قصير والإنتاج شوية أقل. قشرتها كاتولي صفرا/كريمية فالنضج.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_070",
+        "question_fr": "Peut-on exporter le melon Swihla ?",
+        "reponse_fr": "OUI, le melon Swihla est exporté vers l'Europe (France, Espagne) et les pays du Golfe. Il doit répondre à des normes de calibre (1,5-2,5 kg), de sucre (>10° Brix), et d'absence de résidus de pesticides.",
+        "question_darija": "نقدر نصدر الدلاح سويلة ؟",
+        "reponse_darija": "ايوا، الدلاح سويلة كايتصدر لأوروبا (فرونس، صبانيا) ودول الخليج. خاصو يكون مطابق للمعايير ديال الحجم (1,5-2,5 كيلو)، السكر (>10° Brix)، وعدم وجود بقايا المبيدات.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_071",
+        "question_fr": "Quel est le calibre commercial du melon Swihla ?",
+        "reponse_fr": "Le calibre commercial pour l'exportation est 1,5 à 2,5 kg. Pour le marché local, tous les calibres sont acceptés (1-3 kg).",
+        "question_darija": "شحال هو الحجم التجاري ديال الدلاح سويلة ؟",
+        "reponse_darija": "الحجم التجاري للتصدير هو 1,5 لـ 2,5 كيلو. للسوق المحلية، جميع الأحجام مقبولة (1-3 كيلو).",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_072",
+        "question_fr": "Quelle est la teneur en sucre du melon Swihla ?",
+        "reponse_fr": "La teneur en sucre du melon Swihla est de 10 à 14° Brix. C'est plus élevé que les variétés hybrides (8-12° Brix).",
+        "question_darija": "شحال هي نسبة السكر فالدلاح سويلة ؟",
+        "reponse_darija": "نسبة السكر فالدلاح سويلة هي 10 لـ 14° Brix. هاد أعلى من الأنواع الهجينة (8-12° Brix).",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_073",
+        "question_fr": "Quels sont les défauts du melon Swihla ?",
+        "reponse_fr": "Les principaux défauts : conservation courte (5-7 jours), sensibilité aux maladies (mildiou, oïdium), et rendement inférieur aux hybrides (20-30 t/ha contre 30-40 t/ha).",
+        "question_darija": "شنو هم العيوب ديال الدلاح سويلة ؟",
+        "reponse_darija": "العيوب الرئيسية: الحفظ قصير (5-7 أيام)، حساسية للأمراض (الميلديو، البياض الدقيقي)، وإنتاج أقل من الهجينة (20-30 طن فالهكتار مقابل 30-40 طن فالهكتار).",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_074",
+        "question_fr": "Quels sont les avantages du melon Swihla ?",
+        "reponse_fr": "Avantages : goût très sucré et parfumé, très prisé sur les marchés locaux, bonne adaptation aux sols sableux de Doukkala, et résistance relative à la sécheresse.",
+        "question_darija": "شنو هم المزايا ديال الدلاح سويلة ؟",
+        "reponse_darija": "المزايا: طعم حلو بزاف ومعطر، كايتقدر بزاف فالسوق المحلية، كايتكيف مزيان مع الأرض الرملية فدكالة، ومقاومة نسبية للجفاف.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_075",
+        "question_fr": "Comment choisir un bon melon Swihla au marché ?",
+        "reponse_fr": "Au marché, choisissez un melon Swihla avec une peau jaune/crème, une tige qui se détache facilement, un parfum sucré, et un côté opposé à la tige légèrement mou.",
+        "question_darija": "كيفاش نختار دلاح سويلة مزيان فالسوق ؟",
+        "reponse_darija": "فالسوق، ختار دلاح سويلة مع قشرة صفرا/كريمية، ساق كاتفصل بسهولة، ريحة حلوة، وجهة مقابل الساق كاتكون طرية شويا.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_076",
+        "question_fr": "Peut-on cultiver le melon Swihla en été ?",
+        "reponse_fr": "OUI, le melon Swihla se cultive en été (mars-avril pour un semis, récolte juin-août). Évitez les semis en juillet-août (chaleur excessive).",
+        "question_darija": "نقدر نزرع الدلاح سويلة فالصيف ؟",
+        "reponse_darija": "ايوا، الدلاح سويلة كايتزرع فالصيف (مارس-أبريل للزرع، حصاد يونيو-غشت). تجنب الزرع فشيولية-غشت (الحرارة الزايدة).",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_077",
+        "question_fr": "Quel est l'impact du vent sur le melon Swihla ?",
+        "reponse_fr": "Le vent fort (>40 km/h) peut casser les tiges, dessécher les fleurs, et réduire la pollinisation. Installez des brise-vent (haies, filets) si nécessaire.",
+        "question_darija": "شحال هو تأثير الرياح على الدلاح سويلة ؟",
+        "reponse_darija": "الرياح القوية (>40 كلم/س) كاتقدر تكسر السيقان، تجفف الزهور، وتنقص التلقيح. ركب مصدات الرياح (سياجات، شباك) إلا كان ضروري.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_078",
+        "question_fr": "Comment lutter contre les mauvaises herbes dans le melon Swihla ?",
+        "reponse_fr": "Lutte : paillage plastique noir, désherbage mécanique (binage) entre les rangs, et herbicides sélectifs (ex. : Pendiméthaline) avant la levée.",
+        "question_darija": "كيفاش نكافحو الحشائش فالدلاح سويلة ؟",
+        "reponse_darija": "المكافحة: التغطية بالبلاستيك الأسود، إزالة الحشائش بالميكانيك مابين الصفوف، ومبيدات حشائش انتقائية (مثال: بنديميثالين) قبل الطلوع.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_079",
+        "question_fr": "Quelle est la durée de la floraison du melon Swihla ?",
+        "reponse_fr": "La floraison dure 2 à 3 semaines, environ 30-40 jours après le semis. La pollinisation est assurée par les insectes (abeilles, bourdons).",
+        "question_darija": "شحال هي المدة ديال التزهير للدلاح سويلة ؟",
+        "reponse_darija": "التزهير كايدوم 2 لـ 3 أساميع، تقريبا 30-40 يوم مورا الزرع. التلقيح كايكون بالحشرات (النحل، النحل الطنان).",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_080",
+        "question_fr": "Quelle est la durée de la nouaison du melon Swihla ?",
+        "reponse_fr": "La nouaison (formation des fruits) dure 3 à 5 jours après la floraison. Le fruit met ensuite 35 à 45 jours pour arriver à maturité.",
+        "question_darija": "شحال هي المدة ديال عقد الثمار للدلاح سويلة ؟",
+        "reponse_darija": "عقد الثمار كايدوم 3 لـ 5 أيام مورا التزهير. الثمرة كاتاخد بعدها 35 لـ 45 يوم باش توصل للنضج.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_081",
+        "question_fr": "Faut-il éclaircir les fruits du melon Swihla ?",
+        "reponse_fr": "OUI, l'éclaircissage est recommandé. Conservez 3-4 fruits par plant, supprimez les fruits difformes ou trop petits pour concentrer la sève sur les meilleurs fruits.",
+        "question_darija": "واش خاصنا نرقق الثمار ديال الدلاح سويلة ؟",
+        "reponse_darija": "ايوا، الترقق كاتنصح بيه. خلي 3-4 ثمار فالنبتة، امسح الثمار المشوهة ولا الصغار باش السائل كايتجمع فالثمار المزيانة.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_082",
+        "question_fr": "Comment protéger les fruits du melon Swihla du soleil ?",
+        "reponse_fr": "Les fruits exposés au soleil direct peuvent brûler (coup de soleil). Protection : laissez les feuilles couvrir les fruits, utilisez un paillage, ou installez des filets d'ombrage.",
+        "question_darija": "كيفاش نحمي ثمار الدلاح سويلة من الشمس ؟",
+        "reponse_darija": "الثمار اللي معرضة للشمس مباشرة يمكن تتحرق. الحماية: خلي الوراق تغطي الثمار، استعمل التغطية، ولا ركب شباك التظليل.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_083",
+        "question_fr": "Quel est l'impact de la pluie sur le melon Swihla ?",
+        "reponse_fr": "La pluie pendant la floraison réduit la pollinisation. La pluie avant la récolte peut provoquer la pourriture des fruits et réduire le sucre. Protégez avec des tunnels si possible.",
+        "question_darija": "شحال هو تأثير الشتا على الدلاح سويلة ؟",
+        "reponse_darija": "الشتا فالتزهير كاتنقص التلقيح. الشتا قبل الحصاد كاتقدر تسبب تعفن الثمار وتنقص السكر. حمي بالتونيلات إلا كان ممكن.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_084",
+        "question_fr": "Peut-on cultiver le melon Swihla en rotation avec le blé ?",
+        "reponse_fr": "OUI, la rotation blé → melon Swihla est excellente. Le blé améliore la structure du sol et réduit les maladies. Évitez de planter le melon après un autre melon ou une cucurbitacée.",
+        "question_darija": "نقدر نزرع الدلاح سويلة فالتناوب مع القمح ؟",
+        "reponse_darija": "ايوا، التناوب قمح → دلاح سويلة هو ممتاز. القمح كايحسن تركيب الأرض ويقلل الأمراض. تجنب تزرع الدلاح مورا دلاح آخر ولا قرعية أخرى.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_085",
+        "question_fr": "Quels sont les besoins en magnésium du melon Swihla ?",
+        "reponse_fr": "Le melon Swihla a besoin de 20 à 30 kg MgO/ha. Une carence en magnésium provoque des feuilles jaunes entre les nervures. Apport : sulfate de magnésium (20-30 kg/ha).",
+        "question_darija": "شحال هو الحوايج ديال المغنيسيوم للدلاح سويلة ؟",
+        "reponse_darija": "الدلاح سويلة كايحتاج لـ 20 لـ 30 كيلو MgO فالهكتار. نقص المغنيسيوم كايسبب ورق صفر مابين العروق. الحل: سلفات المغنيسيوم (20-30 كيلو فالهكتار).",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_086",
+        "question_fr": "Quels sont les besoins en calcium du melon Swihla ?",
+        "reponse_fr": "Le calcium est important pour la qualité de la peau et la résistance aux maladies. Apport : 50-80 kg CaO/ha sous forme de nitrate de calcium ou de chaux.",
+        "question_darija": "شحال هو الحوايج ديال الكالسيوم للدلاح سويلة ؟",
+        "reponse_darija": "الكالسيوم مهم للجودة ديال القشرة ومقاومة الأمراض. التحطة: 50-80 كيلو CaO فالهكتار على شكل نترات الكالسيوم ولا الجير.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_087",
+        "question_fr": "Comment lutter contre les nématodes à galles sur melon Swihla ?",
+        "reponse_fr": "Les nématodes à galles provoquent des galles sur les racines. Lutte : rotation avec céréales, solarisation, variétés résistantes, et apport de compost.",
+        "question_darija": "كيفاش نكافحو النيماتودا العقدية على الدلاح سويلة ؟",
+        "reponse_darija": "النيماتودا العقدية كاتسبب عقد على الجذور. المكافحة: التناوب مع الحبوب، التعقيم بالشمس، أنواع مقاومة، وتحط الكومپو.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_088",
+        "question_fr": "Quelle est la meilleure température pour la germination du melon Swihla ?",
+        "reponse_fr": "La germination optimale se fait à 20-25°C. En dessous de 15°C, la germination est lente. Au-dessus de 35°C, elle est inhibée.",
+        "question_darija": "شنو هي أحسن حرارة لإنبات الدلاح سويلة ؟",
+        "reponse_darija": "الإنبات المثالي كايكون فـ 20-25 درجة. تحت 15 درجة، الإنبات كايبطا. فوق 35 درجة، كايتوقف.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_089",
+        "question_fr": "Quelle est la meilleure humidité pour la germination du melon Swihla ?",
+        "reponse_fr": "L'humidité du sol doit être maintenue à 70-80% de la capacité au champ pendant la germination. Un sol trop sec empêche la germination, trop humide la fait pourrir.",
+        "question_darija": "شنو هي أحسن رطوبة لإنبات الدلاح سويلة ؟",
+        "reponse_darija": "رطوبة الأرض خاصها تكون 70-80% ديال السعة الحقلية خلال الإنبات. الأرض الجافة كاتمنع الإنبات، الرطبة بزاف كاتخلي الحبة تتعفن.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_090",
+        "question_fr": "Comment stocker les semences de melon Swihla ?",
+        "reponse_fr": "Stocker les semences dans un endroit sec, frais (15-20°C), et à l'abri de la lumière. Les semences se conservent 2-3 ans. Utilisez des sachets hermétiques.",
+        "question_darija": "كيفاش نحفظ بذور الدلاح سويلة ؟",
+        "reponse_darija": "خزن البذور فمكان جاف، بارد (15-20 درجة)، وبعيد على الضوء. البذور كاتحفظ 2-3 سنين. استعمل أكياس محكمة الإغلاق.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_091",
+        "question_fr": "Peut-on cultiver le melon Swihla en hydroponie ?",
+        "reponse_fr": "OUI, mais c'est rare à Doukkala. Le melon Swihla peut être cultivé en hydroponie avec un substrat (coco, perlite) et une solution nutritive adaptée. Le goût est différent du melon de plein champ.",
+        "question_darija": "نقدر نزرع الدلاح سويلة فالهيدروبونيك ؟",
+        "reponse_darija": "ايوا، ولكن نادر فدكالة. الدلاح سويلة كايتزرع فالهيدروبونيك مع ركيزة (كوكو، برليت) ومحلول غذائي مناسب. الطعم كايكون مختلف عن دلاح الحقل المكشوف.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_092",
+        "question_fr": "Quel est l'impact du stress salin sur la qualité du melon Swihla ?",
+        "reponse_fr": "Un stress salin modéré (2-3 dS/m) peut améliorer le sucre (stress bénéfique). Au-delà de 4 dS/m, la qualité chute (fruits petits, peau dure, goût amer).",
+        "question_darija": "شحال هو تأثير الملوحة على الجودة ديال الدلاح سويلة ؟",
+        "reponse_darija": "الملوحة المعتدلة (2-3 dS/m) كاتقدر تزيد الحلاوة (إجهاد مفيد). فوق 4 dS/m، الجودة كاتنقص (ثمار صغار، قشرة قاسحة، طعم مر).",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_093",
+        "question_fr": "Comment lutter contre les limaces et escargots sur melon Swihla ?",
+        "reponse_fr": "Lutte : pièges à bière, barrières de cendre ou de coquilles d'œufs, et appâts granulés (Métaldéhyde) à utiliser avec précaution.",
+        "question_darija": "كيفاش نكافحو البزاز والحلزون على الدلاح سويلة ؟",
+        "reponse_darija": "المكافحة: مصايد البيرة، حواجز الرماد ولا قشور البيض، وطعم حبيبي (ميتالديهيد) استعمل بحذر.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_094",
+        "question_fr": "Quel est l'impact du stress hydrique sur le sucre du melon Swihla ?",
+        "reponse_fr": "Un stress hydrique modéré (arrêt de l'irrigation 7-10 jours avant récolte) augmente le sucre. Un stress sévère (manque d'eau prolongé) réduit le sucre et la taille des fruits.",
+        "question_darija": "شحال هو تأثير الإجهاد المائي على السكر فالدلاح سويلة ؟",
+        "reponse_darija": "الإجهاد المائي المعتدل (وقف السقي 7-10 أيام قبل الحصاد) كايزيد الحلاوة. الإجهاد الشديد (نقص الماء الطويل) كاينقص الحلاوة وحجم الثمار.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_095",
+        "question_fr": "Comment améliorer la résistance du melon Swihla aux maladies ?",
+        "reponse_fr": "Pour améliorer la résistance : rotation des cultures, utilisation de semences certifiées, apport de compost, traitements préventifs (cuivre, soufre), et choix de variétés résistantes.",
+        "question_darija": "كيفاش نزيد مقاومة الدلاح سويلة للأمراض ؟",
+        "reponse_darija": "باش تزيد المقاومة: التناوب الزراعي، استعمال بذور معتمدة، تحط الكومپو، علاجات وقائية (نحاس، كبريت)، وختيار أنواع مقاومة.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_096",
+        "question_fr": "Quels sont les signes d'une carence en magnésium sur melon Swihla ?",
+        "reponse_fr": "Symptômes : feuilles jaunes entre les nervures (chlorose interveinale), les vieilles feuilles sont touchées en premier. Solution : sulfate de magnésium (20-30 kg/ha).",
+        "question_darija": "شنو هي علامات نقص المغنيسيوم فالدلاح سويلة ؟",
+        "reponse_darija": "الأعراض: الوراق صفر مابين العروق، الوراق القدام كاتصاب أول. الحل: سلفات المغنيسيوم (20-30 كيلو فالهكتار).",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_097",
+        "question_fr": "Quels sont les signes d'une carence en calcium sur melon Swihla ?",
+        "reponse_fr": "Symptômes : nécrose des jeunes feuilles (bout des feuilles brûlé), pourriture apicale des fruits (tache brune au niveau de la fleur). Solution : nitrate de calcium (50-80 kg/ha).",
+        "question_darija": "شنو هي علامات نقص الكالسيوم فالدلاح سويلة ؟",
+        "reponse_darija": "الأعراض: موت الأوراق الصغار (راس الوراق كايتحرق)، تعفن طرف الثمار (بقعة كحلة عند الزهرة). الحل: نترات الكالسيوم (50-80 كيلو فالهكتار).",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_098",
+        "question_fr": "Comment lutter contre la pourriture apicale du melon Swihla ?",
+        "reponse_fr": "La pourriture apicale (tache brune au niveau de la fleur) est due à une carence en calcium. Solution : apport de nitrate de calcium (50-80 kg/ha), et régularité de l'irrigation.",
+        "question_darija": "كيفاش نكافحو تعفن طرف الثمار للدلاح سويلة ؟",
+        "reponse_darija": "تعفن طرف الثمار كايجي من نقص الكالسيوم. الحل: تحط نترات الكالسيوم (50-80 كيلو فالهكتار)، وانتظام السقي.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_099",
+        "question_fr": "Quelle est la meilleure période pour planter le melon Swihla à Sidi Bennour ?",
+        "reponse_fr": "À Sidi Bennour, la meilleure période est MARS-AVRIL en plein champ, et FÉVRIER-MARS sous tunnel. La récolte a lieu de JUIN à AOÛT.",
+        "question_darija": "شنو هو أحسن وقت لزرع الدلاح سويلة فسيدي بنور ؟",
+        "reponse_darija": "فسيدي بنور، أحسن وقت هو مارس-أبريل فالحقل المكشوف، وفبراير-مارس تحت التونيل. الحصاد كايكون من يونيو لـ غشت.",
+        "zone": "Sidi Bennour"
+      },
+      {
+        "id": "SWI_100",
+        "question_fr": "Quel est l'impact du calcaire sur le melon Swihla ?",
+        "reponse_fr": "Le melon Swihla n'aime pas les sols trop calcaires (pH > 8). Le calcaire bloque l'absorption du fer et du zinc, provoquant une chlorose (feuilles jaunes).",
+        "question_darija": "شحال هو تأثير الجير على الدلاح سويلة ؟",
+        "reponse_darija": "الدلاح سويلة ما كايبغيش الأرض الجيرية بزاف (pH > 8). الجير كايوقف إمتصاص الحديد والزنك، كايسبب اصفرار الوراق.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_101",
+        "question_fr": "Peut-on cultiver le melon Swihla sans irrigation ?",
+        "reponse_fr": "NON, le melon Swihla a besoin d'irrigation. En bour (pluie seulement), le rendement est très faible (<5 t/ha). L'irrigation est indispensable à Doukkala.",
+        "question_darija": "نقدر نزرع الدلاح سويلة بلا سقي ؟",
+        "reponse_darija": "لا، الدلاح سويلة كايحتاج للسقي. فالبور (الشتا غير)، الإنتاج كايكون قليل جدا (<5 طن فالهكتار). السقي ضروري فدكالة.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_102",
+        "question_fr": "Quelle est la différence entre melon Swihla et melon Charentais ?",
+        "reponse_fr": "Le Swihla est plus gros (1,5-3 kg), peau jaune/crème, chair très sucrée. Le Charentais est plus petit (0,5-1,5 kg), peau verte striée, chair orange, moins sucré.",
+        "question_darija": "شنو هو الفرق مابين دلاح سويلة ودلاح شارونتي ؟",
+        "reponse_darija": "سويلة أكبر (1,5-3 كيلو)، قشرة صفرا/كريمية، حمرو حلوة بزاف. شارونتي أصغر (0,5-1,5 كيلو)، قشرة خضر بخطوط، حمرو برتقانية، أقل حلاوة.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_103",
+        "question_fr": "Comment lutter contre la fusariose sur melon Swihla ?",
+        "reponse_fr": "La fusariose (flétrissement) est difficile à traiter. Prévention : rotation des cultures (4-5 ans), utilisation de variétés résistantes, traitement des semences, et désinfection du sol.",
+        "question_darija": "كيفاش نكافحو الفيوزاريوز فالدلاح سويلة ؟",
+        "reponse_darija": "الفيوزاريوز (الذبول) صعيب فالتريبة. الوقاية: التناوب الزراعي (4-5 سنين)، استعمال أنواع مقاومة، معالجة البذور، وتطهير الأرض.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_104",
+        "question_fr": "Quel est l'impact des nématodes sur le melon Swihla ?",
+        "reponse_fr": "Les nématodes attaquent les racines, provoquent des galles, réduisent l'absorption d'eau et de nutriments, et favorisent la fusariose. Le rendement peut chuter de 50%.",
+        "question_darija": "شحال هو تأثير النيماتودا على الدلاح سويلة ؟",
+        "reponse_darija": "النيماتودا كاتضرب الجذور، كاتسبب عقد، كاتنقص إمتصاص الماء والمغذيات، وكاتخدم الفيوزاريوز. الإنتاج يقدر ينقص بـ 50%.",
+        "zone": "Doukkala"
+      },
+      {
+        "id": "SWI_105",
+        "question_fr": "Quel est le meilleur moment pour planter le melon Swihla à Doukkala ?",
+        "reponse_fr": "Le meilleur moment pour planter le melon Swihla à Doukkala est MARS-AVRIL en plein champ, et FÉVRIER-MARS sous tunnel. Évitez les semis trop tardifs (après mai) à cause de la chaleur estivale.",
+        "question_darija": "شنو هو أحسن وقت لزرع الدلاح سويلة فدكالة ؟",
+        "reponse_darija": "أحسن وقت لزرع الدلاح سويلة فدكالة هو مارس-أبريل فالحقل المكشوف، وفبراير-مارس تحت التونيل. تجنب الزرع المتأخر (مورا ماي) بسباب حرارة الصيف.",
+        "zone": "Doukkala"
+      }
+    ]
+  }
+}

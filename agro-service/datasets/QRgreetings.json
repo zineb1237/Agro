@@ -1,0 +1,30 @@
+{
+  "greetings": {
+    "francais": {
+      "salut": ["salut", "bonjour", "coucou", "hé", "hello"],
+      "comment_va": ["ça va", "comment ça va", "comment vas-tu", "comment allez-vous"],
+      "merci": ["merci", "merci beaucoup"],
+      "au_revoir": ["au revoir", "bye", "à bientôt", "ciao", "adieu"]
+    },
+    "darija": {
+      "salut": ["سلام", "salam", "سلام عليكم", "salam alikoum", "أهلا", "ahla"],
+      "comment_va": ["لاباس", "labass", "لاباس عليك", "labass alik", "كيف داير", "kif dayer", "كيف الحال", "kif lhal"],
+      "merci": ["شكرا", "choukran", "بارك الله فيك", "barak allah fik"],
+      "au_revoir": ["بسلامة", "bslama", "الله معاك", "allah mâak", "إلى اللقاء", "ila likae"]
+    }
+  },
+  "reponses": {
+    "francais": {
+      "salut": "Salut ! Comment puis-je t'aider avec tes cultures aujourd'hui ? 🌾",
+      "comment_va": "Ça va très bien, merci ! Et toi ? Besoin d'un conseil agricole ?",
+      "merci": "De rien ! N'hésitez pas à me demander autre chose.",
+      "au_revoir": "Au revoir ! Bonne culture à toi 🌱"
+    },
+    "darija": {
+      "salut": "سلام عليكم ! كياش نعينك فزراعتك؟ 🌾",
+      "comment_va": "لاباس، الحمد للاه. وانت؟ واش بغيت شي معلومة فلاحية؟",
+      "merci": "العفو ! عندك شي سؤال آخر؟",
+      "au_revoir": "بسلامة ! ربي يعاونك فقرايتك 🌱"
+    }
+  }
+}
