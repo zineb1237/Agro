@@ -12,3 +12,6 @@ Route::get('/auth/{provider}/callback', [SocialController::class, 'callback']);
 
 // Toutes les autres routes → vue existante 'LandingPage'
 Route::view('/{any?}', 'LandingPage')->where('any', '.*');
+
+// Route pour la détection des maladies (Relais vers FastAPI)
+Route::post('/api/detect-disease', [DiseaseDetectionController::class, 'detect']);

@@ -61,18 +61,30 @@ return [
     |
     */
 
+<<<<<<< HEAD
    'providers' => [
     'users' => [
         'driver' => 'eloquent',
         'model' => App\Models\Utilisateur::class,
     ],
 ],
+=======
+    'providers' => [
+        'users' => [
+            'driver' => 'eloquent',
+            'model' => env('AUTH_MODEL', User::class),
+        ],
+>>>>>>> origin/zineb2
 
         // 'users' => [
         //     'driver' => 'database',
         //     'table' => 'users',
         // ],
+<<<<<<< HEAD
     
+=======
+    ],
+>>>>>>> origin/zineb2
 
     /*
     |--------------------------------------------------------------------------
