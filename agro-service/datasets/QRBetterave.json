@@ -1,0 +1,1090 @@
+{
+  "chatbot_betterave_doukkala": {
+    "version": "1.1",
+    "date_mise_a_jour": "2026-04-12",
+    "langues": ["francais", "darija"],
+    "sources": [
+      "ORMVAD Doukkala (2024-2025)",
+      "INRA Maroc - Grandes cultures (2022)",
+      "Mémoire IAV 2004",
+      "Bulletin phytosanitaire ORMVAD (2025)"
+    ],
+    "categories": [
+      {
+        "nom": "general_betterave",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quelle est la superficie de la betterave sucrière à Doukkala en 2024-2025 ?",
+              "reponse": "La superficie de la betterave sucrière est de 8425 hectares en 2024-2025, contre 6600 ha en 2023-2024, soit une augmentation de 28%."
+            },
+            "darija": {
+              "question": "شحال هي المساحة ديال الشوندر السكري فدكالة فـ 2024-2025 ؟",
+              "reponse": "المساحة ديال الشوندر السكري هي 8425 هكتار فـ 2024-2025، مقابل 6600 هكتار فـ 2023-2024، يعني زيادة بـ 28%."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la production de betterave sucrière à Doukkala ?",
+              "reponse": "La production est de 450000 tonnes en 2024-2025, avec un rendement moyen de 53 tonnes par hectare."
+            },
+            "darija": {
+              "question": "شحال هو الإنتاج ديال الشوندر السكري فدكالة ؟",
+              "reponse": "الإنتاج هو 450000 طن فـ 2024-2025، بمردود وسيط 53 طن فالهكتار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le prix de la betterave sucrière à Doukkala ?",
+              "reponse": "Le prix est de 630 dirhams la tonne (prix contractuel avec l'usine sucrière)."
+            },
+            "darija": {
+              "question": "شحال هو ثمن الشوندر السكري فدكالة ؟",
+              "reponse": "الثمن هو 630 درهم فالطن (ثمن متفق عليه مع المعمل السكري)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la source d'eau pour la betterave à Doukkala ?",
+              "reponse": "100% de l'eau provient des eaux de puits (forages). La betterave est exclusivement cultivée en irrigué dans la région."
+            },
+            "darija": {
+              "question": "شنو هو مصدر الماء للشوندر فدكالة ؟",
+              "reponse": "100% ديال الماء كايجي من الآبار. الشوندر كايتزرع غير فالمسقي فهاد المنطقة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est l'objectif de superficie pour 2025-2026 ?",
+              "reponse": "L'objectif est d'atteindre 15000 hectares, avec un appui technique de l'ORMVAD et de l'usine sucrière."
+            },
+            "darija": {
+              "question": "شنو هو الهدف ديال المساحة لـ 2025-2026 ؟",
+              "reponse": "الهدف هو نوصلو لـ 15000 هكتار، بدعم تقني من المكتب الجهوي للتنمية الفلاحية والمعمل السكري."
+            }
+          },
+          {
+            "francais": {
+              "question": "C'est quoi la betterave sucrière ?",
+              "reponse": "C'est une plante dont on extrait le sucre. La racine contient 15-20% de sucre. À Doukkala, on cultive 8425 hectares."
+            },
+            "darija": {
+              "question": "شنو هو الشوندر السكري ؟",
+              "reponse": "هو نبات كايتخرج منو السكر. الجدرة فيها 15-20% ديال السكر. فدكالة، كايزرعو 8425 هكتار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Pourquoi cultiver la betterave à Doukkala ?",
+              "reponse": "Parce que le sol et le climat sont favorables, et il y a une usine sucrière qui achète toute la production à un prix garanti (630 DH/tonne)."
+            },
+            "darija": {
+              "question": "علاش كايزرعو الشوندر فدكالة ؟",
+              "reponse": "حيت الأرض والطقس مناسبين، وكاين معمل سكري كايشري كل الإنتاج بثمن مضمون (630 درهم فطن)."
+            }
+          },
+          {
+            "francais": {
+              "question": "La betterave est-elle une culture rentable ?",
+              "reponse": "OUI, avec un rendement de 53 t/ha et un prix de 630 DH/t, le chiffre d'affaires est de 33390 DH/ha. Les charges sont d'environ 15000-20000 DH/ha."
+            },
+            "darija": {
+              "question": "واش الشوندر زراعة مربحة ؟",
+              "reponse": "ايوا، مع إنتاج 53 طن فالهكتار و ثمن 630 درهم فطن، العائد هو 33390 درهم فالهكتار. التكاليف فحدود 15000-20000 درهم فالهكتار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Combien de temps dure le cycle de la betterave ?",
+              "reponse": "Le cycle dure 8 à 9 mois (octobre-novembre à septembre-novembre)."
+            },
+            "darija": {
+              "question": "شحال هي المدة ديال الشوندر ؟",
+              "reponse": "المدة هي 8 لـ 9 شهور (أكتوبر-نونبر لـ شتنبر-نونبر)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Existe-t-il une commission technique pour la betterave à Doukkala ?",
+              "reponse": "OUI, une commission technique réunit l'ORMVAD, l'Association des producteurs, et l'Usine sucrière. L'objectif est l'adaptation au déficit hydrique et l'optimisation de l'irrigation."
+            },
+            "darija": {
+              "question": "واش كاينة لجنة تقنية للشوندر فدكالة ؟",
+              "reponse": "ايوا، لجنة تقنية كاتجمع المكتب الجهوي للتنمية الفلاحية، جمعية المنتجين، والمعمل السكري. الهدف هو التكيف مع نقص الماء وتحسين السقي."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le programme d'extension de la betterave pour 2025-2026 ?",
+              "reponse": "Le programme vise 15000 hectares avec un appui technique de l'ORMVAD et de l'usine sucrière. L'objectif est de doubler la superficie actuelle."
+            },
+            "darija": {
+              "question": "شنو هو برنامج توسيع الشوندر لـ 2025-2026 ؟",
+              "reponse": "البرنامج كايستهدف 15000 هكتار بدعم تقني من المكتب الجهوي للتنمية الفلاحية والمعمل السكري. الهدف هو مضاعفة المساحة الحالية."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "sol_betterave",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quel type de sol convient le mieux à la betterave sucrière ?",
+              "reponse": "La betterave préfère les sols profonds (>80 cm), limono-sableux, avec un pH entre 6.5 et 7.5. Elle tolère une salinité jusqu'à 4 dS/m."
+            },
+            "darija": {
+              "question": "شنو هو النوع ديال الأرض المناسب للشوندر السكري ؟",
+              "reponse": "الشوندر كايبغي الأرض العميقة (>80 سم)، الرملية-الطينية، مع pH مابين 6.5 و 7.5. كايصمد للملوحة حتى 4 dS/m."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle profondeur de sol est nécessaire pour la betterave ?",
+              "reponse": "La betterave a besoin d'une profondeur de sol d'au moins 80 cm pour permettre un bon développement racinaire. La racine peut descendre jusqu'à 1 mètre."
+            },
+            "darija": {
+              "question": "شحال هو العمق اللي خاصو الأرض للشوندر ؟",
+              "reponse": "الشوندر كايحتاج لعمق أرض على الأقل 80 سم باش الجدر تنمو مزيان. الجدرة تقدر توصل لـ 1 متر."
+            }
+          },
+          {
+            "francais": {
+              "question": "La betterave tolère-t-elle les sols salés ?",
+              "reponse": "OUI, la betterave tolère une salinité jusqu'à 4 dS/m (CE). Au-delà, la germination et la croissance sont réduites."
+            },
+            "darija": {
+              "question": "واش الشوندر كايصمد للأرض المالحة ؟",
+              "reponse": "ايوا، الشوندر كايصمد للملوحة حتى 4 dS/m. فوق هاد النسبة، النمو والطلوع كاينقصو."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le pH idéal du sol pour la betterave ?",
+              "reponse": "Le pH idéal est entre 6.5 et 7.5 (légèrement acide à neutre). Un pH trop bas (<6) bloque l'absorption du phosphore et du bore."
+            },
+            "darija": {
+              "question": "شحال هو pH الأرض المناسب للشوندر ؟",
+              "reponse": "pH المثالي هو مابين 6.5 و 7.5. pH منخفض (<6) كايوقف إمتصاص الفوسفور والبور."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment préparer le sol pour la betterave ?",
+              "reponse": "Préparation : labour profond (30-40 cm) en septembre-octobre, apport de fond (P, K, bore), nivellement pour l'irrigation, puis semis."
+            },
+            "darija": {
+              "question": "كيفاش نحضر الأرض للشوندر ؟",
+              "reponse": "التحضير: حرث عميق (30-40 سم) فشتنبر-أكتوبر، تحط السماد الأساسي (فوسفور، بوتاسيوم، بور)، التسوية باش السقي يكون مزيان، ثم الزرع."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la profondeur des racines de betterave ?",
+              "reponse": "La racine peut descendre jusqu'à 1 mètre de profondeur dans de bonnes conditions."
+            },
+            "darija": {
+              "question": "شحال هو العمق ديال جدرة الشوندر ؟",
+              "reponse": "الجدرة تقدر توصل لـ 1 متر فالأحوال المزيانة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Peut-on cultiver la betterave chaque année sur la même parcelle ?",
+              "reponse": "NON, il faut une rotation de 3-4 ans avec des céréales (blé, orge) pour éviter les maladies (cercosporiose, nématodes)."
+            },
+            "darija": {
+              "question": "نقدر نزرع الشوندر كل عام ف نفس الأرض ؟",
+              "reponse": "لا، خاصك التناوب على 3-4 سنين مع الحبوب (القمح، الشعير) باش تتفادى الأمراض (السيركوسبوريوز، النيماتود)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le meilleur précédent cultural pour la betterave ?",
+              "reponse": "Le meilleur précédent est les CÉRÉALES (blé, orge). Évitez de planter après une autre betterave ou après des légumineuses."
+            },
+            "darija": {
+              "question": "شنو هو أحسن زرع قبل الشوندر ؟",
+              "reponse": "أحسن زرع هو الحبوب (القمح، الشعير). تجنب تزرع مورا شوندر آخر أو مورا القطاني."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est l'impact de la betterave sur le sol ?",
+              "reponse": "La betterave épuise le sol (surtout en potassium). C'est pourquoi la rotation avec des céréales est obligatoire."
+            },
+            "darija": {
+              "question": "شحال هو تأثير الشوندر على الأرض ؟",
+              "reponse": "الشوندر كايستهلك الأرض (خاصة البوتاسيوم). هاد الشي علاش التناوب مع الحبوب ضروري."
+            }
+          },
+          {
+            "francais": {
+              "question": "Faut-il chauler le sol pour la betterave ?",
+              "reponse": "NON, la betterave n'aime pas les sols calcaires. Ne chauler que si le pH est inférieur à 6."
+            },
+            "darija": {
+              "question": "واش خاصنا نزيد الجير للأرض للشوندر ؟",
+              "reponse": "لا، الشوندر ما كايبغيش الأرض الجيرية. زيد الجير غير إلا كان pH أقل من 6."
+            }
+          },
+          {
+            "francais": {
+              "question": "Peut-on utiliser le fumier pour la betterave ?",
+              "reponse": "OUI, le fumier composté (3-5 t/ha) est excellent. Mais attention au fumier frais (risque de maladies et d'adventices)."
+            },
+            "darija": {
+              "question": "نقدر نستعملو الزبل للشوندر ؟",
+              "reponse": "ايوا، الزبل المكمور (3-5 طن فالهكتار) هو مزيان. ولكن الحذر من الزبل الطري (خطر الأمراض والحشائش)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la profondeur du labour pour betterave ?",
+              "reponse": "Le labour doit être profond : 30 à 40 cm pour casser la semelle et permettre à la racine de descendre."
+            },
+            "darija": {
+              "question": "شحال هو العمق ديال الحرث للشوندر ؟",
+              "reponse": "الحرث خاصو يكون عميق: 30 لـ 40 سم باش يكسر الطبقة المتصلبة وتنزل الجدرة للتحت."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand semer la betterave après le labour ?",
+              "reponse": "Semez immédiatement après le labour et le nivellement, en OCTOBRE-NOVEMBRE."
+            },
+            "darija": {
+              "question": "فاش نزرع الشوندر مورا الحرث ؟",
+              "reponse": "ازرع مباشرة مورا الحرث والتسوية، فاكتوبر-نونبر."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "climat_betterave",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quelle est la température optimale pour la betterave ?",
+              "reponse": "La température optimale est entre 15 et 25°C. La betterave n'aime pas les fortes chaleurs (>30°C) qui réduisent l'accumulation de sucre."
+            },
+            "darija": {
+              "question": "شنو هي الحرارة المثالية للشوندر ؟",
+              "reponse": "الحرارة المثالية هي مابين 15 و 25 درجة. الشوندر ما كايبغيش الحرارة العالية (>30 درجة) اللي كاتنقص تكديس السكر."
+            }
+          },
+          {
+            "francais": {
+              "question": "La betterave résiste-t-elle au gel ?",
+              "reponse": "Les jeunes plants résistent jusqu'à -2°C. Les plantes adultes résistent jusqu'à -4°C. Un gel sévère (<-5°C) peut détruire la récolte."
+            },
+            "darija": {
+              "question": "واش الشوندر كايقاوم الجليد ؟",
+              "reponse": "النباتات الصغار كاتقاوم حتى -2 درجات. النباتات الكبيرة كاتقاوم حتى -4 درجات. الجليد الشديد (<-5 درجات) كايقدر يدمر المحصول."
+            }
+          },
+          {
+            "francais": {
+              "question": "Pourquoi la betterave a-t-elle besoin de jours longs ?",
+              "reponse": "La betterave a besoin de plus de 12 heures de lumière par jour pour la saccharification (production de sucre). Les jours courts réduisent le sucre."
+            },
+            "darija": {
+              "question": "علاش الشوندر كايحتاج لأيام طويلة ؟",
+              "reponse": "الشوندر كايحتاج لأكثر من 12 ساعة ديال الضوء فاليوم لصناعة السكر. الأيام القصيرة كاتنقص السكر."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est l'impact de la sécheresse sur la betterave ?",
+              "reponse": "La betterave est très sensible à la sécheresse, surtout pendant la levée et la croissance racinaire. Un stress hydrique réduit le rendement de 30-50%."
+            },
+            "darija": {
+              "question": "شحال هو تأثير الجفاف على الشوندر ؟",
+              "reponse": "الشوندر كايتأثر بزاف بالجفاف، خاصة فمرحلة الطلوع ونمو الجدر. الإجهاد المائي كاينقص الإنتاج بـ 30-50%."
+            }
+          },
+          {
+            "francais": {
+              "question": "À quelle température la betterave germe-t-elle ?",
+              "reponse": "La germination commence à 5-7°C. La température idéale pour la germination est 15-20°C."
+            },
+            "darija": {
+              "question": "من بعد شحال درجة الشوندر كاينبت ؟",
+              "reponse": "الإنبات كايبان من 5-7 درجات. الحرارة المثالية للإنبات هي 15-20 درجة."
+            }
+          },
+          {
+            "francais": {
+              "question": "La betterave résiste-t-elle à la chaleur ?",
+              "reponse": "NON, la betterave n'aime pas les fortes chaleurs (>30°C). La croissance ralentit et le sucre diminue."
+            },
+            "darija": {
+              "question": "واش الشوندر كايصمد للحرارة ؟",
+              "reponse": "لا، الشوندر ما كايبغيش الحرارة العالية (>30 درجة). النمو كايبطا والسكر كاينقص."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est l'humidité idéale pour la betterave ?",
+              "reponse": "L'humidité idéale du sol est de 60-80% de la capacité au champ. Évitez les excès d'eau (risque de pourriture)."
+            },
+            "darija": {
+              "question": "شنو هي الرطوبة المثالية للشوندر ؟",
+              "reponse": "الرطوبة المثالية هي 60-80% ديال السعة الحقلية. تجنب الماء الزايد (خطر التعفن)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les risques climatiques pour la betterave ?",
+              "reponse": "Les principaux risques sont : la sécheresse, le gel (-4°C tue la plante), et les pluies avant la récolte (pourriture)."
+            },
+            "darija": {
+              "question": "شنو هم المخاطر المناخية للشوندر ؟",
+              "reponse": "المخاطر الرئيسية هي: الجفاف، الجليد (-4 درجات كايموت النبات)، والشتا قبل الحصاد (تعفن)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment protéger la betterave du gel ?",
+              "reponse": "Le gel est rare à Doukkala. En cas d'alerte, irriguez la veille (l'eau humide protège), ou buttez la base des plants."
+            },
+            "darija": {
+              "question": "كيفاش نحمي الشوندر من الجليد ؟",
+              "reponse": "الجليد نادر فدكالة. إلا كان تحذير، سقي اليوم اللي قبله (الماء الرطب كايحمي)، أو راكم التراب على القاعدة."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "irrigation_betterave",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quels sont les besoins en eau de la betterave sucrière ?",
+              "reponse": "La betterave a besoin de 600 à 800 mm d'eau (6000-8000 m³/ha), soit 6280 m³/ha en moyenne."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال الماء للشوندر السكري ؟",
+              "reponse": "الشوندر كايحتاج لـ 600 لـ 800 ميلي متر ديال الماء (6000-8000 متر مكعب فالهكتار)، يعني 6280 متر مكعب فالهكتار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les stades critiques pour l'irrigation de la betterave ?",
+              "reponse": "Les stades critiques sont : LEVÉE (10-20 jours après semis) et CROISSANCE RACINAIRE (juin-juillet). Un manque d'eau à ces stades réduit le rendement de 50%."
+            },
+            "darija": {
+              "question": "شنو هم المراحل الحرجة للسقي للشوندر ؟",
+              "reponse": "المراحل الحرجة هي: الطلوع (10-20 يوم مورا الزرع) و نمو الجدر (يونيو-يوليوز). نقص الماء فهاد المراحل كاينقص الإنتاج بـ 50%."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le meilleur système d'irrigation pour la betterave ?",
+              "reponse": "L'ASPERSION est adaptée aux sols sableux mais augmente le risque de maladies. Le GOUTTE-À-GOUTTE ENTERRÉ économise 20-30% d'eau et réduit les maladies, mais l'investissement est élevé (20000-25000 DH/ha)."
+            },
+            "darija": {
+              "question": "شنو هو أحسن نظام للسقي للشوندر ؟",
+              "reponse": "الرش مناسب للأرض الرملية ولكن كايزيد خطر الأمراض. التنقيط تحت الأرض كايوف الماء بـ 20-30% و كايقلل الأمراض، ولكن الاستثمار عالي (20000-25000 درهم فالهكتار)."
+            }
+          },
+          {
+            "francais": {
+              "question": "À quelle fréquence irriguer la betterave ?",
+              "reponse": "Pendant la levée : tous les 3-5 jours. Pendant la croissance racinaire : tous les 5-7 jours. En été, augmentez la fréquence à cause de l'évaporation."
+            },
+            "darija": {
+              "question": "شحال هي المدة مابين السقيات للشوندر ؟",
+              "reponse": "فمرحلة الطلوع: كل 3-5 أيام. فمرحلة نمو الجدر: كل 5-7 أيام. فالصيف، زيد فالسقيات بسباب التبخر."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand faut-il arrêter l'irrigation de la betterave ?",
+              "reponse": "Arrêtez l'irrigation 2-3 semaines avant la récolte (septembre) pour concentrer le sucre dans la racine et faciliter l'arrachage."
+            },
+            "darija": {
+              "question": "فاش خاصنا نوقف السقي ديال الشوندر ؟",
+              "reponse": "وقف السقي 2-3 أسابيع قبل الحصاد (شتنبر) باش السكر كايتكدس فالجدرة و تسهل القلاعة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand faut-il démarrer l'irrigation après semis ?",
+              "reponse": "Dès le semis, irriguez légèrement pour assurer une bonne germination. Puis irriguez tous les 3-5 jours pendant la levée."
+            },
+            "darija": {
+              "question": "فاش خاصنا نبداو السقي مورا الزرع ؟",
+              "reponse": "من بعد الزرع مباشرة، سقي شوية باش تكون الإنبات مزيان. من بعد سقي كل 3-5 أيام فمرحلة الطلوع."
+            }
+          },
+          {
+            "francais": {
+              "question": "Peut-on utiliser l'eau salée pour la betterave ?",
+              "reponse": "OUI, la betterave tolère une salinité jusqu'à 4 dS/m. Au-delà, le rendement diminue."
+            },
+            "darija": {
+              "question": "نقدر نستعملو الماء المالح للشوندر ؟",
+              "reponse": "ايوا، الشوندر كايصمد للملوحة حتى 4 dS/m. فوق هاد النسبة، الإنتاج كاينقص."
+            }
+          },
+          {
+            "francais": {
+              "question": "Faut-il irriguer la betterave après la pluie ?",
+              "reponse": "Vérifiez l'humidité du sol. Si la pluie a été suffisante (>20 mm), vous pouvez espacer l'irrigation."
+            },
+            "darija": {
+              "question": "واش خاصنا نسقي الشوندر مورا الشتا ؟",
+              "reponse": "تحقق من الرطوبة فالأرض. إلا كانت الشتا كافية (>20 مم)، تقدر توقف السقي شوية."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la consommation d'eau de la betterave par jour ?",
+              "reponse": "En plein été, une betterave consomme 5-7 mm d'eau par jour (50-70 m³/ha par jour)."
+            },
+            "darija": {
+              "question": "شحال هو استهلاك الماء للشوندر فاليوم ؟",
+              "reponse": "فالصيف، الشوندر كايستهلك 5-7 مم ديال الماء فاليوم (50-70 متر مكعب فالهكتار فاليوم)."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "fertilisation_betterave",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quels sont les besoins en azote de la betterave ?",
+              "reponse": "La betterave a besoin de 80 à 120 kg N/ha. Fractionnez en 2-3 apports : 50% au semis, 50% en couverture."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال الآزوت للشوندر ؟",
+              "reponse": "الشوندر كايحتاج لـ 80 لـ 120 كيلو آزوت فالهكتار. فرقو على 2-3 مرات: 50% فاش كاتزرع، 50% كسماد إضافي."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les besoins en phosphore de la betterave ?",
+              "reponse": "La betterave a besoin de 100 à 150 kg P2O5/ha. Le phosphore favorise le développement racinaire."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال الفوسفور للشوندر ؟",
+              "reponse": "الشوندر كايحتاج لـ 100 لـ 150 كيلو P2O5 فالهكتار. الفوسفور كايخدم نمو الجدر."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les besoins en potassium de la betterave ?",
+              "reponse": "La betterave a besoin de 150 à 200 kg K2O/ha. Le potassium améliore la qualité de la racine et la résistance aux maladies."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال البوتاسيوم للشوندر ؟",
+              "reponse": "الشوندر كايحتاج لـ 150 لـ 200 كيلو K2O فالهكتار. البوتاسيوم كايزيد الجودة و مقاومة الأمراض."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les besoins en bore de la betterave ?",
+              "reponse": "La betterave a besoin de 1 à 2 kg de bore par hectare. Une carence en bore provoque la nécrose du cœur (pourriture interne)."
+            },
+            "darija": {
+              "question": "شحال هو الحوايج ديال البور للشوندر ؟",
+              "reponse": "الشوندر كايحتاج لـ 1 لـ 2 كيلو بور فالهكتار. نقص البور كايسبب موت القلب (تعفن داخلي)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand faut-il fertiliser la betterave ?",
+              "reponse": "Fertilisation de fond (P, K, bore) : avant semis (octobre-novembre). Fertilisation de couverture (N) : 50% au stade 6-8 feuilles (avril), 50% au début de tubérisation (juin)."
+            },
+            "darija": {
+              "question": "فاش خاصنا نسمد الشوندر ؟",
+              "reponse": "السماد الأساسي (فوسفور، بوتاسيوم، بور): قبل الزرع (أكتوبر-نونبر). السماد الإضافي (آزوت): 50% فـ 6-8 ورقات (أبريل)، 50% فبداية تكوين الجدر (يونيو)."
+            }
+          },
+          {
+            "francais": {
+              "question": "La betterave a-t-elle besoin de beaucoup d'engrais ?",
+              "reponse": "OUI, c'est une culture exigeante. Elle a besoin de 80-120 kg N/ha, 100-150 kg P2O5/ha, et 150-200 kg K2O/ha."
+            },
+            "darija": {
+              "question": "واش الشوندر كايحتاج للسماد بزاف ؟",
+              "reponse": "ايوا، هو زرع كايطلب بزاف. كايحتاج لـ 80-120 كيلو آزوت، 100-150 كيلو فوسفور، و 150-200 كيلو بوتاسيوم فالهكتار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Peut-on cultiver la betterave sans bore ?",
+              "reponse": "NON, le bore est essentiel. Une carence en bore provoque la nécrose du cœur (betterave creuse)."
+            },
+            "darija": {
+              "question": "نقدر نزرع الشوندر بلا بور ؟",
+              "reponse": "لا، البور ضروري. نقص البور كايسبب موت القلب (الجدرة كاتولي مجوفة)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le rôle du potassium pour la betterave ?",
+              "reponse": "Le potassium améliore la qualité de la racine, augmente la teneur en sucre, et renforce la résistance aux maladies."
+            },
+            "darija": {
+              "question": "شنو هو دور البوتاسيوم للشوندر ؟",
+              "reponse": "البوتاسيوم كايزيد الجودة ديال الجدرة، كايزيد نسبة السكر، و كايقوي مقاومة الأمراض."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le rôle du phosphore pour la betterave ?",
+              "reponse": "Le phosphore favorise le développement racinaire et la croissance des jeunes plants."
+            },
+            "darija": {
+              "question": "شنو هو دور الفوسفور للشوندر ؟",
+              "reponse": "الفوسفور كايخدم نمو الجدر ونمو النباتات الصغار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le rôle de l'azote pour la betterave ?",
+              "reponse": "L'azote favorise la croissance des feuilles. Mais trop d'azote réduit le sucre et favorise les maladies."
+            },
+            "darija": {
+              "question": "شنو هو دور الآزوت للشوندر ؟",
+              "reponse": "الآزوت كايخدم نمو الوراق. ولكن الآزوت الزايد كاينقص السكر وكايخدم الأمراض."
+            }
+          },
+          {
+            "francais": {
+              "question": "Peut-on mélanger les engrais dans le même passage ?",
+              "reponse": "OUI, on peut mélanger P, K, et bore au semis. L'azote se met en plusieurs fois (ne pas tout mélanger)."
+            },
+            "darija": {
+              "question": "نقدر نخلط الأسمدة فمرة وحدة ؟",
+              "reponse": "ايوا، تقدر تخلط الفوسفور، البوتاسيوم، والبور فاش كاتزرع. الآزوت كايتحط على مرات (ما تخلطش كل شي)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est l'engrais le plus important pour la betterave ?",
+              "reponse": "Le POTASSIUM est le plus important, suivi de l'azote et du bore. Le potassium détermine la teneur en sucre."
+            },
+            "darija": {
+              "question": "شنو هو السماد الأهم للشوندر ؟",
+              "reponse": "البوتاسيوم هو الأهم، تاليه الآزوت والبور. البوتاسيوم كايحدد نسبة السكر."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand faire le dernier apport d'azote ?",
+              "reponse": "Le dernier apport d'azote se fait au début de la tubérisation (juin). Après, l'azote réduit le sucre."
+            },
+            "darija": {
+              "question": "فاش ندي آخر تحطة ديال الآزوت ؟",
+              "reponse": "آخر تحطة كاتكون فبداية تكوين الجدر (يونيو). من بعد، الآزوت كاينقص السكر."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment appliquer le bore sur betterave ?",
+              "reponse": "Le bore peut être appliqué au sol (au semis) ou en foliaire (2-3 semaines après la levée)."
+            },
+            "darija": {
+              "question": "كيفاش ندي البور على الشوندر ؟",
+              "reponse": "البور كايتحط فالأرض (فاش كاتزرع) أو ورقيا (2-3 أسابيع مورا الطلوع)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les signes d'un excès d'azote ?",
+              "reponse": "Feuilles vert foncé, croissance excessive des feuilles, racines petites, faible teneur en sucre, et sensibilité aux maladies."
+            },
+            "darija": {
+              "question": "شنو هي علامات الآزوت الزايد ؟",
+              "reponse": "الوراق خضر داكنين، نمو زايد فالوراق، الجدر صغار، نقص فالسكر، وحساسية للأمراض."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "carences_betterave",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Comment reconnaître une carence en azote sur betterave ?",
+              "reponse": "Symptômes : feuilles pâles (jaunissement des vieilles feuilles), croissance réduite, racines fines. Solution : apport d'urée ou solution azotée (100-150 kg/ha fractionné)."
+            },
+            "darija": {
+              "question": "كيفاش نعرف نقص الآزوت فالشوندر ؟",
+              "reponse": "الأعراض: الوراق كاتصفر (الوراق القدام)، النمو كايبطا، الجدر رقاق. الحل: تحط اليوريا (100-150 كيلو فالهكتار) مقسمة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître une carence en bore sur betterave ?",
+              "reponse": "Symptômes : nécrose du cœur (pourriture interne), feuilles épaissies et déformées, racines creuses. Solution : apport de borax ou acide borique (1-2 kg/ha) en foliaire ou au sol."
+            },
+            "darija": {
+              "question": "كيفاش نعرف نقص البور فالشوندر ؟",
+              "reponse": "الأعراض: موت القلب (تعفن داخلي)، الوراق كاتغلض و كاتتشوه، الجدر مجوفة. الحل: تحط بوراكس (1-2 كيلو فالهكتار) ورقيا أو فالأرض."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître une carence en potassium sur betterave ?",
+              "reponse": "Symptômes : bords des feuilles bruns (nécrose marginale), racines petites, faible teneur en sucre. Solution : apport de chlorure ou sulfate de potassium (150-200 kg/ha)."
+            },
+            "darija": {
+              "question": "كيفاش نعرف نقص البوتاسيوم فالشوندر ؟",
+              "reponse": "الأعراض: حواف الوراق كحلة، الجدر صغار، نقص فالسكر. الحل: تحط كلور أو سلفات البوتاسيوم (150-200 كيلو فالهكتار)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître une carence en phosphore sur betterave ?",
+              "reponse": "Symptômes : feuilles vert foncé à violettes, croissance ralentie, racines peu développées. Solution : apport de superphosphate (100-150 kg/ha) au semis."
+            },
+            "darija": {
+              "question": "كيفاش نعرف نقص الفوسفور فالشوندر ؟",
+              "reponse": "الأعراض: الوراق خضر داكنين لـ أرجوانيين، النمو كايبطا، الجدر صغار. الحل: تحط سوبرفوسفات (100-150 كيلو فالهكتار) فاش كاتزرع."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "maladies_betterave",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Comment reconnaître la cercosporiose sur betterave ?",
+              "reponse": "Symptômes : taches circulaires grises avec halo rougeâtre sur les feuilles, dessèchement des feuilles en cas d'attaque sévère. Traitement : fongicides strobilurines (Azoxystrobine 0.75-1 L/ha) dès l'apparition."
+            },
+            "darija": {
+              "question": "كيفاش نعرف السيركوسبوريوز فالشوندر ؟",
+              "reponse": "الأعراض: بقع دائرية رماديين مع هالة حمرة على الوراق، الوراق كاتجف فاش كاتزيد. العلاج: فونجيسيدات (0.75-1 ليتر فالهكتار) من أول ما كايبان."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître la ramulariose sur betterave ?",
+              "reponse": "Symptômes : taches anguleuses brunes avec bordure jaune, dessèchement des feuilles. Traitement : fongicides triazoles (Tébucanazole 0.5-1 L/ha) en juillet-août."
+            },
+            "darija": {
+              "question": "كيفاش نعرف الرامولاريوز فالشوندر ؟",
+              "reponse": "الأعراض: بقع زاوية كحلة مع حدود صفر، الوراق كاتجف. العلاج: فونجيسيدات (0.5-1 ليتر فالهكتار) فشيولية-غشت."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre la cercosporiose de façon préventive ?",
+              "reponse": "Prévention : rotation avec des céréales (blé, orge) sur 3-4 ans, élimination des résidus de culture après récolte, utilisation de variétés tolérantes (ex. 'KWS 0326')."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو السيركوسبوريوز بالوقاية ؟",
+              "reponse": "الوقاية: التناوب مع الحبوب (القمح، الشعير) على 3-4 سنين، إزالة بقايا الزرع مورا الحصاد، استعمال الأنواع المقاومة (KWS 0326)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelles sont les principales maladies de la betterave à Doukkala ?",
+              "reponse": "Les principales maladies sont : la cercosporiose (la plus fréquente) et la ramulariose. Ces maladies fongiques sont favorisées par l'humidité et les fortes températures."
+            },
+            "darija": {
+              "question": "شنو هم الأمراض الرئيسية للشوندر فدكالة ؟",
+              "reponse": "الأمراض الرئيسية هي: السيركوسبوريوز (الأكثر انتشارا) والرامولاريوز. هاد الأمراض الفطرية كاتنشر فالرطوبة والحرارة العالية."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "ravageurs_betterave",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Comment reconnaître le puceron vert sur betterave ?",
+              "reponse": "Symptômes : colonies vertes sur la face inférieure des feuilles, feuilles enroulées, miellat (substance collante). Traitement : pyréthrinoïdes (Lambda-cyhalothrine 0.1-0.2 L/ha). Auxiliaires : coccinelles, syrphes."
+            },
+            "darija": {
+              "question": "كيفاش نعرف المن الأخضر فالشوندر ؟",
+              "reponse": "الأعراض: تجمعات خضر تحت الوراق، الوراق كاتلتف، عسل. العلاج: بيريترينويدات (0.1-0.2 ليتر فالهكتار). الأعداء الطبيعية: الخنافس، السيرف."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment reconnaître la noctuelle terreuse sur betterave ?",
+              "reponse": "Symptômes : jeunes plants sectionnés au collet, galeries dans les racines, plantes qui flétrissent. Traitement préventif : piégeage avec appâts (son de blé), labour avant semis. Traitement bio : nématodes entomopathogènes (1-2 millions/ha) au semis."
+            },
+            "darija": {
+              "question": "كيفاش نعرف الدودة الأرضية فالشوندر ؟",
+              "reponse": "الأعراض: النباتات الصغار مقطوعين من العنق، أنفاق فالجدر، النباتات كاتذبل. الوقاية: مصايد، الحرث قبل الزرع. العلاج العضوي: نيماتود (1-2 مليون فالهكتار) فاش كاتزرع."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre le puceron vert de façon biologique ?",
+              "reponse": "Méthodes bio : lâchers de coccinelles (5-10 par m²), plantation de plantes attractives (phacélie, souci) pour attirer les syrphes, savon insecticide, ou huile de neem."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو المن الأخضر بالطرق العضوية ؟",
+              "reponse": "الطرق العضوية: إطلاق الخنافس (5-10 فالمتر مربع)، زرع نباتات جاذبة (البهاسيل، القطيفة) باش تجذب السيرف، صابون حشري، أو زيت النيم."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les principaux ravageurs de la betterave à Doukkala ?",
+              "reponse": "Les principaux ravageurs sont : le puceron vert (Aphis fabae) et la noctuelle terreuse (Agrotis ipsilon). Le puceron est plus fréquent, la noctuelle est plus dangereuse car elle coupe les plants."
+            },
+            "darija": {
+              "question": "شنو هم الآفات الرئيسية للشوندر فدكالة ؟",
+              "reponse": "الآفات الرئيسية هي: المن الأخضر والدودة الأرضية. المن كاين أكثر، الدودة الأرضية أخطر حيت كاتقطع النباتات."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "calendrier_betterave",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Quand semer la betterave sucrière à Doukkala ?",
+              "reponse": "Le semis se fait en OCTOBRE-NOVEMBRE. La densité est de 8 à 10 graines par m², à une profondeur de 2-3 cm."
+            },
+            "darija": {
+              "question": "فاش نزرع الشوندر السكري فدكالة ؟",
+              "reponse": "الزرع كايكون فاكتوبر-نونبر. الكثافة هي 8 لـ 10 بذور فالمتر مربع، على عمق 2-3 سم."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quand récolter la betterave sucrière ?",
+              "reponse": "La récolte se fait de SEPTEMBRE à NOVEMBRE. Arrachage mécanique (décolleteuse-arracheuse), nettoyage et transport vers l'usine sucrière."
+            },
+            "darija": {
+              "question": "فاش نحصد الشوندر السكري ؟",
+              "reponse": "الحصاد كايكون من شتنبر لـ نونبر. القلع بالميكانيك، التنظيف والنقل للمعمل السكري."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le rendement moyen de la betterave à Doukkala ?",
+              "reponse": "Le rendement moyen est de 50 à 70 tonnes par hectare. Le record peut atteindre 80 tonnes/ha. La production 2024-2025 est de 450000 tonnes sur 8425 ha (53 t/ha)."
+            },
+            "darija": {
+              "question": "شحال هو الإنتاج الوسيط ديال الشوندر فدكالة ؟",
+              "reponse": "الإنتاج الوسيط هو 50 لـ 70 طن فالهكتار. الإنتاج القياسي يقدر يوصل لـ 80 طن فالهكتار. إنتاج 2024-2025 هو 450000 طن على 8425 هكتار (53 طن فالهكتار)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelles sont les variétés recommandées pour Doukkala ?",
+              "reponse": "Les variétés recommandées sont : 'KWS 0326' (tolérante à la cercosporiose) et d'autres variétés tolérantes aux maladies sélectionnées par l'ORMVAD."
+            },
+            "darija": {
+              "question": "شنو هم الأنواع الموصى بها فدكالة ؟",
+              "reponse": "الأنواع الموصى بها هي: 'KWS 0326' (يقاوم السيركوسبوريوز) وأنواع أخرى مقاومة للأمراض مختارة من طرف المكتب الجهوي للتنمية الفلاحية."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le meilleur moment pour labourer ?",
+              "reponse": "Le labour se fait en SEPTEMBRE-OCTOBRE, avant les pluies et avant le semis."
+            },
+            "darija": {
+              "question": "شنو هو أحسن وقت للحرث ؟",
+              "reponse": "الحرث كايكون فشتنبر-أكتوبر، قبل الشتا وقبل الزرع."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "pratiques_culturales_betterave",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Peut-on utiliser des semences non certifiées ?",
+              "reponse": "NON, utilisez uniquement des semences certifiées traitées contre les maladies. Les semences non certifiées peuvent introduire des maladies."
+            },
+            "darija": {
+              "question": "نقدر نستعملو بذور غير معتمدة ؟",
+              "reponse": "لا، استعمل غير بذور معتمدة ومعالجة ضد الأمراض. البذور غير المعتمدة يمكن تجيب الأمراض."
+            }
+          },
+          {
+            "francais": {
+              "question": "Combien de graines dans un sachet ?",
+              "reponse": "Les sachets contiennent généralement 100000 graines (unités de semis). Comptez 8-10 sachets par hectare."
+            },
+            "darija": {
+              "question": "شحال ديال البذور فالكيس ؟",
+              "reponse": "الكيس كايكون فيه 100000 بذرة (وحدة زرع). احسب 8-10 كيسان فالهكتار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment stocker les semences de betterave ?",
+              "reponse": "Stocker dans un endroit sec, frais (15-20°C), et à l'abri de la lumière. Les semences se conservent 1-2 ans."
+            },
+            "darija": {
+              "question": "كيفاش نحفظ بذور الشوندر ؟",
+              "reponse": "خزنها فمكان جاف، بارد (15-20 درجة)، و بعيد على الضوء. البذور كاتحفظ 1-2 سنين."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment lutter contre les mauvaises herbes dans la betterave ?",
+              "reponse": "Utilisez des herbicides sélectifs (antidicotylédones) ou le désherbage mécanique (binage) entre les rangs."
+            },
+            "darija": {
+              "question": "كيفاش نكافحو الحشائش فالشوندر ؟",
+              "reponse": "استعمل مبيدات حشائش انتقائية (ضد الأعشاب العريضة) أو إزالة الحشائش بالميكانيك مابين الصفوف."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelles sont les principales mauvaises herbes de la betterave ?",
+              "reponse": "Les principales sont : chénopode (ansérine), renouée des oiseaux, et séneçon commun."
+            },
+            "darija": {
+              "question": "شنو هم الحشائش الرئيسية للشوندر ؟",
+              "reponse": "الحشائش الرئيسية هي: الزريعة، عشبة الطيور، والزفزوف."
+            }
+          },
+          {
+            "francais": {
+              "question": "Peut-on utiliser le glyphosate sur betterave ?",
+              "reponse": "NON, le glyphosate tue la betterave. Utilisez des herbicides spécifiques pour betterave (antidicotylédones)."
+            },
+            "darija": {
+              "question": "نقدر نستعملو الغليفوسات على الشوندر ؟",
+              "reponse": "لا، الغليفوسات كايموت الشوندر. استعمل مبيدات خاصة للشوندر."
+            }
+          },
+          {
+            "francais": {
+              "question": "Peut-on associer la betterave avec d'autres cultures ?",
+              "reponse": "NON, la betterave se cultive seule (monoculture). Elle a besoin de tout l'espace pour développer sa racine."
+            },
+            "darija": {
+              "question": "نقدر نشاركو الشوندر مع زراعات أخرى ؟",
+              "reponse": "لا، الشوندر كايتزرع لوحده. كايحتاج لجميع المساحة باش الجدرة تكبر."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le poids moyen d'une betterave ?",
+              "reponse": "Une betterave pèse entre 500 g et 2 kg. Les plus grosses peuvent atteindre 3-4 kg."
+            },
+            "darija": {
+              "question": "شحال هو الوزن ديال جدرة الشوندر ؟",
+              "reponse": "الجدرة كاتوزن مابين 500 غرام و 2 كيلو. الكبار يقدر يوصلو لـ 3-4 كيلو."
+            }
+          },
+          {
+            "francais": {
+              "question": "Combien de betteraves par m² ?",
+              "reponse": "On compte 8 à 10 betteraves par m², soit 80000 à 100000 plants par hectare."
+            },
+            "darija": {
+              "question": "شحال ديال جدرة فالمتر مربع ؟",
+              "reponse": "كاتكون 8 لـ 10 جدرات فالمتر مربع، يعني 80000 لـ 100000 نبتة فالهكتار."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la meilleure profondeur de semis ?",
+              "reponse": "La meilleure profondeur est de 2 à 3 cm. Trop profond retarde la levée, trop superficiel expose les graines à la sécheresse."
+            },
+            "darija": {
+              "question": "شنو هو أحسن عمق للزرع ؟",
+              "reponse": "أحسن عمق هو 2 لـ 3 سم. العمق بزاف كايعطل الطلوع، القريب من السطح كايعرض البذور للجفاف."
+            }
+          },
+          {
+            "francais": {
+              "question": "Peut-on semer la betterave en été ?",
+              "reponse": "NON, le semis se fait uniquement en AUTOMNE (octobre-novembre) à Doukkala. Le semis d'été est impossible à cause de la chaleur."
+            },
+            "darija": {
+              "question": "نقدر نزرع الشوندر فالصيف ؟",
+              "reponse": "لا، الزرع كايكون غير فالخريف (أكتوبر-نونبر) فدكالة. الزرع فالصيف مستحيل بسباب الحرارة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment savoir si la betterave est prête à récolter ?",
+              "reponse": "Signes : les feuilles jaunissent et se dessèchent, la racine est ferme, la teneur en sucre est maximale (analyse à l'usine)."
+            },
+            "darija": {
+              "question": "كيفاش نعرف أن الشوندر جاهز للحصاد ؟",
+              "reponse": "العلامات: الوراق كاتصفر و كاتجف، الجدرة قاسحة، نسبة السكر هي أعلى ما يمكن (تحليل فالمعمل)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le risque si on récolte trop tôt ?",
+              "reponse": "Le sucre n'est pas encore accumulé. Le rendement en sucre est faible (10-12% au lieu de 15-20%)."
+            },
+            "darija": {
+              "question": "شنو هو الخطر إلا حصدنا بكري ؟",
+              "reponse": "السكر ما كايكونش تكدس مزيان. إنتاج السكر كايكون قليل (10-12% بدل 15-20%)."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le risque si on récolte trop tard ?",
+              "reponse": "Les betteraves peuvent pourrir (surtout s'il pleut), perdre du sucre, ou être endommagées par le gel."
+            },
+            "darija": {
+              "question": "شنو هو الخطر إلا حصدنا متأخرين ؟",
+              "reponse": "الجدرات يمكن تتعفن (خاصة إلا سقطات الشتا)، تنقص فالسكر، أو تتضرر من الجليد."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment nettoyer la betterave avant livraison ?",
+              "reponse": "Enlevez la terre et les feuilles. L'usine sucrière accepte un maximum de 5% de terre et 3% de déchets."
+            },
+            "darija": {
+              "question": "كيفاش ننظف الشوندر قبل التسليم ؟",
+              "reponse": "نزيل التراب والوراق. المعمل كايقبل على الأكثر 5% تراب و 3% نفايات."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quelle est la différence entre betterave sucrière et betterave fourragère ?",
+              "reponse": "La betterave sucrière a une teneur en sucre élevée (15-20%) et une racine blanche. La betterave fourragère a moins de sucre (5-8%) et sert à nourrir les animaux."
+            },
+            "darija": {
+              "question": "شنو الفرق مابين الشوندر السكري والشوندر العلفي ؟",
+              "reponse": "الشوندر السكري فيه سكر عالي (15-20%) وجذرو بيض. الشوندر العلفي فيه سكر أقل (5-8%) وكايخدم للبهائم."
+            }
+          },
+          {
+            "francais": {
+              "question": "Peut-on manger la betterave sucrière ?",
+              "reponse": "OUI, mais elle n'est pas sucrée comme la betterave rouge. Elle est plus fibreuse et moins savoureuse."
+            },
+            "darija": {
+              "question": "نقدر ناكل الشوندر السكري ؟",
+              "reponse": "ايوا، ولكن ما هوش حلو بحال الشوندر الأحمر. هو قاسح وأقل طعم."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le rendement en sucre de la betterave ?",
+              "reponse": "Une tonne de betterave donne environ 130-150 kg de sucre blanc. La teneur en sucre est de 15-20%."
+            },
+            "darija": {
+              "question": "شحال هو الإنتاج ديال السكر من الشوندر ؟",
+              "reponse": "طن واحد ديال الشوندر كايعطي تقريبا 130-150 كيلو ديال السكر الأبيض. نسبة السكر هي 15-20%."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment transporter la betterave à l'usine ?",
+              "reponse": "Par camion. Il faut la livrer rapidement après l'arrachage (moins de 48h) pour éviter la perte de sucre."
+            },
+            "darija": {
+              "question": "كيفاش كايتنقل الشوندر للمعمل ؟",
+              "reponse": "بالشاحنات. خاصك توصله بسرعة مورا القلاعة (أقل من 48 ساعة) باش ما ينقصش السكر."
+            }
+          },
+          {
+            "francais": {
+              "question": "Que faire des déchets de betterave (feuilles, collets) ?",
+              "reponse": "Les feuilles et collets peuvent être utilisés comme fourrage pour les animaux (ovins, bovins). Ne les brûlez pas."
+            },
+            "darija": {
+              "question": "شحال نعملو بالنفايات ديال الشوندر (الوراق، الرؤوس) ؟",
+              "reponse": "الوراق والرؤوس كاتخدم كعلف للبهايم (الضأن، الأبقار). ما تحرقش."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quel est le rôle de l'ORMVAD pour la betterave ?",
+              "reponse": "L'ORMVAD conseille les agriculteurs (itinéraires techniques, irrigation, fertilisation), distribue les semences, et coordonne avec l'usine sucrière."
+            },
+            "darija": {
+              "question": "شنو هو دور المكتب الجهوي للتنمية الفلاحية للشوندر ؟",
+              "reponse": "المكتب الجهوي كاينصح الفلاحين (التقنيات، السقي، التسميد)، كايوصل البذور، و كاينسق مع المعمل السكري."
+            }
+          },
+          {
+            "francais": {
+              "question": "Où se trouve l'usine sucrière qui achète la betterave ?",
+              "reponse": "L'usine sucrière se trouve dans la région Doukkala (El Jadida/Sidi Bennour). Elle dessert tous les producteurs de la zone."
+            },
+            "darija": {
+              "question": "فين كاين المعمل السكري اللي كايشري الشوندر ؟",
+              "reponse": "المعمل كاين فجهة دكالة (الجديدة/سيدي بنور). كايخدم جميع المنتجين فهاد المنطقة."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment est payé le sucre ?",
+              "reponse": "L'agriculteur est payé sur la base du poids de betterave livrée et de sa teneur en sucre (analyse à l'usine)."
+            },
+            "darija": {
+              "question": "كيفاش كايتخلص السكر ؟",
+              "reponse": "الفلاح كايتخلص على حساب الوزن ديال الشوندر ونسبة السكر فيه (تحليل فالمعمل)."
+            }
+          }
+        ]
+      },
+      {
+        "nom": "diagnostic_betterave",
+        "questions_reponses": [
+          {
+            "francais": {
+              "question": "Pourquoi les feuilles de ma betterave jaunissent ?",
+              "reponse": "Causes possibles : manque d'azote, cercosporiose, ou excès d'eau. Faites analyser votre sol."
+            },
+            "darija": {
+              "question": "علاش الوراق ديال الشوندر ديالي كاتصفر ؟",
+              "reponse": "الأسباب الممكنة: نقص الآزوت، السيركوسبوريوز، أو الماء الزايد. حلل أرضك."
+            }
+          },
+          {
+            "francais": {
+              "question": "Pourquoi mes betteraves sont petites ?",
+              "reponse": "Causes : manque d'eau, sol pauvre, carence en potassium, densité trop élevée, ou maladies."
+            },
+            "darija": {
+              "question": "علاش الجدرات ديالي صغار ؟",
+              "reponse": "الأسباب: نقص الماء، أرض فقيرة، نقص البوتاسيوم، كثافة عالية، أو أمراض."
+            }
+          },
+          {
+            "francais": {
+              "question": "Pourquoi mes betteraves sont fendues ?",
+              "reponse": "Les fentes sont causées par une irrigation irrégulière (alternance sec-humide) ou un manque de bore."
+            },
+            "darija": {
+              "question": "علاش الجدرات ديالي متشققة ؟",
+              "reponse": "التشقق كايجي من السقي غير المنتظم (جاف-رطب بالتناوب) أو نقص البور."
+            }
+          },
+          {
+            "francais": {
+              "question": "Comment améliorer la teneur en sucre ?",
+              "reponse": "Apportez assez de potassium, arrêtez l'irrigation 2-3 semaines avant récolte, et récoltez à maturité."
+            },
+            "darija": {
+              "question": "كيفاش نزيدو نسبة السكر ؟",
+              "reponse": "حط بوتاسيوم كافي، وقف السقي 2-3 أسابيع قبل الحصاد، واحصد فالنضج."
+            }
+          },
+          {
+            "francais": {
+              "question": "Quels sont les signes d'un excès d'eau ?",
+              "reponse": "Feuilles jaunes, croissance ralentie, pourriture des racines, et développement de maladies fongiques."
+            },
+            "darija": {
+              "question": "شنو هي علامات الماء الزايد ؟",
+              "reponse": "الوراق صفر، النمو كايبطا، تعفن الجذور، وانتشار الأمراض الفطرية."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
