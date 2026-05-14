@@ -1,0 +1,805 @@
+{
+  "categorie": "sols",
+  "region": "Doukkala",
+  "sous_regions": ["El Jadida", "Ouled Frej", "Sidi Bennour"],
+  "langues": ["Français", "Darija"],
+  "questions_reponses": [
+    {
+      "id": "SOL_001",
+      "patterns": [
+        "quel est le pH de mon sol à El Jadida",
+        "quel est le pH du sol à El Jadida",
+        "est-ce que ma terre est acide ou basique à El Jadida",
+        "شحال هو pH التربة فالجديدة",
+        "التربة فالجديدة حمضية ولا قاعدية"
+      ],
+      "reponse_fr": "À El Jadida, le pH de ton sol est de 7,2. C'est un sol légèrement alcalin (basique), parfait pour la plupart des cultures comme le blé, l'olivier et la betterave.",
+      "reponse_darija": "فالجديدة، pH التربة هو 7,2. هاد التربة قلوية شويا، مناسبة للزراعات بحال القمح والزيتون والشمندر.",
+      "source": "Dataset local",
+      "zone": "El Jadida"
+    },
+    {
+      "id": "SOL_002",
+      "patterns": [
+        "quel est le pH de mon sol à Ouled Frej",
+        "quel est le pH du sol à Ouled Frej",
+        "شحال هو pH التربة فولاد فرج"
+      ],
+      "reponse_fr": "À Ouled Frej, le pH de ton sol est de 7,1. C'est un sol légèrement alcalin, idéal pour l'olivier, le figuier et les céréales.",
+      "reponse_darija": "فولاد فرج، pH التربة هو 7,1. هاد التربة قلوية شويا، مثالية للزيتون والكرموس والحبوب.",
+      "source": "Dataset local",
+      "zone": "Ouled Frej"
+    },
+    {
+      "id": "SOL_003",
+      "patterns": [
+        "quel est le type de sol à El Jadida",
+        "ma terre est argileuse ou sableuse à El Jadida",
+        "شحال هو نوع التربة فالجديدة"
+      ],
+      "reponse_fr": "À El Jadida, le sol contient 35% d'argile, 40% de limon et 25% de sable. C'est un sol argilo-limoneux. Il retient bien l'eau et les nutriments.",
+      "reponse_darija": "فالجديدة، التربة فيها 35% طين، 40% غرين و 25% رمل. هاد التربة طينية-غرينية. كاتحافظ على الماء والمغذيات مزيان.",
+      "source": "Dataset local",
+      "zone": "El Jadida"
+    },
+    {
+      "id": "SOL_004",
+      "patterns": [
+        "quel est le type de sol à Ouled Frej",
+        "ma terre à Ouled Frej est argileuse",
+        "شحال هو نوع التربة فولاد فرج"
+      ],
+      "reponse_fr": "À Ouled Frej, le sol contient 38% d'argile, 40% de limon et 22% de sable. C'est un sol argilo-limoneux, excellent pour l'olivier et le figuier.",
+      "reponse_darija": "فولاد فرج، التربة فيها 38% طين، 40% غرين و 22% رمل. هاد التربة طينية-غرينية، ممتازة للزيتون والكرموس.",
+      "source": "Dataset local",
+      "zone": "Ouled Frej"
+    },
+    {
+      "id": "SOL_005",
+      "patterns": [
+        "c'est quoi un sol Tirs argileux",
+        "explique moi le sol Tirs argileux",
+        "شحال هو التربة الطينية تيرس"
+      ],
+      "reponse_fr": "Le Tirs argileux (code L-275) est un sol très argileux avec 57% d'argile, 13% de limon et 30% de sable. Son pH est de 7,6. Il retient très bien l'eau et les nutriments, mais il peut se compacter facilement. Idéal pour le blé irrigué, l'olivier et la vigne.",
+      "reponse_darija": "تيرس الطيني (رمز L-275) تربة فيها 57% طين، 13% غرين و 30% رمل. pH ديالها 7,6. كاتحافظ بزاف على الماء والمغذيات، ولكن كاتعقد بسهولة. مناسبة للقمح المسقي والزيتون والعنب.",
+      "source": "INRA Doukkala 1964",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_006",
+      "patterns": [
+        "c'est quoi un sol Tirs sableux",
+        "explique moi le sol Tirs sableux",
+        "شحال هو التربة الرملية تيرس"
+      ],
+      "reponse_fr": "Le Tirs sableux (code L-282) contient 27% d'argile, 5% de limon et 68% de sable. Son pH est de 7,75. Ce sol est bien drainé mais retient moins l'eau. Il est adapté à l'orge, aux agrumes irrigués et au maraîchage.",
+      "reponse_darija": "تيرس الرملي (رمز L-282) فيه 27% طين، 5% غرين و 68% رمل. pH ديالها 7,75. هاد التربة كاتصرف الماء بزاف ولكن ما كاتحافظش عليه. مناسبة للشعير والحامض المسقي والخضرة.",
+      "source": "INRA Doukkala 1964",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_007",
+      "patterns": [
+        "c'est quoi un sol châtain",
+        "explique moi le sol châtain",
+        "شحال هو التربة الكستنائية"
+      ],
+      "reponse_fr": "Le sol châtain (code L-255) contient seulement 11% d'argile, 11% de limon et 78% de sable. Son pH est de 6,9. Ce sol est pauvre en nutriments et retient peu l'eau. Il est adapté aux fourrages, au figuier et aux plantes résistantes à la sécheresse comme le cactus.",
+      "reponse_darija": "التربة الكستنائية (رمز L-255) فيها غير 11% طين، 11% غرين و 78% رمل. pH ديالها 6,9. هاد التربة فقيرة فالمغذيات وما كاتحافظش على الماء. مناسبة للأعلاف والكرموس والصبار.",
+      "source": "INRA Doukkala 1964",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_008",
+      "patterns": [
+        "c'est quoi un sol lessivé",
+        "explique moi le sol lessivé",
+        "شحال هو التربة المغسولة"
+      ],
+      "reponse_fr": "Le sol lessivé (code L-245) est très pauvre avec seulement 6% d'argile, 2% de limon et 92% de sable. Son pH est de 7,45. Il a une très faible fertilité. Il est utilisé pour les cultures résistantes comme le figuier et le cactus.",
+      "reponse_darija": "التربة المغسولة (رمز L-245) فقيرة بزاف، فيها غير 6% طين، 2% غرين و 92% رمل. pH ديالها 7,45. ما فيها حتى خصوبة. كتصلح للزراعات المقاومة بحال الكرموس والصبار.",
+      "source": "INRA Doukkala 1964",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_009",
+      "patterns": [
+        "c'est quoi un sol ocre",
+        "explique moi le sol ocre",
+        "شحال هو التربة الأوكر"
+      ],
+      "reponse_fr": "Le sol ocre (code L-257) contient 7% d'argile, 1% de limon et 90% de sable. Son pH est de 7,9. C'est un sol très sableux qui draine rapidement l'eau. Il est peu fertile et nécessite une irrigation fréquente.",
+      "reponse_darija": "التربة الأوكر (رمز L-257) فيها 7% طين، 1% غرين و 90% رمل. pH ديالها 7,9. هاد التربة رملية بزاف، الماء كيدوز عليها بسرعة. ما فيها حتى خصوبة، كاتحتاج للسقي بزاف.",
+      "source": "INRA Doukkala 1964",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_010",
+      "patterns": [
+        "quel sol est le meilleur pour l'olivier à Doukkala",
+        "quel type de sol pour planter des oliviers",
+        "شحال هو أحسن تربة للزيتون فدوكالة"
+      ],
+      "reponse_fr": "À Doukkala, le meilleur sol pour l'olivier est le Tirs argileux (L-275) qui retient bien l'eau et les nutriments. Les oliviers poussent aussi très bien sur les sols de Boulaouane et Ouled Frej qui ont un pH entre 7,1 et 7,6.",
+      "reponse_darija": "فدوكالة، أحسن تربة للزيتون هي تيرس الطيني (L-275) اللي كاتحافظ على الماء والمغذيات. الزيتون كيكبر مزيان حتى فالتربة ديال بولعوان وولاد فرج اللي pH ديالها بين 7,1 و 7,6.",
+      "source": "INRA Doukkala 1964 + ORMVAD",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_011",
+      "patterns": [
+        "quel sol est le meilleur pour le blé à Doukkala",
+        "quel type de sol pour planter du blé",
+        "شحال هو أحسن تربة للقمح فدوكالة"
+      ],
+      "reponse_fr": "Le blé préfère les sols limono-argileux comme ceux d'El Jadida (35% argile, 40% limon). Le Tirs argileux (L-275) avec un pH de 7,6 est également excellent pour le blé irrigué.",
+      "reponse_darija": "القمح كيبغي التربة الطينية-الغرينية بحال ديال الجديدة (35% طين، 40% غرين). تيرس الطيني (L-275) اللي pH ديالو 7,6 حتى هو ممتاز للقمح المسقي.",
+      "source": "INRA Doukkala 1964 + INRA 2023",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_012",
+      "patterns": [
+        "quel sol est le meilleur pour le figuier à Ouled Frej",
+        "quel type de sol pour planter des figuiers",
+        "شحال هو أحسن تربة للكرموس فولاد فرج"
+      ],
+      "reponse_fr": "À Ouled Frej, le figuier pousse bien sur les sols lessivés (L-245) et les sols châtains (L-255). Ces sols sont sableux, bien drainés, ce que le figuier apprécie. Le figuier tolère aussi les sols pauvres.",
+      "reponse_darija": "فولاد فرج، الكرموس كيكبر مزيان على التربة المغسولة (L-245) والتربة الكستنائية (L-255). هاد التربة رملية وكاتصرف الماء مزيان، والكرموس كيبغي هاد الشي. الكرموس حتى كيتحمل التربة الفقيرة.",
+      "source": "INRA Doukkala 1964 + ORMVAD",
+      "zone": "Ouled Frej"
+    },
+    {
+      "id": "SOL_013",
+      "patterns": [
+        "quel sol est le meilleur pour la vigne à Doukkala",
+        "quel type de sol pour planter de la vigne",
+        "شحال هو أحسن تربة للعنب فدوكالة"
+      ],
+      "reponse_fr": "La vigne préfère les sols profonds et bien drainés. À Doukkala, le Tirs argileux (L-275) et le Tirs sableux (L-282) conviennent bien. Le pH idéal pour la vigne est entre 6 et 7,5.",
+      "reponse_darija": "العنب كيبغي التربة العميقة اللي كاتصرف الماء مزيان. فدوكالة، تيرس الطيني (L-275) وتيرس الرملي (L-282) كلاهما مناسبين. pH المثالي للعنب هو بين 6 و 7,5.",
+      "source": "INRA Doukkala 1964",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_014",
+      "patterns": [
+        "quel sol est le meilleur pour la tomate à El Jadida",
+        "quel type de sol pour planter des tomates",
+        "شحال هو أحسن تربة للطماطم فالجديدة"
+      ],
+      "reponse_fr": "La tomate pousse bien sur les sols sableux à limono-argileux. À El Jadida, les sols châtains (L-255) et les sols de la zone d'Oulja (sableux) sont parfaits pour la tomate sous serre, à condition d'irriguer régulièrement.",
+      "reponse_darija": "الطماطم كتكبر مزيان على التربة الرملية للطينية-الغرينية. فالجديدة، التربة الكستنائية (L-255) والتربة ديال منطقة أولجا (الرملية) مناسبين للطماطم تحت السير، ولكن خاص السقي بانتظام.",
+      "source": "INRA Doukkala 1964 + Direction Provinciale",
+      "zone": "El Jadida"
+    },
+    {
+      "id": "SOL_015",
+      "patterns": [
+        "quel est le taux de matière organique dans le sol d'El Jadida",
+        "ma terre est-elle riche en matière organique",
+        "شحال هو نسبة المادة العضوية فالجديدة"
+      ],
+      "reponse_fr": "À El Jadida, le taux de matière organique dans le sol est d'environ 1,65%. C'est un niveau moyen. Il est recommandé d'ajouter du fumier ou du compost tous les 2-3 ans pour maintenir la fertilité.",
+      "reponse_darija": "فالجديدة، نسبة المادة العضوية فالتربة هي تقريبا 1,65%. هاد المستوى متوسط. خاصك تزيد السماد البلدي (الزبل) ولا الكومپو كل 2-3 سنين باش تحافظ على الخصوبة.",
+      "source": "Dataset local",
+      "zone": "El Jadida"
+    },
+    {
+      "id": "SOL_016",
+      "patterns": [
+        "quel est le taux de matière organique à Ouled Frej",
+        "شحال هو نسبة المادة العضوية فولاد فرج"
+      ],
+      "reponse_fr": "À Ouled Frej, le sol contient environ 1,5% de matière organique. C'est un niveau moyen. Pour l'olivier et le figuier, un apport de compost tous les 2-3 ans est bénéfique.",
+      "reponse_darija": "فولاد فرج، التربة فيها تقريبا 1,5% ديال المادة العضوية. هاد المستوى متوسط. بالنسبة للزيتون والكرموس، إضافة الكومپو كل 2-3 سنين كاتكون مفيدة.",
+      "source": "Dataset local",
+      "zone": "Ouled Frej"
+    },
+    {
+      "id": "SOL_017",
+      "patterns": [
+        "mon sol est argileux comment l'améliorer",
+        "comment travailler un sol argileux",
+        "كيفاش نحسن التربة الطينية"
+      ],
+      "reponse_fr": "Pour améliorer un sol argileux à Doukkala (comme le Tirs argileux), ajoute du compost ou du fumier (3-5 t/ha) pour l'alléger. Évite de travailler le sol quand il est trop humide. Le sous-solage peut aussi aider à briser les couches compactes.",
+      "reponse_darija": "باش تحسن التربة الطينية فدوكالة (بحال تيرس الطيني)، زيد الكومپو ولا الزبل (3-5 طن فالهكتار) باش تخففها. تجنب تشتيل التربة ملي تكون ندية بزاف. التقليب العميق حتى كيعاون يفك الطبقات المتعقدة.",
+      "source": "INRA Doukkala 1964",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_018",
+      "patterns": [
+        "mon sol est sableux comment l'améliorer",
+        "comment travailler un sol sableux",
+        "كيفاش نحسن التربة الرملية"
+      ],
+      "reponse_fr": "Pour améliorer un sol sableux à Doukkala (comme le sol châtain ou lessivé), ajoute beaucoup de matière organique (compost, fumier) pour retenir l'eau et les nutriments. L'irrigation au goutte-à-goutte est recommandée pour économiser l'eau.",
+      "reponse_darija": "باش تحسن التربة الرملية فدوكالة (بحال التربة الكستنائية ولا المغسولة)، زيد بزاف ديال المادة العضوية (كومپو، زبل) باش تحافظ على الماء والمغذيات. السقي بالتنقيط هو أحسن شي باش توفر الماء.",
+      "source": "INRA Doukkala 1964",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_019",
+      "patterns": [
+        "mon sol est calcaire que faire",
+        "comment corriger un sol calcaire",
+        "كيفاش نعالج التربة الجيرية"
+      ],
+      "reponse_fr": "Les sols calcaires de Doukkala (pH > 7,5) peuvent bloquer certains nutriments comme le fer et le phosphore. Pour corriger cela, ajoute du soufre (200-300 kg/ha) ou du compost. Pour les carences en fer, utilise des chélates de fer (EDDHA).",
+      "reponse_darija": "التربة الجيرية فدوكالة (pH > 7,5) كاتحبس بعض المغذيات بحال الحديد والفوسفور. باش تعالج هاد المشكل، زيد الكبريت (200-300 كيلو فالهكتار) ولا الكومپو. بالنسبة للنقص ديال الحديد، استعمل الشيلات ديال الحديد (EDDHA).",
+      "source": "INRA Doukkala 1964",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_020",
+      "patterns": [
+        "quel est l'azote dans le sol d'El Jadida",
+        "ma terre contient combien d'azote",
+        "شحال هو الأزوت فتربة الجديدة"
+      ],
+      "reponse_fr": "Dans le sol d'El Jadida, l'azote représente environ 0,78% de la matière organique. Pour le blé, il est recommandé d'ajouter 28 à 56 kg d'azote par hectare en fonction du rendement visé.",
+      "reponse_darija": "فتربة الجديدة، الأزوت كيمثل تقريبا 0,78% ديال المادة العضوية. بالنسبة للقمح، خاصك تزيد 28 حتى 56 كيلو ديال الأزوت فالهكتار على حساب المردود اللي كاتصاوب فيه.",
+      "source": "INRA Doukkala 1964 + INRA 2023",
+      "zone": "El Jadida"
+    },
+    {
+      "id": "SOL_021",
+      "patterns": [
+        "quel est le rapport carbone/azote du sol à Doukkala",
+        "c'est quoi le rapport C/N",
+        "شحال هو نسبة الكربون على الأزوت"
+      ],
+      "reponse_fr": "Le rapport carbone/azote (C/N) des sols de Doukkala varie entre 6 et 12. Un C/N de 10-12 indique une décomposition modérée de la matière organique. Plus le C/N est bas, plus la matière organique se décompose rapidement.",
+      "reponse_darija": "نسبة الكربون على الأزوت فالتربة ديال دوكالة كاتغير بين 6 و 12. نسبة 10-12 كاتعني أن المادة العضوية كاتتحلل بشكل متوسط. كلما كانت النسبة أقل، المادة العضوية كاتتحلل بسرعة أكبر.",
+      "source": "INRA Doukkala 1964",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_022",
+      "patterns": [
+        "quels sont les types de sols à Doukkala",
+        "liste des sols de la région Doukkala",
+        "شنو هي أنواع التربة فدوكالة"
+      ],
+      "reponse_fr": "Les principaux types de sols à Doukkala sont : le Tirs argileux (L-275), le Tirs sableux (L-282), le sol châtain (L-255), le sol lessivé (L-245) et le sol ocre (L-257). Chacun a ses propres caractéristiques pour différentes cultures.",
+      "reponse_darija": "أنواع التربة الرئيسية فدوكالة هوما: تيرس الطيني (L-275)، تيرس الرملي (L-282)، التربة الكستنائية (L-255)، التربة المغسولة (L-245) والتربة الأوكر (L-257). كل واحد فيه خصائصو لي تناسب زراعات مختلفة.",
+      "source": "INRA Doukkala 1964",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_023",
+      "patterns": [
+        "c'est quoi un sol limono-argileux",
+        "explique moi le sol limono-argileux",
+        "شحال هو التربة الطينية الغرينية"
+      ],
+      "reponse_fr": "Un sol limono-argileux est un mélange équilibré d'argile (35-40%) et de limon (40%). C'est le type de sol qu'on trouve à El Jadida et Ouled Frej. Il retient bien l'eau et les nutriments, et il est facile à travailler.",
+      "reponse_darija": "التربة الطينية-الغرينية هي خليط متوازن بين الطين (35-40%) والغرين (40%). هاد النوع ديال التربة هو اللي كاين فالجديدة وولاد فرج. كاتحافظ على الماء والمغذيات مزيان، وساهلة فالتشتيل.",
+      "source": "Dataset local",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_024",
+      "patterns": [
+        "est-ce que mon sol est salé à El Jadida",
+        "comment savoir si ma terre est salée",
+        "كيفاش نعرف أن التربة مالحة فالجديدة"
+      ],
+      "reponse_fr": "Les sols d'El Jadida ne sont généralement pas salés, mais l'irrigation avec des eaux saumâtres peut augmenter la salinité. Si tu vois des dépôts blancs en surface ou si tes plantes ont des brûlures sur les bords des feuilles, fais analyser ton sol. Un lessivage hivernal (100 m³/ha d'eau douce) peut aider.",
+      "reponse_darija": "التربة ديال الجديدة غالبا ما تكونش مالحة، ولكن السقي بالماء المالح يقدر يزيد الملوحة. إذا شفتي تمويلات بيضا على سطح التربة ولا النباتات عندها حروق فحوايج الأوراق، حلل تربتك. الغسيل الشتوي (100 متر مكعب فالهكتار ديال الماء العذب) يقدر يعاون.",
+      "source": "INRA Doukkala 1964 + Mémoire IAV 2004",
+      "zone": "El Jadida"
+    },
+    {
+      "id": "SOL_025",
+      "patterns": [
+        "comment faire une analyse de sol",
+        "où analyser mon sol à El Jadida",
+        "كيفاش نحلل التربة فالجديدة"
+      ],
+      "reponse_fr": "Tu peux faire analyser ton sol au laboratoire de l'ORMVAD à El Jadida (Bd Mohammed VI). L'analyse complète coûte environ 500 DH et prend 10-15 jours. Tu peux aussi acheter des kits rapides (pH-mètre, conductimètre) dans les coopératives agricoles.",
+      "reponse_darija": "تقدر تحلل تربتك فالمختبر ديال ORMVAD فالجديدة (زنقة محمد السادس). التحليل الكامل كيكلف تقريبا 500 درهم وكياخد 10-15 يوم. حتى تقدر تشري الكيتات السريعة (pH-متر، كونductimètre) من التعاونيات الفلاحية.",
+      "source": "ORMVAD - Antenne d'El Jadida",
+      "zone": "El Jadida"
+    },
+    {
+      "id": "SOL_026",
+      "patterns": [
+        "quel outil utiliser pour connaître mon type de sol",
+        "comment savoir si ma terre est argileuse ou sableuse",
+        "quel appareil pour analyser mon sol",
+        "كيفاش نعرف نوع التربة ديالي",
+        "شنو هي الأدوات لمعرفة نوع التربة",
+        "كيفاش نعرف التربة طينية ولا رملية",
+        "quel matériel pour diagnostiquer mon sol"
+      ],
+      "reponse_fr": "Pour connaître le type de ton sol à Doukkala (El Jadida - Ouled Frej), voici les outils disponibles :\n\n**1. Méthode manuelle (gratuite)** : Prends une poignée de terre humide et essaie de former un boudin. Si ça colle bien et forme un boudin qui ne se casse pas → sol argileux. Si ça ne colle pas et s'effrite → sol sableux. Si ça colle un peu → sol limoneux.\n\n**2. Kit d'analyse de sol (50-200 DH)** : Disponible dans les coopératives agricoles d'El Jadida et Ouled Frej. Tu peux mesurer le pH, l'azote, le phosphore et le potassium rapidement.\n\n**3. pH-mètre portable (200 DH)** : Pour mesurer l'acidité ou l'alcalinité de ton sol. Idéal pour savoir si ton sol est calcaire (pH > 7,5).\n\n**4. Conductimètre (300 DH)** : Pour mesurer la salinité de ton sol. Utile si tu utilises de l'eau saumâtre pour l'irrigation.\n\n**5. Analyse de sol en laboratoire (500 DH)** : Au laboratoire de l'ORMVAD à El Jadida (Bd Mohammed VI). Ils te donneront une analyse complète : texture, pH, azote, phosphore, potassium, magnésium, calcium, fer, zinc, bore, matière organique et salinité. Délai : 10-15 jours.\n\n**6. Application AgriDoukkala (gratuite)** : Disponible sur Android/iOS. Tu prends une photo de ton sol et l'application te donne un diagnostic approximatif du type de sol.\n\n**Conseil** : Pour une analyse précise avant de planter des cultures comme le blé, l'olivier ou la tomate, utilise le laboratoire de l'ORMVAD. Pour un suivi rapide pendant la culture, utilise les kits portables.",
+      "reponse_darija": "باش تعرف نوع التربة ديالك فدوكالة (الجديدة - ولاد فرج)، هاد هي الأدوات اللي عندك:\n\n**1. الطريقة اليدوية (بالمجان)** : خد حفنة من التربة النادية وحاول تدير بها سيڭار. إذا تماڭات وعملات سيڭار ما تڭسعش → تربة طينية. إذا ما تماڭاتش وتفكات → تربة رملية. إذا تماڭات شويا → تربة غرينية.\n\n**2. كيت التحليل (50-200 درهم)** : كاين فالتعاونيات الفلاحية فالجديدة وولاد فرج. تقدر تقيس الpH والأزوت والفوسفور والبوتاسيوم بسرعة.\n\n**3. pH-متر محمول (200 درهم)** : باش تقيس الحموضة ولا القلوية ديال التربة. مثالي باش تعرف واش التربة جيرية (pH > 7,5).\n\n**4. كونductimètre (300 درهم)** : باش تقيس الملوحة ديال التربة. مفيد إذا كنت كاتسقي بماء مالح.\n\n**5. التحليل فالمختبر (500 درهم)** : فمختبر ORMVAD فالجديدة (زنقة محمد السادس). كيعطيونك تحليل كامل: القوام، pH، الأزوت، الفوسفور، البوتاسيوم، المغنسيوم، الكالسيوم، الحديد، الزنك، البور، المادة العضوية والملوحة. المدة: 10-15 يوم.\n\n**6. تطبيق AgriDoukkala (بالمجان)** : كاين على Android/iOS. تصور تربتك والتطبيق كيعطيك تشخيص تقريبي لنوع التربة.\n\n**نصيحة** : باش تحصل على تحليل دقيق قبل ما تزرع زراعات بحال القمح والزيتون والطماطم، استعمل مختبر ORMVAD. باش تتابع بسرعة خلال الزراعة، استعمل الكيتات المحمولة.",
+      "source": "ORMVAD - Antenne d'El Jadida",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_027",
+      "patterns": [
+        "quel est le meilleur engrais pour un sol argileux",
+        "comment fertiliser un sol argileux à Doukkala",
+        "شحال هو أحسن سماد للتربة الطينية فدوكالة"
+      ],
+      "reponse_fr": "Pour un sol argileux comme le Tirs argileux de Doukkala, utilise du compost ou du fumier bien décomposé (3-5 t/ha) pour améliorer sa structure. Évite les excès d'azote qui lessivent moins. Le phosphore et le potassium sont bien retenus. Pour les cultures comme le blé, apporte 28 kg N/ha au semis et 56 kg N/ha en couverture.",
+      "reponse_darija": "بالنسبة للتربة الطينية بحال تيرس الطيني فدوكالة، استعمل الكومپو ولا الزبل المتعفن مزيان (3-5 طن فالهكتار) باش تحسن تركيبها. تجنب الزيادة فالأزوت حيت ما كاتنضفش بزاف. الفوسفور والبوتاسيوم كاتبقى مزيان. بالنسبة للزراعات بحال القمح، زيد 28 كيلو N فالهكتار فالسقي و56 كيلو N فالغطاء.",
+      "source": "INRA Doukkala 1964 + INRA 2023",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_028",
+      "patterns": [
+        "quel est le meilleur engrais pour un sol sableux",
+        "comment fertiliser un sol sableux à Doukkala",
+        "شحال هو أحسن سماد للتربة الرملية فدوكالة"
+      ],
+      "reponse_fr": "Pour un sol sableux comme le sol châtain ou lessivé de Doukkala, utilise des engrais organiques (compost, fumier) pour retenir l'eau et les nutriments. Fractionne l'azote en plusieurs petits apports car il lessive facilement. L'irrigation au goutte-à-goutte est recommandée. Pour le figuier, apporte 40 kg N/ha en deux fois (février et mai).",
+      "reponse_darija": "بالنسبة للتربة الرملية بحال التربة الكستنائية ولا المغسولة فدوكالة، استعمل الأسمدة العضوية (كومپو، زبل) باش تحافظ على الماء والمغذيات. قسم الأزوت على عدة دفعات صغيرة حيت كاينضف بسرعة. السقي بالتنقيط هو الموصى به. بالنسبة للكرموس، زيد 40 كيلو N فالهكتار على جوج دفعات (فبراير وماي).",
+      "source": "INRA Doukkala 1964",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_029",
+      "patterns": [
+        "quand faut-il travailler le sol à Doukkala",
+        "meilleure période pour labourer à El Jadida",
+        "وقتاش خاص نشتل التربة فدوكالة"
+      ],
+      "reponse_fr": "À Doukkala, la meilleure période pour travailler le sol est septembre-octobre, avant les semis de novembre. Pour les sols argileux comme le Tirs, évite de travailler quand il est trop humide (juste après la pluie). Pour les sols sableux, tu peux travailler plus tôt. Un labour profond (25-30 cm) est recommandé tous les 2-3 ans pour briser les semelles de labour.",
+      "reponse_darija": "فدوكالة، أحسن وقت لتشتيل التربة هو شتنبر-أكتوبر، قبل الزراعة فشهر نونبر. بالنسبة للتربة الطينية بحال تيرس، تجنب تشتيلها ملي تكون ندية بزاف (مباشرة بعد المطر). بالنسبة للتربة الرملية، تقدر تشتلها قبل. التقليب العميق (25-30 سم) كاتكون مرة كل 2-3 سنين باش تفك الطبقات المتعقدة.",
+      "source": "ORMVAD - Calendrier cultural 2025",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_030",
+      "patterns": [
+        "pourquoi mon sol se fissure en été",
+        "mon sol argileux se craquelle que faire",
+        "علاش التربة كاتشق فالصيف"
+      ],
+      "reponse_fr": "Les fissures dans le sol en été sont normales pour les sols argileux comme le Tirs argileux de Doukkala. L'argile gonfle quand elle est humide et se rétracte quand elle sèche. Pour limiter ce phénomène, ajoute du compost ou du fumier (3-5 t/ha) pour améliorer la structure du sol, et pratique le paillage (paille, résidus de culture) pour réduire l'évaporation.",
+      "reponse_darija": "التشققات فالتربة فالصيف هي شيء عادي بالنسبة للتربة الطينية بحال تيرس الطيني فدوكالة. الطين كينتفخ ملي كيكون ندي وكينكمش ملي كيجف. باش تقلل من هاد المشكل، زيد الكومپو ولا الزبل (3-5 طن فالهكتار) باش تحسن تركيب التربة، واستعمل التغطية (التبن، بقايا الزراعة) باش تقلل التبخر.",
+      "source": "INRA Doukkala 1964",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_031",
+      "patterns": [
+        "comment savoir si mon sol manque d'azote",
+        "symptômes carence azote dans le sol",
+        "كيفاش نعرف أن التربة فيها نقص ديال الأزوت"
+      ],
+      "reponse_fr": "Les signes d'un sol pauvre en azote sont : des feuilles qui jaunissent par le bas, une croissance lente, des épis petits et clairsemés pour les céréales. À Doukkala, les sols lessivés (L-245) sont souvent pauvres en azote. Pour corriger, apporte 30-50 kg N/ha d'urée ou de nitrate d'ammonium au stade tallage pour le blé.",
+      "reponse_darija": "علامات التربة الفقيرة فالأزوت هي: الأوراق كاتصفر من تحت، النمو كاتكون بطيئة، السنابل صغار ومفرقين بالنسبة للحبوب. فدوكالة، التربة المغسولة (L-245) غالبا فقيرة فالأزوت. باش تعالج، زيد 30-50 كيلو N فالهكتار ديال اليوريا ولا نترات الأمونيوم فمرحلة التفرع بالنسبة للقمح.",
+      "source": "INRA - Fiche Technique blés (2023)",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_032",
+      "patterns": [
+        "comment savoir si mon sol manque de phosphore",
+        "symptômes carence phosphore dans le sol",
+        "كيفاش نعرف أن التربة فيها نقص ديال الفوسفور"
+      ],
+      "reponse_fr": "Les signes d'un sol pauvre en phosphore sont : des feuilles qui deviennent violacées (surtout en hiver), des racines faibles, des épis mal formés. À Doukkala, les sols calcaires (pH > 7,5) bloquent le phosphore. Pour corriger, apporte du superphosphate (50-80 kg P₂O₅/ha) au semis en localisé à 5 cm de profondeur.",
+      "reponse_darija": "علامات التربة الفقيرة فالفوسفور هي: الأوراق كاتولي بنفسجية (خاصة فالشتي)، الجدرور كاتكون ضعيفة، السنابل كاتكون معوجة. فدوكالة، التربة الجيرية (pH > 7,5) كاتحبس الفوسفور. باش تعالج، زيد السوبرفوسفاط (50-80 كيلو P₂O₅ فالهكتار) وقت الزراعة فعمق 5 سم.",
+      "source": "INRA 2021",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_033",
+      "patterns": [
+        "comment savoir si mon sol manque de potassium",
+        "symptômes carence potassium dans le sol",
+        "كيفاش نعرف أن التربة فيها نقص ديال البوتاسيوم"
+      ],
+      "reponse_fr": "Les signes d'un sol pauvre en potassium sont : les bords des feuilles jaunissent puis brûlent (nécrose marginale), les tiges sont faibles, les fruits sont mous. À Doukkala, les sols sableux (L-255, L-245) lessivent le potassium. Pour corriger, apporte du sulfate de potassium (100-150 kg K₂O/ha) en automne ou en hiver.",
+      "reponse_darija": "علامات التربة الفقيرة فالبوتاسيوم هي: حوايج الأوراق كاتصفر ومن بعد كاتحرق (موت الأطراف)، السيقان كاتكون ضعيفة، الثمار كاتكون طرية. فدوكالة، التربة الرملية (L-255, L-245) كاتفقد البوتاسيوم. باش تعالج، زيد السلفاط ديال البوتاسيوم (100-150 كيلو K₂O فالهكتار) فالخريف ولا الشتاء.",
+      "source": "ORMVAD - Guide de fertilisation (2024)",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_034",
+      "patterns": [
+        "comment savoir si mon sol est compact",
+        "mon sol est dur que faire",
+        "كيفاش نعرف أن التربة متعقدة"
+      ],
+      "reponse_fr": "Les signes d'un sol compact sont : l'eau stagne en surface, les racines peinent à pénétrer, la croissance des plantes est lente. À Doukkala, les sols Tirs argileux (L-275) se compactent facilement. Pour corriger, pratique un sous-solage (décompactage) tous les 2-3 ans, ajoute du compost (3-5 t/ha) et évite de passer des engins lourds quand le sol est humide.",
+      "reponse_darija": "علامات التربة المتعقدة هي: الماء كاتركد فالسطح، الجدرور كاتعيا تدخل، النبات كيكبر ببطء. فدوكالة، تيرس الطيني (L-275) كاتعقد بسهولة. باش تعالج، دوز التقليب العميق مرة كل 2-3 سنين، زيد الكومپو (3-5 طن فالهكتار) وتجنب تدخل الآليات الثقيلة ملي تكون التربة ندية.",
+      "source": "INRA Doukkala 1964",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_035",
+      "patterns": [
+        "comment retenir l'eau dans mon sol sableux",
+        "sol sableux trop drainant que faire",
+        "كيفاش نحافظ على الماء فالتربة الرملية"
+      ],
+      "reponse_fr": "Pour retenir l'eau dans un sol sableux à Doukkala (comme le sol châtain ou lessivé), ajoute de la matière organique (compost, fumier) à raison de 5-10 t/ha. Utilise l'irrigation au goutte-à-goutte plutôt que l'aspersion. Le paillage (paille, résidus de culture) réduit l'évaporation de 30%. Plante des cultures résistantes à la sécheresse comme le figuier ou le cactus.",
+      "reponse_darija": "باش تحافظ على الماء فالتربة الرملية فدوكالة (بحال التربة الكستنائية ولا المغسولة)، زيد المادة العضوية (كومپو، زبل) بمعدل 5-10 طن فالهكتار. استعمل السقي بالتنقيط بدال الرش. التغطية (التبن، بقايا الزراعة) كاتقلل التبخر بنسبة 30%. ازرع زراعات مقاومة للجفاف بحال الكرموس ولا الصبار.",
+      "source": "INRA Doukkala 1964",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_036",
+      "patterns": [
+        "quel est l'impact du pH sur mes cultures",
+        "comment le pH affecte la croissance des plantes",
+        "كيفاش pH التربة كاتأثر على النباتات"
+      ],
+      "reponse_fr": "Le pH du sol influence la disponibilité des nutriments. À Doukkala, les sols ont un pH entre 6,9 et 7,9. Un pH entre 6,5 et 7,5 est idéal pour la plupart des cultures (blé, olivier, vigne). Si le pH est > 7,5 (sols calcaires), le fer et le phosphore sont bloqués. Pour corriger, ajoute du soufre (200-300 kg/ha). Si le pH est < 6,5 (rare à Doukkala), ajoute de la chaux.",
+      "reponse_darija": "pH التربة كاتأثر على توفر المغذيات. فدوكالة، pH التربة كاتكون بين 6,9 و 7,9. pH بين 6,5 و 7,5 هو المثالي لمعظم الزراعات (القمح، الزيتون، العنب). إذا كان pH > 7,5 (التربة الجيرية)، الحديد والفوسفور كاتحبس. باش تعالج، زيد الكبريت (200-300 كيلو فالهكتار). إذا كان pH < 6,5 (نادر فدوكالة)، زيد الجير.",
+      "source": "INRA Doukkala 1964",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_037",
+      "patterns": [
+        "c'est quoi un sol limoneux",
+        "explique moi le sol limoneux",
+        "شحال هو التربة الغرينية"
+      ],
+      "reponse_fr": "Un sol limoneux est un sol équilibré avec environ 40% de limon, 35% d'argile et 25% de sable. C'est le type de sol qu'on trouve à El Jadida et Ouled Frej. Il est idéal pour l'agriculture car il retient bien l'eau et les nutriments sans être trop compact. Il est facile à travailler et convient à la plupart des cultures (blé, olivier, maraîchage).",
+      "reponse_darija": "التربة الغرينية هي تربة متوازنة فيها تقريبا 40% غرين، 35% طين و 25% رمل. هذا هو نوع التربة اللي كاين فالجديدة وولاد فرج. هي مثالية للفلاحة حيت كاتحافظ على الماء والمغذيات مزيان بلا ما تكون متعقدة بزاف. سهلة فالتشتيل ومناسبة لمعظم الزراعات (القمح، الزيتون، الخضرة).",
+      "source": "INRA Doukkala 1964",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_038",
+      "patterns": [
+        "comment lutter contre l'érosion du sol à Doukkala",
+        "mon sol s'envole que faire",
+        "كيفاش نوقف التربة من الطيران فدوكالة"
+      ],
+      "reponse_fr": "Pour lutter contre l'érosion des sols à Doukkala (surtout les sols sableux comme le sol châtain), pratique le semis direct sans labour, utilise le paillage (paille, résidus de culture) pour protéger le sol, plante des haies brise-vent ou des cultures de couverture (légumineuses, moutarde). Évite de laisser le sol nu après la récolte. Le semis direct est particulièrement recommandé pour les zones arides.",
+      "reponse_darija": "باش تحارب تعرية التربة فدوكالة (خاصة التربة الرملية بحال التربة الكستنائية)، دوز الزراعة المباشرة بلا تقليب، استعمل التغطية (التبن، بقايا الزراعة) باش تحمي التربة، ازرع السياجات ولا الزراعات الغطائية (القطاني، الخردل). تجنب تخلي التربة عريانة بعد الحصاد. الزراعة المباشرة كاتكون مفيدة بزاف للمناطق الجافة.",
+      "source": "INRA - Fiche Technique blés (2023)",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_039",
+      "patterns": [
+        "quelle est la profondeur du sol à Doukkala",
+        "mon sol est profond ou superficiel",
+        "شحال هو عمق التربة فدوكالة"
+      ],
+      "reponse_fr": "La profondeur du sol à Doukkala varie selon le type : les Tirs argileux (L-275) sont profonds (>50 cm), les sols châtains (L-255) et lessivés (L-245) sont plus superficiels (30-50 cm). Pour les cultures comme le blé et l'olivier, un sol profond est préférable. Pour le figuier, un sol moins profond convient car il a des racines superficielles.",
+      "reponse_darija": "عمق التربة فدوكالة كايختلف على حساب النوع: تيرس الطيني (L-275) عميق (>50 سم)، التربة الكستنائية (L-255) والمغسولة (L-245) سطحية أكثر (30-50 سم). بالنسبة للزراعات بحال القمح والزيتون، التربة العميقة هي الأحسن. بالنسبة للكرموس، التربة السطحية كافية حيت جدروره سطحية.",
+      "source": "INRA Doukkala 1964",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_040",
+      "patterns": [
+        "comment améliorer un sol pauvre à Doukkala",
+        "ma terre est pauvre que faire",
+        "كيفاش نحسن التربة الفقيرة فدوكالة"
+      ],
+      "reponse_fr": "Pour améliorer un sol pauvre à Doukkala (comme le sol lessivé L-245 ou le sol ocre L-257), ajoute de la matière organique (fumier, compost) à raison de 5-10 t/ha tous les 2-3 ans. Plante des légumineuses (fève, pois chiche) pour enrichir le sol en azote. Utilise des engrais verts (moutarde, phacélie) en inter-culture. L'irrigation au goutte-à-goutte est recommandée pour économiser l'eau.",
+      "reponse_darija": "باش تحسن التربة الفقيرة فدوكالة (بحال التربة المغسولة L-245 ولا الأوكر L-257)، زيد المادة العضوية (زبل، كومپو) بمعدل 5-10 طن فالهكتار كل 2-3 سنين. ازرع القطاني (الفول، الحمص) باش تزيد الأزوت فالتربة. استعمل الأسمدة الخضراء (الخردل، الفاسيليا) بين الزراعات. السقي بالتنقيط هو الموصى به باش توفر الماء.",
+      "source": "INRA Doukkala 1964 + ORMVAD",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_041",
+      "patterns": [
+        "c'est quoi la capacité de rétention d'eau du sol",
+        "mon sol retient combien d'eau",
+        "شحال هي قدرة التربة على حفظ الماء"
+      ],
+      "reponse_fr": "La capacité de rétention d'eau varie selon le type de sol. À Doukkala, le Tirs argileux (L-275) retient beaucoup d'eau (environ 150-200 mm/m), les sols sableux (L-255, L-245) retiennent peu d'eau (50-80 mm/m). Pour les sols sableux, il faut irriguer plus fréquemment (tous les 3-5 jours en été). Pour les sols argileux, espace les irrigations (tous les 7-10 jours).",
+      "reponse_darija": "قدرة التربة على حفظ الماء كاتختلف على حساب نوع التربة. فدوكالة، تيرس الطيني (L-275) كاتحفظ الماء بزاف (تقريبا 150-200 مم/م)، التربة الرملية (L-255, L-245) كاتحفظ الماء شويا (50-80 مم/م). بالنسبة للتربة الرملية، خاص السقي بزاف (كل 3-5 أيام فالصيف). بالنسبة للتربة الطينية، وسع بين السقيات (كل 7-10 أيام).",
+      "source": "INRA Doukkala 1964",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_042",
+      "patterns": [
+        "quel est le meilleur moment pour analyser son sol",
+        "quand faire l'analyse de sol",
+        "وقتاش خاص نحلل التربة"
+      ],
+      "reponse_fr": "Le meilleur moment pour analyser son sol à Doukkala est juste après la récolte (juin-juillet) ou avant la saison des pluies (septembre-octobre). Évite de prélever juste après une fertilisation ou une irrigation. Prélève des échantillons à 20-30 cm de profondeur sur plusieurs endroits de ta parcelle. Fais une analyse complète tous les 3-4 ans pour suivre l'évolution de ta terre.",
+      "reponse_darija": "أحسن وقت لتحليل التربة فدوكالة هو مباشرة بعد الحصاد (يونيو-يوليو) ولا قبل موسم المطر (شتنبر-أكتوبر). تجنب تأخذ عينة مباشرة بعد التسميد ولا السقي. خد العينات من عمق 20-30 سم من بلايص مختلفة فالحقل ديالك. دير تحليل كامل كل 3-4 سنين باش تتبع التطور ديال تربتك.",
+      "source": "ORMVAD - Antenne d'El Jadida",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_043",
+      "patterns": [
+        "comment prendre un échantillon de sol",
+        "méthode pour prélever la terre",
+        "كيفاش ناخد عينة من التربة"
+      ],
+      "reponse_fr": "Pour prendre un bon échantillon de sol à Doukkala : 1) Nettoie une tarière ou une pelle. 2) Prélève 10-15 sous-échantillons en zigzag sur ta parcelle. 3) Creuse à 20-30 cm de profondeur. 4) Mélange tous les sous-échantillons dans un seau propre. 5) Prends environ 500 g de terre pour l'envoyer au laboratoire. 6) Évite les bords de parcelle, les zones près des arbres ou des tas de fumier.",
+      "reponse_darija": "باش تاخد عينة مزيانة من التربة فدوكالة: 1) نظف المطرقة ولا البالا. 2) خد 10-15 عينة صغيرة بشكل متعرج فالحقل ديالك. 3) احفر لعمق 20-30 سم. 4) خلط جميع العينات الصغيرة فصهرج نضيف. 5) خد تقريبا 500 غرام من التربة باش ترسلها للمختبر. 6) تجنب الحوايج ديال الحقل، المناطق القريبة من الشجر ولا الكومپو.",
+      "source": "ORMVAD - Antenne d'El Jadida",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_044",
+      "patterns": [
+        "quels sont les signes d'un sol fatigué",
+        "ma terre est fatiguée que faire",
+        "شنو هي علامات التربة المتعبة"
+      ],
+      "reponse_fr": "Les signes d'un sol fatigué à Doukkala sont : baisse des rendements, développement des maladies et adventices, structure dégradée (croûte en surface), lessivage des nutriments. Pour revitaliser ta terre, pratique la rotation des cultures (évite de replanter la même culture), ajoute du compost ou du fumier (5-10 t/ha), plante des engrais verts (légumineuses), et laisse la terre en jachère si possible.",
+      "reponse_darija": "علامات التربة المتعبة فدوكالة هي: نقص فالمردودية، كثرة الأمراض والحشائش، تركيب التربة كاتفسد (قشرة فالسطح)، المغذيات كاتضيع. باش ترجع الحيوية لتربتك، دير التناوب الزراعي (تجنب تزرع نفس الزراعة)، زيد الكومپو ولا الزبل (5-10 طن فالهكتار)، ازرع الأسمدة الخضراء (القطاني)، وخلي التربة ترتاح إذا كان ممكن.",
+      "source": "INRA Doukkala 1964 + ORMVAD",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_045",
+      "patterns": [
+        "quel est le rôle du fumier dans le sol",
+        "pourquoi mettre du fumier dans ma terre",
+        "شحال هو دور الزبل فالتربة"
+      ],
+      "reponse_fr": "Le fumier joue plusieurs rôles dans le sol à Doukkala : il améliore la structure du sol (surtout pour les sols sableux et argileux), augmente la matière organique (1-2% en 2-3 ans), apporte des nutriments (N, P, K), améliore la rétention d'eau (20-30% de plus), stimule la vie microbienne du sol. Apporte 3-5 t/ha tous les 2-3 ans pour maintenir la fertilité.",
+      "reponse_darija": "الزبل عندو بزاف ديال الأدوار فالتربة فدوكالة: كايحسن تركيب التربة (خاصة للتربة الرملية والطينية)، كايزيد المادة العضوية (1-2% ف2-3 سنين)، كايجيب المغذيات (N, P, K)، كايحسن حفظ الماء (20-30% زيادة)، كايحرك الميكروبات فالتربة. زيد 3-5 طن فالهكتار كل 2-3 سنين باش تحافظ على الخصوبة.",
+      "source": "INRA Doukkala 1964",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_046",
+      "patterns": [
+        "quelle est la différence entre un sol et un substrat",
+        "c'est quoi un substrat de culture",
+        "شنو هو الفرق بين التربة والركيزة"
+      ],
+      "reponse_fr": "Le sol est la terre naturelle que tu trouves dans ton champ. Le substrat est un mélange artificiel utilisé pour les cultures hors-sol (serres, pots). À El Jadida, les maraîchers d'Oulja utilisent des substrats à base de tourbe, perlite et compost (2:1:1) pour la tomate sous serre. Le substrat est plus léger, stérile et permet un meilleur contrôle de la fertilisation.",
+      "reponse_darija": "التربة هي الأرض الطبيعية اللي كاتلقاها فالحقل ديالك. الركيزة هي خليط صناعي كاتستعمل للزراعة خارج التربة (السير، الأصيص). فالجديدة، الخضاريين ديال أولجا كاتستعمل ركيزة على أساس الخث، البرليت والكومپو (2:1:1) للطماطم تحت السير. الركيزة أخف، معقمة، وكاتسمح بتحكم أفضل فالتسميد.",
+      "source": "Direction Provinciale de l'Agriculture d'El Jadida",
+      "zone": "El Jadida"
+    },
+    {
+      "id": "SOL_047",
+      "patterns": [
+        "comment savoir si mon sol a un bon drainage",
+        "mon sol draine trop vite ou trop lentement",
+        "كيفاش نعرف أن التربة كاتصرف الماء مزيان"
+      ],
+      "reponse_fr": "Pour tester le drainage de ton sol à Doukkala, creuse un trou de 30 cm de profondeur, remplis-le d'eau et mesure le temps d'absorption. Si l'eau disparaît en moins d'1 heure → drainage trop rapide (sols sableux L-255, L-245). Si l'eau met plus de 12 heures → mauvais drainage (sols argileux L-275). Idéalement, l'eau devrait s'écouler en 2-4 heures. Pour améliorer le drainage, ajoute du compost ou pratique le sous-solage.",
+      "reponse_darija": "باش تختبر تصريف التربة ديالك فدوكالة، احفر حفرة بعمق 30 سم، عبيها بالماء وحسب الوقت اللي كاتغيب فيه الماء. إذا الماء غابات فقل من ساعة → التربة كاتصرف بزاف (التربة الرملية L-255, L-245). إذا الماء بقات أكثر من 12 ساعة → التربة ما كاتصرفش مزيان (التربة الطينية L-275). المثالية هي ما بين 2 و4 ساعات. باش تحسن التصريف، زيد الكومپو ولا دوز التقليب العميق.",
+      "source": "INRA Doukkala 1964",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_048",
+      "patterns": [
+        "quels sont les vers de terre dans mon sol",
+        "les vers de terre sont-ils utiles",
+        "شنو هو دور الدود فالتربة"
+      ],
+      "reponse_fr": "Les vers de terre sont très utiles dans les sols de Doukkala. Ils aèrent le sol en creusant des galeries, améliorent le drainage, transforment la matière organique en humus, et leurs déjections (turricules) sont riches en nutriments (N, P, K). Un sol sain contient 100-300 vers/m². Pour attirer les vers, ajoute du compost ou du fumier, réduis les labours profonds et limite les pesticides.",
+      "reponse_darija": "الدود ديال التربة كاين بزاف فدوكالة وهو مفيد بزاف. كايخوي التربة وكاتصرف الماء مزيان، كايحول المادة العضوية للدبال، وروثو غني بالمغذيات (N, P, K). التربة الصاحية فيها 100-300 دودة فالمتر المربع. باش تجذب الدود، زيد الكومپو ولا الزبل، قلل من التقليب العميق وحد من المبيدات.",
+      "source": "INRA Doukkala 1964",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_049",
+      "patterns": [
+        "c'est quoi la couleur de mon sol et sa signification",
+        "que signifie la couleur de la terre",
+        "شحال هو لون التربة وشنو كايعني"
+      ],
+      "reponse_fr": "La couleur du sol à Doukkala donne des indications : les sols bruns foncés à noirs (comme les Tirs) sont riches en matière organique (1.5-1.65%). Les sols rouges ou ocres (L-257) contiennent du fer oxydé mais sont pauvres. Les sols clairs (L-255, L-245) sont pauvres en matière organique (<1%). Plus le sol est foncé, plus il est fertile. Un sol gris-bleu peut indiquer un mauvais drainage.",
+      "reponse_darija": "لون التربة فدوكالة كايعطي معلومات: التربة البنية للغامقة للكحلة (بحال تيرس) فيها بزاف ديال المادة العضوية (1.5-1.65%). التربة الحمرا ولا الأوكر (L-257) فيها حديد متأكسد ولكن فقيرة. التربة الفاتحة (L-255, L-245) فقيرة فالمادة العضوية (<1%). كلما كانت التربة غامقة، كلما كانت خصبة. التربة الزرقاء-الرصاصية كاتعني أن التربة ما كاتصرفش الماء مزيان.",
+      "source": "INRA Doukkala 1964",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_050",
+      "patterns": [
+        "comment corriger un sol trop calcaire",
+        "mon sol est blanc que faire",
+        "كيفاش نعالج التربة الجيرية بزاف"
+      ],
+      "reponse_fr": "À Doukkala, les sols calcaires (pH > 7,5) comme le Tirs sableux (pH 7,75) bloquent le fer et le phosphore. Pour corriger : ajoute du soufre (200-300 kg/ha) pour acidifier le sol, utilise du compost (5 t/ha) pour augmenter la matière organique, applique des chélates de fer (EDDHA) pour les carences, et choisis des cultures tolérantes (olivier, figuier, vigne). Évite les engrais ammoniacaux qui augmentent le pH.",
+      "reponse_darija": "فدوكالة، التربة الجيرية بزاف (pH > 7,5) بحال تيرس الرملي (pH 7,75) كاتحبس الحديد والفوسفور. باش تعالج: زيد الكبريت (200-300 كيلو فالهكتار) باش تحمض التربة، استعمل الكومپو (5 طن فالهكتار) باش تزيد المادة العضوية، طبق شيلات الحديد (EDDHA) للنقص، وختار زراعات متحملة (الزيتون، الكرموس، العنب). تجنب الأسمدة النشادرية اللي كاتزيد الpH.",
+      "source": "INRA Doukkala 1964",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_051",
+      "patterns": [
+        "comment corriger un sol trop acide",
+        "mon sol est acide que faire",
+        "كيفاش نعالج التربة الحامضية"
+      ],
+      "reponse_fr": "Les sols acides sont rares à Doukkala (pH < 6,5), mais on peut en trouver dans certaines zones côtières. Pour corriger : ajoute de la chaux agricole (carbonate de calcium) à raison de 500-1000 kg/ha selon le pH initial. Le chaulage améliore la structure du sol et libère le phosphore. Évite les engrais acides (sulfate d'ammonium). Après correction, le pH devrait remonter à 6,5-7,5.",
+      "reponse_darija": "التربة الحامضية نادرة فدوكالة (pH < 6,5)، ولكن ممكن تلقاها فبعض المناطق الساحلية. باش تعالج: زيد الجير الزراعي (كربونات الكالسيوم) بمعدل 500-1000 كيلو فالهكتار على حسب الpH. الجير كايحسن تركيب التربة ويحرر الفوسفور. تجنب الأسمدة الحامضية (سلفات النشادر). بعد المعالجة، الpH خاصه يوصل لـ 6,5-7,5.",
+      "source": "INRA Doukkala 1964",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_052",
+      "patterns": [
+        "quel est l'effet du labour sur mon sol",
+        "pourquoi labourer sa terre",
+        "شنو هو تأثير الحراثة على التربة"
+      ],
+      "reponse_fr": "Le labour à Doukkala a des avantages et des inconvénients. Avantages : aère le sol, enfouit les résidus de culture, détruit les adventices. Inconvénients : dégrade la structure du sol à long terme, favorise l'érosion, détruit la vie du sol. Pour les sols argileux (L-275), un labour profond tous les 2-3 ans est utile. Pour les sols sableux (L-255, L-245), préfère le semis direct ou un travail superficiel.",
+      "reponse_darija": "الحراثة فدوكالة عندها مزايا وعيوب. المزايا: كاتخوي التربة، كاتدفن بقايا الزراعة، كاتقضي على الحشائش. العيوب: كاتفسد تركيب التربة على المدى البعيد، كاتزيد التعرية، كاتقتل الكائنات الحية فالتربة. بالنسبة للتربة الطينية (L-275)، التقليب العميق مرة كل 2-3 سنين مفيد. بالنسبة للتربة الرملية (L-255, L-245)، الأفضل الزراعة المباشرة ولا التقليب السطحي.",
+      "source": "INRA - Fiche Technique blés (2023)",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_053",
+      "patterns": [
+        "c'est quoi un sol vivant",
+        "comment rendre mon sol vivant",
+        "شحال هي التربة الحية"
+      ],
+      "reponse_fr": "Un sol vivant à Doukkala contient des milliards de micro-organismes (bactéries, champignons), des vers de terre, et des insectes utiles. Pour rendre ton sol vivant : ajoute du compost ou du fumier (3-5 t/ha), pratique la rotation des cultures, plante des engrais verts, réduis les labours profonds, limite les pesticides. Un sol vivant est plus fertile, retient mieux l'eau et résiste aux maladies.",
+      "reponse_darija": "التربة الحية فدوكالة فيها بلايين الكائنات الحية (البكتيريا، الفطريات)، الدود ديال التربة، والحشرات النافعة. باش تجعل تربتك حية: زيد الكومپو ولا الزبل (3-5 طن فالهكتار)، دير التناوب الزراعي، ازرع الأسمدة الخضراء، قلل من التقليب العميق، حد من المبيدات. التربة الحية كاتكون خصبة أكثر، كاتحافظ على الماء مزيان، وكاتقاوم الأمراض.",
+      "source": "INRA Doukkala 1964",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_054",
+      "patterns": [
+        "quel est le meilleur engrais vert pour Doukkala",
+        "c'est quoi les engrais verts",
+        "شنو هي الأسمدة الخضراء فدوكالة"
+      ],
+      "reponse_fr": "Les meilleurs engrais verts pour Doukkala sont : la fève (fixe l'azote, résiste à la sécheresse), le pois chiche (bon pour les sols sableux), la moutarde (biofumigante contre les nématodes), la phacélie (attire les pollinisateurs). Sème les engrais verts en inter-culture (août-septembre) et enfouis-les avant la floraison (octobre). Ils apportent 30-50 kg N/ha et améliorent la structure du sol.",
+      "reponse_darija": "أحسن الأسمدة الخضراء فدوكالة هوما: الفول (كايصلح الأزوت، كايقاوم الجفاف)، الحمص (مناسب للتربة الرملية)، الخردل (كايقتل النيماتودا)، الفاسيليا (كاتجذب الملقحات). ازرع الأسمدة الخضراء بين الزراعات (غشت-شتنبر) واطمرها قبل التزهير (أكتوبر). كايجيبو 30-50 كيلو N فالهكتار وكايحسنو تركيب التربة.",
+      "source": "INRA - Station de Had Ouled Frej",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_055",
+      "patterns": [
+        "comment lutter contre les nématodes dans le sol",
+        "mes plantes ont des racines gonflées",
+        "كيفاش نكافح النيماتودا فالتربة"
+      ],
+      "reponse_fr": "Les nématodes (vers microscopiques) attaquent les racines des plantes à Doukkala, surtout sur sols sableux. Pour lutter : pratique la rotation avec des plantes non-hôtes (blé, maïs), plante des engrais verts biofumigants (moutarde, roquette), ajoute du compost (5 t/ha) pour stimuler les micro-organismes antagonistes, et utilise des variétés résistantes. Pour les tomates en serre à Oulja, la solarisation est efficace.",
+      "reponse_darija": "النيماتودا (ديدان صغيرة) كاتهاجم الجدرور ديال النباتات فدوكالة، خاصة فالتربة الرملية. باش تكافح: دير التناوب مع نباتات غير معرضة (القمح، الذرة)، ازرع الأسمدة الخضراء (الخردل، الجرجير)، زيد الكومپو (5 طن فالهكتار) باش تحفز الكائنات الحية، واستعمل أنواع مقاومة. بالنسبة للطماطم تحت السير فولجا، التعقيم بالشمس كايكون فعال.",
+      "source": "Direction Provinciale de l'Agriculture d'El Jadida",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_056",
+      "patterns": [
+        "comment choisir la bonne profondeur de labour",
+        "quelle profondeur pour labourer",
+        "كيفاش نختار العمق المناسب للحراثة"
+      ],
+      "reponse_fr": "La profondeur de labour à Doukkala dépend du type de sol et de la culture. Pour les sols argileux (L-275), laboure à 25-30 cm tous les 2-3 ans. Pour les sols sableux (L-255, L-245), laboure superficiellement (10-15 cm) ou utilise le semis direct. Pour les cultures profondes (olivier, vigne), un sous-solage à 40-50 cm est utile avant la plantation. Évite de labourer trop profondément sur les sols pauvres.",
+      "reponse_darija": "عمق الحراثة فدوكالة كايعتمد على نوع التربة والزراعة. بالنسبة للتربة الطينية (L-275)، احرث بعمق 25-30 سم كل 2-3 سنين. بالنسبة للتربة الرملية (L-255, L-245)، احرث سطحيا (10-15 سم) ولا استعمل الزراعة المباشرة. بالنسبة للزراعات العميقة (الزيتون، العنب)، التقليب العميق لـ 40-50 سم مفيد قبل الزراعة. تجنب الحراثة العميقة فالتربة الفقيرة.",
+      "source": "ORMVAD - Itinéraires techniques 2025",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_057",
+      "patterns": [
+        "comment lutter contre la salinisation du sol",
+        "mon sol devient blanc que faire",
+        "كيفاش نكافح ملوحة التربة"
+      ],
+      "reponse_fr": "Pour lutter contre la salinisation des sols à Doukkala (surtout dans la zone côtière d'Oulja) : pratique le lessivage hivernal (100-150 m³/ha d'eau douce), utilise l'irrigation au goutte-à-goutte plutôt que l'aspersion, ajoute du compost (5 t/ha) pour améliorer la structure du sol, plante des cultures tolérantes au sel (orge, betterave, olivier), et évite les engrais riches en chlorure. Un drainage efficace est essentiel.",
+      "reponse_darija": "باش تكافح ملوحة التربة فدوكالة (خاصة فالمنطقة الساحلية ديال أولجا): دير الغسيل الشتوي (100-150 متر مكعب فالهكتار ديال الماء العذب)، استعمل السقي بالتنقيط بدال الرش، زيد الكومپو (5 طن فالهكتار) باش تحسن تركيب التربة، ازرع زراعات متحملة للملوحة (الشعير، الشمندر، الزيتون)، وتجنب الأسمدة اللي فيها كلور. التصريف الجيد هو ضروري.",
+      "source": "Mémoire IAV 2004 + ORMVAD",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_058",
+      "patterns": [
+        "c'est quoi la densité apparente du sol",
+        "mon sol est compact à cause de quoi",
+        "شحال هي الكثافة الظاهرية للتربة"
+      ],
+      "reponse_fr": "La densité apparente du sol mesure son compactage. À Doukkala, les sols ont une densité de 1,61 g/cm³. Une densité > 1,6 indique un sol compact qui limite la croissance des racines. Pour réduire la densité, ajoute du compost (3-5 t/ha), pratique le sous-solage tous les 2-3 ans, et évite de passer des engins lourds quand le sol est humide. Un sol idéal a une densité de 1,2-1,4 g/cm³.",
+      "reponse_darija": "الكثافة الظاهرية للتربة كاتقيس مدى تعقيد التربة. فدوكالة، التربة عندها كثافة 1,61 غ/سم³. كثافة أكبر من 1,6 كاتعني تربة متعقدة كاتحد من نمو الجدرور. باش تقلل الكثافة، زيد الكومپو (3-5 طن فالهكتار)، دوز التقليب العميق كل 2-3 سنين، وتجنب تدخل الآليات الثقيلة ملي تكون التربة ندية. التربة المثالية عندها كثافة 1,2-1,4 غ/سم³.",
+      "source": "Dataset local + INRA Doukkala 1964",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_059",
+      "patterns": [
+        "quel est le meilleur moment pour ajouter du fumier",
+        "quand mettre du fumier dans mon champ",
+        "وقتاش خاص نزيد الزبل فالتربة"
+      ],
+      "reponse_fr": "Le meilleur moment pour ajouter du fumier à Doukkala est en automne (septembre-octobre) avant les semis de novembre. Enfouis-le à 10-15 cm de profondeur pour éviter les pertes d'azote. Évite de mettre du fumier frais juste avant la plantation (risque de brûlure des racines). Utilise du fumier bien décomposé (composté depuis 3-6 mois) à raison de 3-5 t/ha tous les 2-3 ans.",
+      "reponse_darija": "أحسن وقت لإضافة الزبل فدوكالة هو فالخريف (شتنبر-أكتوبر) قبل الزراعة فشهر نونبر. اطمره على عمق 10-15 سم باش تتجنب ضياع الأزوت. تجنب تحط الزبل الطري مباشرة قبل الزراعة (خطر على الجدرور). استعمل الزبل المتعفن مزيان (كومپوستي 3-6 شهور) بمعدل 3-5 طن فالهكتار كل 2-3 سنين.",
+      "source": "INRA Doukkala 1964",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_060",
+      "patterns": [
+        "c'est quoi un sol hydromorphe",
+        "mon sol reste toujours humide",
+        "شحال هي التربة المشبعة بالماء"
+      ],
+      "reponse_fr": "Un sol hydromorphe est un sol qui reste humide ou gorgé d'eau une grande partie de l'année. À Doukkala, on trouve ce type de sol dans les dépressions (dayas) et les zones mal drainées. Les signes : sol gris-bleu, présence de tâches de rouille, mauvaises herbes spécifiques (joncs, carex). Pour améliorer ces sols, pratique le drainage (fossés, drains), plante des cultures tolérantes (riz, peuplier), et évite les cultures sensibles à l'asphyxie racinaire (olivier, agrumes).",
+      "reponse_darija": "التربة المشبعة بالماء هي تربة كاتبقى نادية ولا مشبعة بالماء أغلب العام. فدوكالة، هاد النوع كاين فالمنخفضات (الدايات) والمناطق اللي ما كاتصرفش الماء مزيان. العلامات: التربة زرقاء-رصاصية، بقع الصدأ، حشائش معينة (البوص، السعد). باش تحسن هاد التربة، دير التصريف (الخنادق، الأنابيب)، ازرع زراعات متحملة (الأرز، الحور)، وتجنب الزراعات اللي ما كاتتحملش البلل (الزيتون، الحامض).",
+      "source": "INRA Doukkala 1964",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_061",
+      "patterns": [
+        "comment augmenter la matière organique de mon sol",
+        "ma terre manque d'humus que faire",
+        "كيفاش نزيد المادة العضوية فالتربة"
+      ],
+      "reponse_fr": "Pour augmenter la matière organique de ton sol à Doukkala : ajoute du compost ou du fumier (5-10 t/ha tous les 2-3 ans), plante des engrais verts (fève, moutarde, phacélie), pratique la rotation avec des légumineuses, laisse les résidus de culture sur le sol (paillage), et réduis les labours profonds. En 3-5 ans, tu peux augmenter le taux de matière organique de 0,5 à 1%.",
+      "reponse_darija": "باش تزيد المادة العضوية فالتربة ديالك فدوكالة: زيد الكومپو ولا الزبل (5-10 طن فالهكتار كل 2-3 سنين)، ازرع الأسمدة الخضراء (الفول، الخردل، الفاسيليا)، دير التناوب مع القطاني، خلي بقايا الزراعة على التربة (التغطية)، وقلل من التقليب العميق. فـ 3-5 سنين، تقدر تزيد نسبة المادة العضوية من 0,5 لـ 1%.",
+      "source": "INRA Doukkala 1964 + ORMVAD",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_062",
+      "patterns": [
+        "comment savoir si mon sol est vivant",
+        "tester la vie de mon sol",
+        "كيفاش نعرف أن التربة حية"
+      ],
+      "reponse_fr": "Pour tester si ton sol à Doukkala est vivant : prends une poignée de terre humide et sens-la (une bonne odeur de sous-bois indique une vie active), observe la présence de vers de terre (10-20 par m² est bon), regarde si la terre s'effrite facilement (structure grumeleuse), et vérifie la présence de toiles de champignons blancs. Un test simple : enterre un sachet de thé et vérifie sa décomposition après 2-3 semaines.",
+      "reponse_darija": "باش تختبر واش التربة ديالك فدوكالة حية: خد حفنة من التربة النادية وشمها (الريحة المزيانة دالغابة كاتعني حياة نشطة)، شوف واش كاين الدود (10-20 فالمتر المربع هو المزيان)، شوف واش التربة كاتفكت بسهولة، وشوف واش كاين خيوط الفطريات البيضاء. اختبار بسيط: اطمر كيس ديال الشاي وشوف واش تفتك بعد 2-3 أسامي.",
+      "source": "INRA Doukkala 1964",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_063",
+      "patterns": [
+        "c'est quoi la jachère et à quoi ça sert",
+        "laisser ma terre reposer",
+        "شحال هي الراحة الزراعية"
+      ],
+      "reponse_fr": "La jachère consiste à laisser une parcelle sans culture pendant une saison ou une année. À Doukkala, elle permet de : reconstituer la fertilité du sol, casser le cycle des maladies et ravageurs, accumuler l'eau dans le sol, réduire les adventices. Pratique une jachère courte (3-6 mois) avec un engrais vert (fève, moutarde) pour maximiser les bénéfices. Évite de laisser le sol nu (risque d'érosion).",
+      "reponse_darija": "الراحة الزراعية هي تخلي قطعة أرض بلا زراعة لموسم ولا عام. فدوكالة، كاتسمح بـ: إعادة بناء خصوبة التربة، كسر دورة الأمراض والحشرات، تجميع الماء فالتربة، تقليل الحشائش. دير راحة قصيرة (3-6 شهور) مع سماد أخضر (الفول، الخردل) باش تزيد المنافع. تجنب تخلي التربة عريانة (خطر التعرية).",
+      "source": "INRA - Fiche Technique blés (2023)",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_064",
+      "patterns": [
+        "comment reconnaître un sol argileux facilement",
+        "test simple pour sol argileux",
+        "كيفاش نعرف التربة الطينية بسهولة"
+      ],
+      "reponse_fr": "Pour reconnaître un sol argileux à Doukkala (comme le Tirs L-275) facilement : prends de la terre humide et essaie de faire un boudin de 5-10 cm. Si tu peux le rouler sans qu'il se casse et qu'il est lisse, c'est un sol argileux. Test du ruban : écrase la terre entre le pouce et l'index, si tu obtiens un ruban de plus de 5 cm, c'est très argileux. Ces sols collent aux doigts et sont lourds.",
+      "reponse_darija": "باش تعرف التربة الطينية فدوكالة (بحال تيرس L-275) بسهولة: خد تربة نادية وحاول تدير بيها سيڭار طوله 5-10 سم. إذا قدرتي تديره بلا ما يتكسر وكان ناعم، هاد تربة طينية. اختبار الشريط: ادهس التربة بين صبعك الكبير والسبابة، إذا خرج عندك شريط طوله أكثر من 5 سم، هي طينية بزاف. هاد التربة كاتلزق فالصوابع وثقيلة.",
+      "source": "INRA Doukkala 1964",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_065",
+      "patterns": [
+        "comment reconnaître un sol sableux facilement",
+        "test simple pour sol sableux",
+        "كيفاش نعرف التربة الرملية بسهولة"
+      ],
+      "reponse_fr": "Pour reconnaître un sol sableux à Doukkala (comme le sol châtain L-255 ou lessivé L-245) facilement : prends de la terre humide, elle ne colle pas aux doigts et s'effrite immédiatement. Tu ne peux pas former de boudin. Frotte la terre entre tes doigts, tu sentiras des grains durs (quartz). Le sol sableux draine l'eau très rapidement et se réchauffe vite au printemps. Il est léger et facile à travailler.",
+      "reponse_darija": "باش تعرف التربة الرملية فدوكالة (بحال التربة الكستنائية L-255 ولا المغسولة L-245) بسهولة: خد تربة نادية، ما كاتلزقش فالصوابع وتتفكت مباشرة. ما تقدرش تدير بيها سيڭار. افرك التربة بين صوابعك، تحس بحبات قاسحة (الرمل). التربة الرملية كاتصرف الماء بسرعة وكادفى بسرعة فالربيع. هي خفيفة وساهلة فالتشتيل.",
+      "source": "INRA Doukkala 1964",
+      "zone": "Doukkala"
+    },
+    {
+      "id": "SOL_066",
+      "patterns": [
+        "comment reconnaître un sol limoneux facilement",
+        "test simple pour sol limoneux",
+        "كيفاش نعرف التربة الغرينية بسهولة"
+      ],
+      "reponse_fr": "Pour reconnaître un sol limoneux à Doukkala (comme celui d'El Jadida et Ouled Frej) facilement : prends de la terre humide, elle colle légèrement aux doigts mais pas trop. Tu peux former un boudin mais il se fissure rapidement. La terre est douce et savonneuse au toucher. Le sol limoneux est idéal car il retient bien l'eau sans être trop compact. Il est fertile et facile à travailler.",
+      "reponse_darija": "باش تعرف التربة الغرينية فدوكالة (بحال ديال الجديدة وولاد فرج) بسهولة: خد تربة نادية، كاتلزق شويا فالصوابع ولكن ما بزافش. تقدر تدير بيها سيڭار ولكن كايتشقق بسرعة. التربة ناعمة وكاينة كالصابون فالمسة. التربة الغرينية مثالية حيت كاتحافظ على الماء مزيان بلا ما تكون متعقدة بزاف. هي خصبة وساهلة فالتشتيل.",
+      "source": "Dataset local + INRA Doukkala 1964",
+      "zone": "Doukkala"
+    }
+  ]
+}
