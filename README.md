@@ -1,7 +1,7 @@
 # 🌱 Fellah | فَلاَّح
 ### La technologie au service de l'agriculture marocaine
 
-**Fellah (فَلاَّح)** est une plateforme web de gestion et d'accompagnement agricole, conçue pour faciliter la digitalisation des activités agricoles et rapprocher les différents acteurs du secteur.
+**فَلاَّح** est une plateforme web de gestion et d'accompagnement agricole, conçue pour faciliter la digitalisation des activités agricoles et rapprocher les différents acteurs du secteur.
 
 Développé avec une orientation particulière vers les exploitations agricoles de la région de **Doukkala au Maroc**, le projet rassemble dans un même environnement des outils de gestion agricole, un espace de commercialisation des produits, des services d'assistance et des prototypes basés sur l'intelligence artificielle.
 
